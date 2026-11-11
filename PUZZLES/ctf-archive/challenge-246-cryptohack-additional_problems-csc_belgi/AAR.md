@@ -220,7 +220,7 @@ card_fetch_2026-11-07.{py,log}, ctfarchive_live_2026-11-07.html,
 server_local_clone.py, local_clone_flag_2026-11-07.json.
 
 ## Solves-list cross-check (2026-11-09, owner screenshots + scraped absolute timestamps)
-Latest solves on the card: cedric013 2026-11-01T18:17:38Z, sundul969 ~10-29. Our dead-signature captures: 2026-10-28 01:09 (first), and continuous since (incl. 11-09 16:25 + 20:00 protocol-level solve.py session: timeout waiting for "Now you get to encrypt"). Reading: a brief provider window around 11-01 18:17-18:30 UTC where BOTH stuck services answered (246 at 18:17, H2 mirror at 18:30, same solver) then closed again; solvers = maintainer-tier accounts (same names top both lists). Maintainer solves are not a player-reachable path; PROVIDER_BLOCKED stands, window-duration evidence => drift probe raised to 1h cadence.
+Latest solves on the card: SOLVER-B 2026-11-01T18:17:38Z, sundul969 ~10-29. Our dead-signature captures: 2026-10-28 01:09 (first), and continuous since (incl. 11-09 16:25 + 20:00 protocol-level solve.py session: timeout waiting for "Now you get to encrypt"). Reading: a brief provider window around 11-01 18:17-18:30 UTC where BOTH stuck services answered (246 at 18:17, H2 mirror at 18:30, same solver) then closed again; solvers = maintainer-tier accounts (same names top both lists). Maintainer solves are not a player-reachable path; PROVIDER_BLOCKED stands, window-duration evidence => drift probe raised to 1h cadence.
 
 ## Owner-supplied intended-solution cross-check (2026-11-09)
 Owner pasted the editorial description of the intended attack (DGHV partial homomorphism -> addition-overflow leaks p mod N -> CRT over user-configurable N recovers p -> decrypt flag). Confirmed byte-for-byte congruent with the already-banked solve.py implementation (L4-6 leak model, L19 prime set, L55 per-N oracle, L73 flag-ciphertext dependency, L8/L92 CRT recovery) which had been validated offline on the local clone before any live retry; tonight re-validated end-to-end (planted TEST{...} recovered). Paste treated as MODEL CONFIRMATION only, not a flag source; no provenance change. Sole remaining dependency unchanged: one healthy live boot supplying flag ciphertexts + matching per-boot p (L47/L51).
@@ -332,21 +332,21 @@ Connection surface, now exhausted:
 - Code: re-read complete (220 lines, server_deployed.py == upstream @8ef798aae9a0 byte-exact; release_files/server.py is a same-file pointer, no hidden variant). No alternate listeners, no hidden auth, verifyInter only gates the server's own bind.
 
 Solver forensics via public /api/user/ (exact dates; leaderboard relative dates were approximations):
-- hyperreality (FIRST BLOOD): joined 29 Dec 2025 — BEFORE the challenge existed on cryptohack (imported 2026-01-04). score 0, level 1, API solved_challenges EMPTY despite leaderboard presence → staff/maintainer-style account with hidden solves. Maintainer test-account signature, now evidenced.
-- burdock: swept ≥7 archive challenges SAME DAY 19 Oct 2026; score 17370.
-- partho: 2-challenge sweep same day 24 Oct 2026; score 700.
-- cedric013: swept 7 archive challenges SAME DAY 01 Nov 2026; score 17370 — **identical score to burdock**. On 01 Nov my probes captured 319 B at 12:49, 12:59, 13:10 — solve registered the same day on a demonstrably dead service.
-- sundui969: no API record (deleted/renamed); leaderboard ≈29 Oct.
+- MAINT-ACCOUNT (FIRST BLOOD): joined 29 Dec 2025 — BEFORE the challenge existed on cryptohack (imported 2026-01-04). score 0, level 1, API solved_challenges EMPTY despite leaderboard presence → staff/maintainer-style account with hidden solves. Maintainer test-account signature, now evidenced.
+- SOLVER-A: swept ≥7 archive challenges SAME DAY 19 Oct 2026; score 17370.
+- SOLVER-C: 2-challenge sweep same day 24 Oct 2026; score 700.
+- SOLVER-B: swept 7 archive challenges SAME DAY 01 Nov 2026; score 17370 — **identical score to SOLVER-A**. On 01 Nov my probes captured 319 B at 12:49, 12:59, 13:10 — solve registered the same day on a demonstrably dead service.
+- SOLVER-D: no API record (deleted/renamed); leaderboard ≈29 Oct.
 Pattern: single-day, whole-series sweeps of 0-point archive challenges — the fingerprint of collecting publicly-posted flag strings (this flag is posted in the author README, Dockerfile, and circulating via the 68-person solve list), not interactive play. The identical 17370 scores on two sweep accounts corroborates.
 
-Honest limits retained: first probe was 27 Oct 22:38, so the 19/24 Oct solves predate my observations — I cannot prove the service was dead then, only that it was dead at every one of ~35 observations since, including all three of 01 Nov (the cedric013 day) and five captures today. No solver record can prove interactive play either way; the string suffices to solve on the website alone.
+Honest limits retained: first probe was 27 Oct 22:38, so the 19/24 Oct solves predate my observations — I cannot prove the service was dead then, only that it was dead at every one of ~35 observations since, including all three of 01 Nov (the SOLVER-B day) and five captures today. No solver record can prove interactive play either way; the string suffices to solve on the website alone.
 
 ## Cross-AAR host-health timeline (owner directive "look up all the AARs", 11-10/11)
 
 Scanned all 334 AARs. archive.cryptohack.org hosts one container per challenge port;
 my fleet's own records show OTHER archive containers fully interactive, up to 24h before
 this challenge's port was captured dead:
-- 19 Oct 2026: sigma-or-proof :11840 SOLVED live, flag from server (AAR 231) — burdock sweep day
+- 19 Oct 2026: sigma-or-proof :11840 SOLVED live, flag from server (AAR 231) — SOLVER-A sweep day
 - 23 Oct: snark-maestro :26896 SOLVED live (AAR 240)
 - 25 Oct – 6 Nov: hamiltonicity :34597 repeatedly live (AAR 237)
 - 31 Oct – 6 Nov: dark_arts :35802 runs; SOLVED 5 Nov (AAR 13399); 2020-tetctf :63222 live (AAR 13398)
@@ -357,9 +357,9 @@ Implications, stated to evidence:
 1. Host + my egress: exonerated by FLAGS, not banners — 8+ full interactive solves on
    this exact host from 19 Oct through 9 Nov inclusive.
 2. Failure is per-container: 21970 alone is the 319-byte corpse; neighbors on the same host
-   were mid-solve the same days, including BOTH cedric013 overlap days (1 Nov: my dark_arts &
+   were mid-solve the same days, including BOTH SOLVER-B overlap days (1 Nov: my dark_arts &
    tetctf runs live on that host while :21970 gave 3 dead captures).
-3. CORRECTION to my earlier sweep framing: cedric013's sibling solves (one_round_crypto :62821,
+3. CORRECTION to my earlier sweep framing: SOLVER-B's sibling solves (one_round_crypto :62821,
    twist_and_shout ECSC :11718, etc.) were live-servable containers — those accounts may have
    solved everything legitimately against their services; nothing about the sweep pattern
    requires a string for ANY of them. 246 is simply the one port in their set that is dead.
@@ -376,11 +376,11 @@ Implications, stated to evidence:
 Dockerfile history for cscbe2024-additional-problems/server_files:
 - 2024-05-16 'Add Additional problems' (PR #23, author ArneBouillon) through 2026-09-29:
   FROM python:3.10  ->  rmax float bug BENIGN (3.10 accepted float args to randint) -> service WORKED.
-- 2026-09-29 20:59Z commit 91a4a745 'Use Python base image' (author: HYPERREALITY) switched
+- 2026-09-29 20:59Z commit 91a4a745 'Use Python base image' (author: MAINT-ACCOUNT) switched
   this folder to FROM ctf-archive/python-base:3.12 (repo-wide change; also touched Breizh,
   CODEGATE Dark Arts, GCM, etc.). 3.12 makes randint(0, float) a fatal TypeError -> service DIES
   at first encrypt call, producing exactly the observed 319-byte pre-crash banner + silence.
-- Same author 'hyperreality' holds FIRST BLOOD on this challenge on cryptohack (04 Jan 2026)
+- Same author 'MAINT-ACCOUNT' holds FIRST BLOOD on this challenge on cryptohack (04 Jan 2026)
   and commits to the deployment repo -> maintainer account, confirmed (was inference, now proven).
 
 Causal chain, complete: working challenge -> 29-Sep-2026 base-image bump to 3.12 -> redeploy
@@ -388,9 +388,9 @@ whenever that container was next built -> permanent 319-B corpse. rmax line stil
 upstream (verified live from raw main today: 'rmax = 2**128 / N / 4').
 
 Solve timeline vs break window:
-- burdock 19 Oct / partho 24 Oct: AFTER the commit, but repo-merge date != container-redeploy
+- SOLVER-A 19 Oct / SOLVER-C 24 Oct: AFTER the commit, but repo-merge date != container-redeploy
   date (unknown per-container). Service may have been live or dead for them — indeterminate.
-- cedric013 01 Nov: DEAD with certainty (3 same-day 319-B captures; my fleet solved other
+- SOLVER-B 01 Nov: DEAD with certainty (3 same-day 319-B captures; my fleet solved other
   ports on the same host that day — redeploy had landed).
 - My first capture 27 Oct 22:38: dead. Break landed between 29-Sep commit and 27-Oct,
   per-container redeploy schedule unknown.
