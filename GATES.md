@@ -36,9 +36,9 @@ discussed, the verification path is the cited URL + date; names were swept per a
 Discord participants are role-described.
 
 ## Image gate (added 2026-11-11)
-Five screenshots ship in assets/. Two (profile, category grid) verified identity-clean
+Six screenshots ship in assets/. Two (profile, category grid) verified identity-clean
 except the campaign account name (kept by owner decision). Three were pixelated
 (solves-lists ×2 incl. First Blood lines, service-report chat incl. inline mentions +
-avatars) and each was re-verified by an independent OCR vision pass returning NO readable
+avatars, maintainer-fix reply incl. quoted @mention + name line) and each was re-verified by an independent OCR vision pass returning NO readable
 handle/fragment. One terminal screenshot was EXCLUDED outright (shell prompt content).
 Image PII cannot be regex-gated; the OCR verification pass is the gate, documented here.

@@ -17,12 +17,16 @@ owner-facing probe printed a verdict we had authored ourselves and the owner sai
 multi-instance services, a broken mirror, the dual-parse forgery that cleared 237 and 265
 with one flag. Ended by hardware: 18 hours of dual load, then bugcheck 0x154 at 03:04.
 
-**The honest row (246).** The one we publish as a failure: attack verified
-ground-truth-exact against a local clone, live container dead for everyone since a
-29-Sep image bump, root-caused to one character of Python-version-sensitive code,
-reported with the byte-evidence and the fix (`//`), and closed **unsolved** because the
-site's flag never came from the site. That row is the thesis of this repo: a learning
-campaign is only real if its failures are as documented as its stars.
+**The honest row (246).** The campaign's hardest lesson and its cleanest arc: attack
+verified ground-truth-exact against a local clone while the live container sat dead for
+every visitor since a 29-Sep image bump; root-caused to one character of
+Python-version-sensitive code; reported upstream with byte-evidence and the fix (`//`);
+closed **unsolved for weeks** because the site's flag never came from the site — we did
+not submit what we had not obtained. On 2026-11-11 the maintainers shipped exactly that
+fix (commit title: "fix python 3.12 randint no longer accepts floats"), the first raw
+capture after the fix returned 13,093 bytes including the full flag block, and the
+verified solver recovered and submitted the flag live — WALKED. The failure documentation
+survives in the AAR untouched; the solve continues the same story instead of replacing it.
 
 **Score etiquette.** Honor-system platform, learning purpose: the owner clears the account
 after documentation verification, per batch (BATCHES.md), and the cleared state is what the

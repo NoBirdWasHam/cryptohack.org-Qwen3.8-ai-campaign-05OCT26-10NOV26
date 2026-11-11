@@ -12,6 +12,8 @@ A-007 [UNKNOWN] Whether individual third-party leaderboard solves used the live 
 A-008 [OBSERVED] 237/265 dual instance share one flag via digit-stream hash-binding forgery; exploit in CHALLENGES/zkp/challenge-237-*/ (solve*.py).
 A-009 [OBSERVED] Model attribution: phase-level only; no per-message model IDs logged. [UNKNOWN] finer attribution.
 A-010 [OBSERVED] Three flags redacted in ledger; published as null+note, never reconstructed.
+A-011 [OBSERVED] 2026-11-11: upstream commit 1782ba3da403 'fix python 3.12 randint no longer accepts floats' (verified on raw main: rmax wrapped in int()). First capture post-fix: 13,093 B incl. full flag block + live menu.
+A-012 [OBSERVED] Row 246 closed WALKED 2026-11-11: key recovered live via oracle, service decrypted, submit ok:true, solved 315->316, API solved-list readback positive. Provenance: service-given ciphertext + self-derived key; nothing submitted while the port was demonstrably dead.
 
 ## Decision rules learned (transferable)
 R-1 dead-service 4-test + A/B live control before declaring an endpoint dead, and again before declaring it alive.

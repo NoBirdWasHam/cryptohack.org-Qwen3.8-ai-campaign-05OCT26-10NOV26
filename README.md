@@ -18,11 +18,11 @@ Level **33** · **17,195** stars · rank **#5** on the public scoreboard (screen
 ## The three hard rows — the honest heart of this repo
 | row | outcome |
 |---|---|
-| **246 · Additional Problems (CSC Belgium)** | **CLOSED — UNSOLVED, by design.** Attack verified ground-truth-exact against a local clone; the live container has been dead for every visitor since a 2026-09-29 image bump (`python:3.10`→`3.12` turns `randint(0, float)` into a fatal TypeError). Root-caused to one character (`/`→`//`), byte-evidence attached, fix reported. We do not submit what we did not obtain. |
+| **246 · Additional Problems (CSC Belgium)** | **WALKED 2026-11-11 — after being the campaign's documented failure for weeks.** Attack verified locally while the container sat dead (`python:3.10`→`3.12` bump made `randint(0, float)` fatal); root cause reported upstream with byte-evidence; maintainers shipped the one-line fix; we then solved it live against the repaired service and submitted what we derived — nothing was submitted while the service was dead. Full failure-to-walk record in its AAR. |
 | **237 · Sigma: Hamiltonicity 2** | SOLVED 2026-11-10 — forgery exploiting that the Fiat-Shamir hash binds the digit *stream*, not the matrix. |
 | **265 · Hamiltonicity 2** | SOLVED same day — same forgery; two instances, one flag. |
 
-![Recent solves keep landing while the container stays dead — third-party names redacted](assets/solves_246_redacted.png)
+![Other solves kept landing while the container stayed dead — third-party names redacted](assets/solves_246_redacted.png)
 
 The dead-service dispute in one picture: players solve (the flag string circulates — the
 author's own writeup publishes it), while the TCP service answers literally nobody with
@@ -30,6 +30,15 @@ more than a 319-byte corpse. And when we reported it, the maintainer-side reply 
 the kind of good-faith debugging question we'd have asked:
 
 ![Service report thread with maintainer (handles redacted)](assets/service_report_redacted.png)
+
+The report landed:
+
+![Maintainer ships the fix — commit title is our exact diagnosis (handles redacted)](assets/maintainer_fix_reply_redacted.png)
+
+Hours later the solver ran against the repaired container and the row closed **WALKED**:
+`CSC{let5_m0v3_b00tstr4pp1ng_t0_v1.1}` — service-given ciphertext, self-recovered key,
+submitted and verified. This row is still the thesis of this repo: document the failure
+completely enough that even the other side can fix it, and let the solve finish the story.
 
 ## What you get here
 ```
