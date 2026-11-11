@@ -1,0 +1,22 @@
+default(parisize,"4G");
+p = 38883164557681836128780386500217425544824614969;
+K = bnfinit(x^2 + p, 1);
+writebin("bnf.dat", K);
+h = K.no;
+ls = List();
+forprime(l=3,112, listput(ls,l));
+listput(ls,139);
+g = List();
+for(i=1,matsize(ls)[1],
+  l = ls[i];
+  P = idealprimedec(K, l)[1];
+  z = bnfisprincipal(K, P, 0);
+  c = z[1][1] % h;
+  listput(g, c);
+  print("CLS ", l, " ", c, " order=", h/gcd(h,c));
+);
+d = h;
+for(i=1,matsize(g)[1], d = gcd(d, g[i]));
+print("gcdall=", d);
+print("|G|=", h/d);
+print("DONE");

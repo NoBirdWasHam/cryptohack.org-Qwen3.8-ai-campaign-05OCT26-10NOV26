@@ -1,0 +1,13 @@
+[+] connecting socket.cryptohack.org:13416
+[+] banner: "Welcome!"
+[+] finding P_S (order S) and P_Q (order Q) ...
+found P_S order point (x=319847698988129718805633610246376487141622913273377447250)
+found P_Q order point (x=2565790733765623487647409460887226315819327919502049186273)
+[+] query 1: x(P_S)
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-114-cryptohack-twisted_mind\solve.py", line 208, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-114-cryptohack-twisted_mind\solve.py", line 150, in main
+    A1x = c.recv_msg()["pubkey"]
+          ~~~~~~~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'

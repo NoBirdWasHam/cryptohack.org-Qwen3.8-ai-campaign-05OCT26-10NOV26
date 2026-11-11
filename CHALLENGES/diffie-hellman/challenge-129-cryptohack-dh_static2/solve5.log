@@ -1,0 +1,8 @@
+captured P0 1536
+session 0: p built, resp: Bob says to you: {"B": "0x8c8963337823680176e2ab878bc386fd53ae7293db96a456ef1a5bae2eab5808
+  b mod S ok; lcm bits now 1792
+session 1: p built, resp: Bob says to you: {"B": "0x883535be26457908ef3389e6463057136660bce516c4aa5ca652f5c9c6a10898
+  b mod S ok; lcm bits now 3020
+b bits 1536
+PT: b'!K_\xd6Id&\xde!e\x02\x1f\x8c\xecNq\xe9\xb13\xe4\x8c\x86\x12\x01\x13\xb1\xe5k\xbf)\x84\x89Kw\xb4\xfe\x11\xb69\x15s\xa6\xde\x0e\xf5\x03\x12\x07'
+EXIT=0

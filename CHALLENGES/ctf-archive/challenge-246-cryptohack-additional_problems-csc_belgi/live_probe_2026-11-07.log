@@ -1,0 +1,24 @@
+{
+ "ts": "2026-11-07T12:17:58-0500",
+ "banner_bytes": 319,
+ "eof_first_phase": false,
+ "chunk_marks": [
+  [
+   218,
+   0.074
+  ],
+  [
+   101,
+   0.221
+  ],
+  [
+   "idle_timeout",
+   25.237096548080444
+  ]
+ ],
+ "banner_repr": "\"Welcome! We're glad you're trying out our free and secure encryption service.\\n\\nYou're currently on v1.0. This is only the beginning -- v2.0 will bring extra features and security fixes and v3.0 will add AI, probably.\\n\\nWe've generated a private key, it's like super secure!\\nWe've even encrypted our secret flag with it:\\n\"",
+ "digit_line_count": 0,
+ "sends": {
+  "menu:1": "''"
+ }
+}

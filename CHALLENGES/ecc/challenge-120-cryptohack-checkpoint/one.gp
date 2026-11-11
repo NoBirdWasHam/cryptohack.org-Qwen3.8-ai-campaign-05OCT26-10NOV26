@@ -1,0 +1,1 @@
+default(parisize, "1g"); p = 0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF; a = 0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFC; B = 65537; for(i = 1, 1, b = random(p); N = ellap(ellinit([a, b]), p); F = factor(N, B); nf = matsize(F)[1]; M = 1; for(j = 1, nf, pp = F[j, 1]; ee = F[j, 2]; if(pp <= B, M = M * pp^ee)); print(i, " log2M=", lo

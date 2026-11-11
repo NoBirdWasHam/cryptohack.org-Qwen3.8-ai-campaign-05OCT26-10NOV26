@@ -1,0 +1,10 @@
+set_option ('mem', '3800') failed: unknown option: mem
+build done: vars=147466 N=8192 in 1.0s
+excl resumed: 0
+chunk 1: 3407.0s sat=None (no conf stat)
+chunk 2: 2271.9s sat=None (no conf stat)
+chunk 3: 1368.4s sat=None (no conf stat)
+chunk 4: 1159.5s sat=None (no conf stat)
+chunk 5: 1051.3s sat=None (no conf stat)
+chunk 6: 1544.4s sat=None (no conf stat)
+CAP reached 10802s, 6 chunks, UNKNOWN. conf=-1

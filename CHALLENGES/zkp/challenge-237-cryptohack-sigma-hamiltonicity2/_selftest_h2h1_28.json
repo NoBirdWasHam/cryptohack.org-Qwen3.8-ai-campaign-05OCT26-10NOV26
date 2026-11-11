@@ -1,0 +1,1 @@
+{"mode": "selftest", "dir": "h2h1", "found": 357913958, "steps_total": 208350, "rounds": 1, "dps": 46, "cross": 1, "table": 25, "herds": [["T", 70163], ["T", 67099], ["W", 37840], ["W", 33248]], "t": 0.1}

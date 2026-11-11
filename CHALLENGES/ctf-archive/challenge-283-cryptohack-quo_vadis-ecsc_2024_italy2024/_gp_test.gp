@@ -1,0 +1,11 @@
+default(parisize,"256M");
+g = Pol([1,1,1]);
+H = Pol([1,0,1,1,1]);
+print("try1 gfpolcompos");
+if(type(gfpolcompos)=="t_FUNCTION", print(gfpolcompos(g,H)));
+print("try2 polcompos");
+print(polcompos(g,H));
+print("try3 ff");
+a = ffgen(2^4,'a);
+print(polcompos(g, lift(Mod(a))));
+quit;

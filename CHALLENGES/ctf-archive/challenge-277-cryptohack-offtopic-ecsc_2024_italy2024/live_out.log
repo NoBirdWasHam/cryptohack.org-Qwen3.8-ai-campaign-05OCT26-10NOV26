@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-277-cryptohack-offtopic-ecsc_2024_italy2024\solve_live.py", line 107, in <module>
+    main(host, port)
+  File "~\Practice_runs\cryptohack_org\challenge-277-cryptohack-offtopic-ecsc_2024_italy2024\solve_live.py", line 42, in main
+    print(readuntil("ready?").strip(), flush=True)
+  File "~\Practice_runs\cryptohack_org\challenge-277-cryptohack-offtopic-ecsc_2024_italy2024\solve_live.py", line 33, in readuntil
+    while marker not in buf:
+TypeError: a bytes-like object is required, not 'str'

@@ -1,0 +1,13 @@
+p = 2^192 - 237;
+a = -3;
+b = 1379137549983732744405137513333094987949371790433997718123;
+E = ellinit([a, b], p);
+N = ellcard(E);
+print("actual #E(Fp) bits: ", logint(N) + 1, "\n");
+given = 6277101735386680763835789423072729104060819681027498877478;
+print("matches given order: ", N == given, "\n");
+if (N != given, print("N / given = ", N / given, "\n"));
+print("factor(N):");
+print(factor(N), "\n");
+print("factor(given):");
+print(factor(given), "\n");

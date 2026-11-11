@@ -1,0 +1,11 @@
+p = 1000000007;
+P = Pol([Mod(0,p),Mod(1,p)],x);
+Q = Pol([Mod(1,p),Mod(-1,p),Mod(-1,p)],x);
+print("P0=",Vec(P));
+n=10;
+print("parity check n%2==0 -> ", n%2==0);
+Qm = subst(Q,x,-x);
+print("Qm=",Vec(Qm));
+V = Vec(P*Qm); print("V=",V, " len=",#V);
+print("even take=", vector((#V+1)\2,i,V[2*i-1]));
+print("odd take=", vector(#V\2,i,V[2*i]));

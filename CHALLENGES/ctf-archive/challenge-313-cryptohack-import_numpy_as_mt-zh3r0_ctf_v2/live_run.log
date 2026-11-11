@@ -1,0 +1,7 @@
+seed2 2424938586
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf_v2\live_solve2.py", line 48, in <module>
+    inner=unpad(AES.new(key2,iv=iv2,mode=AES.MODE_CBC).decrypt(ct2))
+  File "~\Practice_runs\cryptohack_org\challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf_v2\live_solve2.py", line 23, in unpad
+    n=b[-1]; assert 1<=n<=16 and b[-n:]==bytes([n])*n; return b[:-n]
+AssertionError

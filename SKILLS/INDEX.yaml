@@ -1,0 +1,76 @@
+# transferable skills produced by the campaign (host-local skills excluded per portability directive)
+skills:
+  - name: approximate-common-divisor
+    description: Use when a CTF hides an approximate common divisor.
+  - name: bivariate-coppersmith-hint-factoring
+    description: Use when factoring RSA from p+q or sqrt-sum hints.
+  - name: block-cipher-standards
+    description: Use for AES/Rijndael, differential, and mode-of-op misuse.
+  - name: coppersmith-small-roots-fpylll
+    description: Use when Coppersmith small roots are needed without sage.
+  - name: coppersmith-vanishing-sanity
+    description: Use for bivariate Coppersmith; assert root vanishing first.
+  - name: crypto-stats-inference
+    description: Use for GLRT/Fano CTF distinguishing and guessing bounds.
+  - name: cryptohack-aar-corpus
+    description: Use when auditing/remediating/publishing a CTF AAR corpus.
+  - name: cryptohack-socket-challenges
+    description: "Solve CryptoHack socket challenges headless."
+  - name: ctf-answer-challenges
+    description: "CryptoHack answer challenges: flag format to submit."
+  - name: ctf-crypto-attacks
+    description: Use when a CTF crypto task needs a mode or property attack.
+  - name: ctf-ecc-attacks
+    description: "Use for ECDLP/ECC CTF tasks: smooth orders, ladder checks."
+  - name: ctf-isogenies
+    description: "CryptoHack isogeny challenges: PARI Vélu isogenies."
+  - name: ctf-lattices
+    description: "CryptoHack lattice/PQ: fpylll LLL/BKZ/SVP/CVP on Windows."
+  - name: ctf-mt19937-cracking
+    description: "Use for MT19937 / Python random.Random stream cracking."
+  - name: ctf-padding-oracle
+    description: "Use for CBC padding oracle attacks and forges in CTFs."
+  - name: ctf-side-channels
+    description: Use for CTF power/timing side-channel attacks.
+  - name: ecdsa-lcg-nonce-unknown-modulus
+    description: Use on ECDSA LCG-nonce recurrences mod unknown modulus.
+  - name: ecdsa-nonce-xor-lattice
+    description: Use when ECDSA nonce k=d XOR z.
+  - name: fhe-integers-agcd
+    description: Use for approximate-GCD FHE-integer CTF challenges.
+  - name: gcm-padded-block-membership
+    description: Use for GCM tag oracles using 12-byte blocks.
+  - name: gp-kannan-msp-cvp
+    description: Use when recovering binary secrets from integer equations.
+  - name: groebner-mq-toolkit
+    description: Use for GF(2) polynomial-system CTFs via msolve, M4GB, SAT.
+  - name: hash-collision-md5-engineering
+    description: Use for MD5/SHA-1 collision or chosen-prefix CTF tasks.
+  - name: hash-length-extension-oracle
+    description: Use when a hash oracle leaks MD state. Length-extension.
+  - name: interval-dlp-kangaroo
+    description: Use for interval DLP; kangaroo + range-complete verdicts.
+  - name: lattice-scheme-attacks-ntru-css
+    description: Use on NTRU or partial-key-exposure lattice CTFs.
+  - name: ntru-key-recovery-attacks
+    description: Use on NTRU-shaped lattices or secret pairs h=g/f mod q.
+  - name: padic-lift-ecc-attack
+    description: Use when ECC oracle returns x mod p^2. p-adic lift attack.
+  - name: phantom-dispatch-verification
+    description: Use when a dispatched challenge cannot be found on its site.
+  - name: poly-ring-toolkit
+    description: Use for CTF polynomial roots, CRT, resultants and gcds.
+  - name: popcount-happiness-cpsat
+    description: "Use when a CTF leaks popcount(A & m): solve via CP-SAT."
+  - name: ring-eval-lwe-distinguisher
+    description: Use when ring-LWE secrets are small over split rings.
+  - name: spn-fiber-coset-attack
+    description: Use when inverting a 1-round SPN with unknown mix layers.
+  - name: sponge-keccak
+    description: Use for sponge/Keccak CTF rate-capacity-duplex attacks.
+  - name: unbalanced-rsa-small-d-dng
+    description: Use when RSA primes unbalanced and d small.
+  - name: wagner-generalized-birthday
+    description: Use on k-sum list puzzles and iterated hash collision tasks.
+  - name: zkp-fiat-shamir-ctf
+    description: Use on ZKP and Fiat-Shamir CTF forges and nonce breaks.

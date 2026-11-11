@@ -1,0 +1,10 @@
+default(parisize,"4G");
+read("pk.gp");
+n=512;q=127;d=1024;
+M=matrix(d,d);
+for(i=1,n,for(j=1,n,M[i,j]=if(i==j,1,0); M[i,n+j]=pkv[((j-i)%n)+1]; M[n+i,n+j]=if(i==j,q,0)));
+print("built ",gettime());
+B=qflll(M,3);
+print("lll done ",gettime());
+for(i=1,d,s=sum(j=1,d,B[j,i]^2); if(s<=200,f=0; g=0; for(j=1,n,if(B[j,i]!=0,f++)); for(j=1,n,if(B[n+j,i]!=0,g++)); print("SMALL col ",i," norm2=",s," wf=",f," wg=",g)));
+print("scan done");

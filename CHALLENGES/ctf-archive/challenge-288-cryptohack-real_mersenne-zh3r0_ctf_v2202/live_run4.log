@@ -1,0 +1,12 @@
+probe done, missing(outside window): 0
+state recovered + holdout verified in 0.2s
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202\live_solve2.py", line 124, in <module>
+    res = run(c)
+  File "~\Practice_runs\cryptohack_org\challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202\live_solve2.py", line 92, in run
+    uu, out = conn.round(y)
+  File "~\Practice_runs\cryptohack_org\challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202\live_solve2.py", line 35, in round
+    line = self._readline()
+  File "~\Practice_runs\cryptohack_org\challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202\live_solve2.py", line 26, in _readline
+    raise EOFError
+EOFError

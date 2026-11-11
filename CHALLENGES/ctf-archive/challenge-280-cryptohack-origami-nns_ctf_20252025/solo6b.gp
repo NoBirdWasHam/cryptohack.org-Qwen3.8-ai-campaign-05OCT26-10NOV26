@@ -1,0 +1,10 @@
+default(parisize,"2G");
+read("pk.gp");
+n=512;q=127;d=1024;
+M=matrix(d,d);
+for(i=1,n,for(j=1,n,M[i,j]=if(i==j,1,0); M[i,n+j]=pkv[((j-i)%n)+1]; M[n+i,n+j]=if(i==j,q,0)));
+V=M~;
+T=qflll(V,0); V=V*T;
+print("init ",gettime());
+best=10^9;
+print("alive ",gettime());

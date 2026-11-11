@@ -1,0 +1,12 @@
+default(parisize,"4G");
+K = read("bnf.dat");
+h = K.no;
+q = 14356745447089083514493;
+ls = concat(primes([3,112]), [139]);
+cs = [];
+for(i=1, #ls, my(P = idealprimedec(K, ls[i])[1]); my(z = bnfisprincipal(K, P, 0)); my(c = if(type(z[1])=="t_INT", z[1], z[1][1]) % h); cs = concat(cs, [c]); print("CLS ", ls[i], " ", c, " mod36=", c%36, " modq=", c%q, " order=", h/gcd(h,c)));
+d = h;
+for(i=1, #cs, d = gcd(d, cs[i]));
+print("gcdall=", d);
+print("|G|=", h/d);
+print("DONE");

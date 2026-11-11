@@ -1,0 +1,14 @@
+[    0.0s] instance output_live.txt: NB=32768 k=1 rows=16368 ct=68B
+[  107.2s] stage1 guess 0: bad=True rank=16255 free_lin=3 (105s)
+[  107.6s] stage1 guess 2: bad=True rank=16255 free_lin=3 (104s)
+[  109.0s] stage1 guess 1: bad=False rank=16255 free_lin=3 (106s)
+[  109.8s] stage1 guess 3: bad=True rank=16255 free_lin=3 (106s)
+[  205.4s] stage1 guess 4: bad=True rank=16254 free_lin=4 (98s)
+[  205.5s] stage1 guess 5: bad=True rank=16252 free_lin=6 (98s)
+[  207.2s] stage1 guess 6: bad=True rank=16252 free_lin=6 (98s)
+[  208.9s] stage1 guess 7: bad=True rank=16255 free_lin=3 (99s)
+[  208.9s] stage1 consistent guesses: [1]
+[  208.9s] building stage2 masks in parent...
+[  309.2s] guess 1: stage2 rank=16503 X=65b764b7d1b8b83601685bce7e2ffdad W=217d23c7d14ef9e859af3f90365c5de1 full_check=PASS
+[  309.2s] KEY: 0x217d23c7d14ef9e859af3f90365c5de14cdc3e0aa6c08d4c011e3c09f41b8d7462810cdccdf0f0de6d036d86ec9549df65b764b7d1b8b83601685bce7e2ffdad
+[  309.2s] FLAG: hitcon{larger_states_is_still_no_match_of_fast_correlation_attacks!}

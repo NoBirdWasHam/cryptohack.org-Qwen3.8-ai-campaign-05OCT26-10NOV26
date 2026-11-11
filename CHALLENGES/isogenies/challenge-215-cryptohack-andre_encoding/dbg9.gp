@@ -1,0 +1,27 @@
+default(parisize, "6g");
+read("params.gp");
+F = ffinit(PVAL, 2);
+W = ffgen(F, 'W);
+o1 = W^0; z0 = W*0;
+ffsqrt_ts(r) = { local(q, e, mm, z, c, x, t, i, b); if(r == 0, return(z0)); q = PVAL^2; if(r^((q-1)>>1) != o1, return(-1)); e = valuation(q-1, 2); mm = (q-1) >> e; z = W; while(z^((q-1)>>1) == o1, z = z+1); c = z^mm; x = r^((mm+1)>>1); t = r^mm; while(t != o1, i = 0; b = t; while(b != o1, b = b^2; i = i+1); b = c^(2^(e-i-1)); c = b^2; x = x*b; t = t*c); return(x); }
+mk(re, im) = { re + im*I2 };
+DATA = read("bytes.gp");
+MVAL = PVAL + 1;
+I2 = ffsqrt_ts(-1 + z0);
+d0 = DATA[4];
+Ax = mk(d0[1], d0[2]); Ay = mk(d0[3], d0[4]); Bx = mk(d0[5], d0[6]); By = mk(d0[7], d0[8]);
+RA = Ay^2 - Ax^3; RB = By^2 - Bx^3;
+a4 = (RA - RB)/(Ax - Bx); a6 = RA - a4*Ax;
+Ep = ellinit([0,0,0,a4,a6]);
+A = [Ax, Ay]; B = [Bx, By]; OP = ellmul(Ep, A, 0);
+e = 71; l = 2;
+sc = 37*LVAL*MVAL/2^(e+1);
+X1 = ellmul(Ep, A, sc); Y1 = ellmul(Ep, B, sc);
+print("X1=O: ", X1 == OP, " 2X1=O: ", ellmul(Ep, X1, 2) == OP);
+w = ellweilpairing(Ep, X1, Y1, 2);
+print("weil2 val: ", w, " ==1: ", w == o1);
+Xm = ellmul(Ep, A, 37*LVAL/14); Ym = ellmul(Ep, B, 37*LVAL/14);
+Xmm = ellmul(Ep, Xm, MVAL); Ymm = ellmul(Ep, Ym, MVAL);
+print("weil_m relation (b=14): ", ellweilpairing(Ep, Xmm, Ymm, MVAL) == o1);
+print("weil2 again: ", ellweilpairing(Ep, X1, Y1, 2) == o1); 
+print("tate2 val: ", t, " ==1: ", t == o1);

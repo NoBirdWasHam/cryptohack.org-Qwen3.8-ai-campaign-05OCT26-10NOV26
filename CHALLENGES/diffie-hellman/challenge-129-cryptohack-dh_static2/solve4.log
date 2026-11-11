@@ -1,0 +1,21 @@
+captured p0 bits 1536
+generating prime...
+prime ready 1033 kt 1320
+send attempt 0 -> Bob says to you: {"error": "That p value is not strong enough"}
+generating prime...
+prime ready 1029 kt 152
+send attempt 1 -> Bob says to you: {"error": "That p value is not strong enough"}
+generating prime...
+prime ready 1034 kt 600
+send attempt 2 -> Bob says to you: {"error": "That p value is not strong enough"}
+generating prime...
+prime ready 1014 kt 380
+send attempt 3 -> Bob says to you: {"error": "That p value is not strong enough"}
+generating prime...
+prime ready 1031 kt 446
+send attempt 4 -> Bob says to you: {"error": "That p value is not strong enough"}
+generating prime...
+prime ready 1029 kt 186
+send attempt 5 -> Bob says to you: {"error": "That p value is not strong enough"}
+INSUFFICIENT lcm bits: 1
+EXIT=0

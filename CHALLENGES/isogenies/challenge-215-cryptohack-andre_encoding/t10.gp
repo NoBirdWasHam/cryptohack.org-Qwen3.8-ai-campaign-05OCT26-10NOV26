@@ -1,0 +1,17 @@
+default(parisize,"1g");
+F = ffinit(59, 2);
+W = ffgen(F, 'W);
+o1 = W^0; z0 = W*0;
+E = ellinit([0,0,0,1+0*W,0*W]);
+T1 = [0*W, 0*W];
+T2 = [W, 0*W];
+print("T2 on E: ", ellisoncurve(E, T2));
+print("e2(T1,T2): ", ellweilpairing(E, T1, T2, 2));
+print("== -1? ", ellweilpairing(E, T1, T2, 2) == -1 + z0);
+R = ellgenerators(E);
+print("gens: ", #R);
+P4 = ellmul(E, R[1], (59+1)^2/4);
+Q4 = ellmul(E, R[2], (59+1)^2/4);
+print("e4(P4,Q4): ", ellweilpairing(E, P4, Q4, 4));
+print("e4^4==1: ", ellweilpairing(E, P4, Q4, 4)^4 == o1);
+print("e4==1: ", ellweilpairing(E, P4, Q4, 4) == o1);

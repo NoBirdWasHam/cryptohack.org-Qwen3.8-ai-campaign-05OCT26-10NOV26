@@ -1,0 +1,22 @@
+campaign: cryptohack.org-Qwen3.8-ai-campaign-05OCT26-10NOV26
+account: NoBirdWasHam
+start: 2026-10-05
+end: 2026-11-10
+models:
+  - name: Qwen3.8-27B
+    role: primary-agent-brain
+    host: local-workstation
+    gpu: Radeon-R9700
+    endpoint: ":8080"
+    cloud_api: false
+  - name: Qwen3.8-Flash-Next
+    quant: unsloth-UD-Q4_K_XL
+    role: late-phase-fleet-brain
+    host: GPU-HOST
+    gpu: RTX-3090-Ti
+    ram_gb: 128
+    endpoint: ":8080"
+    cloud_api: false
+shell: hermes-agent
+os: windows-11
+attribution_granularity: phase-level-best-effort

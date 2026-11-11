@@ -1,0 +1,2 @@
+gap 180 FLAG: crypto{pseudorandom_shamir_adleman}
+EXIT=0

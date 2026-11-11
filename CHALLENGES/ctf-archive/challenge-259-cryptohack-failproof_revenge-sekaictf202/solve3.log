@@ -1,0 +1,5 @@
+K 256 maxabs 207 m0 digits 357
+block 0: after LLL, 1 |last|=beta rows
+block 0: escalating BKZ on reduced lattice
+block 0: candidates failed verification
+EXIT=1

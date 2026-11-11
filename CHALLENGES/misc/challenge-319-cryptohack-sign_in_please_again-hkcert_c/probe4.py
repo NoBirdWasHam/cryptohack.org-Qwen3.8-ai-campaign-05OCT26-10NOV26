@@ -1,0 +1,10 @@
+from conn import *
+s,g=connect(); print("greet",g[:10])
+print("pow ->",repr(pow_ok(s)))
+idb=list(range(21))
+h1=spy(s,idb,"QUFB"); h2=spy(s,idb,"QUFB")
+print("spy1:",h1); print("spy2:",h2); print("fixed-pepper:",h1==h2)
+print("neg-pbox:",repr(spy(s,list(range(-20,1)),"QUFB")))
+print("dup-pbox:",repr(spy(s,idb+[16,17,18,19],"QUFB"))[:70])
+print("missing-20:",repr(spy(s,list(range(20)),"QUFB")))
+s.close()

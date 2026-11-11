@@ -1,0 +1,14 @@
+default(parisize,"4G");
+read("pk.gp");
+n=512;q=127;d=1024;
+M=matrix(d,d);
+for(i=1,n,for(j=1,n,M[i,j]=if(i==j,1,0); M[i,n+j]=pkv[((j-i)%n)+1]; M[n+i,n+j]=if(i==j,q,0)));
+print("built ",gettime());
+B=qflll(M~,3);
+print("qflll1 ",gettime());
+mn=10^9; for(i=1,d,s=sum(j=1,d,B[j,i]^2); if(s<mn,mn=s)); print("mn1 ",mn);
+for(k=1,100,i=random(d)+1; j=random(d)+1; c=random(3)-1; if(i!=j,for(t=1,d,B[t,i]+=c*B[t,j])));
+print("scrambled ",gettime());
+B=qflll(B,3);
+print("qflll2 ",gettime());
+mn=10^9; for(i=1,d,s=sum(j=1,d,B[j,i]^2); if(s<mn,mn=s)); print("mn2 ",mn);

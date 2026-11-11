@@ -1,0 +1,8 @@
+connected; n bits 2048
+256 bits 770 89s
+512 bits 514 180s
+768 bits 258 270s
+1024 bits 2 360s
+search done 1025 queries 361s
+FLAG: crypto{M4lleaBl3_3nCRypt1on_g0n3_wr0nG_:'(}
+EXIT=0

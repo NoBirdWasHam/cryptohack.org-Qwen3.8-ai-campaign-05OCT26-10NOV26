@@ -1,0 +1,14 @@
+[+] pos 44: '!'  (known 9/46)
+[+] pos  7: 'i'  (known 10/46)
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-147-cryptohack-mdflag\solve.py", line 187, in <module>
+    live()
+  File "~\Practice_runs\cryptohack_org\challenge-147-cryptohack-mdflag\solve.py", line 178, in live
+    flag = recover(query)
+           ^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-147-cryptohack-mdflag\solve.py", line 86, in recover
+    h = query(d)
+        ^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-147-cryptohack-mdflag\solve.py", line 176, in query
+    raise RuntimeError(f"server error: {obj}")
+RuntimeError: server error: {'error': 'You may send up to 1024 bytes per message.'}

@@ -1,0 +1,5 @@
+kept 16384 zero-cand blocks: []
+CRT done used 16384 R bits 16730390 M bits 16760612
+iroot exact? True root bits 256
+full pow-verify failures: 0 []
+FLAG: hkcert21{y0u_d0nt_n33d_p41rw15e_9cd_1f_y0u_c4n_d0_i7_1n_b4tch}

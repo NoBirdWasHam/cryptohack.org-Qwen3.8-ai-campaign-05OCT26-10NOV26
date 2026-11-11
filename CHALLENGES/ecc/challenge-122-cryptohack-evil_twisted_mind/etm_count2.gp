@@ -1,0 +1,15 @@
+default(parisizemax,2000000000);
+defparisize=200000000;
+q1=4782850957738000717885060297350722702854694354378697989111;
+q2=4796464665474109238546017500238174976861701183900526078141;
+b=2697448053935541741976221051345108825177671050689533270507;
+print("q1 prime? ", isprime(q1), "  q2 prime? ", isprime(q2));
+t1=ellap(ellinit([-3,b],q1),q1);
+t2=ellap(ellinit([-3,b],q2),q2);
+E1=q1+1-t1; T1=q1+1+t1;
+E2=q1+1+t1;
+E2=q2+1-t2; T2=q2+1+t2;
+print("#E(Fq1)=",E1); print("fac #E(Fq1)=",factor(E1));
+print("#twist(Fq1)=",T1); print("fac twist(Fq1)=",factor(T1));
+print("#E(Fq2)=",E2); print("fac #E(Fq2)=",factor(E2));
+print("#twist(Fq2)=",T2); print("fac twist(Fq2)=",factor(T2));

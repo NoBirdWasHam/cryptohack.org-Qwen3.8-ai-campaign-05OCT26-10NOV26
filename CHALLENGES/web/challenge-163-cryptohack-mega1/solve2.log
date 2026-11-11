@@ -1,0 +1,11 @@
+connected; n bits 2048 blocks 41
+reconnect: oracle err after 10q: login={'auth_key_hashed': '83a2b1bf75d639c4a7cd193dcb8334feed23b09 chal={'error': 'An error occured during the login.'
+connected; n bits 2048 blocks 41
+reconnect: oracle err after 9q: login={'auth_key_hashed': '83a2b1bf75d639c4a7cd193dcb8334feed23b09 chal={'error': 'An error occured during the login.'}
+connected; n bits 2048 blocks 41
+reconnect: oracle err after 38q: login={'auth_key_hashed': '83a2b1bf75d639c4a7cd193dcb8334feed23b09 chal={'error': 'An error occured during the login.'
+connected; n bits 2048 blocks 41
+attempt 3 fatal: oracle err after 1q: login={'auth_key_hashed': '83a2b1bf75d639c4a7cd193dcb8334feed23b09 chal={'error': 'An error occured during the login.'}
+connected; n bits 2048 blocks 41
+reconnect: oracle err after 19q: login={'auth_key_hashed': '83a2b1bf75d639c4a7cd193dcb8334feed23b09 chal={'error': 'An error occured during the login.'
+EXIT=0

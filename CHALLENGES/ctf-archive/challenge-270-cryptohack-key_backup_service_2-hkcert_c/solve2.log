@@ -1,0 +1,10 @@
+kept 16169 dropped 215 M bits ~ 16550768
+crt 0 Mbits 2047
+crt 4000 Mbits 4094505
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-270-cryptohack-key_backup_service_2-hkcert_c\solve2.py", line 98, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-270-cryptohack-key_backup_service_2-hkcert_c\solve2.py", line 31, in main
+    t = ((c - R) % m) * invert(M % m, m) % m
+                        ^^^^^^^^^^^^^^^^
+ZeroDivisionError: invert() no inverse exists

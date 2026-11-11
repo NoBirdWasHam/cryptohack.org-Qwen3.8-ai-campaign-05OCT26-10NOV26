@@ -1,0 +1,4 @@
+n bits 3070 e 65537
+factored on try 3 p bits 512
+q prime? True r prime? True
+FLAG: b'ictf{idk_if_it_solvable_if_q_is_2+p+p^2_instead}'

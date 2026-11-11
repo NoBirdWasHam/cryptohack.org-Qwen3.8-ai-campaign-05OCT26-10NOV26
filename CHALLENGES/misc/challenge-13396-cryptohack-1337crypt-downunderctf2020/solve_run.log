@@ -1,0 +1,30 @@
+dS bits 587 | p-q bits 1336 | amplif 2
+root bound X = 2^ 595 | c0 bits 1337
+try m= 6 D= 4
+  HG-passing rows: 4
+  nonzero resultants: 0 degs: []
+try m= 6 D= 5
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 7 D= 5
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 6 D= 6
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 7 D= 6
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 8 D= 6
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 8 D= 7
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 9 D= 7
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+try m= 10 D= 8
+  HG-passing rows: 6
+  nonzero resultants: 0 degs: []
+FAILED

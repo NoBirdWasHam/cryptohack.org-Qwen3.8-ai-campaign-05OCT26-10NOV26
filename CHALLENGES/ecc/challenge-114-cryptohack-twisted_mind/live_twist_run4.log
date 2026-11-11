@@ -1,0 +1,40 @@
+precomputing E-side tables:
+  table q^e=2: m=2
+reject x_on = 3 : degenerate projection q=11: base point misses factor 11
+precomputing E-side tables:
+reject x_on = 7 : degenerate projection q=2: base point misses factor 2
+precomputing E-side tables:
+  table q^e=2: m=2
+  table q^e=11: m=4
+  table q^e=269: m=17
+  table q^e=2985973: m=1728
+  table q^e=1631363213: m=40391
+  table q^e=123462957881: m=351373
+precomputing twist-side tables:
+reject x_tw = 5 : degenerate projection q=2: base point misses factor 2
+precomputing twist-side tables:
+reject x_tw = 6 : degenerate projection q=2: base point misses factor 2
+precomputing twist-side tables:
+reject x_tw = 8 : degenerate projection q=2: base point misses factor 2
+precomputing twist-side tables:
+reject x_tw = 9 : degenerate projection q=2: base point misses factor 2
+precomputing twist-side tables:
+reject x_tw = 11 : degenerate projection q=2: base point misses factor 2
+precomputing twist-side tables:
+  table q^e=2: m=2
+  table q^e=27: m=6
+  table q^e=1607: m=41
+  table q^e=693493: m=833
+  table q^e=1483406443: m=38516
+  table q^e=40202856427: m=200507
+precompute done in 4s
+Welcome!
+You can submit up to 2 elliptic curve point (x coordinate only).
+You have 120 seconds to submit the private key in decimal format.
+A1 = 4746591163918418869479086626890487349261918775406476123461 
+A2 = 4522659251780408437406975365247292335722093014799881326189
+k mod S = 3203891327605567684174888262717 (102b) t=5s
+k mod S' = 3134416559088660017162313785141 (102b) t=7s
+candidates: [2393741666513709879284235107418754905466424071755839611391]
+try 2393741666513709879284235107418754905466424071755839611391 -> {'message': 'Congratulations, you found my private key!', 'flag': 'crypto{tw1st_s3curity_of_x_0nly_ladder}'}
+FLAG: crypto{tw1st_s3curity_of_x_0nly_ladder}

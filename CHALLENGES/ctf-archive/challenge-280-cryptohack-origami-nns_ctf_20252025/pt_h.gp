@@ -1,0 +1,1 @@
+f=read("pt_f.txt");g=read("pt_g.txt");F=Pol(f,x);G=Pol(g,x);T=x^512-1;hi=FpXQ_inv(Mod(F,127),Mod(T,127));h=FpX_rem(lift(hi)*lift(G),T,127);v=concat(Vec(h),vector(512-length(Vec(h)),i,0));for(i=1,512,print1(v[i]," "));print("");

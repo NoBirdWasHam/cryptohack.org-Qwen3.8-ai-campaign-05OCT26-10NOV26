@@ -1,0 +1,4 @@
+attempt 1 ...
+  recovered p bits=255, p%1e6=602731
+SERVER: b"h(b'ljkmppskqeqmmqomihimmhlnomnmnmsruuknhjlpmkppkldannjjwqpqjlorpunsqmklii') = 2460b5443ee73db2e89d9703ec96228faf03db7db39929b3c4f5a8205489dd5f\nCongrats! firebird{wh3n_1n_d0ub7_u5e_latt111c3_r3duc71110n_4lg0r111thm}\n"
+FLAG: firebird{wh3n_1n_d0ub7_u5e_latt111c3_r3duc71110n_4lg0r111thm}

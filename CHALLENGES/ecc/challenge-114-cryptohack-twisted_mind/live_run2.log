@@ -1,0 +1,31 @@
+[+] connecting socket.cryptohack.org:13416
+[+] banner: "Welcome!"
+[+] finding P_S (order S) and P_Q (order Q) ...
+found P_S order point (x=5470131295095120893505924382808122657401741008580209005177)
+found P_Q order point (x=4699348228673178372442729478530087709444349224503501187358)
+[+] query 1: x(P_S)
+    A1 = 4626339581645239134945455590812145154277...
+[+] query 2: x(P_Q)
+    A2 = 1169274787561604696559779640837480138175...
+[+] verifying live curve matches local ...
+    A1 on local curve: True
+    A2 on local curve: True
+    S*A1 == O (A1 in S-subgroup): True
+    Q*A2 == O (A2 in Q-subgroup): True
+    S*A2 != O (Q-part nonzero) : True
+    k mod 2 = 1   (bsgs m=2)
+    k mod 11 = 4   (bsgs m=4)
+    k mod 269 = 184   (bsgs m=17)
+    k mod 2985973 = 433256   (bsgs m=1728)
+    k mod 1631363213 = 732182117   (bsgs m=40391)
+    k mod 123462957881 = 83439118654   (bsgs m=351373)
+[+] sign=1: k mod S = 2841355982581017542481600506047
+    k mod 2 = 1   (bsgs m=2)
+    k mod 11 = 7   (bsgs m=4)
+    k mod 269 = 85   (bsgs m=17)
+    k mod 2985973 = 2552717   (bsgs m=1728)
+    k mod 1631363213 = 899181096   (bsgs m=40391)
+    k mod 123462957881 = 40023839227   (bsgs m=351373)
+[+] sign=-1: k mod S = 717809488161818810096194631695
+[+] saved live_result.json
+[+] candidates for privkey mod S: ['2841355982581017542481600506047', '717809488161818810096194631695']

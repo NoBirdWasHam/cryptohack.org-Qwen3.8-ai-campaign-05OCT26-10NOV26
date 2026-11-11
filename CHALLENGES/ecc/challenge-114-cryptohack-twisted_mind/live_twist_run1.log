@@ -1,0 +1,29 @@
+precomputing E-side tables:
+  table q^e=2: m=2
+  table q^e=11: m=4
+  table q^e=269: m=17
+  table q^e=2985973: m=1728
+  table q^e=1631363213: m=40391
+  table q^e=123462957881: m=351373
+precomputing twist-side tables:
+  table q^e=2: m=2
+  table q^e=27: m=6
+  table q^e=1607: m=41
+  table q^e=693493: m=833
+  table q^e=1483406443: m=38516
+  table q^e=40202856427: m=200507
+precompute done in 13s
+Welcome!
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-114-cryptohack-twisted_mind\solve_twist.py", line 142, in <module>
+    A1 = int(json.loads(f.readline())["pubkey"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

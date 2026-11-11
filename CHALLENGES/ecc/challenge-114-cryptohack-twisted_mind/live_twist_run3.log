@@ -1,0 +1,20 @@
+precomputing E-side tables:
+  table q^e=2: m=2
+reject x_on = 3 : degenerate projection q=11: base point misses factor 11
+precomputing E-side tables:
+reject x_on = 7 : degenerate projection q=2: base point misses factor 2
+precomputing E-side tables:
+  table q^e=2: m=2
+  table q^e=11: m=4
+  table q^e=269: m=17
+  table q^e=2985973: m=1728
+  table q^e=1631363213: m=40391
+  table q^e=123462957881: m=351373
+precomputing twist-side tables:
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-114-cryptohack-twisted_mind\solve_twist.py", line 142, in <module>
+    preT = prep(Pp, NE, SP_FACTS)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-114-cryptohack-twisted_mind\solve_twist.py", line 108, in prep
+    assert g is not None, f"degenerate projection q={q}: base point misses factor {q}"
+AssertionError: degenerate projection q=2: base point misses factor 2

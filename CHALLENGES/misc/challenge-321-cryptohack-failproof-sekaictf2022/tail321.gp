@@ -1,0 +1,26 @@
+default(parisize,"1G");
+D_ = "~/Practice_runs/cryptohack_org/challenge-321-cryptohack-failproof-sekaictf2022/";
+read(D_ "A.gp");
+read(D_ "cvecs.gp");
+do_t(t) = {
+  local(kv, kvz, kvp, ucols, n, adj, A2, G, rhs, x, isbin, bits, s, by);
+  if(7*(31-t) > 128, return(print("t=", t, " unknowns ", 7*(31-t), " skip")));
+  kvz = vector(8*t, k, [8*(32-t+floor((k-1)/8)) + ((k-1)%8+1), 0]);
+  kvp = vector(8, i, [8*(31-t)+i, (125 >> (8-i)) % 2]);
+  kv = Vec(concat(kvz, kvp));
+  ucols = vector(7*(31-t), k, 8*floor((k-1)/7) + ((k-1)%7 + 2));
+  n = #ucols;
+  adj = vector(128, j, c3[j] - sum(k=1, #kv, A[j, kv[k][1]] * kv[k][2]));
+  A2 = matrix(128, n, i, j, A[i, ucols[j]]);
+  if(matrank(A2) < n, return(print("t=", t, " rank deficient")));
+  G = A2~ * A2;
+  x = matsolve(G, A2~ * Mat(adj)~);
+  isbin = (sum(i=1, n, if(x[i,1]==0 || x[i,1]==1, 0, 1)) == 0) && (sum(j=1, 128, if(abs(sum(k=1, n, A2[j,k] * x[k,1]) - adj[j]) != 0, 1, 0)) == 0);
+  if(!isbin, return(print("t=", t, " inconsistent")));
+  bits = vector(256, p, sum(k=1, #kv, if(kv[k][1]==p, kv[k][2], 0)) + sum(j=1, n, if(ucols[j]==p, x[j,1], 0)));
+  s = sum(i=1, 256, bits[i] * 2^(256-i));
+  print("t=", t, " SOLUTION maxerr=", vecmax(vector(128, j, abs(sum(k=1,256, A[j,k]*bits[k]) - c3[j]))));
+  write(Str(D_, "tail_s", t, ".txt"), Str(s, "\n"));
+};
+apply(t -> do_t(t), [0..30]);
+print("TAILDONE");

@@ -1,0 +1,12 @@
+E=ellinit([0,0,0,Mod(1,419),Mod(0,419)]);
+P=[Mod(178,419),Mod(367,419)];
+ph=ellisogeny(E,P);
+R=[Mod(292,419),Mod(20,419)];
+Q=ellisogenyapply(ph[2],R);
+print(Q[1]);
+R=[Mod(374,419),Mod(256,419)];
+Q=ellisogenyapply(ph[2],R);
+print(Q[1]);
+R=[Mod(170,419),Mod(121,419)];
+Q=ellisogenyapply(ph[2],R);
+print(Q[1]);

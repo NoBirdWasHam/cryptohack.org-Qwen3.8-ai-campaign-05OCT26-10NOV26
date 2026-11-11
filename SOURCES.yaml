@@ -1,0 +1,25 @@
+sources:
+  platform:
+    - url: https://cryptohack.org
+      grounds: rules, challenge statements (linked only), solved-list verification
+    - url: https://cryptohack.org/scoreboard/
+      grounds: dated scoreboard values in README (owner screenshots 2026-11-10)
+    - url: https://cryptohack.org/api/user/<name>/
+      grounds: public solver records used in row-246 leaderboard forensics
+  author_materials_linked_not_hosted:
+    - url: https://github.com/cscbe/CSCBE-2024-WRITE-UPS
+      grounds: row 246 official writeup (consulted AFTER our attack was verified; disclosed in AAR)
+    - url: https://www.zeus.ugent.be/blog/23-24/extra_problems_csc_be/
+      grounds: row 246 player writeup (2 writeups consulted total)
+    - url: https://github.com/cryptohack/ctf_archive
+      grounds: deployment history -> root cause commit 91a4a745 for dead :21970
+  papers:
+    - {cite: "Pollard 1978, Monte-Carlo methods for index computation", used_by: [interval-dlp-kangaroo]}
+    - {cite: "van Oorschot-Wiener 1999, Parallel collision search", used_by: [interval-dlp-kangaroo]}
+    - {cite: "van Dijk-Gentry-Halevi-Vinograd 2012, Fully Homomorphic Encryption over the Integers", used_by: [row-246 attack shape]}
+    - {cite: "Keccak team 2012, Sponge functions", used_by: [sponge-keccak, row-294]}
+    - {cite: "Fischlin 2008; Fiat-Shamir 1986; GMR 1989", used_by: [zkp rows incl. 237/265]}
+    - {cite: "Matsumoto-Kim 1998, MT19937", used_by: [ctf-mt19937-cracking]}
+    - {cite: "Coppersmith 1996; Boneh-Venkatesan 2001", used_by: [coppersmith-*, rsa rows]}
+    - {cite: "LLL 1982; Kannan 1987", used_by: [ctf-lattices, gp-kannan-msp-cvp]}
+    - {cite: "Hoffstein-Pipher-Silverman 1998, NTRU", used_by: [ntru-*]}
