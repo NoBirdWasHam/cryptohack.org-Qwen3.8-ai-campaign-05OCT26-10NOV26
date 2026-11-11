@@ -1,4 +1,8 @@
-# GATES — publish gates and results (final run 2026-11-11)
+# GATES — publish gates and results (final run 2026-11-11, schema v2)
+
+Layout per owner schema: PUZZLES/<category>/<puzzle>/ (self-contained) ·
+FLAGS/<category>/<puzzle>/flag.txt (mirrored; INDEX.jsonl pairs + sha256) ·
+SKILLS/ · SUPPORT/ · assets/.
 
 | gate | rule | result |
 |---|---|---|
@@ -30,3 +34,11 @@ generator itself ships identity-free. Rerunning it reproduces this tree.
 AAR prose is first-person campaign history. Where a public leaderboard/API record is
 discussed, the verification path is the cited URL + date; names were swept per above.
 Discord participants are role-described.
+
+## Image gate (added 2026-11-11)
+Five screenshots ship in assets/. Two (profile, category grid) verified identity-clean
+except the campaign account name (kept by owner decision). Three were pixelated
+(solves-lists ×2 incl. First Blood lines, service-report chat incl. inline mentions +
+avatars) and each was re-verified by an independent OCR vision pass returning NO readable
+handle/fragment. One terminal screenshot was EXCLUDED outright (shell prompt content).
+Image PII cannot be regex-gated; the OCR verification pass is the gate, documented here.
