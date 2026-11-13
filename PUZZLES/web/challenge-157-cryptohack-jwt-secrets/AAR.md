@@ -1,7 +1,7 @@
 # AAR — JWT Secrets (jwt-secrets, 25 pts, Web course)
 
 ## Result
-SOLVED 2026-10-12. Flag: `crypto{jwt_secret_keys_must_be_protected}`
+SOLVED 2026-10-12. Flag: `[flag — recorded in FLAGS/web/challenge-157-cryptohack-jwt-secrets/flag.txt]`
 Submitted via user API in the 2026-10-12 session; accepted; present in the live solved list
 (2026-10-17 verification).
 
@@ -19,7 +19,7 @@ HS256 signs and verifies with the SAME symmetric secret, so every service that c
 ## How the answer follows
 1. A JWT's HMAC is computable by anyone holding the secret; recovering this challenge's weak/hinted secret therefore converts "cannot forge" into "one HMAC call from forging".
 2. Re-sign a payload with elevated claims (`admin: true`), send it to the authorise endpoint; the server's own verification succeeds because the signature is genuinely valid under its secret — the only failed assumption was secrecy of the key.
-3. The privileged response carries `crypto{jwt_secret_keys_must_be_protected}`; server-accepted (2026-10-12, live-list re-verified 2026-10-17).
+3. The privileged response carries `[flag — recorded in FLAGS/web/challenge-157-cryptohack-jwt-secrets/flag.txt]`; server-accepted (2026-10-12, live-list re-verified 2026-10-17).
 - Note: the exact recovered secret value and any wordlist used are not recorded in run logs.
 
 ## Limitations / attempts that failed

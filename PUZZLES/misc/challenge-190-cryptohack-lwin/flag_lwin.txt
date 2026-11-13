@@ -1,1 +1,1 @@
-crypto{minimal_polynomial_in_an_arbitrary_field}
+[flag — recorded in FLAGS/misc/challenge-190-cryptohack-lwin/flag.txt]

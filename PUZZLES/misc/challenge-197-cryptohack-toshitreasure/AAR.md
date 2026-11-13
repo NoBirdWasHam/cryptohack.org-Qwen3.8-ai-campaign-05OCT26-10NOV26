@@ -1,6 +1,6 @@
 # AAR — toshitreasure (CryptoHack, misc, 150 pts) — SOLVED
 
-Flag: `crypto{shoulda_used_verifiable_secret_sharing}` (score_delta +150, verified)
+Flag: `[flag — recorded in FLAGS/misc/challenge-197-cryptohack-toshitreasure/flag.txt]` (score_delta +150, verified)
 
 ## The vuln
 Plain (non-verifiable) Shamir Secret Sharing over GF(2^521−1) — the 13th Mersenne

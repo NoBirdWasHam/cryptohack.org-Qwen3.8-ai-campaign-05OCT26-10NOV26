@@ -1,6 +1,6 @@
 # Oofbleck (Firebird Internal CTF) — AAR
 
-**Solved:** yes. Flag: `firebird{unf0rtun4t3ly_1t_i5_s0_h4rd_t0_g3t_cryp70gr4phy_d0n3_r19h7}`
+**Solved:** yes. Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-13395-cryptohack-oofbleck-firebird_internal_ct/flag.txt]`
 Submitted to slug `oofbleck-firebird_internal_ct`; solved-list verified via api_solved (259 entries, includes "Oofbleck (Firebird Internal CTF)"). Archive challenge → score_delta 0 (expected, 0-pt archive).
 
 ## The vulnerability (first-principles read of chall.py)

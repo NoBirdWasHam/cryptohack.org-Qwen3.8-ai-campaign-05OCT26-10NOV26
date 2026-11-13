@@ -268,7 +268,7 @@ Root cause and remedy both proven; nothing else in the flow is broken.
    skipped every N. Corrected to expect message-echo baseline; wrap bound now counts 1+t encryptions, noise < 2**126+256.
 2) SOLVER RESULT (local clone, FLAG = my placeholder string via run_local_server.py env injection):
    solver_oracle2.py recovered p = 173720146343684851269219391516887102401 and printed the planted plaintext EXACTLY:
-   'crypto{oracle_wraps_reveal_the_prime_DGHV_toystore}'. 32 clean p-mod-N residues via CRT (lcm >= 2**128 at N=206).
+   '[flag value withheld — real-flag strings live only under FLAGS/]'. 32 clean p-mod-N residues via CRT (lcm >= 2**128 at N=206).
    One mid-run reconnect after server idle-timeout; resume logic restarted the connection cleanly. NO real flag was
    involved — the string above is MY OWN placeholder, not a submission-able value.
 3) LIVE INSTANCE, owner hypothesis tested head-on (live_menu_probe.py): banner 319B as always; then sent menu
@@ -410,7 +410,7 @@ the WALKED solve below possible.
 First capture after fix (connect_raw.py, owner's standing raw-bytes-only rule):
   banner+flagblock+menu: 13,093 B; menu answers 128 -> hex prompt -> decrypt roundtrip.
 solve_vs_live.py: 36 ciphertexts, 32 residues, key recovered live, plaintext =
-  CSC{let5_m0v3_b00tstr4pp1ng_t0_v1.1}
+  [flag — recorded in FLAGS/ctf-archive/challenge-246-cryptohack-additional_problems-csc_belgi/flag.txt]
 submit_flag.py: ok:true status 200; solved 315 -> 316 (archive 0-pt, expected);
 api/user/NoBirdWasHam solved-list contains 'Additional problems (CSC Belgium)'.
 Provenance: WALKED — ciphertext service-given, key recovered by our oracle attack against

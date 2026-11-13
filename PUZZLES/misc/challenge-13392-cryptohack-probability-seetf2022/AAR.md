@@ -1,6 +1,6 @@
 # AAR — probability-seetf2022 (SEETF 'probability')
 
-## Status: SOLVED — flag SEE{1337_card_counting_24ca335ed1cabbcf}
+## Status: SOLVED — flag [flag — recorded in FLAGS/ctf-archive/challenge-13392-cryptohack-probability-seetf2022/flag.txt]
 (server-printed flag at round 1276 of live connection #4; submitted, ok:true,
 solved count 260->261, archive score_delta 0 as expected)
 

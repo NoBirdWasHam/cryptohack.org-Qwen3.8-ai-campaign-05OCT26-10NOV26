@@ -1,1 +1,1 @@
-hitcon{larger_states_is_still_no_match_of_fast_correlation_attacks!}
+[flag — recorded in FLAGS/ctf-archive/challenge-267-cryptohack-hyper512-hitcon_ctf2024/flag.txt]

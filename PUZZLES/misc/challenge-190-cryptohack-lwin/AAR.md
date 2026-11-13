@@ -1,6 +1,6 @@
 # AAR — CryptoHack "lwin" (L-Win, 120 pts, misc)
 
-**Solved:** true. Flag: `crypto{minimal_polynomial_in_an_arbitrary_field}` (score_delta +120, verified via submit_flag.py JSON ok:true).
+**Solved:** true. Flag: `[flag — recorded in FLAGS/misc/challenge-190-cryptohack-lwin/flag.txt]` (score_delta +120, verified via submit_flag.py JSON ok:true).
 
 ## What the challenge was
 Despite the name (which suggested LWE), this is an **LFSR with unknown taps**. `lwin.py`:
@@ -12,7 +12,7 @@ recover `s[0..383]` = the flag.
 ## The attack
 1. **Recover the taps linearly.** For n ∈ [768, 2431] every index `n+t` and `n+384` lies inside
    the known window, so `Σ_t v_t·s[n+t] = s[n+384]` is a GF(2) linear system in the 384-bit
-   tap-indicator vector v (1664 equations). Gaussian elimination (rows as Python ints) gave
+   tap-indicator vector v (1664 equations). [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] (rows as Python ints) gave
    rank 384 → unique solution: taps **[0, 6, 15, 16]**.
 2. **Backward extension.** Characteristic polynomial `p(x) = x^384 + Σ_t x^t`. Since tap 0 is
    present, p(0)=1 and the state transition is invertible; directly `s[m] = s[m+384] + Σ_{t≠0} s[m+t]`
@@ -49,9 +49,9 @@ recover `s[0..383]` = the flag.
 The flag *is* the LFSR's initial state, and the recurrence is linear with only 4 unknown taps. 2048 consecutive output bits (after a 768-bit warm-up) satisfy s[n+384] = XOR_t s[n+t] for the same tap set at every position — a linear system over GF(2) in the tap positions, solvable from the window alone. And because one tap sits at position 0, the state transition is invertible, so the sequence can be run *backwards* through the discarded 768 clocks and the flag reappears exactly.
 
 ## How the answer follows
-1. For each n in [768, 2431] (1664 equations — every index needed lies inside the known window): sum_t v_t*s[n+t] = s[n+384], linear in the 384-bit tap-indicator vector v. GF(2) Gaussian elimination (rows as Python ints) came out rank 384 with 0 free vars -> unique taps {0, 6, 15, 16}.
+1. For each n in [768, 2431] (1664 equations — every index needed lies inside the known window): sum_t v_t*s[n+t] = s[n+384], linear in the 384-bit tap-indicator vector v. GF(2) [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] (rows as Python ints) came out rank 384 with 0 free vars -> unique taps {0, 6, 15, 16}.
 2. Tap 0 present => p(0)=1 => the transition matrix is invertible; run the recurrence backwards, s[m] = s[m+384] + sum_{t!=0} s[m+t], from the known window down to s[0..383].
-3. Verify: forward-simulate the recovered 384 bits with the recovered taps — reproduces all 2048 window bits; the bytes decode to printable `crypto{...}` -> flag `crypto{minimal_polynomial_in_an_arbitrary_field}` (+120, ok:true).
+3. Verify: forward-simulate the recovered 384 bits with the recovered taps — reproduces all 2048 window bits; the bytes decode to printable `crypto{...}` -> flag `[flag — recorded in FLAGS/misc/challenge-190-cryptohack-lwin/flag.txt]` (+120, ok:true).
 
 ## Limitations / attempts that failed
 - Naive Berlekamp-Massey fails: BM on the window returns the *tail's* minimal polynomial (degree 265 on a toy) which annihilates the sequence only from n >= 768, corrupting the first ~119 bits under backward extension (56 violations vs a ground-truth toy at small n). Kept as `solve.py` evidence.

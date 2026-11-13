@@ -28,4 +28,4 @@ FLAG length L = 39 (probe byte c=235)
   bit 6 group 2 mask=171 in 3.7s
   bit 6 group 3 mask=46 in 1.9s
 prefix/suffix verification passed
-FLAG: crypto{y0u_c4n7_m1x_3v3ry7h1n6_1n_l1f3}
+FLAG: [flag — recorded in FLAGS/hashes/challenge-146-cryptohack-mixed_up/flag.txt]

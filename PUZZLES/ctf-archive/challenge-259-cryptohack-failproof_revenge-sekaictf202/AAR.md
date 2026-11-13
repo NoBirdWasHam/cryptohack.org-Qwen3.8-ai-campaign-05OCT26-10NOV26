@@ -413,7 +413,7 @@ Consulted per validation-mission mandate (technique extraction, no flag handling
 ---
 
 # RUN#6 SOLVED (2026-11-05): CP-SAT per block — flag in hand, ZERO live connections spent
-Flag: SEKAI{b00l3n5_4r3_my5t3r10u5_1n_th31r_0wn_ch33ky_w4y5} (54 chars; blocks decode to
+Flag: [flag — recorded in FLAGS/ctf-archive/challenge-259-cryptohack-failproof_revenge-sekaictf202/flag.txt] (54 chars; blocks decode to
 56 bytes, trailing \x00\x00 = encode_message pad). Submitted via submit_flag.py:
 {"ok": true, status 200}, user-API solved 300 -> 301 (verified in returned JSON).
 

@@ -1,7 +1,7 @@
 # Three Isogenies — CryptoHack / Isogenies (35 pts)
 
 slug: `three_isogenies` · category: Isogenies · points: 35
-Solved: 2026-10-12 · flag: `96392670793` (bare integer)
+Solved: 2026-10-12 · flag: `[flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]` (bare integer)
 
 ## Statement (from remaining_descs.json)
 Similar to the two-isogeny challenge, but now a three-isogeny with a kernel generated
@@ -22,9 +22,9 @@ The flag is the j-invariant j(E′) of the codomain of φ₃ : E → E′.
 ## Answer
 - PARI `ellisogeny(E, K)` codomain: y² = x³ + 417919813652 x + 36118389888 (mod p),
   i.e. a₄ = −22394859, a₆ = 36118389888.
-- **j(E′) = 96392670793** (bare).
+- **j(E′) = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]** (bare).
 
 ## Verification
-- PARI: `Cc=ellinit(ph[1]); Cc[13]` = Mod(96392670793, p).
-- Independent Python j-formula on the codomain coeffs: j = 96392670793. Exact match.
+- PARI: `Cc=ellinit(ph[1]); Cc[13]` = Mod([flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt], p).
+- Independent Python j-formula on the codomain coeffs: j = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]. Exact match.
 - Non-singularity: discriminant ≠ 0.

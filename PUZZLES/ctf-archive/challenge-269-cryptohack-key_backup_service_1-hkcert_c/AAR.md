@@ -2,7 +2,7 @@
 
 ## Solved: YES (flag submitted, ok:true, solved-list 267→268)
 
-Flag: `hkcert21{y0u_d0nt_n33d_e_m3ss4g3s_f0r_br0adc4s7_4t7ack_wh3n_m_i5_sm41l}`
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-269-cryptohack-key_backup_service_1-hkcert_c/flag.txt]`
 (self-derived via the attack below; never read from any answer source)
 
 ## Vulnerability

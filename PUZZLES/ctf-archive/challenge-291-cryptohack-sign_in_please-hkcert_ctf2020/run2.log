@@ -1,0 +1,20 @@
+C> spy
+C> [0,1,2,3,4,5,-20,-19,-18,-17,-16,-15,16,17,18,19,-4,-3,-2,-1]
+C> QUFBQQ==
+S> hash: [hash] ea0f26d3d9e95ff325356943bc5ba79290dafa61b5b0abf6c96beafb43f69dfc
+C> spy
+C> [6,7,8,9,10,11,-14,-13,-12,-11,-10,-9,16,17,18,19,-4,-3,-2,-1]
+C> QUFBQQ==
+S> hash: [hash] 90e0fa47cf4211c38fe8cf625198f0a338b37c87cb30e1f5515418d2776b7f98
+C> spy
+C> [12,13,14,15,0,1,-8,-7,-6,-5,-20,-19,16,17,18,19,-4,-3,-2,-1]
+C> QUFBQQ==
+S> hash: [hash] 77cd0272b49df34f7d589eae9fbad2e988b2a1dc912f91e1af4b37a0266faf55
+collected 3 hashes at t=1s
+chars 0-5: STimrw t=444
+chars 6-11: GWyGyy t=563
+chars 12-15: 8gAk t=590
+C> auth
+C> 387eb9fc3a93d75b7aa8d1bdb28afc5e22a944c96110a1ae484c6c2de5e5636e
+S> [hash] [flag] [flag — recorded in FLAGS/]
+FLAG: [flag — recorded in FLAGS/]

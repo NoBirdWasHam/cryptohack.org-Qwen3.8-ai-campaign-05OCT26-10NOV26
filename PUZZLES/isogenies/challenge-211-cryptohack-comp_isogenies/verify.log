@@ -1,0 +1,26 @@
+=== V1: chain with K ===
+K13 (total map on K) = None   expect None (O)
+E_1 codomain a4 = 417919813652  a6 = 381823818623
+three_iso codomain: a4 = 417919813652, a6 = 36118389888 (or twist a6 = -36118389888 mod p)
+  match three_iso: False
+  match twist:     True
+j(E_13) = 292990704480+249510360818i
+
+=== V2: conjugate chain (Frobenius symmetry) ===
+j(E_13) with Kbar = 292990704480+168431847693i
+conjugate of j13  = 292990704480+168431847693i
+Frobenius symmetry OK (j13(Kbar) == conj(j13(K)))
+
+=== V3: total map is a homomorphism and lands on E_13 ===
+P on E0: True  R on E0: True
+total(P) on E13: True
+total(R) on E13: True
+total(P+R) on E13: True
+homomorphism: total(P+R) == total(P)+total(R): True
+
+ALL VERIFICATIONS PASSED
+
+FLAG candidates for j(E_13) = 292990704480+249510360818i :
+  1: 292990704480+249510360818i
+  2: 292990704480 249510360818
+  3: 292990704480,249510360818

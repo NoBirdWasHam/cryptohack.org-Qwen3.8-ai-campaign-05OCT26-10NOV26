@@ -1,1 +1,1 @@
-crypto{real_fields_arent_finite}
+[flag — recorded in FLAGS/ecc/challenge-123-cryptohack-real_curves/flag.txt]

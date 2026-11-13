@@ -64,7 +64,7 @@ for j in sorted(groups):
         FLAG[j] = vals.most_common(1)[0][0]
     print(f"j={j:2d} n={len(groups[j]):3d} candidates={dict(vals)}")
 
-# 4) known-char sanity check: 'crypto{' at 0..6, '}' at last
+# 4) known-char sanity check: '[flag value withheld — real-flag strings live only under FLAGS/]' at last
 n = len(a_clean)
 prefix = b"crypto{"
 suffix = b"}"

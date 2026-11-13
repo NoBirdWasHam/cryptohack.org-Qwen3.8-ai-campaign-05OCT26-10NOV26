@@ -1,7 +1,7 @@
 # AAR — What a Curve! (Breizh CTF 2023, CryptoHack archive)
 
 Status: **SOLVED** (live API solved-list confirms; submit `ok:true` HTTP 200, solved 290→291, archive points 0).
-Flag: `BZHCTF{53cc0n_m4d3_m3_ch4n63_7h15_1_h0p3_y0u_3nj0y3d_17}` (derived twice independently on two connections; never copied from any external source).
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-308-cryptohack-what_a_curve-breizh_ctf2023/flag.txt]` (derived twice independently on two connections; never copied from any external source).
 
 Note: the parent brief pointed at "challenge-277 … what_a_curve-ut_ctf" with rank16.py pre-work — that does not exist here. Folder 277 is `offtopic-ecsc_2024_italy2024` (a different, already-solved challenge); `what_a_curve` lives in folder **308**, slug `what_a_curve-breizh_ctf2023` (verified in progress.json). No EC-over-Q / rank-16 work is relevant to this challenge.
 
@@ -35,7 +35,7 @@ Key numbers (run 2): f from 3/3 zero-queries; factorization pattern {1⁷,3,6} �
 A genus-7 hyperelliptic "RNG" streams the 14 Mumford coordinates of Jacobian points as keystream, XORed with (flag + fixed 56-byte suffix). There is no discrete log to break: the message fits EXACTLY one 112-byte block, and the known suffix covers keystream bytes 56..111 = precisely the v-coordinates of D₁ = [2023]P₀, while the unknown flag covers precisely the u-coordinates. Reduced Mumford pairs obey f ≡ v² (mod u), i.e. u divides f − v². The server's XOR oracle (fresh RNG per query, SAME curve for the whole connection) donates as many reduced (u,v) pairs as needed to recover f by linear algebra — after which the flag's u is just one of a handful of degree-7 divisors of the known polynomial f − v².
 
 ## How the answer follows
-1. Three zero-plaintext oracle queries → each gives 7 linear equations f ≡ v² (mod u) on f's 16 coefficients → 21×16 Gaussian elimination over F_p recovers f (p ≈ 2^60.66); 4th+ queries verify (frecov.py replaces the buggy polylib.crt).
+1. Three zero-plaintext oracle queries → each gives 7 linear equations f ≡ v² (mod u) on f's 16 coefficients → 21×16 [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] over F_p recovers f (p ≈ 2^60.66); 4th+ queries verify (frecov.py replaces the buggy polylib.crt).
 2. Known suffix ⇒ v(D₁) known exactly → build f − v² and factor over F_p (distinct-degree + Cantor–Zassenhaus, exponent (p^d−1)/2 per degree).
 3. Enumerate the monic degree-7 divisors (pattern {1⁷,3,6} → 21 candidates), pack each as 7 little-endian uint64, XOR with C[0:56], keep printable-ASCII survivors → one unique flag; independently reproduced on a second connection (offline capture gave the same flag from 7 candidates).
 

@@ -3,7 +3,7 @@
 Date: 2026-10-12 · Worker: Hermes · Status: SOLVED (+35, verified by server)
 
 ## Result
-- Flag `96392670793` (bare) → server delta **+35**, score 6325→6360, solved 133→134.
+- Flag `[flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]` (bare) → server delta **+35**, score 6325→6360, solved 133→134.
 - Vélu 3-isogeny of E: y² = x³ + x mod p (p = 2^18·3^13 − 1), kernel ⟨K⟩,
   K = (483728976, 174842350631). Flag = j(E′).
 
@@ -11,9 +11,9 @@ Date: 2026-10-12 · Worker: Hermes · Status: SOLVED (+35, verified by server)
 1. Verified K ∈ E and 3K = O with an independent Python group-law implementation
    ([2]K = (483728976, 243099857880) = −K, consistent).
 2. **PARI `ellisogeny`** (per `ctf-isogenies` skill): codomain
-   y² = x³ + 417919813652 x + 36118389888 (mod p); j = `ellinit(ph[1])[13]` = 96392670793.
+   y² = x³ + 417919813652 x + 36118389888 (mod p); j = `ellinit(ph[1])[13]` = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt].
 3. **Independent Python cross-check** with the standard j-formula
-   j = c4³/D, c4 = −48a, D = −16(4a³+27b²): exact match 96392670793.
+   j = c4³/D, c4 = −48a, D = −16(4a³+27b²): exact match [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt].
 
 ## Notes
 - This was fast because the two_isogenies AAR had already established the PARI workflow
@@ -22,7 +22,7 @@ Date: 2026-10-12 · Worker: Hermes · Status: SOLVED (+35, verified by server)
   is internal); no need to supply [2]K explicitly.
 
 ## Evidence
-- Server: `submit_flag.py three_isogenies 96392670793` → `{"score_delta": 35, ...}`.
+- Server: `submit_flag.py three_isogenies [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]` → `{"score_delta": 35, ...}`.
 - PARI: codomain coeffs + j; Python: independent j from same coeffs.
 
 ## Vulnerability (plain words)
@@ -38,7 +38,7 @@ fixed cyclic kernel is unique and deterministic; the task is only to build the
   implementation ([2]K = −K), so ⟨K⟩ is a valid rational 3-torsion kernel.
 - PARI ellisogeny(E, K) returns the codomain
   y² = x³ + 417919813652x + 36118389888; its j, recomputed independently in Python
-  as c4³/Δ with c4 = −48a, Δ = −16(4a³+27b²), equals 96392670793 — the accepted
+  as c4³/Δ with c4 = −48a, Δ = −16(4a³+27b²), equals [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt] — the accepted
   flag. Two independent methods agreeing was the submission gate.
 
 ## Limitations / attempts that failed

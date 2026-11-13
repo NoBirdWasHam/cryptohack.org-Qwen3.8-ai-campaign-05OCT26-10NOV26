@@ -1,1 +1,1 @@
-crypto{s1ngul4r_s1mplif1c4t1on}
+[flag — recorded in FLAGS/ecc/challenge-121-cryptohack-node/flag.txt]

@@ -1,7 +1,7 @@
 # AAR — Where's the Supersingular Curve (a_spot_super)
 
 ## Result
-**SOLVED.** Flag = `170141183460469230846243588177825628225` (the Montgomery
+**SOLVED.** Flag = `[flag — recorded in FLAGS/isogenies/challenge-203-cryptohack-a_spot_super/flag.txt]` (the Montgomery
 coefficient A, bare). Submitted 2026-10-12, +25 points (score 6400 → 6425),
 API-verified via `submit_flag.py` score_delta.
 
@@ -14,7 +14,7 @@ API-verified via `submit_flag.py` score_delta.
   lecture notes / Wikipedia link (listed in the challenge) were NOT used as the answer.
 
 ## The flag (and verification)
-`170141183460469230846243588177825628225` — the **bare** Montgomery A of the one
+`[flag — recorded in FLAGS/isogenies/challenge-203-cryptohack-a_spot_super/flag.txt]` — the **bare** Montgomery A of the one
 supersingular curve among the 100. Verified: `ellcard` of that curve = p+1 exactly
 (Frobenius trace 0), and it was the **unique** hit across all 100. Submitted via
 `submit_flag.py a_spot_super <A>` → score_delta +25.
@@ -32,7 +32,7 @@ supersingular curve among the 100. Verified: `ellcard` of that curve = p+1 exact
    if (ellcard(E) == p+1, print("SUPER A=", A), 0);
    ```
 3. Looped over all 100 A's (`solve.py` generates `ss_check.gp`). Exactly one hit:
-   **idx 60, A = 170141183460469230846243588177825628225**, card = p+1.
+   **idx 60, A = [flag — recorded in FLAGS/isogenies/challenge-203-cryptohack-a_spot_super/flag.txt]**, card = p+1.
 4. Submitted the bare A.
 
 ## Learning points (the part worth keeping)

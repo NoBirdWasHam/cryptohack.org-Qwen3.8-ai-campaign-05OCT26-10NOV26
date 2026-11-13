@@ -1,0 +1,5 @@
+local listener up on 12801
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-289-cryptohack-share-hitcon_ctf2023\_server_local.py", line 27, in <module>
+    p = int(input("p = "))
+EOFError: EOF when reading a line

@@ -1,0 +1,121 @@
+1793585362 == RUN#3 engine start
+1793585362 verified: A2*m0 == c for toy0 + b0..b6
+1793585363 LLL(2K) done in 1s
+1793585363 LLL kernel: spread/level=1.1057 min||b*||2=77.9 max=5.12e+12 nlev<=505=107 log10cost=8.4
+1793585363 toy0: |T0|^2=504 -> reduced |t|^2=504 maxabs=1
+1793585363 toy1: |T0|^2=504 -> reduced |t|^2=504 maxabs=1
+1793585365 FATAL:
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 281, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 148, in main
+    log(f"{tag}: |T0|^2={sum(x*x for x in T0):.3g} -> reduced |t|^2={sum(x*x for x in t):.3g} maxabs={max(map(abs,t)):.3g}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: int too large to convert to float
+
+1793586701 == RUN#3 engine start
+1793586701 verified: A2*m0 == c for toy0 + b0..b6
+1793586702 LLL(2K) done in 1s
+1793586702 LLL kernel: spread/level=1.1057 min||b*||2=77.9 max=5.12e+12 nlev<=505=107 log10cost=8.4
+1793586702 toy0: |T0|^2 ~1e2 -> reduced |t|^2 ~1e2 maxabs_digits=1
+1793586702 toy1: |T0|^2 ~1e2 -> reduced |t|^2 ~1e2 maxabs_digits=1
+1793586704 b0: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586707 b1: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586710 b2: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586713 b3: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586717 b4: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586720 b5: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586723 b6: |T0|^2 ~1e714 -> reduced |t|^2 ~1e714 maxabs_digits=357
+1793586724 LLL kannan toy0: spread=1.1052 min=77.9 nlev=107 log10cost=8.4
+1793586724 FATAL:
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 304, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 202, in main
+    p = BKZ.EasyParam(beta); p.delta = 0.99; p.max_time = CHUNK
+                             ^^^^^^^
+AttributeError: attribute 'delta' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+
+1793587246 == RUN#3 engine start
+1793587246 verified: A2*m0 == c for toy0 + b0..b6
+1793587247 LLL(2K) done in 1s
+1793587247 LLL kernel: spread/level=1.1057 min||b*||2=77.9 max=5.12e+12 nlev<=505=107 log10cost=8.4
+1793587247 toy0: embedded RAW T0 (|T0|^2 ~1e2)
+1793587247 toy1: embedded RAW T0 (|T0|^2 ~1e2)
+1793587247 b0: embedded RAW T0 (|T0|^2 ~1e714)
+1793587247 b1: embedded RAW T0 (|T0|^2 ~1e714)
+1793587247 b2: embedded RAW T0 (|T0|^2 ~1e714)
+1793587247 b3: embedded RAW T0 (|T0|^2 ~1e714)
+1793587247 b4: embedded RAW T0 (|T0|^2 ~1e714)
+1793587247 b5: embedded RAW T0 (|T0|^2 ~1e714)
+1793587247 b6: embedded RAW T0 (|T0|^2 ~1e714)
+1793587248 LLL kannan toy0: spread=1.1052 min=77.9 nlev=107 log10cost=8.4
+1793587306 t=2s beta=25 chunk=1 (58s) kern: spread=1.0897 min=23.7 nlev=78 | kannan: spread=1.0893 min=23.7 nlev=78 log10cost=9.7 rss=0MB
+1793587311 t=60s beta=25 chunk=2 (4s) kern: spread=1.0901 min=21.6 nlev=77 | kannan: spread=1.0897 min=21.6 nlev=77 log10cost=9.8 rss=0MB
+1793587315 t=64s beta=25 chunk=3 (4s) kern: spread=1.0902 min=21 nlev=77 | kannan: spread=1.0898 min=21 nlev=77 log10cost=9.9 rss=0MB
+1793587333 t=69s beta=25 chunk=4 (18s) kern: spread=1.0888 min=28.9 nlev=77 | kannan: spread=1.0884 min=28.9 nlev=77 log10cost=9.8 rss=0MB
+1793587339 t=87s beta=25 chunk=5 (6s) kern: spread=1.0887 min=29.8 nlev=77 | kannan: spread=1.0883 min=29.8 nlev=77 log10cost=10.0 rss=0MB
+1793587347 t=93s beta=25 chunk=6 (8s) kern: spread=1.0895 min=24.5 nlev=77 | kannan: spread=1.0891 min=24.5 nlev=77 log10cost=9.8 rss=0MB
+1793587358 t=101s beta=25 chunk=7 (10s) kern: spread=1.0900 min=20.9 nlev=76 | kannan: spread=1.0896 min=20.9 nlev=76 log10cost=9.8 rss=0MB
+1793587363 t=112s beta=25 chunk=8 (5s) kern: spread=1.0888 min=24.2 nlev=77 | kannan: spread=1.0884 min=24.2 nlev=77 log10cost=9.6 rss=0MB
+1793587368 t=117s beta=25 chunk=9 (5s) kern: spread=1.0890 min=22.8 nlev=77 | kannan: spread=1.0887 min=22.8 nlev=77 log10cost=10.0 rss=0MB
+1793587381 t=122s beta=25 chunk=10 (12s) kern: spread=1.0881 min=28.4 nlev=76 | kannan: spread=1.0877 min=28.4 nlev=76 log10cost=9.7 rss=0MB
+1793587387 t=134s beta=25 chunk=11 (6s) kern: spread=1.0883 min=27.2 nlev=76 | kannan: spread=1.0879 min=27.2 nlev=76 log10cost=9.8 rss=0MB
+1793587391 t=141s beta=25 chunk=12 (4s) kern: spread=1.0880 min=28.8 nlev=77 | kannan: spread=1.0877 min=28.8 nlev=77 log10cost=9.8 rss=0MB
+1793587398 t=145s beta=25 chunk=13 (6s) kern: spread=1.0876 min=31.4 nlev=78 | kannan: spread=1.0873 min=31.4 nlev=78 log10cost=9.6 rss=0MB
+1793587404 t=152s beta=25 chunk=14 (6s) kern: spread=1.0873 min=34.3 nlev=77 | kannan: spread=1.0869 min=34.3 nlev=77 log10cost=9.5 rss=0MB
+1793587408 t=158s beta=25 chunk=15 (4s) kern: spread=1.0883 min=26.8 nlev=77 | kannan: spread=1.0880 min=26.8 nlev=77 log10cost=9.5 rss=0MB
+1793587412 t=162s beta=25 chunk=16 (4s) kern: spread=1.0896 min=20.3 nlev=78 | kannan: spread=1.0892 min=20.3 nlev=78 log10cost=9.9 rss=0MB
+1793587421 t=166s beta=25 chunk=17 (8s) kern: spread=1.0879 min=29.9 nlev=76 | kannan: spread=1.0875 min=29.9 nlev=76 log10cost=9.5 rss=0MB
+1793587421 gate recheck with double: spread=1.0875 min=29.9 nlev=76 log10cost=9.5
+1793587421 GATE: enum cost acceptable (hi-prec) -> ENUM phase
+1793587422 toy0: kannan polish [double] nlev=77 log10cost=10.5
+1793587422 FATAL:
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 313, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 298, in main
+    seg = try_block("toy0", Krows, cct, m0t)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-259-cryptohack-failproof_revenge-sekaictf202\engine3.py", line 268, in try_block
+    e = Enumeration(g, strategy=EvaluatorStrategy.ALL_SOLUTIONS)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'EvaluatorStrategy' has no attribute 'ALL_SOLUTIONS'
+
+1793588901 == RUN#3 engine start
+1793588901 verified: A2*m0 == c for toy0 + b0..b6
+1793588902 LLL(2K) done in 1s
+1793588902 LLL kernel: spread/level=1.1057 min||b*||2=77.9 max=5.12e+12 nlev<=505=107 log10cost=8.4
+1793588902 toy0: embedded RAW T0 (|T0|^2 ~1e2)
+1793588902 toy1: embedded RAW T0 (|T0|^2 ~1e2)
+1793588902 b0: embedded RAW T0 (|T0|^2 ~1e714)
+1793588902 b1: embedded RAW T0 (|T0|^2 ~1e714)
+1793588902 b2: embedded RAW T0 (|T0|^2 ~1e714)
+1793588902 b3: embedded RAW T0 (|T0|^2 ~1e714)
+1793588902 b4: embedded RAW T0 (|T0|^2 ~1e714)
+1793588902 b5: embedded RAW T0 (|T0|^2 ~1e714)
+1793588902 b6: embedded RAW T0 (|T0|^2 ~1e714)
+1793588903 LLL kannan toy0: spread=1.1052 min=77.9 nlev=107 log10cost=8.4
+1793588960 t=2s beta=25 chunk=1 (57s) kern: spread=1.0897 min=23.7 nlev=78 | kannan: spread=1.0893 min=23.7 nlev=78 log10cost=9.7 rss=0MB
+1793588965 t=59s beta=25 chunk=2 (5s) kern: spread=1.0901 min=21.6 nlev=77 | kannan: spread=1.0897 min=21.6 nlev=77 log10cost=9.8 rss=0MB
+1793588969 t=64s beta=25 chunk=3 (4s) kern: spread=1.0902 min=21 nlev=77 | kannan: spread=1.0898 min=21 nlev=77 log10cost=9.9 rss=0MB
+1793588987 t=68s beta=25 chunk=4 (18s) kern: spread=1.0888 min=28.9 nlev=77 | kannan: spread=1.0884 min=28.9 nlev=77 log10cost=9.8 rss=0MB
+1793588993 t=86s beta=25 chunk=5 (6s) kern: spread=1.0887 min=29.8 nlev=77 | kannan: spread=1.0883 min=29.8 nlev=77 log10cost=10.0 rss=0MB
+1793589001 t=92s beta=25 chunk=6 (7s) kern: spread=1.0895 min=24.5 nlev=77 | kannan: spread=1.0891 min=24.5 nlev=77 log10cost=9.8 rss=0MB
+1793589011 t=100s beta=25 chunk=7 (10s) kern: spread=1.0900 min=20.9 nlev=76 | kannan: spread=1.0896 min=20.9 nlev=76 log10cost=9.8 rss=0MB
+1793589017 t=111s beta=25 chunk=8 (5s) kern: spread=1.0888 min=24.2 nlev=77 | kannan: spread=1.0884 min=24.2 nlev=77 log10cost=9.6 rss=0MB
+1793589022 t=116s beta=25 chunk=9 (5s) kern: spread=1.0890 min=22.8 nlev=77 | kannan: spread=1.0887 min=22.8 nlev=77 log10cost=10.0 rss=0MB
+1793589035 t=122s beta=25 chunk=10 (12s) kern: spread=1.0881 min=28.4 nlev=76 | kannan: spread=1.0877 min=28.4 nlev=76 log10cost=9.7 rss=0MB
+1793589041 t=134s beta=25 chunk=11 (6s) kern: spread=1.0883 min=27.2 nlev=76 | kannan: spread=1.0879 min=27.2 nlev=76 log10cost=9.8 rss=0MB
+1793589045 t=140s beta=25 chunk=12 (4s) kern: spread=1.0880 min=28.8 nlev=77 | kannan: spread=1.0877 min=28.8 nlev=77 log10cost=9.8 rss=0MB
+1793589052 t=144s beta=25 chunk=13 (6s) kern: spread=1.0876 min=31.4 nlev=78 | kannan: spread=1.0873 min=31.4 nlev=78 log10cost=9.6 rss=0MB
+1793589058 t=151s beta=25 chunk=14 (6s) kern: spread=1.0873 min=34.3 nlev=77 | kannan: spread=1.0869 min=34.3 nlev=77 log10cost=9.5 rss=0MB
+1793589062 t=157s beta=25 chunk=15 (4s) kern: spread=1.0883 min=26.8 nlev=77 | kannan: spread=1.0880 min=26.8 nlev=77 log10cost=9.5 rss=0MB
+1793589066 t=161s beta=25 chunk=16 (4s) kern: spread=1.0896 min=20.3 nlev=78 | kannan: spread=1.0892 min=20.3 nlev=78 log10cost=9.9 rss=0MB
+1793589075 t=165s beta=25 chunk=17 (8s) kern: spread=1.0879 min=29.9 nlev=76 | kannan: spread=1.0875 min=29.9 nlev=76 log10cost=9.5 rss=0MB
+1793589075 gate recheck with double: spread=1.0875 min=29.9 nlev=76 log10cost=9.5
+1793589075 GATE: enum cost acceptable (hi-prec) -> ENUM phase
+1793589076 toy0: kannan polish [double] nlev=77 log10cost=10.5
+1793589076 toy0: enum nodes=2 found=1 in 0s
+1793589076 toy0: no verified solution among 1 sols
+1793589078 b0: kannan polish [double] nlev=76 log10cost=9.5

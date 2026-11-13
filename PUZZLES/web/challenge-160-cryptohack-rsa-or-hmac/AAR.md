@@ -1,6 +1,6 @@
 # AAR — Challenge 160: RSA or HMAC?
 
-**Result:** **SOLVED + API-VERIFIED 2026-10-20** — flag `crypto{Doom_Principle_Strikes_Again}`
+**Result:** **SOLVED + API-VERIFIED 2026-10-20** — flag `[flag — recorded in FLAGS/web/challenge-160-cryptohack-rsa-or-hmac/flag.txt]`
 submitted, score 9575→9610 (+35), solved 184→185. The server was re-deployed with the
 vulnerable ("small-patched") PyJWT between the 2026-10-20 morning re-test (guard error,
 21st occurrence) and this run; the prepared exploit then worked unchanged.
@@ -137,7 +137,7 @@ Re-ran the full exploit chain against the live service:
 
 ## RESOLVED 2026-10-20 (later same day)
 - Re-ran `solve.py` (fresh forge from live `get_pubkey`, hand-rolled HMAC): server returned
-  `{"response":"Welcome admin, here is your flag: crypto{Doom_Principle_Strikes_Again}"}`.
+  `{"response":"Welcome admin, here is your flag: [flag — recorded in FLAGS/web/challenge-160-cryptohack-rsa-or-hmac/flag.txt]"}`.
   The service had been re-provisioned with the exploit-enabled PyJWT — the guard no longer fires.
 - Submitted via `submit_flag.py rsa-or-hmac` → `score_delta 35`, solved 184→185 (API-verified).
 - **Lesson (durable):** a server-side-blocked web challenge should be cheaply re-probed on every
@@ -148,7 +148,7 @@ JWT algorithm/key-type confusion (the CVE-2022-29217 class). The server verifies
 ## How the answer follows
 1. HMAC verification only proves "signed by whoever knows the secret". Here the secret IS known to the attacker (the public key is served at /get_pubkey/), so forging `{"username":"admin","admin":true}` is one HMAC-SHA256 call over `header.payload` with the PEM bytes as key.
 2. Local ground truth first: under vulnerable PyJWT semantics (the `is_pem_format` guard neutralised — exactly the "edit jwt/utils.py" the statement describes), `jwt.decode(forged, PUBLIC_KEY, algorithms=['HS256','RS256'])` returns the admin claims, and the signature was independently recomputed byte-for-byte. Acceptance is therefore a property of the verifier config, not a guess.
-3. Once the service was re-provisioned with the exploit-enabled PyJWT (2026-10-20), the same token yielded `Welcome admin, here is your flag: crypto{Doom_Principle_Strikes_Again}`; submitted, +35, solved-count 184->185 (API-verified).
+3. Once the service was re-provisioned with the exploit-enabled PyJWT (2026-10-20), the same token yielded `Welcome admin, here is your flag: [flag — recorded in FLAGS/web/challenge-160-cryptohack-rsa-or-hmac/flag.txt]`; submitted, +35, solved-count 184->185 (API-verified).
 
 ## Limitations / attempts that failed
 (Full histories are in the sections above; summarized here.)

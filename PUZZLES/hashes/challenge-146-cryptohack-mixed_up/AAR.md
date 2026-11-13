@@ -4,7 +4,7 @@
 Reconstructed 2026-11-01 from surviving artifacts in this folder (solve.py, test_local.py, live_run.log, local_test.log, 13402.py, flag_mixed_up.txt) and the ledger (progress.json nn146, status solved, date 2026-10-21, notes "| API-verified"). This challenge predates the AAR-discipline rule; the HOW below is restated from the solver's own docstring and run logs, not from any external writeup.
 
 ## Flag
-`crypto{y0u_c4n7_m1x_3v3ry7h1n6_1n_l1f3}` — provenance: printed by our live solve run against socket.cryptohack.org:13402 (live_run.log line 31) and stored in flag_mixed_up.txt; identical to the ledger flag field.
+`[flag — recorded in FLAGS/hashes/challenge-146-cryptohack-mixed_up/flag.txt]` — provenance: printed by our live solve run against socket.cryptohack.org:13402 (live_run.log line 31) and stored in flag_mixed_up.txt; identical to the ledger flag field.
 
 ## Problem
 Listener at socket.cryptohack.org 13402 (downloaded artifact 13402.py). Given `data` (hex, padded with urandom to flag length), the server computed per solve.py's recorded model: `mixed_and[j] = FLAG[j] & data[j]` (indices), `mixed_xor = (FLAG ^ data) ^ urandom` (values), `very_mixed[j] = mixed_xor[mixed_and[j] % L]`, and returned only `sha256(very_mixed)`. The random XOR makes direct recovery look impossible.

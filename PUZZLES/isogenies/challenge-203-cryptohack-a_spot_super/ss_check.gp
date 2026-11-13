@@ -60,7 +60,7 @@ E=ellinit(Mod([0, 51602469273125266568465673976482373008, 0, 1, 0], p)); if(ellc
 E=ellinit(Mod([0, 21274053188388536879722524326434447058, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=57 A=21274053188388536879722524326434447058"), 0);
 E=ellinit(Mod([0, 155399839214546532918143677492979875025, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=58 A=155399839214546532918143677492979875025"), 0);
 E=ellinit(Mod([0, 134844799136804904273265536589445951710, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=59 A=134844799136804904273265536589445951710"), 0);
-E=ellinit(Mod([0, 170141183460469230846243588177825628225, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=60 A=170141183460469230846243588177825628225"), 0);
+E=ellinit(Mod([0, [flag — recorded in FLAGS/isogenies/challenge-203-cryptohack-a_spot_super/flag.txt], 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=60 A=[flag — recorded in FLAGS/isogenies/challenge-203-cryptohack-a_spot_super/flag.txt]"), 0);
 E=ellinit(Mod([0, 34714351369438188536819236204585680389, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=61 A=34714351369438188536819236204585680389"), 0);
 E=ellinit(Mod([0, 106014160818648567132647832826887771006, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=62 A=106014160818648567132647832826887771006"), 0);
 E=ellinit(Mod([0, 26341808657057110683680629380277446393, 0, 1, 0], p)); if(ellcard(E)==p+1, print("SUPER idx=63 A=26341808657057110683680629380277446393"), 0);

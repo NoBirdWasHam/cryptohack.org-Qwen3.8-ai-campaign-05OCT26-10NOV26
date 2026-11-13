@@ -141,7 +141,7 @@ Provided materials only: challenge statement/card, files provided with the chall
    La=log(base)=24604319847519209932104184704152670097 (mod q).
 5. c1q = Lt*La^-1 mod q = 73786676453545329798001225722728090587 -> solve_final.py
    -> t=1, k=36448648214228125938240931382630080621576419859132411658551075951915466230810,
-   pt = TetCTF{h0m0m0rph1sm_1s_0ur_fr13nd-mobi:*100*231199111007#} (valid pad, printable).
+   pt = [flag — recorded in FLAGS/ctf-archive/challenge-305-cryptohack-unevaluated-tetctf2021/flag.txt] (valid pad, printable).
 6. submit_flag.py -> HTTP 200 accepted; API solved 298 -> 299 (score unchanged: archive level).
 Instance was believed OFFLINE (run 11-02) — the submit endpoint in fact accepted; the
 "offline" door was a dead submission path assumption, not a dead challenge.

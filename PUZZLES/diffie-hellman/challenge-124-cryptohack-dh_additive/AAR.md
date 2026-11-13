@@ -11,7 +11,7 @@
 
 ## Flag
 
-`crypto{cycl1c_6r0up_und3r_4dd1710n?}`
+`[flag — recorded in FLAGS/diffie-hellman/challenge-124-cryptohack-dh_additive/flag.txt]`
 
 ## How it was solved
 
@@ -25,13 +25,13 @@
 4. Shared secret of additive DH: `secret = a·B % p` (= `b·A % p` = `a·b·g mod p`;
    asserted both sides equal).
 5. Key = `SHA1(str(secret))[:16]`; AES-128-CBC decrypt with the server's `iv`;
-   strip PKCS7 → `crypto{cycl1c_6r0up_und3r_4dd1710n?}`.
+   strip PKCS7 → `[flag — recorded in FLAGS/diffie-hellman/challenge-124-cryptohack-dh_additive/flag.txt]`.
 
 ## Exact commands
 
 ```
 ~/tools/crypto-ctf/venv/Scripts/python.exe -u solve.py
-cd ~/Practice_runs/cryptohack_org && python submit_flag.py dh_additive "crypto{cycl1c_6r0up_und3r_4dd1710n?}"
+cd ~/Practice_runs/cryptohack_org && python submit_flag.py dh_additive "[flag — recorded in FLAGS/diffie-hellman/challenge-124-cryptohack-dh_additive/flag.txt]"
 ```
 
 ## Exact outputs
@@ -41,12 +41,12 @@ cd ~/Practice_runs/cryptohack_org && python submit_flag.py dh_additive "crypto{c
 a = 1605483906634457744337671772406177806928745981659688225200154205710691314071995833904932680041196853665895488528128418148606142506201508350566561733264410589329103836027481875084153445221491894010600175179208181811326363433555466074768539511062175392250150402299935043069059304216911963160437914328091519858526923074675052567612970016448913974877713853382618159585073424452035578870127405308608163418271633709433619111404153222119645849432645989922399672085029978
 b = 1489519098049959538289971840284871068945959125716610015006549582720393427308371973885293565681075333295867539382993243102643597513385781222332165709763602854337637546288603296577250392047630991299100316654360779143646382438097602193673665354979244807088323628255271435718019892847125959110827270607148516149224092930154758831748132175514640257078339258051821101362341226641552630705982708516547821382813671941587264782007315889079606168961641756978637455235634118
 secret = 1035957283239886472374974009901448422707024253041695476284303679253847930398071625182398596659460693625469598026695214429340584220010972534818850756703211327711687736035144215113810651154011967826480617768512198836627602426084225477813075920453098975003022451324267087964829247397594766248516376025329324163296028122517019058879808584507141328024880241889123548374535697754153356326958235608225582615818305797857121396261689119758130365361389267058579281309851389
-PLAINTEXT: crypto{cycl1c_6r0up_und3r_4dd1710n?}
+PLAINTEXT: [flag — recorded in FLAGS/diffie-hellman/challenge-124-cryptohack-dh_additive/flag.txt]
 ```
 
-`submit_flag.py dh_additive "crypto{cycl1c_6r0up_und3r_4dd1710n?}"`:
+`submit_flag.py dh_additive "[flag — recorded in FLAGS/diffie-hellman/challenge-124-cryptohack-dh_additive/flag.txt]"`:
 ```json
-{"submitted": "crypto{cycl1c_6r0up_und3r_4dd1710n?}", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 7465, "solved": 160}, "after": {"score": 7535, "solved": 161}, "score_delta": 70}
+{"submitted": "[flag — recorded in FLAGS/diffie-hellman/challenge-124-cryptohack-dh_additive/flag.txt]", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 7465, "solved": 160}, "after": {"score": 7535, "solved": 161}, "score_delta": 70}
 ```
 
 ## Verification

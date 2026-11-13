@@ -1,0 +1,8 @@
+[2026-11-01T12:49:26] probe bytes=319 ALIVE=False tail=b"super secure!\nWe've even encrypted our secret flag with it:\n"
+[2026-11-01T12:59:46] probe bytes=319 ALIVE=False tail=b"super secure!\nWe've even encrypted our secret flag with it:\n"
+[2026-11-01T13:10:07] probe bytes=319 ALIVE=False tail=b"super secure!\nWe've even encrypted our secret flag with it:\n"
+REPROBE_DONE
+[2026-11-09T16:05:08] probe bytes=319 ALIVE=False tail=b"super secure!\nWe've even encrypted our secret flag with it:\n"
+[2026-11-09T16:15:29] probe bytes=319 ALIVE=False tail=b"super secure!\nWe've even encrypted our secret flag with it:\n"
+[2026-11-09T16:25:50] probe bytes=319 ALIVE=False tail=b"super secure!\nWe've even encrypted our secret flag with it:\n"
+REPROBE_DONE

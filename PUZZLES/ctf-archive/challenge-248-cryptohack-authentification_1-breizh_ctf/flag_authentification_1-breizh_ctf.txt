@@ -1,1 +1,1 @@
-BZHCTF{ne_jamais_re-utiliser_le_nonce_e1d6ce70d3d1018c}
+[flag — recorded in FLAGS/ctf-archive/challenge-248-cryptohack-authentification_1-breizh_ctf/flag.txt]

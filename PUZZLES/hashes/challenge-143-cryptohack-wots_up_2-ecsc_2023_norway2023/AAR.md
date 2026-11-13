@@ -1,7 +1,7 @@
 # AAR — WOTS Up 2 (wots_up_2-ecsc_2023_norway2023, 90 pts, Hashes)
 
 ## Result
-SOLVED 2026-10-16. Flag: `ECSC{0ne_m0r3_t1m3_s1gn4tur3_ff}`
+SOLVED 2026-10-16. Flag: `[flag — recorded in FLAGS/hashes/challenge-143-cryptohack-wots_up_2-ecsc_2023_norway2023/flag.txt]`
 Submitted via user API (submit_flag.py) during the hashes-list session; accepted (present in
 the live solved list; synced into progress.json on 2026-10-17 verification).
 
@@ -36,7 +36,7 @@ The "fix" from WOTS Up made the 32 chain starts independent — but the safe now
 ## How the answer follows
 1. For chain i, signature j exposes H^(255−b_j[i])(priv[i]); set B_i = max_j b_j[i] ⇒ the closest-to-priv known point is at exponent e_i = 255 − B_i.
 2. Provided data satisfies b2[i] ≤ B_i for all 32 positions of the target hash ("pub[0] sent 999999 WOTScoins to me") ⇒ forge every target element by forward hashing only.
-3. AES-CBC key = first byte of each forged element (per chal.py) ⇒ decrypt ⇒ `ECSC{0ne_m0r3_t1m3_s1gn4tur3_ff}`; accepted, present in live solved list.
+3. AES-CBC key = first byte of each forged element (per chal.py) ⇒ decrypt ⇒ `[flag — recorded in FLAGS/hashes/challenge-143-cryptohack-wots_up_2-ecsc_2023_norway2023/flag.txt]`; accepted, present in live solved list.
 
 ## Limitations / attempts that failed
 - Single-shot solve; no failed attempts recorded in run logs. The b2 ≤ B coverage held on the provided data; the partial-backwards case was never needed.

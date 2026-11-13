@@ -1,6 +1,6 @@
 # AAR — dark_arts-codegate_ctf2022 (CryptoHack CTF-archive, contributed by rkm0959)
 
-Outcome: **SOLVED** (RUN#5, 2026-11-05). Flag `CODEGATE{I_told_you_building_secure_PRFs_is_hard_:(}`
+Outcome: **SOLVED** (RUN#5, 2026-11-05). Flag `[flag — recorded in FLAGS/ctf-archive/challenge-13399-cryptohack-dark_arts-codegate_ctf2022/flag.txt]`
 captured live on one end-to-end run (C1→C4) at `archive.cryptohack.org 35802`, submitted, API verified
 solved (302→303, "Dark Arts (CODEGATE CTF)" in solved list). Earlier runs: C1/C2 verified live early;
 C3 was believed a structural wall until RUN#4 found the intended lever (linearization); RUN#5 swapped
@@ -270,7 +270,7 @@ Lesson: on this host's fpylll 0.6.4, treat BKZ crashes at T≈80 as environmenta
 ## Chain verification
 - Local `solve.py local`: C1 ok, C2 fails=0/64 (3.3 s), C3 exact (44.1 s), C4 exact (24.0 s), exit 0.
 - LIVE single run: banner C1→"C1 done"→"C2 done"→C3 N=6000 rank 2144 (44.6 s)→key accepted→
-  C4 LLL accepted→ **FLAG: CODEGATE{I_told_you_building_secure_PRFs_is_hard_:(}** (~3 min, fits 300 s alarm).
+  C4 LLL accepted→ **FLAG: [flag — recorded in FLAGS/ctf-archive/challenge-13399-cryptohack-dark_arts-codegate_ctf2022/flag.txt]** (~3 min, fits 300 s alarm).
 - Submitted via submit_flag.py: HTTP 200 "Flag submitted."; API user check: solved 302→303,
   "Dark Arts (CODEGATE CTF)" present in solved list (score_delta 0 — archive gives no points).
 

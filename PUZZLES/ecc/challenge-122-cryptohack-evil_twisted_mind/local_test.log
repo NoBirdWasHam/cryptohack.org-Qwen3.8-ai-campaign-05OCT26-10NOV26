@@ -1,0 +1,22 @@
+factored p
+x0 ready
+baby table q1 pp=1965293129 m=44332
+baby table q1 pp=3945014767 m=62810
+baby table q1 pp=6911909839 m=83138
+baby table q2 pp=17 m=5
+baby table q2 pp=1789 m=43
+baby table q2 pp=8984179 m=2998
+baby table q2 pp=9381319 m=3063
+baby table q2 pp=83816652113 m=289512
+pubkey: 1418401260458184586320429305759691046515 ...
+q1 pp=1965293129: d=854054241
+q1 pp=3945014767: d=452445544
+q1 pp=6911909839: d=6552469381
+q2 pp=17: d=8
+q2 pp=1789: d=250
+q2 pp=8984179: d=116459
+q2 pp=9381319: d=5062595
+q2 pp=83816652113: d=21696154349
+candidates: 4 [190, 192, 192, 193]
+try 153721109383871246911743 -> {'message': 'ok', 'flag': 'crypto{SIMULATED_LOCAL_TEST}'}
+FLAG: crypto{SIMULATED_LOCAL_TEST}

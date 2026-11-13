@@ -7,7 +7,7 @@
 - **Statement (verbatim):** "Everything that has a beginning has an end, Neo."
 - **Provided files:** matrix_revolutions.zip → `matrix_revolutions.sage`, `generator.txt`,
   `alice.pub`, `bob.pub`, `flag.enc` (in `unzipped/`)
-- **Status:** SOLVED + API-VERIFIED 2026-10-20 — flag `crypto{we_are_looking_for_the_keymaker_478415c4}` (score +125, solved 185→186)
+- **Status:** SOLVED + API-VERIFIED 2026-10-20 — flag `[flag — recorded in FLAGS/diffie-hellman/challenge-130-cryptohack-matrix_revolutions/flag.txt]` (score +125, solved 185→186)
 
 ## Protocol (from matrix_revolutions.sage)
 150×150 matrix DH over GF(2): `A_pub = G^A`, `B_pub = G^B`, `shared = A_pub^B`,

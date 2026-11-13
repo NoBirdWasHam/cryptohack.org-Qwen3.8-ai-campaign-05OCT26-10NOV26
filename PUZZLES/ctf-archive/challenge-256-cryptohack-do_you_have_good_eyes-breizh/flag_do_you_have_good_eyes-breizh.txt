@@ -1,1 +1,1 @@
-BZHCTF{trop_de_structure_tue_la_structure_79c145775373a9b8}
+[flag — recorded in FLAGS/ctf-archive/challenge-256-cryptohack-do_you_have_good_eyes-breizh/flag.txt]

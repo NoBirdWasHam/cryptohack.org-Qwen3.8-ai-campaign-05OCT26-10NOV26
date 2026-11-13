@@ -1,0 +1,79 @@
+=== attempt 1 @ 20:51:34
+  r100: Score: 40-60
+  crack: rank 3428/3432, free = low bits of w0 (provably irrelevant to future words)
+  crack attempt at 630 doubles -> OK (0.1s)
+  plan ready for 1154 future rounds; current round j0=0
+  r200: Score: 82-118
+  r300: Score: 137-163
+  r400: Score: 197-203
+  r500: Score: 256-244
+  r600: Score: 310-290
+  r700: Score: 376-324
+  r800: Score: 440-360
+  r900: Score: 497-403
+  r1000: Score: 562-438
+  r1100: Score: 627-473
+  r1200: Score: 680-520
+  r1300: Score: 742-558
+ATT 1 LAST: Better luck next time!
+ATT 1 done. rounds=1337 last="Better luck next time!" desync=False flag=None
+  attempt 1 failed after 412s
+=== attempt 2 @ 20:58:31
+  r100: Score: 40-60
+  crack: rank 3428/3432, free = low bits of w0 (provably irrelevant to future words)
+  crack attempt at 630 doubles -> OK (0.1s)
+  plan ready for 1155 future rounds; current round j0=1
+  r200: Score: 86-114
+  r300: Score: 149-151
+  r400: Score: 214-186
+  r500: Score: 273-227
+  r600: Score: 327-273
+  r700: Score: 392-308
+  r800: Score: 458-342
+  r900: Score: 523-377
+  r1000: Score: 577-423
+  r1100: Score: 640-460
+  r1200: Score: 704-496
+  r1300: Score: 770-530
+ATT 2 LAST: Better luck next time!
+ATT 2 done. rounds=1337 last="Better luck next time!" desync=False flag=None
+  attempt 2 failed after 387s
+=== attempt 3 @ 21:05:03
+  r100: Score: 40-60
+  crack: rank 3428/3432, free = low bits of w0 (provably irrelevant to future words)
+  crack attempt at 630 doubles -> OK (0.1s)
+  plan ready for 1151 future rounds; current round j0=0
+  r200: Score: 78-122
+  r300: Score: 139-161
+  r400: Score: 195-205
+  r500: Score: 256-244
+  r600: Score: 318-282
+  r700: Score: 379-321
+  r800: Score: 441-359
+  r900: Score: 508-392
+  r1000: Score: 574-426
+  r1100: Score: 630-470
+  r1200: Score: 697-503
+  r1300: Score: 759-541
+ATT 3 LAST: Better luck next time!
+ATT 3 done. rounds=1337 last="Better luck next time!" desync=False flag=None
+  attempt 3 failed after 410s
+=== attempt 4 @ 21:11:57
+  r100: Score: 48-52
+  crack: rank 3428/3432, free = low bits of w0 (provably irrelevant to future words)
+  crack attempt at 630 doubles -> OK (0.1s)
+  plan ready for 1157 future rounds; current round j0=0
+  r200: Score: 100-100
+  r300: Score: 163-137
+  r400: Score: 227-173
+  r500: Score: 288-212
+  r600: Score: 350-250
+  r700: Score: 408-292
+  r800: Score: 481-319
+  r900: Score: 547-353
+  r1000: Score: 621-379
+  r1100: Score: 677-423
+  r1200: Score: 743-457
+ATT 4 LAST: FLAG: [flag — recorded in FLAGS/]
+ATT 4 done. rounds=1276 last="Here is your flag: [flag — recorded in FLAGS/]" desync=False flag=[flag — recorded in FLAGS/]
+FLAG FILE PRESENT: [flag — recorded in FLAGS/]

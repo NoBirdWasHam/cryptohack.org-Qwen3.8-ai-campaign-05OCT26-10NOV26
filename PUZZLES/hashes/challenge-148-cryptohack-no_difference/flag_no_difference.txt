@@ -1,1 +1,1 @@
-crypto{n0_d1ff_n0_pr0bl3m}
+[flag — recorded in FLAGS/hashes/challenge-148-cryptohack-no_difference/flag.txt]

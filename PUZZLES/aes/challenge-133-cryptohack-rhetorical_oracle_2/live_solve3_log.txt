@@ -1,0 +1,16 @@
+attempt 1: token ok, T1=2bf0be1fb73610f514e45700c6bd1065
+  D recovered in 161s (total 1667 q)
+  c[5] = 33a9970c01481a3b1dad423f48bb64dc
+  D recovered in 196s (total 3698 q)
+  c[4] = a58004b93060f747cbd583cc35419a31
+  D recovered in 210s (total 5873 q)
+  c[3] = bc67c364d835e2987f1c35dd359caec5
+  D recovered in 214s (total 8091 q)
+  c[2] = 2536cbe6cb3ea2ee17c69f8d667dcd90
+  D recovered in 213s (total 10292 q)
+  c[1] = 2f924b65e0abdae30628f080c8369daf
+  D recovered in 198s (total 12347 q)
+  G = 86105e03a08d6ea33ed98abaf978b071
+  forged ct sent (len 112, queries 12348) good_pad=True
+FLAG: [flag — recorded in FLAGS/]
+rc=0

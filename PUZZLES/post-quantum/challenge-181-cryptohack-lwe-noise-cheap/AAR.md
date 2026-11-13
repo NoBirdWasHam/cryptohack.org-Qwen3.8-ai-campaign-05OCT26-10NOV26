@@ -1,7 +1,7 @@
 # AAR — Noise Cheap (challenge-181-cryptohack-lwe-noise-cheap)
 
 ## 1. Result
-**SOLVED** — flag `crypto{LLL_is_also_very_useful!}`, +90 pts (6915 -> 7005, 151 -> 152), submitted via `submit_flag.py` 2026-10-14 and live-verified via user API.
+**SOLVED** — flag `[flag — recorded in FLAGS/post-quantum/challenge-181-cryptohack-lwe-noise-cheap/flag.txt]`, +90 pts (6915 -> 7005, 151 -> 152), submitted via `submit_flag.py` 2026-10-14 and live-verified via user API.
 
 ## 2. Source
 - Socket `socket.cryptohack.org:13413`; server source cached at `_pq/13413.py`.
@@ -11,7 +11,7 @@
 Zero-samples give `b = A*S + p*e (mod q)` with per-sample ternary scalar `e in {-1,0,1}` (error in {-257,0,257} per sample).
 
 **Failed attempts (for the record):**
-1. Assumed a *single shared* e across all samples; tried 3 GF(q) Gaussian eliminations (e in {-1,0,1}) on 128 samples -> all inconsistent. `randint(-1,1)` is per-call; each sample has its own e.
+1. Assumed a *single shared* e across all samples; tried 3 GF(q) [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]s (e in {-1,0,1}) on 128 samples -> all inconsistent. `randint(-1,1)` is per-call; each sample has its own e.
 2. Direct CVP on `L = {A c + q d : c in Z^64, d in Z^m}` (m=256), basis `[I_64  B_c; 0  qI_192]` with `B = A_Jbar * A_J^{-1} (mod q)` (det = q^192 = covolume, exact basis). LLL (127 s) + `babai` (fpylll, float64) -> wrong nearest point: residual `b - w` not ternary, coords ~1e4 (accumulated float64 nearest-plane error ~2e5 >> ||e|| ~ 3358). Babai is unreliable at this dim/offset ratio.
 
 **Peeling attack (solved it):**
@@ -46,7 +46,7 @@ Two cost cuts compound: the error is a *ternary* scalar per sample (e in {-1,0,1
 2. By construction t - (-B2*e1) = e2, so -B2*e1 is *the* nearest lattice point of L2 = {B2*c + q*d} to t. Offset ~9 vs lambda1(L2) ~ q^(1/2) ~ 1024 puts the problem deep in the unique-CVP regime: fpylll `closest_vector("proved")` (rigorous enumeration) returns it exactly in 0.07 s. The earlier full-size attempt failed only because offset 3358 vs lambda1 ~ 3.3e4 was beyond float64 Babai (accumulated ~2e5 error).
 3. Read e1 off the recovered point: solve B2*e1 = -w (mod q) (128x64 GF(q) elimination), verify ternary; then S = A1^-1*(b1 - p*e1) (mod q), verified against ALL 256 samples (every residual lands in {-257,0,257}, 0 bad).
 4. Flag chars: center((b_f - A_f*S) mod q) = m + p*e_f in [-257, 384], so m = v mod 257. S is module-level in the listener (shared across connections, sanity-checked), so the last 8 chars came from a second session.
-Result `crypto{LLL_is_also_very_useful!}`, live-verified.
+Result `[flag — recorded in FLAGS/post-quantum/challenge-181-cryptohack-lwe-noise-cheap/flag.txt]`, live-verified.
 
 ## Limitations / attempts that failed
 - Assumed a single *shared* e across samples; 3 GF(q) eliminations (e in {-1,0,1}) on 128 samples all inconsistent — `randint(-1,1)` is called per-encrypt, so e is per-sample.

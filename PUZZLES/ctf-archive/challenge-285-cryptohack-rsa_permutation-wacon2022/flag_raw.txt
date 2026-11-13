@@ -1,1 +1,1 @@
-WACon{shuffle_all_the_hexes_but_still_Heninger_Shacham}
+[flag — recorded in FLAGS/ctf-archive/challenge-285-cryptohack-rsa_permutation-wacon2022/flag.txt]

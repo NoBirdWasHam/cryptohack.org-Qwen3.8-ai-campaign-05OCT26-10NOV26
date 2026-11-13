@@ -1,0 +1,22 @@
+factored p
+x0 ready
+baby table q1 pp=1965293129 m=44332
+baby table q1 pp=3945014767 m=62810
+baby table q1 pp=6911909839 m=83138
+baby table q2 pp=17 m=5
+baby table q2 pp=1789 m=43
+baby table q2 pp=8984179 m=2998
+baby table q2 pp=9381319 m=3063
+baby table q2 pp=83816652113 m=289512
+pubkey: 1150315427708913271228134200151018303716 ...
+q1 pp=1965293129: d=516514920
+q1 pp=3945014767: d=3747269699
+q1 pp=6911909839: d=6431676145
+q2 pp=17: d=8
+q2 pp=1789: d=170
+q2 pp=8984179: d=3777045
+q2 pp=9381319: d=2380855
+q2 pp=83816652113: d=6273136902
+candidates: 4 [188, 191, 193, 193]
+try 310388916092974860901404 -> {'message': 'Congratulations, you found my private key.', 'flag': '[flag — recorded in FLAGS/]'}
+FLAG: [flag — recorded in FLAGS/]

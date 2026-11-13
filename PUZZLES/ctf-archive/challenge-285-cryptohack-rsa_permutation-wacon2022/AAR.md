@@ -1,7 +1,7 @@
 # AAR — rsa_permutation (WACON 2022), challenge-285 — SOLVED
 
 **Flag (self-derived; handed by the service after my factorization was accepted):**
-`WACon{shuffle_all_the_hexes_but_still_Heninger_Shacham}`
+`[flag — recorded in FLAGS/ctf-archive/challenge-285-cryptohack-rsa_permutation-wacon2022/flag.txt]`
 Submitted 2026-10-29: `ok:true`, per-challenge solved 276→277 (archive: score_delta 0 = credited-archived, expected).
 Saved in `flag_rsa_permutation-wacon2022.txt`. No third-party solution/writeup consulted.
 

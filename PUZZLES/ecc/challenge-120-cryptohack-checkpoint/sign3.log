@@ -1,0 +1,8 @@
+raw residues: 25
+selected: 16 distinct-prime-power bits: 326
+overlap constraints: 36
+HIT mask= 0b1010011010000111 x bits= 256
+total hits: 1
+plaintext: b'[flag — recorded in FLAGS/]\x04\x04\x04\x04'
+FLAG SAVED: [flag — recorded in FLAGS/]
+EXIT=0

@@ -1,6 +1,6 @@
 # AAR — a_joke_cipher-hkcert_ctf2021 (A Joke Cipher, HKCERT CTF 2021)
 
-**Flag:** `hkcert21{th1s_i5_wh4t_w3_c4ll3d_sn4k3o1l_crypt0sy5t3m}` — accepted (live solved count 251→252; reconcile.py shows it in "LIVE solved", Section B empty).
+**Flag:** `[flag — recorded in FLAGS/ctf-archive/challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021/flag.txt]` — accepted (live solved count 251→252; reconcile.py shows it in "LIVE solved", Section B empty).
 
 ## The construction (derived from chall.py, no writeups consulted)
 NagatyCryptosystem (per the Springer paper cited in a comment):
@@ -45,7 +45,7 @@ The "Nagaty cryptosystem" reduces the shared secret modulo p at every step, and 
 ## How the answer follows
 1. Reduce the formula: `S_AB = (y_A * y_B^2 mod p) * S_A mod p = (y_A * y_B^2 mod p) * y_A mod p` — computable from the public `output.txt` alone (p, y_A, y_B, c all 1024-bit).
 2. Since `c = flag * S_AB` exactly (no padding, no modulus), `flag = c // S_AB` as exact integer division.
-3. Verification before submission: round-trip assert `S_AB * m == c` passes; recovered plaintext is 54 printable ASCII bytes: `hkcert21{th1s_i5_wh4t_w3_c4ll3d_sn4k3o1l_crypt0sy5t3m}` (accepted; live solved count 251 -> 252).
+3. Verification before submission: round-trip assert `S_AB * m == c` passes; recovered plaintext is 54 printable ASCII bytes: `[flag — recorded in FLAGS/ctf-archive/challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021/flag.txt]` (accepted; live solved count 251 -> 252).
 4. Independent sanity observation: even without S_AB, flag (~432 bits) << S_AB (> 2^1023 w.h.p.) means the unpadded multiply already leaks the plaintext by size.
 
 ## Limitations / attempts that failed

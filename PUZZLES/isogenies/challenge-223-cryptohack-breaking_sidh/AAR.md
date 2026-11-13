@@ -1,6 +1,6 @@
 # AAR — breaking_sidh (223, 250 pts, isogenies) — SOLVED 2026-10-22
 
-Flag: `crypto{welcome_to_the_future_of_isogenies}` (submitted, score_delta +250, verified by API).
+Flag: `[flag — recorded in FLAGS/isogenies/challenge-223-cryptohack-breaking_sidh/flag.txt]` (submitted, score_delta +250, verified by API).
 
 ## What this was
 Full Castryck–Decru key-recovery attack on SIDH (p = 45·2^117·3^73−1, f=45) — recover

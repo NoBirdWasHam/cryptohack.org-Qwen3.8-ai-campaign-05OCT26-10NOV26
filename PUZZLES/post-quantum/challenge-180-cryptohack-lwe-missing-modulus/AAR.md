@@ -6,7 +6,7 @@ LWE **without modulus on the noise**: b = A*S + m*delta + e over the reals (e ~ 
 Column lattice for no-modulus LWE: basis rows `[M[:,j], 0]` (j=1..512) + `[0..0, 1]`, target `(b, 0)`, residual `(-e, 0)`. LLL+Babai in 513 dim (fpylll; `closest_vector "proved"` capped at dim 256, so Babai) recovered `(M*S, 0)` with ||e||=84, max|e|=13. Solved `M @ S = w` exactly (float64 + round, integer-verified). Flag chars: `r = b - A*S` (per sample), pick m with |r - m*delta| <= 15.
 
 ## Result
-**SOLVED** — `crypto{learning-is-easy-over-the-real-numbers}` (submitted 2026-10-13, live-verified). Had to re-fetch 8 flag chars (first pass got 38/46). Files: `_pq/13412.py`, `_pq/mm_fetch.py`, `_pq/mm_solve*.py`, `_pq/_mm_data.json`.
+**SOLVED** — `[flag — recorded in FLAGS/post-quantum/challenge-180-cryptohack-lwe-missing-modulus/flag.txt]}` (submitted 2026-10-13, live-verified). Had to re-fetch 8 flag chars (first pass got 38/46). Files: `_pq/13412.py`, `_pq/mm_fetch.py`, `_pq/mm_solve*.py`, `_pq/_mm_data.json`.
 
 _Backfill note (2026-10-14): this doc folder was created after the fact; all scripts/data referenced above live in `_pq/` and the flag was verified live on 2026-10-13._
 ## Vulnerability (plain words)
@@ -16,7 +16,7 @@ The noise was added over the reals/integers and never reduced mod q, so the samp
 1. Column lattice: rows (M[:,j], 0) for the 512 columns plus the unit row (0..0, 1); target (b, 0). The exact secret image (M*S, 0) is a lattice point and the target differs from it by the small real noise (-e, 0) with ||e||=84, max|e|=13 — far below what LLL leaves as the effective minimum length at this dimension/scale, so the nearest lattice point to the target is (M*S, 0) and no mod-q wraparound ambiguity exists.
 2. LLL + Babai nearest-plane (fpylll) in dimension 513 returns w = M*S exactly; the extra unit coordinate pins the noise direction, and the small residual plus integer verification (float64 solve + round, then M@S == w checked over the integers — M is well-conditioned) confirms exactness.
 3. Per-sample decoding: r = b - A*S should equal m*delta + e. With delta=23 and max|e|=13 < delta/2, the window |r - m*23| <= 15 picks the message character uniquely for every sample.
-Result `crypto{learning-is-easy-over-the-real-numbers}` — submitted 2026-10-13, live-verified.
+Result `[flag — recorded in FLAGS/post-quantum/challenge-180-cryptohack-lwe-missing-modulus/flag.txt]}` — submitted 2026-10-13, live-verified.
 
 ## Limitations / attempts that failed
 - First fetch pass recovered only 38/46 flag chars; 8 chars were re-fetched (listener flakiness, not math).

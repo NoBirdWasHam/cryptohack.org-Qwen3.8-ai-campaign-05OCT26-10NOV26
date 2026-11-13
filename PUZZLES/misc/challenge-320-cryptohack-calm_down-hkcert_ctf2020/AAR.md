@@ -4,9 +4,9 @@ Status: SOLVED. Flag submitted 2026-10-27, accepted (reconcile.py live
 solved-list now contains `calm_down-hkcert_ctf2020`; score_delta 0 is
 expected for a 0-pt archive challenge).
 
-Flag: `hkcert20{c4lm_d0wn_4nd_s0lv3_th3_ch4llen9e}`
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-320-cryptohack-calm_down-hkcert_ctf2020/flag.txt]`
 (full decrypted message: `Hey, congratulations on solving the challenge.
-But please hkcert20{c4lm_d0wn_4nd_s0lv3_th3_ch4llen9e}.`)
+But please [flag — recorded in FLAGS/ctf-archive/challenge-320-cryptohack-calm_down-hkcert_ctf2020/flag.txt].`)
 
 ## Vuln
 Textbook RSA with a decryption oracle: `send <b64 ct>` decrypts and prints
@@ -70,7 +70,7 @@ Textbook RSA plus a decryption oracle with a one-bit answer: the server decrypts
 1. Oracle identity: `YES(s)` iff `(s*m mod n) mod 256 == 46` iff `q(s)*n == 46*(s-1) (mod 256)`.
 2. Restrict to aligned `s = 128t + 1`: then `46*(s-1) = 46*128t == 0 (mod 256)`, so `YES(128t+1)` iff `q(s) == 0 (mod 256)`. Every `s` with `s*m < n` (q=0) answers YES; q in {1,2} answers NOPE, so within the doubling bracket the predicate `[s(t)*m < n]` is monotone.
 3. Probe `t = 1, 2, 4, ...` to the first NOPE `t_hi` (lands in the q in {1,2} region; the bracket sits inside (T/2, 2T) so no later q == 0 mod 256 YES-region can fool it), then binary-search the first NOPE `t*` in `(t_hi/2, t_hi]`, bracketing `m/n` in `[1/s(t*), 1/s(t*-1))`.
-4. Bracket width `* n = 128*m^2/n << 1` => a unique integer candidate m; certified by `pow(m, e, n) == c`. Remote run: bracket at 2^1227, 2455 queries in 360 s in one session; m decrypts to the congratulations sentence containing `hkcert20{c4lm_d0wn_4nd_s0lv3_th3_ch4llen9e}`.
+4. Bracket width `* n = 128*m^2/n << 1` => a unique integer candidate m; certified by `pow(m, e, n) == c`. Remote run: bracket at 2^1227, 2455 queries in 360 s in one session; m decrypts to the congratulations sentence containing `[flag — recorded in FLAGS/ctf-archive/challenge-320-cryptohack-calm_down-hkcert_ctf2020/flag.txt]`.
 5. Pre-validation: the same attack (solve4.py) recovered a planted flag on a 1024-bit local clone in 1813 queries / 6.5 s before any remote probing beyond fingerprinting.
 
 ## Limitations / attempts that failed

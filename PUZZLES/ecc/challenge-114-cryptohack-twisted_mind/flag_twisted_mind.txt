@@ -1,1 +1,1 @@
-crypto{tw1st_s3curity_of_x_0nly_ladder}
+[flag — recorded in FLAGS/ecc/challenge-114-cryptohack-twisted_mind/flag.txt]

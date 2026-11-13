@@ -1,0 +1,89 @@
+r0 a0: e=34 leak=0 traj_ok=False
+r8 a0: e=18 leak=0 traj_ok=True
+r8 a1: e=10 leak=0 traj_ok=True
+r8 a2: e=232 leak=0 traj_ok=False
+r16 a0: e=54 leak=0 traj_ok=True
+r16 a1: e=2 leak=0 traj_ok=True
+r16 a2: e=75 leak=0 traj_ok=True
+r16 a3: e=68 leak=0 traj_ok=True
+r16 a4: e=120 leak=0 traj_ok=True
+r16 a5: e=75 leak=0 traj_ok=True
+r16 a6: e=65 leak=0 traj_ok=False
+r24 a0: e=27 leak=0 traj_ok=False
+r32 a0: e=80 leak=0 traj_ok=True
+r32 a1: e=107 leak=0 traj_ok=True
+r32 a2: e=9 leak=0 traj_ok=True
+r32 a3: e=10 leak=0 traj_ok=True
+r32 a4: e=95 leak=0 traj_ok=True
+r32 a5: e=30 leak=0 traj_ok=True
+r32 a6: e=31 leak=0 traj_ok=True
+r32 a7: e=46 leak=0 traj_ok=True
+r32 a8: e=89 leak=0 traj_ok=True
+r32 a9: e=23 leak=0 traj_ok=True
+r32 a10: e=2 leak=0 traj_ok=True
+r32 a11: e=17 leak=0 traj_ok=True
+r32 a12: e=168 leak=0 traj_ok=False
+r40 a0: e=24 leak=0 traj_ok=True
+r40 a1: e=137 leak=0 traj_ok=True
+r40 a2: e=81 leak=0 traj_ok=False
+r48 a0: e=125 leak=0 traj_ok=True
+r48 a1: e=120 leak=0 traj_ok=True
+r48 a2: e=18 leak=0 traj_ok=True
+r48 a3: e=253 leak=0 traj_ok=False
+r56 a0: e=89 leak=0 traj_ok=False
+FLAGTEXT: you didn't guess the right witness
+skill issue + L + ratio + not able to distinguish the witness in a fischlin transform
+
+FLAG: ??
+conn 0 failed, reconnecting
+r0 a0: e=127 leak=0 traj_ok=False
+r8 a0: e=129 leak=0 traj_ok=True
+r8 a1: e=139 leak=0 traj_ok=False
+r16 a0: e=48 leak=0 traj_ok=True
+r16 a1: e=1 leak=0 traj_ok=True
+r16 a2: e=41 leak=0 traj_ok=True
+r16 a3: e=44 leak=0 traj_ok=False
+r24 a0: e=27 leak=0 traj_ok=True
+r24 a1: e=82 leak=0 traj_ok=False
+r32 a0: e=11 leak=0 traj_ok=True
+r32 a1: e=18 leak=0 traj_ok=True
+r32 a2: e=199 leak=0 traj_ok=True
+r32 a3: e=0 leak=0 traj_ok=True
+r32 a4: e=35 leak=0 traj_ok=True
+r32 a5: e=7 leak=0 traj_ok=True
+r32 a6: e=10 leak=0 traj_ok=True
+r32 a7: e=53 leak=0 traj_ok=False
+r40 a0: e=15 leak=0 traj_ok=True
+r40 a1: e=43 leak=0 traj_ok=True
+r40 a2: e=23 leak=0 traj_ok=False
+FLAGTEXT: you didn't guess the right witness
+skill issue + L + ratio + not able to distinguish the witness in a fischlin transform
+
+FLAG: ??
+conn 1 failed, reconnecting
+r0 a0: e=193 leak=0 traj_ok=True
+r0 a1: e=41 leak=0 traj_ok=True
+r0 a2: e=5 leak=0 traj_ok=True
+r0 a3: e=57 leak=0 traj_ok=True
+r0 a4: e=215 leak=0 traj_ok=False
+r8 a0: e=13 leak=0 traj_ok=True
+r8 a1: e=25 leak=0 traj_ok=True
+r8 a2: e=76 leak=0 traj_ok=False
+r16 a0: e=138 leak=0 traj_ok=False
+r24 a0: e=38 leak=0 traj_ok=True
+r24 a1: e=27 leak=0 traj_ok=True
+r24 a2: e=22 leak=0 traj_ok=True
+r24 a3: e=11 leak=0 traj_ok=True
+r24 a4: e=39 leak=0 traj_ok=False
+r32 a0: e=48 leak=0 traj_ok=False
+r40 a0: e=8 leak=0 traj_ok=True
+r40 a1: e=240 leak=0 traj_ok=False
+r48 a0: e=84 leak=0 traj_ok=False
+r56 a0: e=26 leak=0 traj_ok=True
+r56 a1: e=106 leak=0 traj_ok=False
+FLAGTEXT: wow you distinguished my witness!
+do it 1 times more for flag!
+well done, you distinguished all the witnesses!
+b'[flag — recorded in FLAGS/]'
+
+FLAG: [flag — recorded in FLAGS/]

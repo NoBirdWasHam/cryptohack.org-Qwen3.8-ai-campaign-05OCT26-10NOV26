@@ -130,7 +130,7 @@ The "archived artifact is broken / NOT solvable" verdict is FALSIFIED by data pr
    2. Univariate Coppersmith/Howgrave-Graham: f(x)=x+p_approx over Zmod(n), small root
       |delta|<2^590 < n^0.25 (beta=0.5). Author's official exploit:
       crypto/1337crypt/exploit/exploit.sage (saved here as ../_v1337_official_exploit.sage),
-      flag: DUCTF{wh0_N33ds_pr3cIsi0n_wh3n_y0u_h4v3_c0pp3rsmiths_M3thod}.
+      flag: [flag — recorded in FLAGS/ctf-archive/challenge-13396-cryptohack-1337crypt-downunderctf2020/flag.txt].
    3. GM bit recovery: bit=1 iff Kronecker(c_i,p)==+1; bits->bytes.
    Sources: jsur.in DownUnderCTF 2020 writeups (#1337crypt); ctftime writeup 23495;
    DUTCF public repo (official exploit.sage + writeup.ipynb).
@@ -158,7 +158,7 @@ Pipeline (port of the AUTHOR technique, no sage on host; solve_coppersmith_port.
 Validation chain (this session): selftest-small (512-bit primes, X=2^180) PASS;
 selftest FULL-SCALE (own 1337-bit primes, 2674-bit n, X=2^590, identical geometry) PASS;
 real instance PASS: |delta|=2^586 < X, recovered p (1337 bits) divides n.
-FLAG (self-derived from instance ciphertext): DUCTF{wh0_N33ds_pr3cIsi0n_wh3n_y0u_h4v3_c0pp3rsmiths_M3thod}
+FLAG (self-derived from instance ciphertext): [flag — recorded in FLAGS/ctf-archive/challenge-13396-cryptohack-1337crypt-downunderctf2020/flag.txt]
 Server: submit_flag.py -> status 200, solved 303->304, "1337crypt (DownUnderCTF)" in
 /api/user/NoBirdWasHam solved set (re-read after submit). progress.json nn=241 row set
 solved/flag/date with provenance note.

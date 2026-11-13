@@ -1,0 +1,6 @@
+timestamp: 2026-11-05T18:28:25-0500
+bytes: 319
+closed_cleanly_eof: True
+tail_repr: "vate key, it's like super secure!\nWe've even encrypted our secret flag with it:\n"
+full_repr: "Welcome! We're glad you're trying out our free and secure encryption service.\n\nYou're currently on v1.0. This is only the beginning -- v2.0 will bring extra features and security fixes and v3.0 will add AI, probably.\n\nWe've generated a private key, it's like super secure!\nWe've even encrypted our secret flag with it:\n"
+VERDICT: STILL DEAD (exact 319-byte crash signature)

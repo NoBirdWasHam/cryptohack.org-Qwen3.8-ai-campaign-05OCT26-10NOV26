@@ -1,0 +1,15 @@
+b= 5 rc= 0 vals= None
+b= 6 rc= 0 vals= None
+b= 7 rc= 0 vals= None
+b= 8 rc= 0 vals= None
+b= 9 rc= 0 vals= None
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-296-cryptohack-substitution_cipher_iii-downu\ms_run.py", line 84, in <module>
+    r=subprocess.run([MS, '-f', fin, '-o', fout, '-t','4'], capture_output=True, text=True, timeout=1500)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 505, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1154, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\subprocess.py", line 1546, in _communicate
+    raise TimeoutExpired(self.args, orig_timeout)
+subprocess.TimeoutExpired: Command '['~/tools/msolvedir/ucrt64/bin/msolve.exe', '-f', '~\\Practice_runs\\cryptohack_org\\challenge-296-cryptohack-substitution_cipher_iii-downu\\ms\\msg2_b10.in', '-o', '~\\Practice_runs\\cryptohack_org\\challenge-296-cryptohack-substitution_cipher_iii-downu\\ms\\msg2_b10.out', '-t', '4']' timed out after 1500 seconds

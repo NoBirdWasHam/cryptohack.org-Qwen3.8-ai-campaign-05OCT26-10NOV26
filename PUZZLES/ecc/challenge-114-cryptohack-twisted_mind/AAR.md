@@ -11,8 +11,7 @@ correction below: the documented "wall" was WRONG.)
 - **NOT consulted:** solutions page, search-engine writeups (no-cheat rule)
 
 ## The flag
-`crypto{tw1st_s3curity_of_x_0nly_ladder}` (flag text confirms the twist attack).
-Verify: re-run `solve_twist.py` (fresh session, same pipeline).
+Recorded in `FLAGS/ecc/challenge-114-cryptohack-twisted_mind/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## Problem
 - p = 2^192 − 237, a = −3, b = 1379137549983732744405137513333094987949371790433997718123.

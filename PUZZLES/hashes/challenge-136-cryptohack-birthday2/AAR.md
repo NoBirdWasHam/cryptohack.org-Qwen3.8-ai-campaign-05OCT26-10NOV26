@@ -12,7 +12,7 @@
 - **NOT consulted:** `/challenges/birthday2/solutions/` page, search-engine writeups (no-cheat rule)
 
 ## The flag
-`76`
+Recorded in `FLAGS/hashes/challenge-136-cryptohack-birthday2/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 BARE NUMBER (no crypto{}): smallest N with 1-prod(2048-k)/2048>=0.75, exact Fraction math => 76

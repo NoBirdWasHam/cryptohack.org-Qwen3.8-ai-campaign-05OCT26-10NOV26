@@ -26,11 +26,11 @@ are often conceptual (answer-type, no lattice needed) — read the prompt first.
 ## Solved so far (2026-10-13) — do NOT re-solve
 `lwe-high-bits` (15) → 201 (toy LWE: x=(b−⟨A,S⟩) mod q NON-centered, m=round(x/Δ)),
 `lwe-low-bits` (20) → 147 (CENTERED x mod p), `lwe-private-public` (25) → 1568 (Kyber1024 pubkey bytes),
-`lwe-lsb-regev` (40) → crypto{linear_algebra_is_useful} (noise-free socket: 64 zero-encryptions →
+`lwe-lsb-regev` (40) → [flag — recorded in FLAGS/post-quantum/challenge-175-cryptohack-lwe-lsb-regev/flag.txt]} (noise-free socket: 64 zero-encryptions →
 Gauss-Jordan over GF(q) recovers FIXED S; then m=(b−⟨A,S⟩) mod q per flag char),
-`gauss` (50) → 7410790865146821 (2D Gauss reduction of v=(846835985,9834798552), u=(87502093,123094980);
+`gauss` (50) → [flag — recorded in FLAGS/post-quantum/challenge-178-cryptohack-gauss/flag.txt] (2D Gauss reduction of v=(846835985,9834798552), u=(87502093,123094980);
 flag = inner product of optimal basis), `lwe-bounded_noise` (60) →
-crypto{linearised_polynomials_for_bounded_errors} (binary-noise LWE, secret=flag as base-q digits,
+[flag — recorded in FLAGS/post-quantum/challenge-177-cryptohack-lwe-bounded_noise/flag.txt]} (binary-noise LWE, secret=flag as base-q digits,
 n=25, m=625: take 25 pivot rows, s = s0 − A_I⁻¹e_I parameterized by 25 binary error bits, prune
 2²⁵→~10² with ONE extra row via incremental Gray-code, full verify. LLL+Babai/CVP on the
 [A^T|0]/[0..q] lattice FAILED here — that construction is wrong for mod-q LWE).
@@ -159,7 +159,7 @@ the custom build script. Three distinct failures, each with a real fix:
 ## The solved intro block (2026-10-12) — do NOT re-solve
 `vectors` (10) → 702, `basis` (15) → 9, `gramschmidt` (30) → 0.91611 (5 sig figs),
 `lattices` (40) → 255 (|det| of the 3x3 basis, `isogeny_answers.py`), `lwe-background` (5)
-→ `Oded Regev`, `lwe-intro` (10) → `Gaussian elimination`. All BARE answer-type (no wrapper).
+→ `[flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt]`, `lwe-intro` (10) → `[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]`. All BARE answer-type (no wrapper).
 What remains in Post-Quantum: `lwe-high-bits` (15), `gauss` (25), `lwe-private-public` (25),
 `lwe-lsb-regev` (50), `lwe-bounded_noise` (75), `lwe-nativity` (80), `lwe-missing-modulus` (90),
 `lwe-noise-cheap` (100), `backpack` (100), `toomany` (120), `find` (10) — the real
@@ -175,7 +175,7 @@ D' ≈ expected norm (2^85). sympy Babai via B⁻¹t rounding FAILS (huge coeffs
 (2) VERIFY IN THE ORIGINAL ARITHMETIC: the challenge used Decimal prec=100, so ct is the
 100-digit-ROUNDED value — exact mpfr recon is off by ±1 ulp and 'fails'. Re-run the provided
 Decimal code with the candidate flag; that's the ground truth, not exact math.
-Flag: crypto{r34l_t0_23D_m4p}. Read-off: reduced row with |last coord|=D' → z = −row[:m].
+Flag: [flag — recorded in FLAGS/maths/challenge-97-cryptohack-eisenstein/flag.txt]. Read-off: reduced row with |last coord|=D' → z = −row[:m].
 
 ## Common CryptoHack lattice attack patterns
 - **the `find` challenge / intro vector finds**: given a basis, find the shortest / a specific vector.: given a basis, find the shortest / a specific vector.
@@ -196,7 +196,7 @@ Flag: crypto{r34l_t0_23D_m4p}. Read-off: reduced row with |last coord|=D' → z 
     sparse `e`) before falling back to generic SVP.
   - `lwe-missing-modulus`: multiple ciphertexts mod different moduli — combine them
     (CRT-style) before the lattice step.
-- **`backpack` (SOLVED 2026-10-24) → crypto{my_kn4ps4ck_1s_l1ghtw31ght}** — THE low-density
+- **`backpack` (SOLVED 2026-10-24) → [flag — recorded in FLAGS/post-quantum/challenge-184-cryptohack-backpack/flag.txt]** — THE low-density
   knapsack recipe (9 prior tries failed on formulation, not tuning):
   (1) Mine known bits from the source (flag prefix/suffix + ASCII MSB=0) to cut n and push
       density n/log2(max a) below ~0.646 (272→182 unknowns took 0.72→0.48).

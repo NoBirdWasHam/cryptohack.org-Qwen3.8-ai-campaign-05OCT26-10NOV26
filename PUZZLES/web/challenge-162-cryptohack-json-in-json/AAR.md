@@ -1,7 +1,7 @@
 # AAR — JSON in JSON (json-in-json, 40 pts, Web course)
 
 ## Result
-SOLVED 2026-10-12. Flag: `crypto{https://owasp.org/www-community/Injection_Theory}`
+SOLVED 2026-10-12. Flag: `[flag — recorded in FLAGS/web/challenge-162-cryptohack-json-in-json/flag.txt]`
 Submitted via user API in the 2026-10-12 session; accepted; present in the live solved list
 (2026-10-17 verification).
 
@@ -20,7 +20,7 @@ Double serialization without proper re-escaping: the server embeds user-controll
 ## How the answer follows
 1. The server signs whatever the inner JSON parses out to; escaping failure means attacker text becomes parsed structure inside the signed payload.
 2. Craft a value that breaks out of the string context and adds/overrides the claim that governs authorization; the server then signs the tampered claims and its own verifier trusts them (the signature now covers the attacker's field, exactly as if it had been legitimate).
-3. The privileged response carries the flag — and the flag value IS the lesson pointer: `crypto{https://owasp.org/www-community/Injection_Theory}`. Server-accepted (2026-10-12, live-list re-verified 2026-10-17).
+3. The privileged response carries the flag — and the flag value IS the lesson pointer: `[flag — recorded in FLAGS/web/challenge-162-cryptohack-json-in-json/flag.txt]`. Server-accepted (2026-10-12, live-list re-verified 2026-10-17).
 - Note: exact crafted payload bytes are not recorded in run logs (guided in-browser course flow).
 
 ## Limitations / attempts that failed

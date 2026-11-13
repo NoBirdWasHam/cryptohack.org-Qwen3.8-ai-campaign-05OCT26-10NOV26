@@ -3,7 +3,7 @@
 STATUS: SOLVED — flag submitted & accepted. Solved-list entry "FaILProof (SekaiCTF)" dated
 01 Nov 2026; solved count 294 → 295 (archive, 0 pts — truth = solved-list, confirmed).
 
-FLAG: SEKAI{w3ll_1_gu355_y0u_c4n_4lw4y5_4sk_f0r_m0r3_3qu4t10n5_wh3n_n0_0n3s_l00k1ng}
+FLAG: [flag — recorded in FLAGS/ctf-archive/challenge-321-cryptohack-failproof-sekaictf2022/flag.txt]
 (78 chars = 32 + 32 + 14; every block re-verified against all 128 popcount equations before submitting.)
 
 ## Scheme
@@ -75,7 +75,7 @@ The scheme publishes 128 vectors `A_j` (chained sha256 states, 256-bit) and answ
 1. Per 32-byte block: coefficient matrix = bits of the 128 `A_j`, unknown = block bits (+ byte-MSB==0 equations), RHS = the 128 observed popcounts **with known-prefix contributions subtracted** (`c - A_fix * prefixbits`) — this glue fix was the decisive blocker; solving against the raw c puts you in a provably empty coset (qfminim N=0 evidence).
 2. Tail block (18 zero bytes of the 78-char flag): unique solution by exact rational linear solve (`tail321.gp`, b2_tail.txt).
 3. Blocks 0/1 via PARI/GP 2.17 Kannan-CVP (`gen_gp321b.py` -> run321_b0free.gp / run321_mid2.gp): `matsnf(A2,1)` gives kernel K + particular m0p; `T0 = 1 - 2*m0p`; exact-Fraction Babai nearest-plane on the reduced `B = qflllgram(2K*2K^T,1)*2K`; Kannan embedding rows `[(Bred|0); (Tred|1)]`, beta=1 => target norm^2 = n+1, search bound n+9; `qfminim` returns N=2 (a single +/- pair); decode `m = m0p + (T0 - pt)/2` **with the ORIGINAL T0** (using Tred adds a lattice offset and yields non-binary m even when the true point was enumerated — localized with a known-block TOY round-trip whose Tred norm^2 was exactly 224).
-4. Density checks: dim 97, density ~0.70-0.73, LLL-only basis sufficed (gap ~20), ~3 min/block single-threaded (SNF dominates). Every byte re-verified against all 128 popcount equations vs the live-published A, then submitted: `SEKAI{w3ll_1_gu355_y0u_c4n_4lw4y5_4sk_f0r_m0r3_3qu4t10n5_wh3n_n0_0n3s_l00k1ng}` (78 chars = 32+32+14).
+4. Density checks: dim 97, density ~0.70-0.73, LLL-only basis sufficed (gap ~20), ~3 min/block single-threaded (SNF dominates). Every byte re-verified against all 128 popcount equations vs the live-published A, then submitted: `[flag — recorded in FLAGS/ctf-archive/challenge-321-cryptohack-failproof-sekaictf2022/flag.txt]` (78 chars = 32+32+14).
 
 ## Limitations / attempts that failed
 - Prior-run failures root-caused this session: (i) b0 solved on the raw RHS (wrong coset), (ii) forced `crypto{` prefix — the flag format is `SEKAI{`, and any forced prefix makes the b0 coset provably empty; (iii) the Tred-vs-T0 decode bug also present in the old fpylll script; (iv) fpylll script additionally passed the enum radius as the NORM (705) not norm^2, and hit a gso.get_r crash; fpylll itself is no longer installed on this host.

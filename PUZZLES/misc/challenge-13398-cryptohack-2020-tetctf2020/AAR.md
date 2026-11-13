@@ -146,7 +146,7 @@ probe6_drift.py:51), but the server prints the **original TETCTF flag format
 `TetCTF{...}`** — invisible to that regex.
 - **The flag was already captured on 2026-11-02 12:35:48** and sat mis-scored as
   `win:false` in `probe6_drift.json` session 2 (msb=1 branch):
-  tail = `TetCTF{2020_n0t_4_pr3d1ct4bl3_y34r}` → extracted to
+  tail = `[flag — recorded in FLAGS/ctf-archive/challenge-13398-cryptohack-2020-tetctf2020/flag.txt]` → extracted to
   `flag_2020-tetctf2020.txt`. Server prints NOTHING on a wrong guess (empty tail
   in all recorded sessions incl. probe4's 6 branch-alternating trials), so a
   non-empty tail after the guess = correct guess = flag.
@@ -160,7 +160,7 @@ probe6_drift.py:51), but the server prints the **original TETCTF flag format
   `[A-Za-z][A-Za-z0-9_]*\{...\}` flag regex). solve3.py --local re-verified
   400/400 coverage after patch.
 - **Remaining requirement: submit the flag** via
-  `python submit_flag.py 2020-tetctf2020 "TetCTF{2020_n0t_4_pr3d1ct4bl3_y34r}"`
+  `python submit_flag.py 2020-tetctf2020 "[flag — recorded in FLAGS/ctf-archive/challenge-13398-cryptohack-2020-tetctf2020/flag.txt]"`
   (CryptoHack archive keeps the original CTF flag format). Lesson: the planted
   "divergence" was in our own oracle — flag-format expectation must be derived
   from the *origin CTF*, not from cryptohack.org's usual `crypto{...}`.

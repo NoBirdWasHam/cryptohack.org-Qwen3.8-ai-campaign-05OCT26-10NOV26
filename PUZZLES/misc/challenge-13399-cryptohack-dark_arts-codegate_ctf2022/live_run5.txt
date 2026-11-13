@@ -1,0 +1,10 @@
+banner: Challenge 1
+C1 done
+banner: Challenge 2
+C2 done
+banner: Challenge 3
+  c3 lin: N=6000 b1eq=2449 rank=2144/2144 consistent=True (44.6s)
+C3 key sent
+banner: Challenge 4
+C4 banner+p+q read
+FLAG: [flag — recorded in FLAGS/]

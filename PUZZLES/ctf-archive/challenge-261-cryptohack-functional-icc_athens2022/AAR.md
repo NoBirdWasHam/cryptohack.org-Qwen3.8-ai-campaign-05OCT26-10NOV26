@@ -1,6 +1,6 @@
 # AAR — functional (ICC Athens 2022), CryptoHack slug `functional-icc_athens2022`
 
-**RESULT: SOLVED.** Flag `ICC{N0w_y0u_4re_a_mast3r_0f_t3h_l1n34r_r3curr3nc3s!}` submitted; server accepted (HTTP 200, solved 295→296). Fully derived end-to-end in this pipeline (no flag copy): ITERS → S3 → j(ITERS) → AES key. Independent cross-checks: ITERS, S3[:2], j(ITERS) all match the public soon-haari writeup values exactly; ciphertext identical (static archive instance).
+**RESULT: SOLVED.** Flag `[flag — recorded in FLAGS/ctf-archive/challenge-261-cryptohack-functional-icc_athens2022/flag.txt]` submitted; server accepted (HTTP 200, solved 295→296). Fully derived end-to-end in this pipeline (no flag copy): ITERS → S3 → j(ITERS) → AES key. Independent cross-checks: ITERS, S3[:2], j(ITERS) all match the public soon-haari writeup values exactly; ciphertext identical (static archive instance).
 
 ## Chain
 - **Stage 1 (done in prior unit, re-verified):** BM on the 500-term f-window → L=20 (len(COEFFS)=20; trailing-zero-len ambiguity provably excluded because the nilpotent (x^3+31337)^3 recovery self-checks: A2==C(m,2)a^(m-2) passes ⇒ ITERS = 79120327624133200239720213852419346424887 (< 13^37, matches writeup). x^ITERS continuation reproduces all 500 f-values.
@@ -24,7 +24,7 @@
 - `stage23.py` — superseded (see bugs 1–2); kept for history.
 
 ## Submit
-`cd ~/Practice_runs/cryptohack_org && python3 submit_flag.py functional-icc_athens2022 'ICC{N0w_y0u_4re_a_mast3r_0f_t3h_l1n34r_r3curr3nc3s!}'` → 200, solved 295→296 (archive, score delta 0 as expected).
+`cd ~/Practice_runs/cryptohack_org && python3 submit_flag.py functional-icc_athens2022 '[flag — recorded in FLAGS/ctf-archive/challenge-261-cryptohack-functional-icc_athens2022/flag.txt]'` → 200, solved 295→296 (archive, score delta 0 as expected).
 
 ## Vulnerability (plain words)
 Not a cipher break -- a three-stage linear-recurrence reconstruction puzzle. Stage 1: the server prints only a 500-term window of a sequence f obeying an order-20 linear recurrence; Berlekamp-Massey recovers the recurrence and hence the hidden ITERS/state. Stage 2: the sequence i(n) is NEVER printed -- it must be computed from the g/h/i mutual recurrences via a companion-state matrix exponentiation. Stage 3: a digit-sum-initialized sequence j(n) with 100 delayed taps has to be evaluated at j(ITERS), whose value (hashed) is the AES key. Everything follows from linear-recurrence algebra: BM, 21x21 matrix exponentiation over F_p, and Bostan-Mori coefficient extraction on P/Q.
@@ -32,7 +32,7 @@ Not a cipher break -- a three-stage linear-recurrence reconstruction puzzle. Sta
 ## How the answer follows
 1. Stage 1: BM on the 500-term f-window -> L=20 (= len(COEFFS); trailing-zero-length ambiguity provably excluded because the nilpotent (x^3+31337)^3 recovery self-check A2==C(m,2)a^(m-2) passes) -> ITERS = 79120327624133200239720213852419346424887 < 13^37; x^ITERS continuation reproduces all 500 f-values.
 2. Stage 2 (stage2_s3.py): fold g/h/i into a 21x21 state (g x7, h x7, i x3, monomials 1,n,n^2,n^3) over F_p; matrix-verified vs a sequential reference (steps at N0+1/N0+2, full loop at index 20345); S3[0..1] = [3344857554155236898658903831873044678801896, 3649959069781203859142471843095989397157559].
-3. Stage 3 (stage3_prep.py + bmr.gp in PARI/GP): digit-sum init J (n=0 -> 0; n<1337 -> single digit S3[n]; else S3[d0]+S3[d1]); taps n-9900-i with a_i = int(10000*ln(31337+i)); Q = 1 - sum a_i x^(9900+i); coefficient [x^IT]P/Q by Bostan-Mori (~25 min, parisize 512m). jt = 4884838814356754393675352922066305300889643 -> sha256(str(jt)) -> AES-ECB -> valid PKCS#7: ICC{N0w_y0u_4re_a_mast3r_0f_t3h_l1n34r_r3curr3nc3s!}, accepted (solved 295->296).
+3. Stage 3 (stage3_prep.py + bmr.gp in PARI/GP): digit-sum init J (n=0 -> 0; n<1337 -> single digit S3[n]; else S3[d0]+S3[d1]); taps n-9900-i with a_i = int(10000*ln(31337+i)); Q = 1 - sum a_i x^(9900+i); coefficient [x^IT]P/Q by Bostan-Mori (~25 min, parisize 512m). jt = 4884838814356754393675352922066305300889643 -> sha256(str(jt)) -> AES-ECB -> valid PKCS#7: [flag — recorded in FLAGS/ctf-archive/challenge-261-cryptohack-functional-icc_athens2022/flag.txt], accepted (solved 295->296).
 
 ## Limitations / attempts that failed
 Recorded root-cause failures (bugs killed, all with evidence): (1) old stage23.py regex-parsed a Stage-2 S3 list that is never in output.txt -- wrong by construction; (2) tap offsets off-by-one (used 9901..10000 vs correct 9900..9999; caught via (J*Q)==P and S*Q==0 residuals); (3) digit-sum single-digit bug -- ZZ(n).digits(1337) for n<1337 is 1-element, so S3[n//1337]=S3[0] silently corrupted every J[n<1337]; invisible at n=12345 (tap-tree bottom >= 2346), bites only at ITERS scale; symptom: mathematically 'proven' jt decrypting to junk; (4) gp64 quirks cost real time: Vec(t_POL)/Pol(list) are DESCENDING in this build (use Polrev; index Vec descending), no >>=, vector-as-index unsupported, vecextract 'o'/'e' matrix-only, multi-line while() loop bodies parse-fail in script files.

@@ -2,7 +2,7 @@
 
 ## Outcome
 - solved: YES (live 2026-10-28; submit API 200, site solved 270→271; archive 0 pts)
-- flag: `HackTM{phi, not to mention RSA, is important for GLP}`
+- flag: `[flag — recorded in FLAGS/ctf-archive/challenge-262-cryptohack-glp420-hacktm_ctf2023/flag.txt]`
 - live wall time ~31 s connect→flag; solver = **solve_v6.py + lll5.exe** (5 components:
   x^105∓1, x^70+1, Φ12Φ60Φ84(44), Φ420(96); all lattices ≤210 dims; INVERSE form
   lattices [I|mult(a^{-1} mod g)]+[0|qI] — direct form for sparse g is an LLL trap:
@@ -75,7 +75,7 @@ writeup; none consulted.
   (huge values), root cause above.
 - Live: attempt 1 timeout (extra rdline ate `a_enc` — no banner on socket); attempt 2
   lll5 rare "stuck" guard → retry; attempt 3 SUCCESS in ~31 s:
-  `flag = 'HackTM{phi, not to mention RSA, is important for GLP}'`. Submitted
+  `flag = '[flag — recorded in FLAGS/ctf-archive/challenge-262-cryptohack-glp420-hacktm_ctf2023/flag.txt]'`. Submitted
   (submit_flag.py: ok 200, solved 270→271); progress.json → solved; reconcile.py clean.
 
 ## Source (section added by 2026-11-09 corpus audit — AAR body text unchanged)

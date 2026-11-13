@@ -4,7 +4,7 @@
 Reconstructed 2026-11-01 from surviving artifacts in this folder (13408.py challenge file, solve.py+solve.log, solve2.py+solve2.log, solve3.py+solve3.log, flag_mega1.txt) and the ledger (progress.json nn163: "solved via RSA-malleability search (solve3); site already credited (delta 0 on resubmit)", date 2026-10-21). No AAR existed at solve time; the HOW below traces to the scripts and logs named above.
 
 ## Flag
-`crypto{M4lleaBl3_3nCRypt1on_g0n3_wr0nG_:'(}` — provenance: produced client-side by solve3.py `finish()` by AES-decrypting the server's `encrypted_flag` with the recovered factors (solve3.log line 7), written to flag_mega1.txt; matches the ledger flag field. Ledger notes record a resubmit scored delta 0 = already credited.
+`[flag — recorded in FLAGS/web/challenge-163-cryptohack-mega1/flag.txt]` — provenance: produced client-side by solve3.py `finish()` by AES-decrypting the server's `encrypted_flag` with the recovered factors (solve3.log line 7), written to flag_mega1.txt; matches the ledger flag field. Ledger notes record a resubmit scored delta 0 = already credited.
 
 ## Problem
 Listener socket.cryptohack.org 13408. A fake client-registration/login flow: the server hands out `master_key_enc`, `share_key_pub=(n,e)` (RSA-2048) and `share_key_enc` = its own RSA **private key** (p,q,d,u) AES-encrypted. Login step 2 (Client_new_login.login_step2, 13408.py): server AES-decrypts `share_key_enc`, parses (p,q,d,u), then `SID = RSA_CRT_decrypt(SID_enc, p,q,d,u)`, strips the last 16 bytes and echoes SID. Flag is AES-ECB-encrypted with `SHA256(long_to_bytes(p)+long_to_bytes(q))`.

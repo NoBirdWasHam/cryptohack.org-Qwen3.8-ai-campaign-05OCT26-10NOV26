@@ -1,1 +1,1 @@
-crypto{uns4f3_pr1m3_sm4ll_oRd3r}
+[flag — recorded in FLAGS/diffie-hellman/challenge-129-cryptohack-dh_static2/flag.txt]

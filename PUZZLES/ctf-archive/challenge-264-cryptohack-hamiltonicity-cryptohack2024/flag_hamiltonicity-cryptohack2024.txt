@@ -1,1 +1,1 @@
-crypto{not_hashing_entire_statement_is_bad}
+[flag — recorded in FLAGS/ctf-archive/challenge-264-cryptohack-hamiltonicity-cryptohack2024/flag.txt]

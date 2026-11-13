@@ -1,0 +1,7 @@
+n=8 T=40 seed=1: nodes=1 0.0s nsol=0 true_in=False sol_correct=False
+n=10 T=56 seed=3: nodes=1 0.0s nsol=0 true_in=False sol_correct=False
+n=16 T=88 seed=2: nodes=1 0.0s nsol=0 true_in=False sol_correct=False
+n=24 T=120 seed=4: nodes=1 0.1s nsol=0 true_in=False sol_correct=False
+n=32 T=144 seed=7: nodes=1 0.1s nsol=0 true_in=False sol_correct=False
+n=48 T=160 seed=6: nodes=1 0.2s nsol=0 true_in=False sol_correct=False
+n=64 T=176 seed=1: nodes=1 0.4s nsol=0 true_in=False sol_correct=False

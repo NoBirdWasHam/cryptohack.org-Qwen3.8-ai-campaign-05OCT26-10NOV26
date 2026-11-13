@@ -3,7 +3,7 @@
 - **Platform:** CryptoHack · **Category:** Hash Functions → Key Derivation · **Points:** 50
 - **Slug:** `seventy_two` · **Folder:** `challenge-139-cryptohack-seventy_two`
 - **Service:** socket.cryptohack.org 13433 (JSON line protocol) · **Files:** `13433.py` (in this folder)
-- **Solved:** 2026-10-14 by NoBirdWasHam · **Flag:** `crypto{53v3n7y_7w0_by73_c31l1n6}`
+- **Solved:** 2026-10-14 by NoBirdWasHam · **Flag:** `[flag — recorded in FLAGS/hashes/challenge-139-cryptohack-seventy_two/flag.txt]`
 - **Verification:** `submit_flag.py` → score 7195 → 7245 (+50), solved 155 → 156.
 
 ## Statement (verbatim)

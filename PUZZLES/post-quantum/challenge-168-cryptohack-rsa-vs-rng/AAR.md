@@ -1,7 +1,7 @@
 <!-- AAR -->
 # AAR — challenge-168-cryptohack-rsa-vs-rng: RSA vs RNG (CryptoHack)
 
-**Result:** SOLVED (account NoBirdWasHam; date 2026-10-21) — flag `crypto{pseudorandom_shamir_adleman}`
+**Result:** SOLVED (account NoBirdWasHam; date 2026-10-21) — flag `[flag — recorded in FLAGS/misc/challenge-168-cryptohack-rsa-vs-rng/flag.txt]`
 **Date:** 2026-10-21
 
 ## Source
@@ -11,7 +11,7 @@
 - **NOT consulted:** solutions pages, search-engine writeups (no-cheat rule)
 
 ## The flag
-`crypto{pseudorandom_shamir_adleman}`
+Recorded in `FLAGS/post-quantum/challenge-168-cryptohack-rsa-vs-rng/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 RSA primes P,Q are states of a public LCG mod 2^512 (A,B known) g steps apart: Q = A^g P + B(A^g-1)/(A-1). Substituting into P*Q = N gives a quadratic in P mod 2^512; Hensel-lift roots bit-by-bit for each gap g, test N % P == 0. Gap g=180 hit; factored N, decrypted ciphertext. See solve.py / solve.log.

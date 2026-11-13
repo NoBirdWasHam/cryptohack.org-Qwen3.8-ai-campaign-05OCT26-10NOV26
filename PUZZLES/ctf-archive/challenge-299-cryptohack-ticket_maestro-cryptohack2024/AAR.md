@@ -1,6 +1,6 @@
 # AAR — 299-cryptohack-ticket_maestro-cryptohack2024: Ticket Maestro (archive twin)
 
-**Result:** SOLVED — flag `crypto{m4ll34b1l1ty_fl4w_0r_r3r4nd0m1s4t10n_f34tur3?}`
+**Result:** SOLVED — flag `[flag — recorded in FLAGS/ctf-archive/challenge-299-cryptohack-ticket_maestro-cryptohack2024/flag.txt]`
 **Submitted:** `submit_flag.py ticket_maestro-cryptohack2024` → ok:true, solved count 239→240; user-API readback shows "Ticket Maestro (CryptoHack)" newly in solved list. score_delta 0 (archive twin credits solved-list only; correct flag already credited per brief).
 **Account:** NoBirdWasHam
 

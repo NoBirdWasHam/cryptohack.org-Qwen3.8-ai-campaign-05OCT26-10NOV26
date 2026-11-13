@@ -1,0 +1,1 @@
+ARM b40_empty rc=7 wall=901s minnorm2=16129 planted=False

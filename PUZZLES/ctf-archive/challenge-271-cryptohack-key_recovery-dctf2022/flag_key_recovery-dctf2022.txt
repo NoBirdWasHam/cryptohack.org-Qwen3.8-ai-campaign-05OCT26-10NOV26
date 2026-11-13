@@ -1,1 +1,1 @@
-dctf{M4k1ng_Sb0x3s_1s_t00_h4rd}
+[flag — recorded in FLAGS/ctf-archive/challenge-271-cryptohack-key_recovery-dctf2022/flag.txt]

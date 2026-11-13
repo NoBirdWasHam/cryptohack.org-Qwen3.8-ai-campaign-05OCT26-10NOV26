@@ -1,0 +1,4 @@
+start
+consts ok; p mod 4 = 3
+no point in 1000 tries
+EXIT=1

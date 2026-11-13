@@ -14,7 +14,7 @@ the top 27 bits of output word o_2i and top 26 bits of o_{2i+1} per round.
    output + 6 hidden low bits of every odd output of the first 624 outputs
    (312·11 = 3432 GF(2) unknowns). Symbolic propagation of MT19937 two cycles
    forward, tempering modelled as GF(2) maps (untamper matrix via [A|I] Gauss),
-   observed bits of cycle-2 outputs give the equations; Gaussian elimination;
+   observed bits of cycle-2 outputs give the equations; [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt];
    30-round holdout check passes.
 3. Predict all future rounds, guess the exact float x (`%.17g` — round-trip
    exact) → |x−y|=0 < 2^-10 → round score 1024 every round.
@@ -34,7 +34,7 @@ token, and dump every raw line to raw_log.txt.
   timeout killed the predecessor's identical run mid-harvest).
 
 ## Result
-SOLVED. Flag: `zh3r0{r34l_m3n_d34l_w17h_m3r53nn3_w17h_r34l_v4lu3s}`
+SOLVED. Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202/flag.txt]`
 (caught live_run5 H1906 right after total score crossed 10^6; submit ok:true,
 account solved count 255→256; reconcile.py lists it under LIVE-solved.
 score_delta 0 — archive challenge, 0 points, as expected.)
@@ -47,7 +47,7 @@ score_delta 0 — archive challenge, 0 points, as expected.)
 - live_run4: EOFError after H1907 (total 1000081.87) — flag line printed but
   `crypto{...}` regex didn't match the actual flag prefix; fixed with generic
   token{...} regex + raw line logging.
-- Local mock (`--local`) with decoy flags `crypto{zzqx_9182}` and
+- Local mock (`--local`) with decoy flags `[flag value withheld — real-flag strings live only under FLAGS/]` and
   `zh3r0{...}` verified the fixed reader before the live run.
 
 ## Sources

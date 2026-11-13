@@ -4,7 +4,7 @@
 - **Name / points:** Digestive / 60 pts
 - **Slug:** `digestive` (folder `challenge-113-cryptohack-digestive`)
 - **Interactive service:** web.cryptohack.org (endpoints: `/digestive/sign/<username>/`, `/digestive/verify/<msg>/<sig>/`)
-- **Status:** SOLVED 2026-10-14 — flag `crypto{thanx_for_ctf_inspiration_https://mastodon.social/@filippo/109360453402691894}`, submitted via user API (+60, 159 solved)
+- **Status:** SOLVED 2026-10-14 — flag `[flag — recorded in FLAGS/ecc/challenge-113-cryptohack-digestive/flag.txt]`, submitted via user API (+60, 159 solved)
 
 ## Statement (verbatim, from category page scrape)
 ---

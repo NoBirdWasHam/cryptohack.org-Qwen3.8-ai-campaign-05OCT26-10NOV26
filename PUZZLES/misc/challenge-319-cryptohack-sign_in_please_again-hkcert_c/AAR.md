@@ -170,7 +170,7 @@ exact MD padding structures whose block-1 intermediate state equals a previously
 - Local clone (`chall.py` under Windows via `local_run.py` stubbing Unix-only `signal.alarm`):
   **8/8 wins** in 21–28 s/trial (`solve_local.py`), recovering fresh random passwords each time.
 - Live: **conn 0 (first connection)** — pepper hit `0x0a`, password `b'PnF2YYLfQyDW9fCi'`,
-  auth reply `🏁 hkcert21{1t_d03sn7_h31p_by_4dd1n9_p3pp3r5}`; solve 27.5 s after alarm start
+  auth reply `🏁 [flag — recorded in FLAGS/ctf-archive/challenge-319-cryptohack-sign_in_please_again-hkcert_c/flag.txt]`; solve 27.5 s after alarm start
   (within 60 s), 49/50 commands, 1 connection, no rate issues.
 - The captured string coincides with the writeup's because the service prints a *static* flag —
   provenance here is **server-given**: printed only after OUR solved login.

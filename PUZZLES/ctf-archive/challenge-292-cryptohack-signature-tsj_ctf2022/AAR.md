@@ -62,7 +62,7 @@ Flips now accept up to 8 bad coords (256 EC verifications).
 
 ## Result — SOLVED, flag accepted (solved count 279→280 on cryptohack.org)
 Flag (from own derivation; service-verified):
-TSJ{who_needs_gaussian_elimination_when_you_have_LLL?_https://github.com/jonasnick/ecdsaPredictableNonce}
+[flag — recorded in FLAGS/ctf-archive/challenge-292-cryptohack-signature-tsj_ctf2022/flag.txt]
 
 - d = 113469799004661487320247409448796883146298153010773207076143627146899378821364
   (recovered by LLL row scan on the v4 Kannan lattice; verified 6/6 r AND s with two

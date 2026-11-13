@@ -1,0 +1,12 @@
+token ok, T1=709bf0d438a14abf28ec2b25d696a315
+  D recovered in 191.9s (total 1991 q)
+  c[4] = 96627cac5492b80f20d9df060a7cd6da
+  D recovered in 214.3s (total 4214 q)
+  c[3] = d123f1837f953fb626d318d5e25d3286
+  D recovered in 217.5s (total 6470 q)
+  c[2] = 1cf81ca5d474a29c5836859912a11adf
+  D recovered in 205.9s (total 8608 q)
+  c[1] = e7601e7ed9770638d0aba7f440974a98
+forged ct len 96 queries 8608
+RESULT good_pad True
+rc=0

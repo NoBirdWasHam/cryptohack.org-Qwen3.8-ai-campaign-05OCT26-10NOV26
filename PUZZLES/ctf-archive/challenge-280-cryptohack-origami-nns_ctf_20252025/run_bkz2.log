@@ -1,0 +1,33 @@
+=== stage k=20 attempt=1 23:25:16
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=20 attempt=1 exit=127 23:29:37
+=== stage k=20 attempt=2 23:29:42
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=20 attempt=2 exit=127 23:33:42
+=== stage k=25 attempt=1 23:33:47
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=25 attempt=1 exit=127 23:37:53
+=== stage k=25 attempt=2 23:37:58
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=25 attempt=2 exit=127 23:42:01
+=== stage k=30 attempt=1 23:42:06
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=30 attempt=1 exit=127 23:46:28
+=== stage k=30 attempt=2 23:46:33
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=30 attempt=2 exit=127 23:50:56
+=== stage k=40 attempt=1 23:51:01
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=40 attempt=1 exit=127 23:55:28
+=== stage k=40 attempt=2 23:55:33
+0 resumed from checkpoint lll
+180 heartbeat alive
+=== k=40 attempt=2 exit=127 00:00:08
+ALL_DONE 00:00:13

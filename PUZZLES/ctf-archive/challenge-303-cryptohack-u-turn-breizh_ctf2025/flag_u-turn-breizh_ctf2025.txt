@@ -1,1 +1,1 @@
-BZHCTF{7ffbeebcd72be3dc}
+[flag — recorded in FLAGS/ctf-archive/challenge-303-cryptohack-u-turn-breizh_ctf2025/flag.txt]

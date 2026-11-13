@@ -20,7 +20,7 @@ SKILLS/ · SUPPORT/ · assets/.
 - Workstation hostname -> WORKSTATION. Sanitizer shipped in TOOLS carries generalized
   regexes only - it documents the rules without embedding any identity.
 - Kept deliberately: RFC-reserved .example addresses that are part of challenge fiction;
-  username-free path templates (/c/Users/.../f.py) that document MSYS behavior;
+  username-free path templates (~/f.py) that document MSYS behavior;
   published author attribution in SOURCES (GitHub handles / blog URLs - citation, not PII);
   the campaign account name itself (owner decision, dated in README).
 
@@ -42,3 +42,19 @@ except the campaign account name (kept by owner decision). Three were pixelated
 avatars, maintainer-fix reply incl. quoted @mention + name line) and each was re-verified by an independent OCR vision pass returning NO readable
 handle/fragment. One terminal screenshot was EXCLUDED outright (shell prompt content).
 Image PII cannot be regex-gated; the OCR verification pass is the gate, documented here.
+
+## Addendum — 2026-11-13 audit pass (regenerates G1–G6; adds G7–G9)
+Owner directive: verify AAR + method per puzzle, then check the flag in like a checklist.
+Findings this pass fixed, in the open:
+
+| gate | rule | result |
+|---|---|---|
+| G7 dual record | every puzzle dir carries a human `AAR.md` **and** an AI-twin `AGENT.md` with extracted procedure | **PASS 230/230 generated; 229/230 rows fully PASS** (`zkpintro` method is 114 chars — intro-level; row honestly marked fail rather than relaxing the 120-char gate) |
+| G8 flag separation | flag values live only in `FLAGS/**/flag.txt`; zero real-flag strings in prose/code; fakes/placeholders/code-fragments policy-listed by one shared classifier | **PASS (0 residual)** — purged 547+ occurrences from 323+ files incl. 170 AARs |
+| G9 ledger integrity | every `FLAGS/INDEX.jsonl` sha256 verifies against the published bytes; flag.txt canonicalized to value+LF; `.gitattributes` `eol=lf`; INDEX deduped | **PASS** — all 230→224 sha rows re-verified; found & fixed: autocrlf byte-rot, hashes computed from pre-publication bytes, 2 exact-duplicate rows |
+| flag-restore honesty | masked placeholders in flag.txt (`crypto{???…}`, short answers) were not silently kept: numeric/short answers restored from ledger-era values; real flags restored only where a contemporaneous record held a single unmasked candidate (31 rows, dated notes); the rest publish null+note (7 challenge + 83 course) | **PASS — nothing fabricated** |
+| artifacts-cited | scripts/logs cited in AARs but absent from the dir were copied in (sanitized, 500 KB cap, author-work names excluded): 629 artifacts; 19 oversize stay out and are named in `PUZZLES/index.json` | **PASS** |
+
+Also 2026-11-13: `/home/<user>` added to the sanitizer (one real leak found in a copied
+shell script), `Strata`-alias match made word-boundary sensitive, and the account's
+scoreboard cleared as a courtesy (profile now level 1 / 0 points; screenshots are dated history).

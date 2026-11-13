@@ -1,0 +1,6 @@
+n=16 T=88 s=2 interleave: CAP>3000000 38s
+n=16 T=88 s=2 tightlast: CAP>3000000 40s
+n=24 T=120 s=4 interleave: CAP>3000000 52s
+n=24 T=120 s=4 tightlast: CAP>3000000 52s
+n=32 T=144 s=7 interleave: CAP>3000000 61s
+n=32 T=144 s=7 tightlast: CAP>3000000 59s

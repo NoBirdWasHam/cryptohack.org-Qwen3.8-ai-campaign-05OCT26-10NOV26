@@ -1,1 +1,1 @@
-crypto{pseudorandom_shamir_adleman}
+[flag — recorded in FLAGS/misc/challenge-168-cryptohack-rsa-vs-rng/flag.txt]

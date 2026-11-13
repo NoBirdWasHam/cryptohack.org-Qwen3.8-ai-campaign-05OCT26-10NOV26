@@ -1,6 +1,6 @@
 # AAR — maybe_someday (GoogleCTF 2022) — CryptoHack archive 14846 — SOLVED
 
-Flag: `CTF{p4dd1n9_or4cl3_w1th_h0mom0rph1c_pr0p3r7y_c0m6in3d_in7o_a_w31rd_m47h_puzz1e}`
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-275-cryptohack-maybe_someday-maybe_someday_c/flag.txt]`
 Submitted ok:true, solved count 257->258 (archive => score_delta 0, expected).
 
 ## Protocol

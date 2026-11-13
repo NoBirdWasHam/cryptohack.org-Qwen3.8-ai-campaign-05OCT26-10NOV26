@@ -1,6 +1,6 @@
 # AAR — Challenge 36: Triple DES (CryptoHack Symmetric Ciphers / AES)
 
-**Result:** SOLVED (2026-10-16). Flag `crypto{n0t_4ll_k3ys_4r3_g00d_k3ys}` submitted and
+**Result:** SOLVED (2026-10-16). Flag `[flag — recorded in FLAGS/aes/challenge-36-cryptohack-triple-des/flag.txt]` submitted and
 accepted: score 8205 → 8265 (+60), solved 170 → 171.
 **Date:** 2026-10-16 (UTC)
 
@@ -44,7 +44,7 @@ irrelevant: **the key is attacker-chosen, so we pick a DES weak key.**
 4. **Query 2:** feed `ct` back as the plaintext: `pt = enc(K, ct) = W ⊕ T(ct ⊕ W)
    = W ⊕ T(T(F ⊕ W)) = W ⊕ (F ⊕ W) = F`. **The IV cancels because each application of the
    construction is (⊕W)∘E∘(⊕W) and (⊕W)∘(⊕W) = id.**
-5. `pt = pad(FLAG) = crypto{n0t_4ll_k3ys_4r3_g00d_k3ys}‖0x06×6` → strip PKCS7 → flag.
+5. `pt = pad(FLAG) = [flag — recorded in FLAGS/aes/challenge-36-cryptohack-triple-des/flag.txt]‖0x06×6` → strip PKCS7 → flag.
 
 Total: 2 oracle queries.
 
@@ -55,14 +55,14 @@ subkeys are involutions (E==D): [True, True]
 T(T(x)) == x: True
 weak key: 0000000000000000ffffffffffffffff
 flag ct len: 40 blocks: 5
-recovered pad(FLAG): b'crypto{n0t_4ll_k3ys_4r3_g00d_k3ys}\x06\x06\x06\x06\x06\x06'
-FLAG: crypto{n0t_4ll_k3ys_4r3_g00d_k3ys}
+recovered pad(FLAG): b'[flag — recorded in FLAGS/aes/challenge-36-cryptohack-triple-des/flag.txt]\x06\x06\x06\x06\x06\x06'
+FLAG: [flag — recorded in FLAGS/aes/challenge-36-cryptohack-triple-des/flag.txt]
 format crypto{...}: True
 ```
 Submission (from `~/Practice_runs/cryptohack_org`):
 ```
-$ "~/tools/crypto-ctf/venv/Scripts/python.exe" submit_flag.py triple_des "crypto{n0t_4ll_k3ys_4r3_g00d_k3ys}"
-{"submitted": "crypto{n0t_4ll_k3ys_4r3_g00d_k3ys}", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 8205, "solved": 170}, "after": {"score": 8265, "solved": 171}, "score_delta": 60}
+$ "~/tools/crypto-ctf/venv/Scripts/python.exe" submit_flag.py triple_des "[flag — recorded in FLAGS/aes/challenge-36-cryptohack-triple-des/flag.txt]"
+{"submitted": "[flag — recorded in FLAGS/aes/challenge-36-cryptohack-triple-des/flag.txt]", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 8205, "solved": 170}, "after": {"score": 8265, "solved": 171}, "score_delta": 60}
 ```
 score_delta = 60 > 0 → accepted (first solve; server response body is identical for right/wrong, so
 the API score delta is the ground truth).

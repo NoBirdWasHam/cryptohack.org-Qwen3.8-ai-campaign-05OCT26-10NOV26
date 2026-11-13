@@ -1,1 +1,1 @@
-DUCTF{mantissa_in_crypto??_n0_th4nks!!}
+[flag — recorded in FLAGS/ctf-archive/challenge-242-cryptohack-1337crypt_v2-downunderctf2021/flag.txt]

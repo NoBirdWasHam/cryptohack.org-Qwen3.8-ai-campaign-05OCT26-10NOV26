@@ -5,7 +5,7 @@
 - **Status:** SOLVED (submitted 2026-10-14 via submit_flag.py, live-verified: score 6915 -> 7005)
 - **Solved:** 2026-10-14
 - **URL:** https://cryptohack.org/challenges/post-quantum/lwe-noise-cheap/
-- **Flag:** `crypto{LLL_is_also_very_useful!}`
+- **Flag:** `[flag — recorded in FLAGS/post-quantum/challenge-181-cryptohack-lwe-noise-cheap/flag.txt]`
 
 ## Statement
 --> A core part of making LWE secure is having the noise terms be larger than what lattice reduction algorithms can handle. Connect at socket.cryptohack.org 13413. Challenge files: 13413.py (cached in `_pq/13413.py`).

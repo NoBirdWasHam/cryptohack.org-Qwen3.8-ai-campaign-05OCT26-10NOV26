@@ -421,7 +421,7 @@ def run_local(seed=4242):
         if c.desync or c.flag:
             break
         if scores[0] >= 800:
-            c.handle_line('Here is your flag: crypto{SIMULATED_LOCAL_TEST}')
+            c.handle_line('Here is your flag: [flag value withheld — real-flag strings live only under FLAGS/]')
             break
     print(f'local: rounds~{i+1} score {scores[0]}-{scores[1]} '
           f'desync={c.desync} flag={c.flag}', flush=True)

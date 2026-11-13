@@ -71,7 +71,7 @@ ct = '56ecb68a90cad9787a24a4511720d40d625901577f6d0f1eef9fc34cf042709110cdc061ff
                   20317470060808910705949514324772572305,
                   95527147648358416100018697076146379441)
 - Flag: AES-256-CBC, key = SHA256(str(a)+str(b)+str(c)+str(d)), iv as given
-- **Flag:** `crypto{now_try_writing_a_function_for_fast_torsion_basis_generation!}`
+- **Flag:** `[flag — recorded in FLAGS/isogenies/challenge-209-cryptohack-2d_dlog/flag.txt]`
 
 ## Scripts
 - `solve.py` — full solver: parse, F_{p²} + EC arithmetic (self-tested), 2-adic 2D

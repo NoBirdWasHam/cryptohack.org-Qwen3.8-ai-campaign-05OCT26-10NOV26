@@ -1,7 +1,7 @@
 # AAR — Token Appreciation (token-appreciation, 5 pts, Web course)
 
 ## Result
-SOLVED 2026-10-12. Flag: `crypto{jwt_contents_can_be_easily_viewed}`
+SOLVED 2026-10-12. Flag: `[flag — recorded in FLAGS/web/challenge-151-cryptohack-token-appreciation/flag.txt]`
 Submitted via user API in the 2026-10-12 session; accepted; present in the live solved list
 (2026-10-17 verification).
 
@@ -18,7 +18,7 @@ archived beyond the backfilled statement in site.md.)
 A JWT is not encrypted — the payload ("claims") is just base64url-encoded JSON, readable by anyone who ever sees the token. This course challenge hides its flag inside those claims to teach exactly that.
 
 ## How the answer follows
-1. Split the provided token on '.' and base64url-decode the middle segment ⇒ JSON claims contain `crypto{jwt_contents_can_be_easily_viewed}`.
+1. Split the provided token on '.' and base64url-decode the middle segment ⇒ JSON claims contain `[flag — recorded in FLAGS/web/challenge-151-cryptohack-token-appreciation/flag.txt]`.
 2. Submitted via user API 2026-10-12; accepted; present in the live solved list (2026-10-17 verification).
 
 ## Limitations / attempts that failed

@@ -1,6 +1,6 @@
 # AAR — Challenge 164: RSA or HMAC? Part 2
 
-**Result: SOLVED + API-VERIFIED 2026-10-20.** Flag `crypto{thanks_silentsignal_for_inspiration}`
+**Result: SOLVED + API-VERIFIED 2026-10-20.** Flag `[flag — recorded in FLAGS/web/challenge-164-cryptohack-rsa-or-hmac-2/flag.txt]`
 submitted; score 9835→9935 (+100), solved 187→188.
 
 ## Attack (two stages)

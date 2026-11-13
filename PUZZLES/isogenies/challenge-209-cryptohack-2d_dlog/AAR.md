@@ -1,7 +1,7 @@
 # AAR — Challenge 209: DLOG on the Surface (2d_dlog)
 
 **Result:** **SOLVED** 2026-10-14 (UTC). Flag
-`crypto{now_try_writing_a_function_for_fast_torsion_basis_generation!}` submitted via
+`[flag — recorded in FLAGS/isogenies/challenge-209-cryptohack-2d_dlog/flag.txt]` submitted via
 `submit_flag.py 2d_dlog ...` → API 200, score 7105→**7145**, solves 153→**154** (+40 pts).
 No solutions page or writeup consulted; pure self-solve.
 
@@ -50,7 +50,7 @@ Neither `crypto{str(v)}` for any of the 8 v ∈ {a,b,c,d, 2^127−a,...} nor the
 ASCII-plausibility filter) hit on the first pass:
 - **AES-256-CBC**, key = **SHA256(str(a) + str(b) + str(c) + str(d))** (plain string
   concat, no separators), iv = the given 16 bytes.
-- Plaintext: `crypto{now_try_writing_a_function_for_fast_torsion_basis_generation!}` +
+- Plaintext: `[flag — recorded in FLAGS/isogenies/challenge-209-cryptohack-2d_dlog/flag.txt]` +
   PKCS7 (0x0b × 11).
 
 ## Errors & fixes (each cost time)

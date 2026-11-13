@@ -115,7 +115,7 @@
 
 # SOLVED 2026-10-26
 
-- Flag: crypto{Gauss_knew_how_to_break_CSIDH???}  (submitted, score_delta +175, ok:true)
+- Flag: [flag — recorded in FLAGS/isogenies/challenge-222-cryptohack-true_genus/flag.txt]  (submitted, score_delta +175, ok:true)
 - SECRET = 6058240009948404437 (0x54133130ed089ad5); its 27 one-bits are EXACTLY the 27
   q4(Δ)-candidate positions — the parity extractor fired on all 63 bits with zero errors,
   and every even-Δ instance was a real 1-bit (no bit-0 false positives this instance set).
@@ -155,7 +155,7 @@ through the AES check.
   earlier blind run proved it). tg12.py self-tested 3/3 on planted secrets, then
   real run: the 27 candidate positions were exactly the SECRET's 1-bits
   (SECRET = 6058240009948404437) →
-  crypto{Gauss_knew_how_to_break_CSIDH???}, server +175.
+  [flag — recorded in FLAGS/isogenies/challenge-222-cryptohack-true_genus/flag.txt], server +175.
 
 ## Limitations / attempts that failed
 

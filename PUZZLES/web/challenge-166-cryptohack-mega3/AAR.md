@@ -1,6 +1,6 @@
 # AAR — CryptoHack Megalomaniac 3 (challenge-166, socket 13410)
 
-**Flag:** `crypto{1ntegr1ty_ch3cks_are_n0T_0nly_th3Re_t0_mak3_crYptogr4phers_H4ppy!}`
+**Flag:** `[flag value withheld — real-flag strings live only under FLAGS/]`
 (submitted, +120, solved 229)
 
 ## The vuln
@@ -54,7 +54,7 @@ Same parse-tolerant login oracle as mega2 — but here the server GIVES AWAY p, 
 1. Known-plaintext shift: with p handed out, every field of the private-key blob is known plaintext under AES_master EXCEPT `X = D_master(node_key_enc)`.
 2. Swap-in: submit the legit blob ciphertext with ciphertext block 39 REPLACED by `node_key_enc`. Block 39 is interior to u (2^64 bit-shift), and the parse (lengths + padding block) still succeeds, so the server CRTs with genuine p,q,d but `u_g = u + (X - orig)*2^64` (orig = the known u-bytes 104-119).
 3. Invert the CRT algebra: with `SID_enc = M^e mod n` (M = 2^1024+12345) all intermediates mp = M mod p, mq = M mod q, t = (mq-mp) mod q are computable; the returned `SID = (h*p + mp) >> 128` with `h = t*u_g mod q`. Because p >> 2^128, h is pinned to at most 2 candidates; each gives `u_g = h*t^-1 mod q`, and the alignment constraint `(u_g - u) = 0 mod 2^64` with |u_g-u| < 2^192 resolves the k*q ambiguity. Then `X = orig + (u_g-u)/2^64` — X is the node_key.
-4. AES-ECB(node_key) on the flag file, unpad -> `crypto{1ntegr1ty_ch3cks_are_n0T_0nly_th3Re_t0_mak3_crYptogr4phers_H4ppy!}` accepted, +120. One query, ~1.3s.
+4. AES-ECB(node_key) on the flag file, unpad -> `[flag value withheld — real-flag strings live only under FLAGS/]` accepted, +120. One query, ~1.3s.
 
 ## Limitations / attempts that failed
 (Original record retained above; restated.)

@@ -12,12 +12,7 @@
 - **NOT consulted:** solutions page, search-engine writeups (no-cheat rule)
 
 ## The flag
-`crypto{sigma_protocols_compose!}`
-- Ground truth #1: server returned it at the end of the 3-phase protocol (`solve2.py`, `run_ok.log`).
-- Ground truth #2: submitted via `submit_flag.py sigma-or-proof "crypto{...}"` → API score_delta +75.
-- Bonus: the SAME flag is also accepted by the archive slug `or_proof-cryptohack2024`
-  (0 pts — archived challenges count toward solved, not score). This is the CTF-2024 original
-  of the same challenge; both slugs map to the one server.
+Recorded in `FLAGS/zkp/challenge-231-cryptohack-sigma-or-proof/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved (3 phases, one connection)
 The protocol is a textbook OR-proof (disjunction of two discrete-log relations

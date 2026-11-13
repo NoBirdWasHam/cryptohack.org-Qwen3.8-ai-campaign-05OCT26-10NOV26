@@ -5,7 +5,7 @@ from collections import Counter
 from Crypto.Cipher import ARC4
 import solve_oh_snap as S
 
-FLAG = sys.argv[3].encode() if len(sys.argv) > 3 else b"crypto{sn4p_snap_rc4_bites_h4rd}"
+FLAG = sys.argv[3].encode() if len(sys.argv) > 3 else b"[flag value withheld — real-flag strings live only under FLAGS/]"
 N1 = int(sys.argv[1]) if len(sys.argv) > 1 else 60000
 N2 = int(sys.argv[2]) if len(sys.argv) > 2 else 60000
 RLEN = 4

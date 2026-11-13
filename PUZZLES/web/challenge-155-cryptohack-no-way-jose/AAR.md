@@ -1,7 +1,7 @@
 # AAR — No Way JOSE (no-way-jose, 20 pts, Web course)
 
 ## Result
-SOLVED 2026-10-12. Flag: `crypto{The_Cryptographic_Doom_Principle}`
+SOLVED 2026-10-12. Flag: `[flag — recorded in FLAGS/web/challenge-155-cryptohack-no-way-jose/flag.txt]`
 Submitted via user API in the 2026-10-12 session; accepted; present in the live solved list
 (2026-10-17 verification).
 
@@ -19,7 +19,7 @@ The server must read the JOSE header — which is attacker-controlled and NOT co
 
 ## How the answer follows
 1. The session token's integrity claim is conditional on the `alg` field; downgrade that field (the none-alg class of bypass) and the payload's privilege claims ("who am I" / admin bits) are never authenticated — so editing them in plaintext is sufficient to be served as the privileged user.
-2. The broken session API then returns the flag to the newly-forged "authenticated" session; the flag text `crypto{The_Cryptographic_Doom_Principle}` is itself the lesson label: verify-before-parse.
+2. The broken session API then returns the flag to the newly-forged "authenticated" session; the flag text `[flag — recorded in FLAGS/web/challenge-155-cryptohack-no-way-jose/flag.txt]` is itself the lesson label: verify-before-parse.
 3. Server acceptance (user API, 2026-10-12, re-verified in the live solved list 2026-10-17) confirms the bypass.
 - Note: this was a guided course challenge; the step-by-step crafted-token detail beyond the alg-manipulation mechanism above is not recorded in run logs.
 

@@ -76,7 +76,7 @@ connection => related messages. m is a root only MOD N, so gcd must run in (Z/N)
 monic-ize each (a x+b)^11−c (divide by a^11), then Euclid with plain long division by the
 MONIC divisor (valid over any ring); degree walks 11→1 in ~10 steps, x−m falls out.
 A gcd over Q returns constant (the integer values differ by k·N — not roots). 2 queries
-suffice. Flag: crypto{linear_padding_isnt_padding}.
+suffice. Flag: [flag — recorded in FLAGS/rsa/challenge-105-cryptohack-bespoke/flag.txt].
 
 ## MR-bypass Carmichael for "send me a prime" oracles (prejudice, 200, SOLVED 2026-10-20)
 Server: FLAG[:pow(a,p-1,p)] for (a,p) passing strong-MR over all prime bases <64, p in
@@ -92,7 +92,7 @@ a=(1,421,2521) all =1 mod 420):
 DEAD ENDS (each cost a run): Chernick (6m+1)(12m+1)(18m+1) can NEVER pass strong-MR
 (b^((n-1)/2)=1 mod q1 always); Legendre-forcing on q2 alone useless; semiprime hopeless
 (pass needs b^s=-1 mod both primes for all 18 bases => q | gcd(b^s+1) tiny).
-Flag: crypto{Forging_Primes_with_Francois_Arnault}. Script: Practice_runs/cryptohack_org/
+Flag: [flag — recorded in FLAGS/maths/challenge-98-cryptohack-prejudice/flag.txt]. Script: Practice_runs/cryptohack_org/
 challenge-98-cryptohack-prejudice/solve4.py.
 
 ## Recipes (invariant first, then construction)
@@ -145,7 +145,7 @@ challenge-98-cryptohack-prejudice/solve4.py.
 
 10. **Same-seed reset in an interactive sampler** (`toomany`, 2026-10-17): server draws `a` and a tiny error `e` from one `random.Random(SEED)` stream, then *faults* one coordinate of `a`; `b = <a, FLAG> + e (mod q)`. The fault is a decoy — `b` is computed AFTER the fault, so every sample still satisfies the LWE equation. The real bug: a `reset` option that reseeds with the SAME seed. Collect `reset` + `get_sample` pairs: the deterministic prefix (all of `a` AND `e`) is identical on every sample; corrupted samples differ in exactly one coordinate. One corrupted sample per coordinate j then gives `FLAG_j = (b - b_clean) * inv(v - a_j) mod q` EXACTLY (e is a constant, no error term); pairs of corrupted samples at the same j cross-check via `(b1-b2)*inv(v1-v2)`. Validate on the known flag-frame characters (`crypto{...}`) before trusting unknowns, then verify all samples: `b - <a,FLAG>` mod q must be in {0, ±1}. 300 samples, seconds of compute.
 
-11. **XOR-periodic key + MD5 length extension = byte-by-byte key recovery** (`mdflag`, 2026-10-21): server returns `md5(d XOR cycle(KEY))`, `|d| >= |KEY|`, no forgery target — must RECOVER the key. Trick: MD5 padding `pad_n` appended to `s = d^K^inf` lands on keystream positions `K[n mod L:]` (periodic!), so sending `d' = d || (pad_n XOR guessed-window)` makes the server compute `md5(s || pad_n)` exactly when the window guess is right — and `md5(s||pad_n)` is offline-computable by length extension when `(n+|pad_n|) % 64 == 0` (n mod 64 in {54,55}): then `md5(s||pad_n) = C(md5(s), md5_pad(n+p))`, ONE compression from the returned hash (implement MD5 compress from arbitrary 16-byte state). Choose `n ≡ a mod L`, `n ≡ 64-p mod 64` (solvable iff p ≡ a mod 2) to slide the p-byte pad window to key positions `[a,a+p)`; descend from the end with p=9/10 so each window holds exactly 1 unknown byte (seed: known flag prefix + trailing `}`); 256 queries/byte, ~12k total. Pitfalls: server cap was on the whole JSON msg (1024 B, hex doubles → n+p ≤ 490); `pad = 64 - n%64` only for n%64 ≤ 55 (56 → full 64-byte pad); first window wraps and needs a 2-unknown 65k product search once. Flag: crypto{i_Th1nk_mdFLAG_is_B3TTER_th4n_hmac!!!!}. Solver: Practice_runs/cryptohack_org/challenge-147-cryptohack-mdflag/solve.py (transport-agnostic recover(query) + --local self-test).
+11. **XOR-periodic key + MD5 length extension = byte-by-byte key recovery** (`mdflag`, 2026-10-21): server returns `md5(d XOR cycle(KEY))`, `|d| >= |KEY|`, no forgery target — must RECOVER the key. Trick: MD5 padding `pad_n` appended to `s = d^K^inf` lands on keystream positions `K[n mod L:]` (periodic!), so sending `d' = d || (pad_n XOR guessed-window)` makes the server compute `md5(s || pad_n)` exactly when the window guess is right — and `md5(s||pad_n)` is offline-computable by length extension when `(n+|pad_n|) % 64 == 0` (n mod 64 in {54,55}): then `md5(s||pad_n) = C(md5(s), md5_pad(n+p))`, ONE compression from the returned hash (implement MD5 compress from arbitrary 16-byte state). Choose `n ≡ a mod L`, `n ≡ 64-p mod 64` (solvable iff p ≡ a mod 2) to slide the p-byte pad window to key positions `[a,a+p)`; descend from the end with p=9/10 so each window holds exactly 1 unknown byte (seed: known flag prefix + trailing `}`); 256 queries/byte, ~12k total. Pitfalls: server cap was on the whole JSON msg (1024 B, hex doubles → n+p ≤ 490); `pad = 64 - n%64` only for n%64 ≤ 55 (56 → full 64-byte pad); first window wraps and needs a 2-unknown 65k product search once. Flag: crypto{example_flag_format}. Solver: Practice_runs/cryptohack_org/challenge-147-cryptohack-mdflag/solve.py (transport-agnostic recover(query) + --local self-test).
 
 12. **CBC forge with a server-fixed first block + JSON-in-the-clear** (`rhetorical_oracle_2`,
     2026-10-19): server decrypts your whole ct under a per-connection key K with a FIXED
@@ -191,7 +191,7 @@ challenge-98-cryptohack-prejudice/solve4.py.
     60k/round is coin-flip at the frontier — 130k+; charset must include uppercase
     (flag had 'R'); NEVER trust guessed completions — verify candidates by predicting
     held-out live keystreams (free perfect verifier; `…pr1v4cy}` was wrong, real tail
-    `?!}`). Flag: crypto{w1R3d_equ1v4l3nt_pr1v4cy?!}. Solver:
+    `?!}`). Flag: [flag — recorded in FLAGS/aes/challenge-45-cryptohack-oh-snap/flag.txt]. Solver:
     Practice_runs/cryptohack_org/challenge-45-cryptohack-oh-snap/solve_oh_snap.py.
 
 ## CM factoring over étale algebras with FORMAL Y (rsa_backdoor, 175, SOLVED 2026-10-24)
@@ -209,7 +209,7 @@ Pitfalls: disc H need NOT be a QR mod n (so the integer-root curve over Z/n does
 the δ-basis is the point); a point-finder that 'sqrt's g(x0) mod n and verifies y²=g²/N
 silently returns NON-points (the classic bug here); never set j=δ blindly — j must be the
 specific H-root matching the form. Self-test the whole pipeline on small instances
-(small s, 4/4) before the real run. Flag: crypto{I_want_to_Break_Square-free_4p-1}.
+(small s, 4/4) before the real run. Flag: [flag — recorded in FLAGS/rsa/challenge-111-cryptohack-rsa_backdoor/flag.txt].
 
 ## Index calculus in GF(2)[x] (characteristic-2 DLOG; 'The Matrix Revolutions' family)
 When DLOG lives in GF(2^m) (m composite → subfield attack): x = α^k is an m×m binary matrix
@@ -288,7 +288,7 @@ flags on last byte of c1. y-recovery = get_point_from_x: KEEP sqrt(x³+b) iff (y
 Fq2 sign/ordering in ark-ff 0.3.0 compares (c1,c0) LEX (c1 first!). Fq2 sqrt = complex method
 (eprint 2012/685 Alg.8): α=√norm, δ=(α+c0)/2 (−α if QNR), c0=√δ, c1=c1/(2c0). Read the exact
 crate sources (ark-ec/ark-ff/ark-serialize .crate from static.crates.io) instead of guessing.
-Flag: crypto{m4ll34b1l1ty_fl4w_0r_r3r4nd0m1s4t10n_f34tur3?}. Solver: Practice_runs/
+Flag: [flag — recorded in FLAGS/ctf-archive/challenge-299-cryptohack-ticket_maestro-cryptohack2024/flag.txt]. Solver: Practice_runs/
 cryptohack_org/challenge-240-cryptohack-snark-maestro/solve.py.
 
 14. **Merkle preview with negative-index leak + known-plaintext byte collapse**
@@ -300,7 +300,7 @@ cryptohack_org/challenge-240-cryptohack-snark-maestro/solve.py.
     conns -> n21 known). On the proof conn: leak n10, then n11=H(l2||l3) with
     l2=H(secret[16]||FLAG[0:7]) and FLAG[0:7]="crypto{" known -> only 1 unknown byte
     (secret[16]); brute 256 roots `H(H(n10||H(H(b||"crypto{")||l3))||n21)` via the
-    unlimited do_proof oracle on the SAME connection. Flag: crypto{M3rkle_Trees__funny_if_U_can_replay_atk}.
+    unlimited do_proof oracle on the SAME connection. Flag: [flag — recorded in FLAGS/zkp/challenge-236-cryptohack-mistersaplinstheprover/flag.txt].
     Generalize: (a) `idx < len-1` style guards ignore Python negative indexing — an
     appended hidden node is readable at -1; (b) when a hashed block mixes k random bytes
     with known plaintext and the sibling/parent can be leaked, whole-root entropy = k;
@@ -321,7 +321,7 @@ cryptohack_org/challenge-240-cryptohack-snark-maestro/solve.py.
     Then p=round(p1(β1))±window filtered by h1−p² square + primes; decrypt `m^0x1337` in
     `(Z/n)[I]/(I²+1)` with λ=lcm(p²−1,q²−1) (works whatever −1 does mod p,q), re-encrypt to
     verify. Sage prints ring elements as `im*I + re` — parse both. Flag:
-    DUCTF{mantissa_in_crypto??_n0_th4nks!!}. Solver: Practice_runs/cryptohack_org/
+    [flag — recorded in FLAGS/ctf-archive/challenge-242-cryptohack-1337crypt_v2-downunderctf2021/flag.txt]. Solver: Practice_runs/cryptohack_org/
     challenge-242-cryptohack-1337crypt_v2-downunderctf2021/solve2.py.
 
 15. **Hidden-param DL hash `g^m mod p` collision (c0ll1d3r Firebird Internal CTF, SOLVED
@@ -353,7 +353,7 @@ cryptohack_org/challenge-240-cryptohack-snark-maestro/solve.py.
     Run vs both primes, repeat for consistency (~10 queries), CRT → c; then decrypt flag ciphertext
     with own quadratic solver (Δ=(m−c/m)² is QR both sides). Generalizes: any oracle where a broken
     branch returns f(m)+c/f(m)-type values with paired selection bits — sum/product eliminates the
-    unknown product. Flag: HackTM{h4v3_y0u_r34lly_f0und_4ll_7h3_bu65...?}. Solver:
+    unknown product. Flag: [flag — recorded in FLAGS/ctf-archive/challenge-309-cryptohack-broken_oracle-hacktm_ctf2023/flag.txt]. Solver:
     Practice_runs/cryptohack_org/challenge-309-cryptohack-broken_oracle-hacktm_ctf2023/solve_live.py.
 
 ## Shamir coefficients from PyCryptodome getRandomRange(0, p-1) are never p-1 (share-hitcon_ctf2023, SOLVED 2026-10-29)
@@ -365,7 +365,7 @@ Server EC-ElGamal `from_pt(m)=(rG, rH+mG)`; WE supply H (only `H!=G` checked), 1
 - Digit-CRT: `k=10^9 > 10` makes `m0 + k(m1−m0) mod q` injective on [0,9]² ⇒ BOTH messages leak in ONE round; precompute 100-point table once.
 - Live-build gotcha: server prints the NEXT round's prompt on the same line as the res JSON — extract `{...}` substring, don't line-split.
 - Local subprocess harness on Windows pipes hit OSError errno 22 / buffering (−u insufficient); test protocol math IN-PROCESS instead: monkeypatch `builtins.input` + `redirect_stdout` around the real `round()` (128/128 sim before touching live).
-Flag ECSC{ch3w1n5_m0r3_7h4n_y0u_c4n_b1t_db662869450a189f}. Solver: Practice_runs/cryptohack_org/challenge-277-cryptohack-offtopic-ecsc_2024_italy2024/solve_live.py.
+Flag [flag — recorded in FLAGS/ctf-archive/challenge-277-cryptohack-offtopic-ecsc_2024_italy2024/flag.txt]. Solver: Practice_runs/cryptohack_org/challenge-277-cryptohack-offtopic-ecsc_2024_italy2024/solve_live.py.
 
 ## Share-leak over phi + huge phi-multiple => Miller factoring, size irrelevant (rsatogether ECSC2024 Italy, SOLVED 2026-10-29)
 Server Shamir-shares d over Z/phi (nodes 1..t, t=input+1) and hands out the node-k share for input k:
@@ -399,10 +399,10 @@ Shared secret = f(y_A,y_B)·S_A mod p with public commutative f and y_A = S_A mo
 Then unpadded-multiply encryption c = m·S_AB inverts by exact division (verify
 sk·m == c round-trip). Triage rule: find the modulus the final secret is reduced
 under; wherever the private key enters the formula, it is only ever that residue.
-Flag: hkcert21{th1s_i5_wh4t_w3_c4ll3d_sn4k3o1l_crypt0sy5t3m}.
+Flag: [flag — recorded in FLAGS/ctf-archive/challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021/flag.txt].
 
 ## Nibble-permutation SPN, key XOR AFTER S-box → confined-set integral, full 8 bits
-(DCTF2022 'key_recovery', SOLVED 2026-10-27; flag dctf{M4k1ng_Sb0x3s_1s_t00_h4rd})
+(DCTF2022 'key_recovery', SOLVED 2026-10-27; flag [flag — recorded in FLAGS/ctf-archive/challenge-271-cryptohack-key_recovery-dctf2022/flag.txt])
 Cipher: `u_r = S(z_{r-1}) ⊕ k_r; z_r = per(u_r); ct = S(z3) ⊕ k3`, `per` = pure
 NIBBLE permutation, `k0=K, k1|k2|k3 = sha512(K)[:48]`, 3000-block oracle.
 - Vary one plaintext byte over 256 values: every ACTIVE byte at z1/z2/z3 is
@@ -483,7 +483,7 @@ Given tuples (a_i,b_i,R_i=(a_i+b_i·x)P) with Q=x·P hidden: two-tuple eliminati
 determinant Δ=a_j·b_i−a_i·b_j gives S=b_i R_j−b_j R_i=Δ·P and T=a_j R_i−a_i R_j=Δ·x·P, so
 P=Δ⁻¹S, X=Δ⁻¹T — a bare DLP. Then ALWAYS run ellap+factor on #E(F_p): here n was a product of
 9 primes ~2^34.9 (squarefree) -> Pohlig–Hellman + BSGS(√q≈2^17.5) per factor, CRT; gmpy2 affine
-BSGS solved all 9 factors in ~2 min. Flag ECSC{l0g_pr0perty_w0rks_d1scr3t3ly_9d03dde5}.
+BSGS solved all 9 factors in ~2 min. Flag [flag — recorded in FLAGS/ctf-archive/challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa/flag.txt].
 - gp64 F_p curves (ellinit with Mod coeffs, old API): **infinity is [0]** — `elladd(E,[],Q)`
   ERRORS and `P==[]` is always false (silently breaks order checks); Map-keyed BSGS in GP is
   ~8 ms/step at 310-bit (use Python+gmpy2 for hot loops).
@@ -518,7 +518,7 @@ vs runner-up 17). Two traps that both cost a run:
   16-byte integer AND-ed with m.
 Error direction is one-sided (fake-1 groups all-match w.p. 2^-6 ⇒ true-1 decoded as 0), so true
 byte = decoded | subset of its zero bits — charset-constrained fix per bad byte. Flag
-ECSC{D3c1s10n4l_LWE_m0d_2_445fb8dc91}. Solver: Practice_runs/cryptohack_org/
+[flag — recorded in FLAGS/ctf-archive/challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor/flag.txt]. Solver: Practice_runs/cryptohack_org/
 challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor/solve2.py.
 
 ## Toy-NTRU p=2 no-wrap parity decryption + Windows lattice wall (origami-nns_ctf_20252025, 2026-10-29)
@@ -550,7 +550,7 @@ Server: fixed d, P=dG; option1 returns `quote XOR point_to_bytes(Q*d)` for ANY a
 - Twisted-#E small-subgroup route checked and ruled out first: #twist(P-256)=3·5·13·179·(241-bit prime) → only ~15 bits of d; factor #twist before planning any invalid-curve DLP attack.
 - Trivia: flag tail is `os.urandom` padding — validate candidate only up to the `}`.
 - Socket pitfall: prompt tokens `x: `/`y: ` don't end with the menu's `> `; never concat responses (glues prompt+ct onto one line and hex-line filters miss it) — sync on each exact prompt token.
-Flag AIS3{a_very_bad_ecc_implementation}. Solver: Practice_runs/cryptohack_org/challenge-315-cryptohack-pekobot-ais3_pre-exam2022/solve.py (+ in-process harness.py).
+Flag [flag — recorded in FLAGS/ctf-archive/challenge-315-cryptohack-pekobot-ais3_pre-exam2022/flag.txt]. Solver: Practice_runs/cryptohack_org/challenge-315-cryptohack-pekobot-ais3_pre-exam2022/solve.py (+ in-process harness.py).
 
 ## Linearization beats any lattice for parity-of-inner-product oracles (dark_arts-codegate_ctf2022 C3, wall BREACHED 2026-11-05)
 Oracle `b = (⟨k,x⟩ mod p) mod 2`, k small-coords over GF(p) (p odd), x attacker-uncontrolled/random:
@@ -576,7 +576,7 @@ Numpy pitfall: uint8 GF(5) elimination silently wraps (256 ≡ 1 mod 5) — elim
     scalar sha20, -O3 -march=native -fopenmp, ~6e7/s x16 cores, ~10 min/query) ->
     full password -> answer auth. Pitfall: server's parse_pbox does payload[1:-1] —
     pbox input MUST be bracketed "[a,b,...]" or it silently 'no way!'s. Flag:
-    hkcert20{d0_y0u_feel_s3cur3_wh3n_s19nin9_in?}. Solver: Practice_runs/
+    [flag — recorded in FLAGS/ctf-archive/challenge-291-cryptohack-sign_in_please-hkcert_ctf2020/flag.txt]. Solver: Practice_runs/
     cryptohack_org/challenge-291-cryptohack-sign_in_please-hkcert_ctf2020/.
 - **Berlekamp–Massey on a WINDOW of an LFSR recovers the tail's minimal polynomial, not
   the generator** (`lwin`, 120, SOLVED 2026-10-25): BM on 2048 output bits returned deg-265

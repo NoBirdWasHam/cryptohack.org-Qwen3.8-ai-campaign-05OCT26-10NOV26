@@ -1,0 +1,6 @@
+  ***   at top-level: nf=nfinit(N)
+  ***                    ^---------
+  *** nfinit: incorrect type in checknf [please apply nfinit()] (t_INT).
+  ***   Break loop: type 'break' to go back to GP prompt
+break> 
+? ... skipping file 'nfs.gp'

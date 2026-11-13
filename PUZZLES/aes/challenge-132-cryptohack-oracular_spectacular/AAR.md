@@ -13,8 +13,7 @@ submitted via `submit_flag.py`, score_delta=+150, solved 231→232)
   references used; strategy tuned via offline Monte-Carlo simulation only.
 
 ## The flag
-`crypto{with_smart_enough_searching_you_can_learn_everything}`
-(also in `flag_oracular_spectacular.txt`)
+Recorded in `FLAGS/aes/challenge-132-cryptohack-oracular_spectacular/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## The vulnerability / oracle model
 - `message = urandom(16).hex()` → 32 ASCII hex chars = exactly 2 AES-CBC blocks,
@@ -99,7 +98,7 @@ The server picks a random 32-hex-char message (urandom(16).hex() — exactly 2 A
 2. Right-to-left CBC byte control by XORing the **previous** ciphertext block (c1 for block 2; the IV via single-block iv'||c1 for block 1) so bytes b+1..15 decrypt to 16−b; then padding length 16−b is valid iff byte b decrypts to 16−b. Hex alphabet ⇒ 16 candidates/byte; cascade false positives impossible because hex chars ≥ 0x30 > 16 can't masquerade as shorter paddings.
 3. Noise handling: each candidate is a biased coin (0.4 vs 0.6); repeated queries form an LLR (F−T) random walk with drift ±0.2/query; policy = greedy argmax-LLR, stop when top1−top2 ≥ G=24 → per-byte error ≈ 6.5e-4 on non-starved bytes, ~300 queries/byte.
 4. Starvation fix: adaptive per-byte cap min(1200, max(100, BUD − used − 100·remaining_bytes)) so early-finished bytes donate budget to starved ones; offline Monte-Carlo (sim11) gave P(success) ≈ 0.86/connection at mean ≈ 9.4k queries. Channel floor: capacity ≈ 0.029 bits/query ⇒ ≥ ~4.4k queries for 128 message bits.
-5. Both blocks recovered interleaved (2 pipelined queries/round-trip, ~8–10 min/connection). First live attempt succeeded at 10,189/12,000 queries; `check` returned `crypto{with_smart_enough_searching_you_can_learn_everything}` (score_delta +150).
+5. Both blocks recovered interleaved (2 pipelined queries/round-trip, ~8–10 min/connection). First live attempt succeeded at 10,189/12,000 queries; `check` returned `[flag value withheld — real-flag strings live only under FLAGS/]` (score_delta +150).
 
 ## Limitations / attempts that failed
 Carried from "Limitations (honest)" above: ~14% per-attempt failure by design (Monte-Carlo) — remedy is reconnect+retry; one local attempt failed post-tuning, as expected. XORing the *wrong* block for byte control (the block being decrypted) was caught by local stub testing — it showed frac_true≈0.6 even for the true candidate. An old `probe_flip_log.txt` reading of frac_true=1.0000 was a counting bug (counted "result" keys, not True values). Strategy is Monte-Carlo-tuned, not provably optimal (~2.7× headroom over the capacity bound); measured flip rates 0.535–0.635 consistent with 0.6.

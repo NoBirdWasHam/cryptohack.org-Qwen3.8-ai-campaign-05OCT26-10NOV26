@@ -1,0 +1,278 @@
+{
+ "fidelity_diff": {
+  "n_sigs": {
+   "toy": 17,
+   "real_msgs": 17,
+   "chall_zip": "min(17,inf)=17"
+  },
+  "r_reduction": {
+   "toygen": "r % q (toygen.py:82)",
+   "chall": "(k*G).x NO mod (chall.py:13)",
+   "measure_all_toy_rs_lt_q": true,
+   "measure_all_ff_rs_lt_q": true,
+   "impact": "fold identity whenever r<q; P(r in [q, p_curve)) ~ 1.27*2^-128 per sig"
+  },
+  "d_range": {
+   "toygen": "[1,q) randrange(1,q)",
+   "chall": "[0,q) randbelow(q)",
+   "impact": "d=0 excluded in FF build; P=1/q on real"
+  },
+  "abx_range": {
+   "toygen": "[2,p)",
+   "chall": "[0,p)",
+   "impact": "excludes a in {0,1}, x=... ; P ~ 2^-310; a=0 would force all r equal \u2014 real r all distinct (audit G1)"
+  },
+  "z_source": {
+   "toygen": "sha256(per-index toy msg) % q",
+   "chall": "sha256(fixed URL) % q",
+   "impact": "only channel for planted structure -> tested by z-lattice (G1) and by FF pipeline reruns below"
+  },
+  "p_seed": {
+   "toygen": "Crypto getPrime unseeded (AAR caveat)",
+   "chall": "same function getPrime(0x137)"
+  },
+  "lcg_step_order": {
+   "both": "yield/append AFTER update; first k = a*x0+b \u2014 identical (code verified)"
+  },
+  "sign_formulas": {
+   "both": "chall_sign() is chall.py:12-15 verbatim on real secp256k1; FF asserts c==k%q fold like toygen.py:93"
+  }
+ },
+ "full_fidelity": [
+  {
+   "seed": 99990001,
+   "pbits": 311,
+   "n": 17,
+   "f0_gcd_minors_eq_p": true,
+   "f1_digits_recovered_given_pab": true,
+   "s5_lsb_REAL_MSGS": {
+    "view": "lsb",
+    "log2_v": 254.5,
+    "L1": 3,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 508.9,
+    "log2_dust": 625.2,
+    "log2_dust_over_p": 315.2,
+    "interval_width_bits": 626.2,
+    "top_bits_of_p_unpinned": 316.2,
+    "extraction_exact_p": false,
+    "gcd_C_bits": 1.0
+   },
+   "s5_full_REAL_MSGS": {
+    "view": "full",
+    "log2_v": 308.5,
+    "L1": 3,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 616.8,
+    "log2_dust": null,
+    "gcd_C_eq_p": true
+   },
+   "s5_lsb_TOYGEN": {
+    "view": "lsb",
+    "log2_v": 255.0,
+    "L1": 5,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 509.8,
+    "log2_dust": 626.6,
+    "log2_dust_over_p": 315.8,
+    "interval_width_bits": 627.6,
+    "top_bits_of_p_unpinned": 316.8,
+    "extraction_exact_p": false,
+    "gcd_C_bits": 1.0
+   },
+   "s5_full_TOYGEN": {
+    "view": "full",
+    "log2_v": 309.9,
+    "L1": 4,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 620.4,
+    "log2_dust": null,
+    "gcd_C_eq_p": true
+   }
+  },
+  {
+   "seed": 99990002,
+   "pbits": 311,
+   "n": 17,
+   "f0_gcd_minors_eq_p": true,
+   "f1_digits_recovered_given_pab": true,
+   "s5_lsb_REAL_MSGS": {
+    "view": "lsb",
+    "log2_v": 255.0,
+    "L1": 12,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 510.2,
+    "log2_dust": 629.2,
+    "log2_dust_over_p": 318.4,
+    "interval_width_bits": 630.2,
+    "top_bits_of_p_unpinned": 319.5,
+    "extraction_exact_p": false,
+    "gcd_C_bits": 1.0
+   },
+   "s5_full_REAL_MSGS": {
+    "view": "full",
+    "log2_v": 309.3,
+    "L1": 2,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 618.7,
+    "log2_dust": null,
+    "gcd_C_eq_p": true
+   },
+   "s5_lsb_TOYGEN": {
+    "view": "lsb",
+    "log2_v": 254.5,
+    "L1": 4,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 509.3,
+    "log2_dust": 626.0,
+    "log2_dust_over_p": 315.0,
+    "interval_width_bits": 627.0,
+    "top_bits_of_p_unpinned": 316.0,
+    "extraction_exact_p": false,
+    "gcd_C_bits": 1.0
+   },
+   "s5_full_TOYGEN": {
+    "view": "full",
+    "log2_v": 309.3,
+    "L1": 6,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 618.8,
+    "log2_dust": null,
+    "gcd_C_eq_p": true
+   }
+  },
+  {
+   "seed": 99990003,
+   "pbits": 311,
+   "n": 17,
+   "f0_gcd_minors_eq_p": true,
+   "f1_digits_recovered_given_pab": true,
+   "s5_lsb_REAL_MSGS": {
+    "view": "lsb",
+    "log2_v": 254.5,
+    "L1": 3,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 508.9,
+    "log2_dust": 625.2,
+    "log2_dust_over_p": 314.6,
+    "interval_width_bits": 626.2,
+    "top_bits_of_p_unpinned": 315.7,
+    "extraction_exact_p": false,
+    "gcd_C_bits": 1.0
+   },
+   "s5_full_REAL_MSGS": {
+    "view": "full",
+    "log2_v": 309.3,
+    "L1": 4,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 618.5,
+    "log2_dust": null,
+    "gcd_C_eq_p": true
+   },
+   "s5_lsb_TOYGEN": {
+    "view": "lsb",
+    "log2_v": 254.9,
+    "L1": 4,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 510.3,
+    "log2_dust": 626.0,
+    "log2_dust_over_p": 315.8,
+    "interval_width_bits": 627.0,
+    "top_bits_of_p_unpinned": 316.8,
+    "extraction_exact_p": false,
+    "gcd_C_bits": 1.0
+   },
+   "s5_full_TOYGEN": {
+    "view": "full",
+    "log2_v": 309.4,
+    "L1": 3,
+    "gcd_true_windows_eq_p": false,
+    "log2_C": 619.0,
+    "log2_dust": null,
+    "gcd_C_eq_p": true
+   }
+  }
+ ],
+ "margin_comparison": {
+  "lsb_log2_v_real": [
+   254.5,
+   255.0,
+   254.5
+  ],
+  "lsb_log2_v_toy": [
+   255.0,
+   254.5,
+   254.9
+  ],
+  "lsb_dust_over_p_real": [
+   315.2,
+   318.4,
+   314.6
+  ],
+  "lsb_dust_over_p_toy": [
+   315.8,
+   315.0,
+   315.8
+  ],
+  "lsb_top_bits_unpinned_real": [
+   316.2,
+   319.5,
+   315.7
+  ],
+  "lsb_extraction_exact_p_real": [
+   false,
+   false,
+   false
+  ],
+  "full_gcdC_eq_p_real": [
+   true,
+   true,
+   true
+  ],
+  "full_gcd_true_eq_p_real": [
+   false,
+   false,
+   false
+  ],
+  "f0_all": [
+   true,
+   true,
+   true
+  ],
+  "f1_all": [
+   true,
+   true,
+   true
+  ]
+ },
+ "s5v2_sweep_full_anchors": {
+  "log2_v": [
+   254.5,
+   254.5,
+   254.2,
+   254.4,
+   255.2
+  ],
+  "log2_errq_over_p": [
+   3.2,
+   2.3,
+   0.0,
+   2.0,
+   1.8
+  ],
+  "interval_width_bits": [
+   628.6,
+   626.2,
+   623.0,
+   626.2,
+   626.2
+  ],
+  "extraction": [
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

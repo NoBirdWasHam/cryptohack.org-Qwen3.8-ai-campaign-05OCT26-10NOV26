@@ -1,6 +1,6 @@
 # AAR — dual_masters (CryptoHack, 90 pts, isogenies)
 
-**Flag:** `crypto{but_I_only_gave_one_point?!}` — submitted, `ok:true`, score_delta +90.
+**Flag:** `[flag — recorded in FLAGS/isogenies/challenge-220-cryptohack-dual_masters/flag.txt]` — submitted, `ok:true`, score_delta +90.
 
 ## The setup
 SIDH-flavoured keygen on the supersingular curve E: y² = x³ + 1 over F_{p²},
@@ -107,7 +107,7 @@ a graph-shaped kernel, one image point already spans that basis.
 - H = phi(P_a) lies in ⟨Q'⟩; solve H = k·Q' by 2-adic bit lifting (order-2
   candidate table, 216 doublings per bit). n ≡ −k (mod 2^216); the flag is exactly
   216 bits, so nothing is lost: n = 40503603885770094348265111722076962450835331292559523493818154785 →
-  bytes → crypto{but_I_only_gave_one_point?!}.
+  bytes → [flag — recorded in FLAGS/isogenies/challenge-220-cryptohack-dual_masters/flag.txt].
 - Engine validated end-to-end on tiny analogous instances before the 216-step real
   run (~2 min, pure Python + gmpy2).
 

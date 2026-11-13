@@ -18,5 +18,5 @@ Resources: Wireshark TLS Decryption, NSS Key Log Format.
   misnamed — see AAR)
 
 ## Answer
-`crypto{export_SSLKEYLOGFILE}` — in the HTTP/2 `DATA[1]` frame: `Flag: crypto{export_SSLKEYLOGFILE}`.
+`[flag — recorded in FLAGS/web/challenge-159-cryptohack-decrypting-tls13/flag.txt]` — in the HTTP/2 `DATA[1]` frame: `Flag: [flag — recorded in FLAGS/web/challenge-159-cryptohack-decrypting-tls13/flag.txt]`.
 Verified accepted via submit_flag.py (2026-10-13, score 6500→6535, 141→142).

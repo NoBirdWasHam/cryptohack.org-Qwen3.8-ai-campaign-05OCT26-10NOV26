@@ -1,0 +1,15 @@
+[    0.0s] instance output_test.txt: NB=32768 k=1 rows=16318 ct=27B
+[  102.6s] stage1 guess 2: bad=True rank=16254 free_lin=4 (99s)
+[  102.7s] stage1 guess 1: bad=True rank=16255 free_lin=3 (100s)
+[  102.8s] stage1 guess 0: bad=True rank=16252 free_lin=6 (100s)
+[  103.8s] stage1 guess 3: bad=False rank=16255 free_lin=3 (100s)
+[  202.9s] stage1 guess 4: bad=True rank=16252 free_lin=6 (100s)
+[  203.4s] stage1 guess 5: bad=True rank=16255 free_lin=3 (101s)
+[  204.1s] stage1 guess 6: bad=True rank=16254 free_lin=4 (101s)
+[  204.2s] stage1 guess 7: bad=True rank=16255 free_lin=3 (100s)
+[  204.2s] stage1 consistent guesses: [3]
+[  204.2s] building stage2 masks in parent...
+[  311.2s] guess 3: stage2 rank=16612 X=98fef121dc14b10dd36308628dcd7b4a W=fc3ccd1c0778e8362847af795b89a6b7 full_check=PASS
+[  311.2s] KEY: 0xfc3ccd1c0778e8362847af795b89a6b77338a3e6f4149860c394bfc4251aa4853f578fc31d8cf6dbddd9fd25c246e82598fef121dc14b10dd36308628dcd7b4a
+[  311.2s] FLAG: crypto{test_flag_selfcheck}
+[  311.2s] KEY MATCH vs key_test.txt: True

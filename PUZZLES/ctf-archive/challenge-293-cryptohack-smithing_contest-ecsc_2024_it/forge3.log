@@ -1,0 +1,12 @@
+[1] ### broadcasting public parameters ###
+[2] points parsed; G2 model: True
+[3] n*du0=O: True  P_G2 oncurve: True
+[4] Qid_ad flip=False: ((151785683690508887713591620826891890273, 1846727
+[5] n*Qid_ad=O: True
+[6] pairing-consistency flip=False: True
+[7] S oncurve: True  n*S=O: True
+[8] sig payload len: 257
+[9] srv: give me a signature to verify: what message corresponds to this signature? who signed it? C = [1047680108462472954928943
+[10] t len 540  r len 538
+[11] srv: t, r? [flag — recorded in FLAGS/]
+[12] FLAG: [flag — recorded in FLAGS/]

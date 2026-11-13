@@ -36,7 +36,7 @@ Lattice params: det = 256^48 = 2^384, n=98 → GH ≈ 36; true distance ‖x‖ 
   PKCS7 XOR-fold of BZHCTF{...} 24-char flag; verify hash(flag)==h.
 
 ## Outcome — SOLVED
-FLAG: BZHCTF{7ffbeebcd72be3dc} (derived offline; hash(flag)==h verified; accepted by site,
+FLAG: [flag — recorded in FLAGS/ctf-archive/challenge-303-cryptohack-u-turn-breizh_ctf2025/flag.txt] (derived offline; hash(flag)==h verified; accepted by site,
 solved count 286→287). Final script: solve_j.py; log: runJ.log; flag: flag_u-turn-breizh_ctf2025.txt.
 Kannan embedding (W=3, BKZ-60, 51-dim, seconds) gave W·x_true at norm² 810/9=90 (unique in box);
 c·5^50 completion scan (c<3831) + known-plaintext decode + hash check → exactly 1 candidate.

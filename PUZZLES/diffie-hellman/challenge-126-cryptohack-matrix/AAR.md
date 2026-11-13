@@ -10,7 +10,7 @@
 
 ## Flag
 
-`crypto{there_is_no_spoon_66eff188}`
+`[flag — recorded in FLAGS/diffie-hellman/challenge-126-cryptohack-matrix/flag.txt]`
 
 ## How it was solved
 
@@ -33,7 +33,7 @@
 
 ```
 ~/tools/crypto-ctf/venv/Scripts/python.exe -u solve.py
-cd ~/Practice_runs/cryptohack_org && python submit_flag.py matrix "crypto{there_is_no_spoon_66eff188}"
+cd ~/Practice_runs/cryptohack_org && python submit_flag.py matrix "[flag — recorded in FLAGS/diffie-hellman/challenge-126-cryptohack-matrix/flag.txt]"
 ```
 
 ## Exact outputs
@@ -43,12 +43,12 @@ cd ~/Practice_runs/cryptohack_org && python submit_flag.py matrix "crypto{there_
 L bit_length: 785
 t0 bit_length: 785
 M^E == C: True
-FLAG: crypto{there_is_no_spoon_66eff188}
+FLAG: [flag — recorded in FLAGS/diffie-hellman/challenge-126-cryptohack-matrix/flag.txt]
 ```
 
-`submit_flag.py matrix "crypto{there_is_no_spoon_66eff188}"`:
+`submit_flag.py matrix "[flag — recorded in FLAGS/diffie-hellman/challenge-126-cryptohack-matrix/flag.txt]"`:
 ```json
-{"submitted": "crypto{there_is_no_spoon_66eff188}", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 7870, "solved": 166}, "after": {"score": 7945, "solved": 167}, "score_delta": 75}
+{"submitted": "[flag — recorded in FLAGS/diffie-hellman/challenge-126-cryptohack-matrix/flag.txt]", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 7870, "solved": 166}, "after": {"score": 7945, "solved": 167}, "score_delta": 75}
 ```
 
 ## Verification

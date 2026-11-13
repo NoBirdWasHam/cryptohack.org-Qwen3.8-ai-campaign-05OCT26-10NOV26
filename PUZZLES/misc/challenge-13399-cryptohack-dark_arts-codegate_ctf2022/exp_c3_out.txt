@@ -1,0 +1,1 @@
+T=256 block=60 wk=2 cfac=3.0 seed=1: FAIL (64s)

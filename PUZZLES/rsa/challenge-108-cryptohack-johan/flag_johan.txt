@@ -1,1 +1,1 @@
-crypto{1f_y0u_d0nt_p4d_y0u_4r3_Vuln3rabl3}
+[flag — recorded in FLAGS/rsa/challenge-108-cryptohack-johan/flag.txt]

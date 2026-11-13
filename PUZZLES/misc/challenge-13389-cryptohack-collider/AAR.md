@@ -1,6 +1,6 @@
 # AAR — Challenge 13389: Collider (50 pts, hash functions → collisions)
 
-**Date:** 2026-10-14 · **Status:** SOLVED (server-verified) · **Flag:** `crypto{m0re_th4n_ju5t_p1g30nh0le_pr1nc1ple}`
+**Date:** 2026-10-14 · **Status:** SOLVED (server-verified) · **Flag:** `[flag — recorded in FLAGS/hashes/challenge-13389-cryptohack-collider/flag.txt]`
 **Delta:** +50 (7245 → 7295, 156 → 157 solved) · **Method:** self-solve from statement + provided `13389.py` + live probing. No solutions page, no writeups used.
 
 ## Vulnerability
@@ -33,7 +33,7 @@ So a **generic** MD5 collision pair (not a second preimage) is all that's needed
 4. One connection, two requests:
    ```
    → {"document": <msg1 hex>}   {"success": "Document 3778dd... added to system"}
-   → {"document": <msg2 hex>}   {"error": "Document system crash, leaking flag: crypto{m0re_th4n_ju5t_p1g30nh0le_pr1nc1ple}"}
+   → {"document": <msg2 hex>}   {"error": "Document system crash, leaking flag: [flag — recorded in FLAGS/hashes/challenge-13389-cryptohack-collider/flag.txt]"}
    ```
 
 ## Verification
@@ -73,7 +73,7 @@ The document system keys stored documents by MD5 and treats "same MD5, different
 1. Source check: `ast`-verified from the real `13389.py` that md5(stored_text) == stored_key for both pre-stored docs ⇒ second-preimage route provably dead before designing anything.
 2. State-lifetime probes on `socket.cryptohack.org:13389`: same random document on two connections → "added" twice ⇒ state is per-connection (multi-connection plan void); sending a stored text → "Document already exists" ⇒ live dict matches the source.
 3. Collision generation: Marc Stevens' hashclash `md5fastcoll` core compiled unmodified (block0/1*.cpp, md5.cpp, main.hpp + a minimal boost-free `main_min.cpp` driver, mingw64 g++ -O2 -static) → `msg1.bin`/`msg2.bin`, 128 B each, both md5 = `3778dd67655b79828307612d215f560a`, independently re-verified with `hashlib.md5`.
-4. One connection, two JSON lines: msg1 → "Document 3778dd... added to system"; msg2 → `{"error": "Document system crash, leaking flag: crypto{m0re_th4n_ju5t_p1g30nh0le_pr1nc1ple}"}` — flag handed over by the service.
+4. One connection, two JSON lines: msg1 → "Document 3778dd... added to system"; msg2 → `{"error": "Document system crash, leaking flag: [flag — recorded in FLAGS/hashes/challenge-13389-cryptohack-collider/flag.txt]"}` — flag handed over by the service.
 5. Verification: `solve.py` reproduces the crash on a fresh connection; `submit_flag.py collider` → HTTP 200, API confirms 7245→7295 (+50), solved 156→157.
 
 ## Limitations / attempts that failed

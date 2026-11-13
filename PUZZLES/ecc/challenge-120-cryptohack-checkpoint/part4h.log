@@ -1,0 +1,40 @@
+session ok
+curve m bits=21 r=734040 unique bits=21
+curve m bits=21 r=487936 unique bits=41
+curve m bits=21 r=614624 unique bits=61
+no order-m point b= 979214
+curve m bits=21 r=342649 unique bits=81
+curve m bits=21 r=396314 unique bits=101
+curve m bits=21 r=149016 unique bits=117
+curve m bits=21 r=229200 unique bits=136
+curve m bits=21 r=328735 unique bits=157
+curve m bits=21 r=346596 unique bits=173
+curve m bits=21 r=659456 unique bits=189
+curve m bits=21 r=215146 unique bits=210
+no order-m point b= 90282
+no order-m point b= 65136
+no order-m point b= 983632
+curve m bits=21 r=29320 unique bits=228
+curve m bits=21 r=559523 unique bits=248
+curve m bits=21 r=298008 unique bits=268
+curve m bits=21 r=730139 unique bits=286
+curve m bits=21 r=92491 unique bits=302
+curve m bits=21 r=336804 unique bits=320
+curve m bits=21 r=495860 unique bits=339
+curve m bits=21 r=117476 unique bits=360
+no order-m point b= 489360
+curve m bits=21 r=130944 unique bits=376
+curve m bits=21 r=148582 unique bits=392
+curve m bits=21 r=252572 unique bits=410
+curve m bits=21 r=635036 unique bits=424
+curve m bits=21 r=443750 unique bits=443
+curve m bits=21 r=675296 unique bits=463
+collected unique bits: 463
+x*G == server_pub ? False
+x*G (unreduced) == server_pub ? False
+residues saved to ck_res.json
+SCALAR INCOMPLETE - need more curve bits
+x plaintext: b'\\d\xc2\x11\xc3JM\x9c\xab\x84\x9b\n\x18\xe5\x8b\xa6\xe9R\x9b\x08q\x19\x11j\x0b\x0bMPH4\x80^\xaf\xfa]\x13:\xa2\xa2U\xf4\xceD\x1d5\xc2\xde}'
+x%N plaintext: b'\\d\xc2\x11\xc3JM\x9c\xab\x84\x9b\n\x18\xe5\x8b\xa6\xe9R\x9b\x08q\x19\x11j\x0b\x0bMPH4\x80^\xaf\xfa]\x13:\xa2\xa2U\xf4\xceD\x1d5\xc2\xde}'
+x-N plaintext: b'\\d\xc2\x11\xc3JM\x9c\xab\x84\x9b\n\x18\xe5\x8b\xa6\xe9R\x9b\x08q\x19\x11j\x0b\x0bMPH4\x80^\xaf\xfa]\x13:\xa2\xa2U\xf4\xceD\x1d5\xc2\xde}'
+EXIT=0

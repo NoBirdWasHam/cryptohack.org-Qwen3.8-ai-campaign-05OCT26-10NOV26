@@ -1,0 +1,32 @@
+setup 0.1s
+pool 1554
+pool col 0 0s
+pool col 400 18s
+pool col 800 37s
+pool col 1200 51s
+cols done 63s
+greedy step 1 pairs 1073709081 63s
+greedy step 2 pairs 536854221 63s
+greedy step 3 pairs 268438492 64s
+greedy step 4 pairs 134220210 64s
+greedy step 5 pairs 67110259 64s
+greedy step 6 pairs 33555396 65s
+greedy step 7 pairs 16778470 65s
+greedy step 8 pairs 8389081 65s
+greedy step 9 pairs 4194391 66s
+greedy step 10 pairs 2096646 66s
+greedy step 11 pairs 1047838 66s
+greedy step 12 pairs 523045 67s
+greedy step 13 pairs 261043 67s
+greedy step 14 pairs 130117 68s
+greedy step 15 pairs 64803 68s
+greedy step 16 pairs 32141 68s
+greedy step 17 pairs 15872 69s
+greedy step 18 pairs 7793 69s
+greedy step 19 pairs 3806 70s
+greedy step 20 pairs 1812 70s
+hc swap slot 3 -> pairs 1802 93s
+hc converged at pairs 1802
+FINAL pairs 1802 epochs 2 338s
+table size 63770 dups 1766
+saved design3.json

@@ -1,0 +1,22 @@
+[40] bet=EVEN spin=10 cands=NA $=17
+[45] bet=EVEN spin=26 cands=NA $=18
+[45] state1 done (46 digits), building cands...
+[45] cands=65536
+[50] bet=22 spin=22 cands=1 $=57
+[55] bet=36 spin=36 cands=1 $=232
+[60] bet=16 spin=16 cands=1 $=407
+[65] bet=36 spin=36 cands=1 $=582
+[70] bet=26 spin=26 cands=1 $=757
+[75] bet=33 spin=33 cands=1 $=932
+[80] bet=34 spin=34 cands=1 $=1107
+[85] bet=11 spin=11 cands=1 $=1282
+[90] bet=22 spin=22 cands=1 $=1457
+[91] NEW STATE, cands=65536 $=1492
+[95] bet=EVEN spin=23 cands=1 $=1490
+[100] bet=11 spin=11 cands=1 $=1665
+[105] bet=4 spin=4 cands=1 $=1840
+[110] bet=25 spin=25 cands=1 $=2015
+[115] bet=5 spin=5 cands=1 $=2190
+[120] bet=34 spin=34 cands=1 $=2365
+end: {'msg': "Congratulations Mr Jarecki! Here's a flag: [flag — recorded in FLAGS/]"}
+EXIT=0

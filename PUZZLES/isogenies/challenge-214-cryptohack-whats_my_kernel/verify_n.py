@@ -178,4 +178,4 @@ match = f2_eq(a, aA) and f2_eq(b, bA)
 print(f"CODEMATCH = {match}")
 if match:
     print(f"\nGOLD VERIFICATION PASSED. n = {n} = {n:#x}")
-    print(f"FLAG = crypto{{{n:019x}}}")
+    print(f"FLAG = [flag value withheld — real-flag strings live only under FLAGS/]}}")

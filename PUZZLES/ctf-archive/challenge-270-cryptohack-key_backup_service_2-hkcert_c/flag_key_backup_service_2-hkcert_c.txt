@@ -1,1 +1,1 @@
-hkcert21{y0u_d0nt_n33d_p41rw15e_9cd_1f_y0u_c4n_d0_i7_1n_b4tch}
+[flag — recorded in FLAGS/ctf-archive/challenge-270-cryptohack-key_backup_service_2-hkcert_c/flag.txt]

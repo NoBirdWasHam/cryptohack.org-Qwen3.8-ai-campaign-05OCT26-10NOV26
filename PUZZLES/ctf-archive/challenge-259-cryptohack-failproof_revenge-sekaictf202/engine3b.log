@@ -1,0 +1,14 @@
+1793589629 gp: ***   Break loop: type 'break' to go back to GP prompt
+break> ? *   Warning: new stack size = 512000000 (488.281 Mbytes).
+  ***   at top-level: Kk=matkerl(v)
+  ***                    ^----------
+  ***   not a function in function call
+... skipping file 'kern3b.gp'
+1793589826 pair generators: 248
+1793589826 LLL gens 0s
+1793589826 kernel vectors after check: 248
+1793589827 toy0: kannan(raw T0) LLL 1s min=29.9 nlev=76
+1793590477 pair generators: 248
+1793590477 LLL gens 0s
+1793590477 kernel vectors after check: 248
+1793590478 toy0: kannan(raw T0) LLL 1s min=29.9 nlev=76

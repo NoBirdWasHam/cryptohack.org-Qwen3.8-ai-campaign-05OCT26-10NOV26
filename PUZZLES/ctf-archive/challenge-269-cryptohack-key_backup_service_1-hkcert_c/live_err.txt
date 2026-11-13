@@ -1,0 +1,6 @@
+PRE: '[cmd] '
+key0: 1 n-candidates
+key1: 1 n-candidates
+key2: 1 n-candidates
+key3: 1 n-candidates
+key4: 1 n-candidates

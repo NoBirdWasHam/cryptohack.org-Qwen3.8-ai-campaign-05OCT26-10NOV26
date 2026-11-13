@@ -1,1 +1,1 @@
-DUCTF{MQ_1s_fun_a5e39cf21a}
+[flag — recorded in FLAGS/ctf-archive/challenge-296-cryptohack-substitution_cipher_iii-downu/flag.txt]

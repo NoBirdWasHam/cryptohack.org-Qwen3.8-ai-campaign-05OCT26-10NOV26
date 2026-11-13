@@ -9,9 +9,7 @@ Both slugs run on the **same server** `archive.cryptohack.org:11840`, and the **
 satisfies both. No separate attack was needed.
 
 ## The flag
-`crypto{sigma_protocols_compose!}` (identical to the 231 flag)
-- Submitted via `submit_flag.py or_proof-cryptohack2024 "crypto{...}"` → accepted,
-  solved count 174→175, score_delta 0 (archive = no points).
+Recorded in `FLAGS/ctf-archive/challenge-276-cryptohack-or_proof-cryptohack2024/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 Solved as part of the 231 sigma-or-proof run (2026-10-19): 3-phase OR-protocol protocol —

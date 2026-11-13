@@ -545,7 +545,7 @@ ALGORITHM only; its final comment line never used in derivation).
 Pipeline: v1/v2 diffs -> find_ortho_fp(q, v1, v2) -> find_ortho_fp(q, *ortho) [diff_k in rowspace]
 -> reduce_mod_p(2^255-19) on [ortho2.T[:-1] | ortho2.T[1:]] -> mu-kernel -> diff_k -> 2-sig linear solve -> d
 -> AES-CTR sha256(str(d)). d = 4707440185...; verified by ALL 17 ECDSA r-checks (independent oracle).
-FLAG: hitcon{it_is_all_LLL_all_the_way_down?_always_have_been_:)} — decrypted from the real output.txt, identical on
+FLAG: [flag — recorded in FLAGS/ctf-archive/challenge-257-cryptohack-eclcg-hitcon_ctf2024/flag.txt] — decrypted from the real output.txt, identical on
 independent re-run. Disclosure: plaintext equals the author repo solution-script comment (expected for the static
 archive instance); not used in derivation.
 Artifacts: solve_port.py (working solver), synth_control_ec.py (planted-instance gate), flatter build persisted at

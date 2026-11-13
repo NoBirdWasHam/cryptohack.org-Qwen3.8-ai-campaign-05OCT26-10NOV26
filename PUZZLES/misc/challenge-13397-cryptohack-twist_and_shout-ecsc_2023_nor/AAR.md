@@ -1,7 +1,7 @@
 # AAR — twist_and_shout-ecsc_2023_nor (CryptoHack archive, ECSC 2023 Norway)
 
 ## Solved: YES
-Flag: `ECSC{7w1st_&&_sh0ut!}` — submitted `ok:true`, solved count 261→262,
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor/flag.txt]` — submitted `ok:true`, solved count 261→262,
 score_delta 0 (archive challenge = 0 pts, already-credited semantics per brief).
 Flag provenance: derived locally from 6 oracle queries via the attack below, then
 verified against three live service responses BEFORE submission. No external

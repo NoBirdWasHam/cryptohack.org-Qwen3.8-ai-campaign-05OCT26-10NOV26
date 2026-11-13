@@ -9,7 +9,7 @@ accepted via submit_flag.py. (Slug: `sharks-wire`.)
 - **Statement provenance:** category page card text (cached in remaining_descs.json).
 
 ## The flag
-`15`
+Recorded in `FLAGS/web/challenge-153-cryptohack-sharks-wire/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 1. Downloaded the challenge's `cryptohack.org.pcapng` (shared capture; also used by tls-handshake).

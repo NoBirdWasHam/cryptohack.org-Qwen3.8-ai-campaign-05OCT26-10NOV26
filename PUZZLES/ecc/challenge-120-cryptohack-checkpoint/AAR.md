@@ -1,6 +1,6 @@
 # AAR — 120-cryptohack-checkpoint: Checkpoint (CryptoHack) — SOLVED
 
-**Result:** SOLVED (account NoBirdWasHam; 2026-10-21) — flag `crypto{nice_forward_secrecy_you_have_there!}` (+150, score 12060, 205 solved)
+**Result:** SOLVED (account NoBirdWasHam; 2026-10-21) — flag `[flag — recorded in FLAGS/ecc/challenge-120-cryptohack-checkpoint/flag.txt]` (+150, score 12060, 205 solved)
 
 ## Sources
 - **Platform:** CryptoHack (https://cryptohack.org/)
@@ -24,7 +24,7 @@ session; banner carries client_pub, server_pub, flag ct.
    Pick 16 curves with no shared prime >2 (~326 bits), enumerate 2^16 sign patterns,
    CRT, verify x*G == server_pub. Exactly one hit: 256-bit s, mask 0b1010011010000111.
    Flag = AES-CBC-decrypt(ct, sha256(str(x(s*client_pub)))[:16]) =>
-   `crypto{nice_forward_secrecy_you_have_there!}` + PKCS5 04*4.
+   `[flag — recorded in FLAGS/ecc/challenge-120-cryptohack-checkpoint/flag.txt]` + PKCS5 04*4.
 
 ## Root causes of the long tail
 - SIGN AMBIGUITY was the whole story. All-positive CRT = mixed-sign mongrel:

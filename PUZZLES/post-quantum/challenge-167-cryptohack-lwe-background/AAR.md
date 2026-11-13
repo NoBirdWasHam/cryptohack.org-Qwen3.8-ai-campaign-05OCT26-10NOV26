@@ -1,16 +1,16 @@
 # AAR — LWE Background (challenge-167-cryptohack-lwe-background)
 
 ## 1. Result
-**SOLVED** — answer `Oded Regev` (BARE answer-type: no wrapper), submitted via `submit_flag.py` on 2026-10-12 and live-confirmed in the user API (present in the 137 solved-challenges list as of 2026-10-13).
+**SOLVED** — answer `[flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt]` (BARE answer-type: no wrapper), submitted via `submit_flag.py` on 2026-10-12 and live-confirmed in the user API (present in the 137 solved-challenges list as of 2026-10-13).
 
 ## 2. Source
 - Statement: https://cryptohack.org/challenges/post-quantum/lwe-background/ (cached in `challenge_meta.json`)
 - **NOT consulted:** solutions/writeups (self-solve rule).
 
 ## 3. The answer + verification
-- `Oded Regev`
-Answer-type (BARE, no wrapper). Conceptual: the LWE problem was introduced by **Oded Regev** (STOC 2005).
-- Submitted `Oded Regev` bare; accepted.
+- `[flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt]`
+Answer-type (BARE, no wrapper). Conceptual: the LWE problem was introduced by **[flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt]** (STOC 2005).
+- Submitted `[flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt]` bare; accepted.
 
 ## 4. Toolchain
 - Python 3.12 (~/tools/crypto-ctf/venv/Scripts/python.exe); numpy for the lattice det; PARI gp64 for mod-p polynomial roots (polrootsmod(Pol([...],x), p) — note: takes a Pol, not a coefficient list).
@@ -25,8 +25,8 @@ Answer-type (BARE, no wrapper). Conceptual: the LWE problem was introduced by **
 None — this is an answer-type (background/theory) challenge with no service, no crypto object, and nothing to break. It asks a single factual question about the history of the field: who introduced the Learning With Errors problem. The honest classification is "knowledge retrieval", and the run's product is knowing the citation, not an attack.
 
 ## How the answer follows
-1. LWE was introduced by Oded Regev in "On lattices, learning with errors, random linear codes, and cryptography" (STOC 2005) — the founding reference for the entire LWE-based post-quantum line the following challenges build on.
-2. That is exactly what the statement asks for, so the answer string is the name: `Oded Regev`.
+1. LWE was introduced by [flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt] in "On lattices, learning with errors, random linear codes, and cryptography" (STOC 2005) — the founding reference for the entire LWE-based post-quantum line the following challenges build on.
+2. That is exactly what the statement asks for, so the answer string is the name: `[flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt]`.
 3. Format was part of the derivation: answer-type challenges here accept the BARE value (no `crypto{}` wrapper) — confirmed by live acceptance via submit_flag.py on 2026-10-12 and presence in the user API solved list (2026-10-13).
 
 ## Limitations / attempts that failed
@@ -34,6 +34,6 @@ None — this is an answer-type (background/theory) challenge with no service, n
 - Housekeeping for accuracy (adds nothing, changes nothing): the j-invariant / Montgomery-curve / PARI-polrootsmod learning points in section 5 above pertain to sibling answer-type challenges worked in the same session, not to this LWE-history solve.
 
 ## Sources
-- Oded Regev, "On lattices, learning with errors, random linear codes, and cryptography", STOC 2005 — public academic reference about the math/history (explicitly permitted category under source-disclosure rules; not a challenge solution).
+- [flag — recorded in FLAGS/post-quantum/challenge-167-cryptohack-lwe-background/flag.txt], "On lattices, learning with errors, random linear codes, and cryptography", STOC 2005 — public academic reference about the math/history (explicitly permitted category under source-disclosure rules; not a challenge solution).
 - Statement: https://cryptohack.org/challenges/post-quantum/lwe-background/ (cached in challenge_meta.json).
 - CryptoHack solutions/solves pages NOT consulted (self-solve rule).

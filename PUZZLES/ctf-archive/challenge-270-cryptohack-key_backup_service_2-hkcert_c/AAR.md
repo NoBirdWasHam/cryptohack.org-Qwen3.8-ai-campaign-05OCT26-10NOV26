@@ -28,7 +28,7 @@
 
 ## Results
 ## Solved: YES — flag submitted, ok:true, solved-list 268→269 (archive = 0 pts, expected).
-Flag: `hkcert21{y0u_d0nt_n33d_p41rw15e_9cd_1f_y0u_c4n_d0_i7_1n_b4tch}`
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-270-cryptohack-key_backup_service_2-hkcert_c/flag.txt]`
 (self-derived; never read from any answer source)
 - kept 16384/16384 blocks, 0 zero-candidate (L-gcd trick fully recovers s≤2^24
   in every block; the earlier trial-division scan2 had windowing bugs).

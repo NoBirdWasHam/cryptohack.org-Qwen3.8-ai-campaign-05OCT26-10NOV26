@@ -1,5 +1,5 @@
 import os, sys, types
-os.environ["FLAG"] = "crypto{oracle_wraps_reveal_the_prime_DGHV_toystore}"
+os.environ["FLAG"] = "[flag value withheld — real-flag strings live only under FLAGS/]"
 src = open("server_deployed.py", encoding="utf-8").read()   # PRISTINE -- float typo intact
 NL = chr(10)
 src = src.replace(

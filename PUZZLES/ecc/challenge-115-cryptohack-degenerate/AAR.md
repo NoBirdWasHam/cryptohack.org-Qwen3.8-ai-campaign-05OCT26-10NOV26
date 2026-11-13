@@ -8,7 +8,7 @@
 - **NOT consulted:** solutions page / writeups (no-cheat rule)
 
 ## The flag
-`crypto{degenerates_will_never_keep_a_secret}` (flag text confirms the degeneracy).
+Recorded in `FLAGS/ecc/challenge-115-cryptohack-degenerate/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## Problem
 - "Twisted Edwards" −x²+y² = 1+dx²y², p ≈ 2^256, base point compressed (1, 11),

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-231-cryptohack-sigma-or-proof\solve.py", line 143, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-231-cryptohack-sigma-or-proof\solve.py", line 69, in main
+    line = conn.expect("verifier sends s = ")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-231-cryptohack-sigma-or-proof\solve.py", line 48, in expect
+    assert line.startswith(prefix), f"expected {prefix!r}, got {line!r}"
+AssertionError: expected 'verifier sends s = ', got 'a0:a1:verifier sends s = 637483604040443941225782563331364338571721733531502336352331714930473888892744919440137500361439250170702740126894202846369211895746376243430259509756462'

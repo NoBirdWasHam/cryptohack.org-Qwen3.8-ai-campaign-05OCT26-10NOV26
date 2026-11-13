@@ -1,1 +1,1 @@
-firebird{wh3n_1n_d0ub7_u5e_latt111c3_r3duc71110n_4lg0r111thm}
+[flag — recorded in FLAGS/ctf-archive/challenge-251-cryptohack-c0ll1d3r-firebird_internal_ctf/flag.txt]

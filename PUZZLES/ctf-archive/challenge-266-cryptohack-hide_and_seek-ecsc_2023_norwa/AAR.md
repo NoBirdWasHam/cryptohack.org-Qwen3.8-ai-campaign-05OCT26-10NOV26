@@ -38,7 +38,7 @@ Given 42 tuples `(a_i, b_i, R_i = a_i·P + b_i·Q)` with `Q = FLAG·P = x·P`:
 - No solutions/writeups consulted; no flag value retrieved from any artifact (flag only from own derivation, cross-checked against own second implementation).
 
 ## Flag
-`ECSC{l0g_pr0perty_w0rks_d1scr3t3ly_9d03dde5}` (also in flag_hide_and_seek-ecsc_2023_norwa.txt)
+`[flag — recorded in FLAGS/ctf-archive/challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa/flag.txt]` (also in flag_hide_and_seek-ecsc_2023_norwa.txt)
 
 ## Sources
 Provided materials only: challenge statement/card, files provided with the challenge, and direct interaction with the challenge service. The AAR records no third-party solutions/writeups or answer artifacts consulted (no-cheat rule); derivation self-derived.

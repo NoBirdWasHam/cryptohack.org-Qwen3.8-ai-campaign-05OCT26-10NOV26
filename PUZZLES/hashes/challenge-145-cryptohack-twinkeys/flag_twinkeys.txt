@@ -1,1 +1,1 @@
-crypto{MD5_15_0n_4_c0ll151On_c0uRz3}
+[flag — recorded in FLAGS/hashes/challenge-145-cryptohack-twinkeys/flag.txt]

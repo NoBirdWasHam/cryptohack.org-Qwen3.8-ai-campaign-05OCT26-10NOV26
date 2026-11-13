@@ -1,6 +1,6 @@
 # AAR — 123-cryptohack-real_curves: Real Curve Crypto (CryptoHack, 200 pts)
 
-**Result:** SOLVED. Flag: `crypto{real_fields_arent_finite}` (API: ok:true, score_delta +200, solves 211→212).
+**Result:** SOLVED. Flag: `[flag — recorded in FLAGS/ecc/challenge-123-cryptohack-real_curves/flag.txt]` (API: ok:true, score_delta +200, solves 211→212).
 **Date:** 2026-10-22
 
 ## Source
@@ -30,7 +30,7 @@ a **CVP with a huge gap**, not a hard DLP.
    `[1,0,U,0], [0,1,−W,0], [0,0,V,c]`, c = 2^190. Plain exact-fraction LLL suffices
    (true vector ≈2^190 vs Gaussian-heuristic ≈2^233; expected spurious ≈2^-367).
 3. Short vector with |4th coord| = c gives N = 106141468078803597872809305192151622442.
-4. AES-128-CBC decrypt with key = N.to_bytes(16,'big') → `crypto{real_fields_arent_finite}`.
+4. AES-128-CBC decrypt with key = N.to_bytes(16,'big') → `[flag — recorded in FLAGS/ecc/challenge-123-cryptohack-real_curves/flag.txt]`.
 
 Pipeline was validated end-to-end on a synthetic instance (known 127-bit N, same
 dps=200 source code) before touching the real data.
@@ -79,7 +79,7 @@ The "elliptic curve" y² = x³ − x is evaluated over the **real numbers** (mpm
 2. Precision budget: the source's dps=200 double-and-add injects ≈2^127·10⁻²⁰⁰ ≈ 10⁻¹⁵⁷ of error into u_P (measured empirically, dps=200 vs 500 rerun on a synthetic instance) — 155+ clean digits ≫ the ~39 digits of secret, which is the leak.
 3. Scale u-values by 2^700 to integers U, W, V and build the Kannan-embedding lattice rows [1,0,U,0], [0,1,−W,0], [0,0,V,c], c = 2^190. Plain exact-fraction LLL suffices: true vector ≈2^190 vs Gaussian-heuristic competitor ≈2^233, spurious ≈2⁻³⁶⁷.
 4. The short vector with |4th coordinate| = c yields N = 106141468078803597872809305192151622442 (127 bits).
-5. AES-128-CBC decrypt with key = N.to_bytes(16,'big') → `crypto{real_fields_arent_finite}` (API ok:true, +200). Pipeline was validated end-to-end on a synthetic instance (known 127-bit N, same dps=200 source) before touching real data.
+5. AES-128-CBC decrypt with key = N.to_bytes(16,'big') → `[flag — recorded in FLAGS/ecc/challenge-123-cryptohack-real_curves/flag.txt]` (API ok:true, +200). Pipeline was validated end-to-end on a synthetic instance (known 127-bit N, same dps=200 source) before touching real data.
 
 ## Limitations / attempts that failed
 Carried from "Limitations" above: significant early effort went into a wrong hardness analysis (initial 2D-CVP argument concluded the instance was generic-hard — it fixed the wrong target window); small-N brute force (N < 2·10^6) and continued-fraction scan of α (no huge partial quotients) were run and ruled out shortcuts before the lattice framing was corrected. Success margin depends on the source's rounding error (~10⁻¹⁵⁷): at dps ≈ 120 the same lattice fails (ε·2^P exceeds det^⅓). Tooling: PARI `elllog(E,[x,y])` errored ("too few arguments") on this build — quadrature + `pi/agm` used instead.

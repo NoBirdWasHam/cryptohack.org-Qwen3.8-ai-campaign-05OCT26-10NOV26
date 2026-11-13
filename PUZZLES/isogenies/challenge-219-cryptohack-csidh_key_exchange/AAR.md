@@ -1,7 +1,7 @@
 # AAR — challenge-219: CSIDH Key Exchange (cryptohack.org, 90 pts)
 
 **Status:** SOLVED, submitted live 2026-10-21. 11480 → 11570 (202 solved).
-**Flag:** `crypto{post_quantum_NIKE_isogenies_just_do_it}`
+**Flag:** `[flag — recorded in FLAGS/isogenies/challenge-219-cryptohack-csidh_key_exchange/flag.txt]`
 
 ## Problem
 CSIDH-512: p = 4·∏(75 primes 3..587) − 1, E0: y²=x³+x over F_p, both private exponent
@@ -66,7 +66,7 @@ two independent ones.
 - Formulas pre-validated on the p = 419 ground truth (prime_power walk: j=13
   then 98); kernel order asserted at every step; first A decrypted
   (AES-256-CBC, key = SHA256(str(A))) →
-  crypto{post_quantum_NIKE_isogenies_just_do_it}; server +90.
+  [flag — recorded in FLAGS/isogenies/challenge-219-cryptohack-csidh_key_exchange/flag.txt]; server +90.
 
 ## Limitations / attempts that failed
 

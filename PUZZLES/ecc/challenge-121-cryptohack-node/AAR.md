@@ -1,6 +1,6 @@
 # AAR — 121-cryptohack-node: Elliptic Nodes (CryptoHack)
 
-**Result:** SOLVED ✅ — flag `crypto{s1ngul4r_s1mplif1c4t1on}` (score_delta +150, ok:true, 2026-10-22)
+**Result:** SOLVED ✅ — flag `[flag — recorded in FLAGS/ecc/challenge-121-cryptohack-node/flag.txt]` (score_delta +150, ok:true, 2026-10-22)
 **Account:** NoBirdWasHam · submitted via `submit_flag.py node`
 
 ## Source
@@ -56,7 +56,7 @@ Two independent flaws stack. First, "secret" curve parameters are not secret: th
 2. Confirm singularity: gcd(x³+ax+b, 3x²+a) has common root x₀ = −3b/(2a) (f(x₀)=f′(x₀)=0); translate X = x−x₀ ⇒ y² = X²(X+c), c = 3x₀.
 3. c is a QR mod p ⇒ split node. The isomorphism φ(P) = (t−s)/(t+s), t = y/(x−x₀), s² = c, maps E_ns(F_p) → F_pˣ; validated numerically: φ(kG) = φ(G)^k for k = 2, 3, 5 (script auto-falls back to the inverse convention).
 4. DLP: g = φ(G), h = φ(Q), `znlog(Mod(h,p), Mod(g,p), p−1)` in PARI/GP; znorder(g) = p−1 ⇒ d unique. p−1 = 2 · 2561822865103 · 3310993114631 · 3782003969119 · 3877604210317 · 4112912710789 · 4269421018381 (six ~2⁴² primes — Pohlig–Hellman-friendly by construction).
-5. d = 175707932493016342199601625200584496546434097133638117913010244817446203005; re-checked d·G == Q with the source's own double-and-add → True; `long_to_bytes(d)` = `crypto{s1ngul4r_s1mplif1c4t1on}` (score_delta +150, ok:true).
+5. d = 175707932493016342199601625200584496546434097133638117913010244817446203005; re-checked d·G == Q with the source's own double-and-add → True; `long_to_bytes(d)` = `[flag — recorded in FLAGS/ecc/challenge-121-cryptohack-node/flag.txt]` (score_delta +150, ok:true).
 
 ## Limitations / attempts that failed
 A prior session left this folder OPEN with a generated stub AAR — nothing reused from it beyond the downloaded source.py/output.txt. One tooling failure logged: first `znlog` call passed bare ints (GP break loop → AttributeError on the output regex); fixed by wrapping args in `Mod` — no math was wrong. The φ homomorphism was validated empirically (k = 2, 3, 5) rather than proved in-script; the authoritative proof is the final d·G == Q check under the source's own group law. No failed mathematical avenues beyond that (SEA point counting / fpylll never needed).

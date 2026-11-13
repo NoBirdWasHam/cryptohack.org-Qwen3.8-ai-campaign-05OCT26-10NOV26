@@ -1,7 +1,7 @@
 # AAR — challenge-218: Abelian SIDH (cryptohack.org, 90 pts)
 
 **Status:** SOLVED, submitted live 2026-10-21. 11570 → 11660 (203 solved).
-**Flag:** `crypto{wait_I_thought_this_was_the_post_quantum_section}`
+**Flag:** `[flag — recorded in FLAGS/isogenies/challenge-218-cryptohack-abelian_sidh/flag.txt]`
 
 ## Problem
 p = 2^216·3^137·q − 1 (q 256-bit), E: y²=x³+x over F_{p²}, G = random·(2^216·3^137).
@@ -60,7 +60,7 @@ multiplication: no isogeny computation, no key recovery, no ECDLP.
   own assert ss_A == ss_B agrees.
 - Flag = AES-CBC(SHA256(str(ss))) with Sage serializations str(point) =
   `( x : y : 1 )` and F_{p²} = `im*i + re` — first variant decrypted:
-  crypto{wait_I_thought_this_was_the_post_quantum_section}.
+  [flag — recorded in FLAGS/isogenies/challenge-218-cryptohack-abelian_sidh/flag.txt].
 
 ## Limitations / attempts that failed
 

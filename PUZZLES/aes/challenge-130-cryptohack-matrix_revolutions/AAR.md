@@ -1,6 +1,6 @@
 # AAR — Challenge 130: The Matrix Revolutions
 
-**Result:** **SOLVED + API-VERIFIED 2026-10-20** — flag `crypto{we_are_looking_for_the_keymaker_478415c4}`
+**Result:** **SOLVED + API-VERIFIED 2026-10-20** — flag `[flag — recorded in FLAGS/diffie-hellman/challenge-130-cryptohack-matrix_revolutions/flag.txt]`
 submitted via `submit_flag.py matrix_revolutions`; score 9610→9735 (+125), solved 185→186.
 **Date:** 2026-10-20 (UTC)
 
@@ -11,9 +11,7 @@ submitted via `submit_flag.py matrix_revolutions`; score 9610→9735 (+125), sol
 - NOT consulted: /challenges/matrix_revolutions/solutions/, any writeup, any third-party flag.
 
 ## The flag
-`crypto{we_are_looking_for_the_keymaker_478415c4}` — AES-256-CBC decrypt of flag.enc under
-SHA256(shared-matrix bit string)[:32]. Verified by the three hard gates in step3.py:
-`G^A == A_pub`, `G^B == B_pub`, `A_pub^B == B_pub^A` (all True) + clean PKCS#7 unpad + API score_delta.
+Recorded in `FLAGS/aes/challenge-130-cryptohack-matrix_revolutions/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved (reproducible)
 1. **Structure** (`getpols.py` + gp64): charpoly(G) = f1·f2, irreducible deg 61 & 89, exps 1.

@@ -1,0 +1,16 @@
+# jm_integer_port margin log (transcribed from inline runs, 2026-11-06 ~11:20-11:45 EST)
+# Criterion = reference semantics: log2(||row||^2 * nz) on SCALED entries vs 2*log2(R)
+[F1-toy 40/30 m=2] dim=21 R=143 min=286 need<286 margin +0.0 hgp=0
+[F1-toy 40/30 m=3] dim=40 R=285 min=570 need<570 margin +0.0 hgp=0
+[F1-toy 40/30 m=4] dim=65 R=427 min=854 need<854 margin +0.0 hgp=0
+[F1-toy 40/20 m=2] dim=21 R=133 min=266 need<266 margin +0.0 hgp=0
+[F1-toy 40/20 m=3] dim=40 R=265 min=530 need<530 margin +0.0 hgp=0
+[F1-toy 40/20 m=4] dim=65 R=397 min=794 need<794 margin +0.0 hgp=0
+[F1-toy 40/10 m=2] dim=21 R=123 min=246 need<246 margin +0.0 hgp=0
+[F1-toy 40/10 m=3] dim=40 R=245 min=490 need<490 margin +0.0 hgp=0
+[F1-toy 40/10 m=4] dim=65 R=367 min=734 need<734 margin +0.0 hgp=0
+# X3Y for the three toys: 2^142, 2^132, 2^122 vs N=2^149 -> ALL inside X3Y<N, still pinned
+[shortRSA-ctrl m=2] N=255b XY=2^48 (inside classical 2D threshold ~2^170) min=293 vs 2logR=293 margin +0.0
+[shortRSA-ctrl m=3] min=581 vs 2logR=581 margin +0.0
+[W-variant toy 40/30 m=2, W=bump]  R=143 min=286 margin +0.0
+[W-variant toy 40/30 m=2, W=n/gcd] R=291 min=581 margin +0.0  (W-invariance: structural pin)

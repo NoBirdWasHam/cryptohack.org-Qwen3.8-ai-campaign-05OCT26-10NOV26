@@ -1,7 +1,7 @@
 # AAR — C0ll1d3r (Firebird Internal CTF), CryptoHack ctf-archive, archive.cryptohack.org:9391
 
 ## Status: SOLVED 2026-10-25
-Flag: `firebird{wh3n_1n_d0ub7_u5e_latt111c3_r3duc71110n_4lg0r111thm}`
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-251-cryptohack-c0ll1d3r-firebird_internal_ctf/flag.txt]`
 Verification: server printed `Congrats! firebird{...}`; `submit_flag.py
 c0ll1d3r-firebird_internal_ct` → ok:true, solved 246 → 247 (archive challenge worth 0
 pts, score_delta 0 as expected). NOTE: the site slug is truncated to
@@ -43,7 +43,7 @@ Query budget: 4 (params) + 1 (collision) = 5. Exactly fits.
   by draining until flag/EOF. Offline check proved the sent X collided exactly
   (server-printed hash == target hash, verified against logged true g,p).
 - LIVE attempt 1 (2026-10-25): p recovered (255 bits), L=64 BKZ-40+Babai collision
-  accepted -> `Congrats! firebird{wh3n_1n_d0ub7_u5e_latt111c3_r3duc71110n_4lg0r111thm}`.
+  accepted -> `Congrats! [flag — recorded in FLAGS/ctf-archive/challenge-251-cryptohack-c0ll1d3r-firebird_internal_ctf/flag.txt]`.
 
 ## Learning points
 - `CVP.closest_vector` enumeration EXPLODES here: the l2 ball of radius ~box-diagonal
@@ -75,7 +75,7 @@ Not an MD5 collision: hash(m) = pow(g, int.from_bytes(b'SECUREHASH_'+m,'big'), p
 ## How the answer follows
 1. Four queries 'l n m o'; relations e_l+e_n = 2*e_m (108+110=2*109) and e_l+e_o = e_n+e_m (108+111=110+109) -> gcd(D1,D2) = p x small cofactor (strip small primes until prime); recovered p == true p on 4/4 harness connections. Query budget 4 params + 1 collision = 5, exact fit.
 2. Lattice Lambda = {v : sum v_i*256^i = 0 mod p-1}, dim L=64 (fallbacks 62..70), det 2^256, solution density 26^L/(p-1) ~ 2^26 at L=60; BKZ-40 + plain/randomized Babai reaches max digit <=13 (LLL-only Babai stuck at 18-26).
-3. LIVE 2026-10-25: p recovered (255 bits), L=64 collision accepted -> firebird{wh3n_1n_d0ub7_u5e_latt111c3_r3duc71110n_4lg0r111thm}; submit ok:true, solved 246->247 (archive, 0 pts). Note the site slug truncates to c0ll1d3r-firebird_internal_ct.
+3. LIVE 2026-10-25: p recovered (255 bits), L=64 collision accepted -> [flag — recorded in FLAGS/ctf-archive/challenge-251-cryptohack-c0ll1d3r-firebird_internal_ctf/flag.txt]; submit ok:true, solved 246->247 (archive, 0 pts). Note the site slug truncates to c0ll1d3r-firebird_internal_ct.
 
 ## Limitations / attempts that failed
 - CVP.closest_vector enumeration EXPLODES here: the l2 ball of radius ~box-diagonal (12.5*sqrt(L)) holds ~2^80 lattice points while the cube holds 2^26-2^40 -- ball-based CVP is the wrong tool; BKZ-40 + (randomized) Babai is right.

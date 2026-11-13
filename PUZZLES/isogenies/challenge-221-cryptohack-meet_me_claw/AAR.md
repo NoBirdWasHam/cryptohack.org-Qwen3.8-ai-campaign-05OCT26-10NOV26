@@ -66,7 +66,7 @@ key = SHA256(str(j)) (Sage format "<im>*i + <re>"); AES-CBC-decrypt.
 - Recovered Alice secret a = 12988567850 (0x3062dd12a), 35 bits.
 - j(E_AB) = 1015221285446986714363788*i + 2287090753163042176093763
 - Key string (Sage str of F_{p²} element): "<im>*i + <re>" — first candidate tried.
-- FLAG: crypto{clawing_our_way_to_victory}  (submitted; score 16800→16920, 238→239 solved)
+- FLAG: [flag — recorded in FLAGS/isogenies/challenge-221-cryptohack-meet_me_claw/flag.txt]  (submitted; score 16800→16920, 238→239 solved)
 
 ## Limitations / lessons
 - 3.6h forward pass is slow: budget compute BEFORE launching (or split 24+11 / use

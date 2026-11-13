@@ -1,1 +1,1 @@
-crypto{y0u_c4n7_m1x_3v3ry7h1n6_1n_l1f3}
+[flag — recorded in FLAGS/hashes/challenge-146-cryptohack-mixed_up/flag.txt]

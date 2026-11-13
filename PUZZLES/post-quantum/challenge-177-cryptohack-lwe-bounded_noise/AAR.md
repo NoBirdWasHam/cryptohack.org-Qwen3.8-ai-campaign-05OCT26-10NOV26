@@ -9,7 +9,7 @@ CVP lattice `[A^T|0; 0 q]` is WRONG for mod-q LWE (the signal A*s mod q is not a
 3. Full verification of all 625 equations; unique candidate -> flag digits.
 
 ## Result
-**SOLVED** — `crypto{linearised_polynomials_for_bounded_errors}` (submitted 2026-10-13, live-verified). Files: `_pq/bounded_noise_output.txt`, `_pq/solve_bn_enum.py` (working), `_pq/_bn_parsed.json`.
+**SOLVED** — `[flag — recorded in FLAGS/post-quantum/challenge-177-cryptohack-lwe-bounded_noise/flag.txt]}` (submitted 2026-10-13, live-verified). Files: `_pq/bounded_noise_output.txt`, `_pq/solve_bn_enum.py` (working), `_pq/_bn_parsed.json`.
 
 _Backfill note (2026-10-14): this doc folder was created after the fact; all scripts/data referenced above live in `_pq/` and the flag was verified live on 2026-10-13._
 
@@ -22,7 +22,7 @@ The noise is *binary*: each of the 25 error coordinates is in {0,1} instead of d
 2. Algebraic route instead: pick 25 of the 625 rows that form an invertible 25×25 matrix over GF(65537). Solving those rows expresses the secret *affinely in the error*: s = s₀ + N·e, where e ∈ {0,1}²⁵ is the unknown binary error and N is the kernel-style lift matrix — this is the "linearisation": guessing the 25-bit noise determines s completely.
 3. Prune with the remaining rows: each extra equation a candidate s₀+N·e must satisfy kills ~half the space; one well-chosen extra row cut 2²⁵ candidates to ≈1026 (Gray-code enumeration — flip one e-bit at a time and update N·e incrementally — kept 33M evaluations cheap in pure Python).
 4. Verify survivors against **all 625** equations; exactly one candidate survived → its base-q digits are the flag.
-Result `crypto{linearised_polynomials_for_bounded_errors}`, submitted 2026-10-13, live-verified.
+Result `[flag — recorded in FLAGS/post-quantum/challenge-177-cryptohack-lwe-bounded_noise/flag.txt]}`, submitted 2026-10-13, live-verified.
 
 ## Limitations / attempts that failed
 - Failed attempt kept deliberately: the wrong CVP embedding (step 1) — this is the documented dead end.

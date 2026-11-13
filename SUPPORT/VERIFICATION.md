@@ -1,0 +1,256 @@
+# VERIFICATION — per-puzzle audit checklist
+
+Regenerated 2026-11-13 from the tree itself. Every flag row earns its check; nothing is checked by assertion.
+
+| col | gate |
+|---|---|
+| AAR | human after-action report `AAR.md` present, ≥15 lines |
+| method | solve/method/vulnerability/exploit section with ≥120 chars of substance (col shows measured length; warm-up challenges legitimately have short methods) |
+| AGENT | `AGENT.md` AI-twin present with extracted procedure (frontmatter, epistemic tags, sha256 pointer) |
+| flag | `FLAGS/**/flag.txt` sha256 **matches** `FLAGS/INDEX.jsonl` — or the row is an honest null with a recorded reason (✓ value-hashed · ○ honest null) |
+| clean | zero host-identity PII hits AND zero real-flag strings in prose/code (fakes/placeholders/code-fragments are policy-listed by the shared classifier; restored flag values carry dated provenance notes in `FLAGS/INDEX.jsonl`) |
+
+**Result: 229/230 PASS** · 224 flags value-verified · 6 null+note · campaign INDEX: 314 rows, 224 values, 90 null
+
+Machine twin: `PUZZLES/index.json`.
+
+## Failing rows
+
+| puzzle | why |
+|---|---|
+| `PUZZLES/zkp/challenge-224-cryptohack-zkpintro` | method 114 chars |
+
+## Checklist
+
+| # | puzzle | AAR | method | AGENT | flag | clean | ✓ |
+|---|---|---|---|---|---|---|---|
+| 1 | `challenge-130-cryptohack-matrix_revolutions` | ✓ | 1725 | ✓ | ✓ | ✓ | **✓** |
+| 2 | `challenge-131-cryptohack-rhetorical_oracle` | ✓ | 223 | ✓ | ✓ | ✓ | **✓** |
+| 3 | `challenge-132-cryptohack-oracular_spectacular` | ✓ | 1677 | ✓ | ✓ | ✓ | **✓** |
+| 4 | `challenge-133-cryptohack-rhetorical_oracle_2` | ✓ | 1643 | ✓ | ✓ | ✓ | **✓** |
+| 5 | `challenge-242-cryptohack-1337crypt_v2-downunderctf2021` | ✓ | 1324 | ✓ | ✓ | ✓ | **✓** |
+| 6 | `challenge-246-cryptohack-additional_problems-csc_belgi` | ✓ | 2696 | ✓ | ✓ | ✓ | **✓** |
+| 7 | `challenge-247-cryptohack-blind-ecsc_2023_norway2023` | ✓ | 481 | ✓ | ✓ | ✓ | **✓** |
+| 8 | `challenge-248-cryptohack-authentification_1-breizh_ctf` | ✓ | 792 | ✓ | ✓ | ✓ | **✓** |
+| 9 | `challenge-249-cryptohack-authentification_2-breizh_ctf` | ✓ | 697 | ✓ | ✓ | ✓ | **✓** |
+| 10 | `challenge-251-cryptohack-c0ll1d3r-firebird_internal_ctf` | ✓ | 762 | ✓ | ✓ | ✓ | **✓** |
+| 11 | `challenge-254-cryptohack-cipher_mode_picker-hkcert_ctf` | ✓ | 125 | ✓ | ✓ | ✓ | **✓** |
+| 12 | `challenge-256-cryptohack-do_you_have_good_eyes-breizh` | ✓ | 1068 | ✓ | ✓ | ✓ | **✓** |
+| 13 | `challenge-257-cryptohack-eclcg-hitcon_ctf2024` | ✓ | 2757 | ✓ | ✓ | ✓ | **✓** |
+| 14 | `challenge-259-cryptohack-failproof_revenge-sekaictf202` | ✓ | 1412 | ✓ | ✓ | ✓ | **✓** |
+| 15 | `challenge-261-cryptohack-functional-icc_athens2022` | ✓ | 697 | ✓ | ✓ | ✓ | **✓** |
+| 16 | `challenge-262-cryptohack-glp420-hacktm_ctf2023` | ✓ | 407 | ✓ | ✓ | ✓ | **✓** |
+| 17 | `challenge-263-cryptohack-greatest_common_multiple-code` | ✓ | 1180 | ✓ | ✓ | ✓ | **✓** |
+| 18 | `challenge-264-cryptohack-hamiltonicity-cryptohack2024` | ✓ | 592 | ✓ | ✓ | ✓ | **✓** |
+| 19 | `challenge-265-cryptohack-hamiltonicity_2-cryptohack202` | ✓ | 873 | ✓ | ✓ | ✓ | **✓** |
+| 20 | `challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa` | ✓ | 585 | ✓ | ✓ | ✓ | **✓** |
+| 21 | `challenge-267-cryptohack-hyper512-hitcon_ctf2024` | ✓ | 798 | ✓ | ✓ | ✓ | **✓** |
+| 22 | `challenge-268-cryptohack-irish_flan-ecsc_2023_norway20` | ✓ | 973 | ✓ | ✓ | ✓ | **✓** |
+| 23 | `challenge-269-cryptohack-key_backup_service_1-hkcert_c` | ✓ | 738 | ✓ | ✓ | ✓ | **✓** |
+| 24 | `challenge-270-cryptohack-key_backup_service_2-hkcert_c` | ✓ | 743 | ✓ | ✓ | ✓ | **✓** |
+| 25 | `challenge-271-cryptohack-key_recovery-dctf2022` | ✓ | 1096 | ✓ | ✓ | ✓ | **✓** |
+| 26 | `challenge-273-cryptohack-leet_universe-imaginaryctf_da` | ✓ | 1342 | ✓ | ✓ | ✓ | **✓** |
+| 27 | `challenge-275-cryptohack-maybe_someday-maybe_someday_c` | ✓ | 1050 | ✓ | ✓ | ✓ | **✓** |
+| 28 | `challenge-276-cryptohack-or_proof-cryptohack2024` | ✓ | 385 | ✓ | ✓ | ✓ | **✓** |
+| 29 | `challenge-277-cryptohack-offtopic-ecsc_2024_italy2024` | ✓ | 1162 | ✓ | ✓ | ✓ | **✓** |
+| 30 | `challenge-280-cryptohack-origami-nns_ctf_20252025` | ✓ | 3687 | ✓ | ✓ | ✓ | **✓** |
+| 31 | `challenge-282-cryptohack-put_a_ring_on_it-ecsc_2023_no` | ✓ | 595 | ✓ | ✓ | ✓ | **✓** |
+| 32 | `challenge-283-cryptohack-quo_vadis-ecsc_2024_italy2024` | ✓ | 777 | ✓ | ✓ | ✓ | **✓** |
+| 33 | `challenge-284-cryptohack-rrssaa-ecsc_2023_norway2023` | ✓ | 627 | ✓ | ✓ | ✓ | **✓** |
+| 34 | `challenge-285-cryptohack-rsa_permutation-wacon2022` | ✓ | 1284 | ✓ | ✓ | ✓ | **✓** |
+| 35 | `challenge-286-cryptohack-rsa_secret_sharing-wacon2022` | ✓ | 553 | ✓ | ✓ | ✓ | **✓** |
+| 36 | `challenge-287-cryptohack-1n_jection-zh3r0_ctf_v22021` | ✓ | 637 | ✓ | ✓ | ✓ | **✓** |
+| 37 | `challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202` | ✓ | 1008 | ✓ | ✓ | ✓ | **✓** |
+| 38 | `challenge-289-cryptohack-share-hitcon_ctf2023` | ✓ | 379 | ✓ | ✓ | ✓ | **✓** |
+| 39 | `challenge-291-cryptohack-sign_in_please-hkcert_ctf2020` | ✓ | 507 | ✓ | ✓ | ✓ | **✓** |
+| 40 | `challenge-292-cryptohack-signature-tsj_ctf2022` | ✓ | 607 | ✓ | ✓ | ✓ | **✓** |
+| 41 | `challenge-293-cryptohack-smithing_contest-ecsc_2024_it` | ✓ | 1307 | ✓ | ✓ | ✓ | **✓** |
+| 42 | `challenge-295-cryptohack-sratslla_sea-hkcert_ctf2021` | ✓ | 1358 | ✓ | ✓ | ✓ | **✓** |
+| 43 | `challenge-296-cryptohack-substitution_cipher_iii-downu` | ✓ | 685 | ✓ | ✓ | ✓ | **✓** |
+| 44 | `challenge-298-cryptohack-tenet_the_plagarism-hkcert_ct` | ✓ | 1623 | ✓ | ✓ | ✓ | **✓** |
+| 45 | `challenge-299-cryptohack-ticket_maestro-cryptohack2024` | ✓ | 239 | ✓ | ✓ | ✓ | **✓** |
+| 46 | `challenge-303-cryptohack-u-turn-breizh_ctf2025` | ✓ | 447 | ✓ | ✓ | ✓ | **✓** |
+| 47 | `challenge-305-cryptohack-unevaluated-tetctf2021` | ✓ | 1069 | ✓ | ✓ | ✓ | **✓** |
+| 48 | `challenge-307-cryptohack-verilicious-cyber_apocalypse` | ✓ | 642 | ✓ | ✓ | ✓ | **✓** |
+| 49 | `challenge-308-cryptohack-what_a_curve-breizh_ctf2023` | ✓ | 725 | ✓ | ✓ | ✓ | **✓** |
+| 50 | `challenge-309-cryptohack-broken_oracle-hacktm_ctf2023` | ✓ | 1481 | ✓ | ✓ | ✓ | **✓** |
+| 51 | `challenge-311-cryptohack-diffecient-sekaictf2022` | ✓ | 1208 | ✓ | ✓ | ✓ | **✓** |
+| 52 | `challenge-312-cryptohack-ed25519_magic-icc_athens2022` | ✓ | 662 | ✓ | ✓ | ✓ | **✓** |
+| 53 | `challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf_v2` | ✓ | 976 | ✓ | ✓ | ✓ | **✓** |
+| 54 | `challenge-315-cryptohack-pekobot-ais3_pre-exam2022` | ✓ | 808 | ✓ | ✓ | ✓ | **✓** |
+| 55 | `challenge-316-cryptohack-unrandom_dsa-hacktm_ctf2023` | ✓ | 846 | ✓ | ✓ | ✓ | **✓** |
+| 56 | `challenge-124-cryptohack-dh_additive` | ✓ | 862 | ✓ | ✓ | ✓ | **✓** |
+| 57 | `challenge-125-cryptohack-scriptkiddie` | ✓ | 744 | ✓ | ✓ | ✓ | **✓** |
+| 58 | `challenge-126-cryptohack-matrix` | ✓ | 951 | ✓ | ✓ | ✓ | **✓** |
+| 59 | `challenge-127-cryptohack-dh_static` | ✓ | 1513 | ✓ | ✓ | ✓ | **✓** |
+| 60 | `challenge-128-cryptohack-matrix_reloaded` | ✓ | 942 | ✓ | ✓ | ✓ | **✓** |
+| 61 | `challenge-129-cryptohack-dh_static2` | ✓ | 588 | ✓ | ✓ | ✓ | **✓** |
+| 62 | `challenge-112-cryptohack-double_and_broken` | ✓ | 550 | ✓ | ✓ | ✓ | **✓** |
+| 63 | `challenge-113-cryptohack-digestive` | ✓ | 985 | ✓ | ✓ | ✓ | **✓** |
+| 64 | `challenge-114-cryptohack-twisted_mind` | ✓ | 1205 | ✓ | ✓ | ✓ | **✓** |
+| 65 | `challenge-115-cryptohack-degenerate` | ✓ | 688 | ✓ | ✓ | ✓ | **✓** |
+| 66 | `challenge-116-cryptohack-exceptional` | ✓ | 618 | ✓ | ✓ | ✓ | **✓** |
+| 67 | `challenge-117-cryptohack-micro` | ✓ | 171 | ✓ | ✓ | ✓ | **✓** |
+| 68 | `challenge-118-cryptohack-norandom` | ✓ | 204 | ✓ | ✓ | ✓ | **✓** |
+| 69 | `challenge-119-cryptohack-exceptional_twisted_mind` | ✓ | 1424 | ✓ | ✓ | ✓ | **✓** |
+| 70 | `challenge-120-cryptohack-checkpoint` | ✓ | 1162 | ✓ | ✓ | ✓ | **✓** |
+| 71 | `challenge-121-cryptohack-node` | ✓ | 836 | ✓ | ✓ | ✓ | **✓** |
+| 72 | `challenge-122-cryptohack-evil_twisted_mind` | ✓ | 583 | ✓ | ✓ | ✓ | **✓** |
+| 73 | `challenge-123-cryptohack-real_curves` | ✓ | 892 | ✓ | ✓ | ✓ | **✓** |
+| 74 | `challenge-134-cryptohack-birthday1` | ✓ | 149 | ✓ | ✓ | ✓ | **✓** |
+| 75 | `challenge-135-cryptohack-merkletrees` | ✓ | 250 | ✓ | ✓ | ✓ | **✓** |
+| 76 | `challenge-136-cryptohack-birthday2` | ✓ | 150 | ✓ | ✓ | ✓ | **✓** |
+| 77 | `challenge-138-cryptohack-stuffing` | ✓ | 207 | ✓ | ✓ | ✓ | **✓** |
+| 78 | `challenge-139-cryptohack-seventy_two` | ✓ | 1012 | ✓ | ✓ | ✓ | **✓** |
+| 79 | `challenge-140-cryptohack-long_story_short` | ✓ | 599 | ✓ | ✓ | ✓ | **✓** |
+| 80 | `challenge-141-cryptohack-wots_up-ecsc_2023_norway2023` | ✓ | 864 | ✓ | ✓ | ✓ | **✓** |
+| 81 | `challenge-142-cryptohack-md0` | ✓ | 269 | ✓ | ✓ | ✓ | **✓** |
+| 82 | `challenge-143-cryptohack-wots_up_2-ecsc_2023_norway2023` | ✓ | 738 | ✓ | ✓ | ✓ | **✓** |
+| 83 | `challenge-144-cryptohack-primed5` | ✓ | 345 | ✓ | ✓ | ✓ | **✓** |
+| 84 | `challenge-145-cryptohack-twinkeys` | ✓ | 4182 | ✓ | ✓ | ✓ | **✓** |
+| 85 | `challenge-146-cryptohack-mixed_up` | ✓ | 1050 | ✓ | ✓ | ✓ | **✓** |
+| 86 | `challenge-147-cryptohack-mdflag` | ✓ | 199 | ✓ | ✓ | ✓ | **✓** |
+| 87 | `challenge-148-cryptohack-no_difference` | ✓ | 519 | ✓ | ✓ | ✓ | **✓** |
+| 88 | `challenge-149-cryptohack-invariant` | ✓ | 892 | ✓ | ✓ | ✓ | **✓** |
+| 89 | `challenge-201-cryptohack-iso_introduction_chall` | ✓ | 454 | ✓ | ✓ | ✓ | **✓** |
+| 90 | `challenge-202-cryptohack-j_invariant` | ✓ | 272 | ✓ | ✓ | ✓ | **✓** |
+| 91 | `challenge-203-cryptohack-a_spot_super` | ✓ | 831 | ✓ | ✓ | ✓ | **✓** |
+| 92 | `challenge-204-cryptohack-c_group_homomorphism` | ✓ | 367 | ✓ | ✓ | ✓ | **✓** |
+| 93 | `challenge-205-cryptohack-b_compute_montgomery` | ✓ | 423 | ✓ | ✓ | ✓ | **✓** |
+| 94 | `challenge-206-cryptohack-special_isogenies` | ✓ | 783 | ✓ | ✓ | ✓ | **✓** |
+| 95 | `challenge-207-cryptohack-two_isogenies` | ✓ | 550 | ✓ | ✓ | ✓ | **✓** |
+| 96 | `challenge-208-cryptohack-three_isogenies` | ✓ | 575 | ✓ | ✓ | ✓ | **✓** |
+| 97 | `challenge-209-cryptohack-2d_dlog` | ✓ | 732 | ✓ | ✓ | ✓ | **✓** |
+| 98 | `challenge-209-cryptohack-secret_exponents` | ✓ | 748 | ✓ | ✓ | ✓ | **✓** |
+| 99 | `challenge-210-cryptohack-prime_power` | ✓ | 1572 | ✓ | ✓ | ✓ | **✓** |
+| 100 | `challenge-211-cryptohack-comp_isogenies` | ✓ | 434 | ✓ | ✓ | ✓ | **✓** |
+| 101 | `challenge-213-cryptohack-five_iso_csidh_twist` | ✓ | 561 | ✓ | ✓ | ✓ | **✓** |
+| 102 | `challenge-214-cryptohack-whats_my_kernel` | ✓ | 1876 | ✓ | ✓ | ✓ | **✓** |
+| 103 | `challenge-215-cryptohack-andre_encoding` | ✓ | 1248 | ✓ | ✓ | ✓ | **✓** |
+| 104 | `challenge-216-cryptohack-sidh_key_exchange` | ✓ | 1172 | ✓ | ✓ | ✓ | **✓** |
+| 105 | `challenge-217-cryptohack-better_than_linear` | ✓ | 511 | ✓ | ○ | ✓ | **✓** |
+| 106 | `challenge-218-cryptohack-abelian_sidh` | ✓ | 405 | ✓ | ✓ | ✓ | **✓** |
+| 107 | `challenge-219-cryptohack-csidh_key_exchange` | ✓ | 1007 | ✓ | ✓ | ✓ | **✓** |
+| 108 | `challenge-220-cryptohack-dual_masters` | ✓ | 818 | ✓ | ✓ | ✓ | **✓** |
+| 109 | `challenge-221-cryptohack-meet_me_claw` | ✓ | 1369 | ✓ | ✓ | ✓ | **✓** |
+| 110 | `challenge-222-cryptohack-true_genus` | ✓ | 908 | ✓ | ✓ | ✓ | **✓** |
+| 111 | `challenge-223-cryptohack-breaking_sidh` | ✓ | 670 | ✓ | ✓ | ✓ | **✓** |
+| 112 | `challenge-89-cryptohack-powers` | ✓ | 684 | ✓ | ✓ | ✓ | **✓** |
+| 113 | `challenge-90-cryptohack-common-ground` | ✓ | 142 | ✓ | ✓ | ✓ | **✓** |
+| 114 | `challenge-91-cryptohack-broken-rsa` | ✓ | 180 | ✓ | ✓ | ✓ | **✓** |
+| 115 | `challenge-92-cryptohack-no-way-back-home` | ✓ | 164 | ✓ | ✓ | ✓ | **✓** |
+| 116 | `challenge-93-cryptohack-ellipse` | ✓ | 164 | ✓ | ✓ | ✓ | **✓** |
+| 117 | `challenge-94-cryptohack-roll_your_own` | ✓ | 140 | ✓ | ✓ | ✓ | **✓** |
+| 118 | `challenge-95-cryptohack-unencryptable` | ✓ | 164 | ✓ | ✓ | ✓ | **✓** |
+| 119 | `challenge-96-cryptohack-cofactor` | ✓ | 301 | ✓ | ✓ | ✓ | **✓** |
+| 120 | `challenge-97-cryptohack-eisenstein` | ✓ | 311 | ✓ | ✓ | ✓ | **✓** |
+| 121 | `challenge-98-cryptohack-prejudice` | ✓ | 257 | ✓ | ✓ | ✓ | **✓** |
+| 122 | `challenge-13389-cryptohack-collider` | ✓ | 1077 | ✓ | ✓ | ✓ | **✓** |
+| 123 | `challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it` | ✓ | 819 | ✓ | ✓ | ✓ | **✓** |
+| 124 | `challenge-13391-cryptohack-maybe_someday-googlectf2022` | ✓ | 836 | ✓ | ✓ | ✓ | **✓** |
+| 125 | `challenge-13391-cryptohack-twist_and_shout-zh3r0_ctf_v22` | ✓ | 730 | ✓ | ✓ | ✓ | **✓** |
+| 126 | `challenge-13392-cryptohack-probability-seetf2022` | ✓ | 253 | ✓ | ✓ | ✓ | **✓** |
+| 127 | `challenge-13393-cryptohack-sus-imaginaryctf2023` | ✓ | 2925 | ✓ | ✓ | ✓ | **✓** |
+| 128 | `challenge-13394-cryptohack-lack_of_entropy-firebird_inte` | ✓ | 505 | ✓ | ✓ | ✓ | **✓** |
+| 129 | `challenge-13395-cryptohack-oofbleck-firebird_internal_ct` | ✓ | 541 | ✓ | ✓ | ✓ | **✓** |
+| 130 | `challenge-13396-cryptohack-1337crypt-downunderctf2020` | ✓ | 1069 | ✓ | ✓ | ✓ | **✓** |
+| 131 | `challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor` | ✓ | 699 | ✓ | ✓ | ✓ | **✓** |
+| 132 | `challenge-13398-cryptohack-2020-tetctf2020` | ✓ | 901 | ✓ | ✓ | ✓ | **✓** |
+| 133 | `challenge-13399-cryptohack-dark_arts-codegate_ctf2022` | ✓ | 1389 | ✓ | ✓ | ✓ | **✓** |
+| 134 | `challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor` | ✓ | 795 | ✓ | ✓ | ✓ | **✓** |
+| 135 | `challenge-13401-cryptohack-unbalanced-icc_athens2022` | ✓ | 1043 | ✓ | ○ | ✓ | **✓** |
+| 136 | `challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023` | ✓ | 1399 | ✓ | ✓ | ✓ | **✓** |
+| 137 | `challenge-185-cryptohack-gofast` | ✓ | 152 | ✓ | ✓ | ✓ | **✓** |
+| 138 | `challenge-186-cryptohack-armory` | ✓ | 508 | ✓ | ✓ | ✓ | **✓** |
+| 139 | `challenge-187-cryptohack-bit` | ✓ | 153 | ✓ | ✓ | ✓ | **✓** |
+| 140 | `challenge-188-cryptohack-schneierfact842` | ✓ | 378 | ✓ | ✓ | ✓ | **✓** |
+| 141 | `challenge-189-cryptohack-noleaks` | ✓ | 439 | ✓ | ✓ | ✓ | **✓** |
+| 142 | `challenge-190-cryptohack-lwin` | ✓ | 862 | ✓ | ✓ | ✓ | **✓** |
+| 143 | `challenge-191-cryptohack-lcg1` | ✓ | 377 | ✓ | ✓ | ✓ | **✓** |
+| 144 | `challenge-192-cryptohack-bad_temper` | ✓ | 1169 | ✓ | ✓ | ✓ | **✓** |
+| 145 | `challenge-193-cryptohack-bad_temper_2` | ✓ | 1554 | ✓ | ✓ | ✓ | **✓** |
+| 146 | `challenge-194-cryptohack-jeff` | ✓ | 583 | ✓ | ✓ | ✓ | **✓** |
+| 147 | `challenge-197-cryptohack-toshitreasure` | ✓ | 731 | ✓ | ✓ | ✓ | **✓** |
+| 148 | `challenge-198-cryptohack-lcg2` | ✓ | 437 | ✓ | ✓ | ✓ | **✓** |
+| 149 | `challenge-199-cryptohack-schneierfact842_2` | ✓ | 1479 | ✓ | ✓ | ✓ | **✓** |
+| 150 | `challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021` | ✓ | 446 | ✓ | ✓ | ✓ | **✓** |
+| 151 | `challenge-319-cryptohack-chaos-zh3r0_ctf_v22021` | ✓ | 878 | ✓ | ✓ | ✓ | **✓** |
+| 152 | `challenge-319-cryptohack-sign_in_please_again-hkcert_c` | ✓ | 2347 | ✓ | ✓ | ✓ | **✓** |
+| 153 | `challenge-320-cryptohack-calm_down-hkcert_ctf2020` | ✓ | 760 | ✓ | ✓ | ✓ | **✓** |
+| 154 | `challenge-321-cryptohack-failproof-sekaictf2022` | ✓ | 957 | ✓ | ✓ | ✓ | **✓** |
+| 155 | `challenge-323-cryptohack-spongebob_squarepants__battle` | ✓ | 1613 | ✓ | ✓ | ✓ | **✓** |
+| 156 | `challenge-325-cryptohack-d-phi-enc-hacktm_ctf2023` | ✓ | 701 | ✓ | ✓ | ✓ | **✓** |
+| 157 | `challenge-36-cryptohack-triple-des` | ✓ | 1336 | ✓ | ✓ | ✓ | **✓** |
+| 158 | `challenge-45-cryptohack-oh-snap` | ✓ | 1268 | ✓ | ✓ | ✓ | **✓** |
+| 159 | `challenge-48-cryptohack-beatboxer` | ✓ | 733 | ✓ | ✓ | ✓ | **✓** |
+| 160 | `challenge-64-cryptohack-everything-is-still-big` | ✓ | 358 | ✓ | ✓ | ✓ | **✓** |
+| 161 | `challenge-86-cryptohack-curveball` | ✓ | 432 | ✓ | ✓ | ✓ | **✓** |
+| 162 | `challenge-167-cryptohack-lwe-background` | ✓ | 361 | ✓ | ✓ | ✓ | **✓** |
+| 163 | `challenge-167-cryptohack-roulette` | ✓ | 549 | ✓ | ✓ | ✓ | **✓** |
+| 164 | `challenge-168-cryptohack-lwe-intro` | ✓ | 340 | ✓ | ✓ | ✓ | **✓** |
+| 165 | `challenge-168-cryptohack-rsa-vs-rng` | ✓ | 377 | ✓ | ✓ | ✓ | **✓** |
+| 166 | `challenge-169-cryptohack-vectors` | ✓ | 203 | ✓ | ✓ | ✓ | **✓** |
+| 167 | `challenge-170-cryptohack-lwe-high-bits` | ✓ | 644 | ✓ | ✓ | ✓ | **✓** |
+| 168 | `challenge-171-cryptohack-basis` | ✓ | 195 | ✓ | ○ | ✓ | **✓** |
+| 169 | `challenge-172-cryptohack-lfsr-destroyer` | ✓ | 504 | ✓ | ✓ | ✓ | **✓** |
+| 170 | `challenge-172-cryptohack-lwe-low-bits` | ✓ | 259 | ✓ | ✓ | ✓ | **✓** |
+| 171 | `challenge-173-cryptohack-lwe-private-public` | ✓ | 383 | ✓ | ✓ | ✓ | **✓** |
+| 172 | `challenge-174-cryptohack-gramschmidt` | ✓ | 250 | ✓ | ✓ | ✓ | **✓** |
+| 173 | `challenge-175-cryptohack-lwe-lsb-regev` | ✓ | 305 | ✓ | ✓ | ✓ | **✓** |
+| 174 | `challenge-176-cryptohack-lattices` | ✓ | 193 | ✓ | ✓ | ✓ | **✓** |
+| 175 | `challenge-177-cryptohack-lwe-bounded_noise` | ✓ | 496 | ✓ | ✓ | ✓ | **✓** |
+| 176 | `challenge-178-cryptohack-gauss` | ✓ | 273 | ✓ | ✓ | ✓ | **✓** |
+| 177 | `challenge-179-cryptohack-lwe-nativity` | ✓ | 553 | ✓ | ✓ | ✓ | **✓** |
+| 178 | `challenge-180-cryptohack-lwe-missing-modulus` | ✓ | 491 | ✓ | ✓ | ✓ | **✓** |
+| 179 | `challenge-181-cryptohack-lwe-noise-cheap` | ✓ | 2071 | ✓ | ✓ | ✓ | **✓** |
+| 180 | `challenge-182-cryptohack-find` | ✓ | 827 | ✓ | ✓ | ✓ | **✓** |
+| 181 | `challenge-183-cryptohack-toomany` | ✓ | 1645 | ✓ | ✓ | ✓ | **✓** |
+| 182 | `challenge-184-cryptohack-backpack` | ✓ | 691 | ✓ | ✓ | ✓ | **✓** |
+| 183 | `challenge-100-cryptohack-marin` | ✓ | 163 | ✓ | ✓ | ✓ | **✓** |
+| 184 | `challenge-100-cryptohack-unimplemented-tetctf2021` | ✓ | 485 | ✓ | ✓ | ✓ | **✓** |
+| 185 | `challenge-101-cryptohack-signing-server` | ✓ | 140 | ✓ | ✓ | ✓ | **✓** |
+| 186 | `challenge-102-cryptohack-fast_primes` | ✓ | 885 | ✓ | ✓ | ✓ | **✓** |
+| 187 | `challenge-103-cryptohack-lets-decrypt` | ✓ | 140 | ✓ | ✓ | ✓ | **✓** |
+| 188 | `challenge-104-cryptohack-ron-was-wrong` | ✓ | 195 | ✓ | ✓ | ✓ | **✓** |
+| 189 | `challenge-105-cryptohack-bespoke` | ✓ | 950 | ✓ | ✓ | ✓ | **✓** |
+| 190 | `challenge-106-cryptohack-null-padding` | ✓ | 169 | ✓ | ✓ | ✓ | **✓** |
+| 191 | `challenge-107-cryptohack-rsa_blinding` | ✓ | 183 | ✓ | ✓ | ✓ | **✓** |
+| 192 | `challenge-108-cryptohack-johan` | ✓ | 341 | ✓ | ✓ | ✓ | **✓** |
+| 193 | `challenge-109-cryptohack-pedro` | ✓ | 203 | ✓ | ✓ | ✓ | **✓** |
+| 194 | `challenge-110-cryptohack-lets_decrypt_2` | ✓ | 855 | ✓ | ○ | ✓ | **✓** |
+| 195 | `challenge-111-cryptohack-rsa_backdoor` | ✓ | 1577 | ✓ | ✓ | ✓ | **✓** |
+| 196 | `challenge-99-cryptohack-infinite-descent` | ✓ | 165 | ✓ | ✓ | ✓ | **✓** |
+| 197 | `challenge-150-cryptohack-secure-protocols` | ✓ | 331 | ✓ | ✓ | ✓ | **✓** |
+| 198 | `challenge-151-cryptohack-token-appreciation` | ✓ | 238 | ✓ | ✓ | ✓ | **✓** |
+| 199 | `challenge-152-cryptohack-jwt-sessions` | ✓ | 267 | ✓ | ✓ | ✓ | **✓** |
+| 200 | `challenge-153-cryptohack-sharks-wire` | ✓ | 363 | ✓ | ✓ | ✓ | **✓** |
+| 201 | `challenge-154-cryptohack-tls-handshake` | ✓ | 819 | ✓ | ✓ | ✓ | **✓** |
+| 202 | `challenge-155-cryptohack-no-way-jose` | ✓ | 622 | ✓ | ✓ | ✓ | **✓** |
+| 203 | `challenge-156-cryptohack-saying-hello` | ✓ | 383 | ✓ | ✓ | ✓ | **✓** |
+| 204 | `challenge-157-cryptohack-jwt-secrets` | ✓ | 479 | ✓ | ✓ | ✓ | **✓** |
+| 205 | `challenge-158-cryptohack-decrypting-tls12` | ✓ | 1369 | ✓ | ✓ | ✓ | **✓** |
+| 206 | `challenge-159-cryptohack-decrypting-tls13` | ✓ | 999 | ✓ | ✓ | ✓ | **✓** |
+| 207 | `challenge-160-cryptohack-rsa-or-hmac` | ✓ | 1124 | ✓ | ✓ | ✓ | **✓** |
+| 208 | `challenge-161-cryptohack-authenticated-handshake` | ✓ | 1525 | ✓ | ✓ | ✓ | **✓** |
+| 209 | `challenge-162-cryptohack-json-in-json` | ✓ | 642 | ✓ | ✓ | ✓ | **✓** |
+| 210 | `challenge-163-cryptohack-mega1` | ✓ | 1754 | ✓ | ✓ | ✓ | **✓** |
+| 211 | `challenge-164-cryptohack-rsa-or-hmac-2` | ✓ | 1142 | ✓ | ✓ | ✓ | **✓** |
+| 212 | `challenge-165-cryptohack-mega2` | ✓ | 1054 | ✓ | ○ | ✓ | **✓** |
+| 213 | `challenge-166-cryptohack-mega3` | ✓ | 962 | ✓ | ✓ | ✓ | **✓** |
+| 214 | `challenge-224-cryptohack-zkpintro` | ✓ | 114 | ✓ | ✓ | ✓ | ✗ |
+| 215 | `challenge-225-cryptohack-sigma-intro` | ✓ | 148 | ✓ | ✓ | ✓ | **✓** |
+| 216 | `challenge-226-cryptohack-sigma-special-soundness` | ✓ | 148 | ✓ | ✓ | ✓ | **✓** |
+| 217 | `challenge-227-cryptohack-sigma-shvzk` | ✓ | 148 | ✓ | ✓ | ✓ | **✓** |
+| 218 | `challenge-228-cryptohack-sigma-nizk` | ✓ | 148 | ✓ | ✓ | ✓ | **✓** |
+| 219 | `challenge-229-cryptohack-pairingbased` | ✓ | 246 | ✓ | ✓ | ✓ | **✓** |
+| 220 | `challenge-230-cryptohack-sigma-too-honest` | ✓ | 185 | ✓ | ✓ | ✓ | **✓** |
+| 221 | `challenge-231-cryptohack-sigma-or-proof` | ✓ | 1136 | ✓ | ✓ | ✓ | **✓** |
+| 222 | `challenge-232-cryptohack-mistersaplinspreview` | ✓ | 208 | ✓ | ✓ | ✓ | **✓** |
+| 223 | `challenge-233-cryptohack-couples` | ✓ | 174 | ✓ | ✓ | ✓ | **✓** |
+| 224 | `challenge-234-cryptohack-sigma-hamiltonicity` | ✓ | 217 | ✓ | ✓ | ✓ | **✓** |
+| 225 | `challenge-235-cryptohack-letsproveit` | ✓ | 731 | ✓ | ○ | ✓ | **✓** |
+| 226 | `challenge-236-cryptohack-mistersaplinstheprover` | ✓ | 313 | ✓ | ✓ | ✓ | **✓** |
+| 227 | `challenge-237-cryptohack-sigma-hamiltonicity2` | ✓ | 2674 | ✓ | ✓ | ✓ | **✓** |
+| 228 | `challenge-238-cryptohack-letsproveitagain` | ✓ | 816 | ✓ | ✓ | ✓ | **✓** |
+| 229 | `challenge-239-cryptohack-sigma-fischlin` | ✓ | 471 | ✓ | ✓ | ✓ | **✓** |
+| 230 | `challenge-240-cryptohack-snark-maestro` | ✓ | 453 | ✓ | ✓ | ✓ | **✓** |

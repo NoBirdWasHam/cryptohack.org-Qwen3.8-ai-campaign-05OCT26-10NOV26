@@ -1,7 +1,7 @@
 # AAR — lfsr-destroyer (CryptoHack, 250 pts)
 
 ## Flag
-`crypto{f1lT3r3d_Lf$Rs_4r3_5ubt13_4nd_y0u_c4n_e4siLy_m1ss_s0m3th1ng}`
+`[flag — recorded in FLAGS/misc/challenge-172-cryptohack-lfsr-destroyer/flag.txt]`
 Submitted via `python3 submit_flag.py lfsr-destroyer ...` → `ok:true`, `score_delta: 250`.
 
 ## The cipher

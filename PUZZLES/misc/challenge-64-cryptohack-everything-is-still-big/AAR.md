@@ -12,7 +12,7 @@
 - **NOT consulted:** `/challenges/big2/solutions/` page, search-engine writeups (no-cheat rule)
 
 ## The flag
-`C_{j-1}`
+Recorded in `FLAGS/misc/challenge-64-cryptohack-everything-is-still-big/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 (no notes recorded — see scripts in folder)

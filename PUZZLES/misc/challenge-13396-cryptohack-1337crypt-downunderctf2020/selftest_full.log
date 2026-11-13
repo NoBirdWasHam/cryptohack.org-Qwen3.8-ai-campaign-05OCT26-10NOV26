@@ -1,0 +1,9 @@
+[selftest] p bits=1337 pA candidates (4): [1337, 1337, 1337, 1337]
+[selftest] |p-pA| ~ 2^590  sign=-
+[params] delta=1 m=6 t=9 X=2^590 beta=2/5 eps=1/32
+[lattice] dim=15x15  HG margin: det^(1/w)~2^7873 vs b^m~2^8020 (+-147 bits slack)
+[lattice] LLL done in 0.3s
+[rows] 15 integral lattice polys
+[roots] M=2^641, 1 surviving, verified: ['-28445847036632326549838']
+[selftest] RECOVERED p: OK
+EXIT=0

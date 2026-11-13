@@ -1,1 +1,1 @@
-HackTM{h4v3_y0u_r34lly_f0und_4ll_7h3_bu65...?}
+[flag — recorded in FLAGS/ctf-archive/challenge-309-cryptohack-broken_oracle-hacktm_ctf2023/flag.txt]

@@ -1,6 +1,6 @@
 # AAR — Challenge 45: Oh SNAP (CryptoHack Symmetric Ciphers / AES)
 
-**Result:** SOLVED 2026-10-23. Flag: `crypto{w1R3d_equ1v4l3nt_pr1v4cy?!}` — submitted,
+**Result:** SOLVED 2026-10-23. Flag: `[flag — recorded in FLAGS/aes/challenge-45-cryptohack-oh-snap/flag.txt]` — submitted,
 `ok:true`, `score_delta=120`.
 **Method:** iterative **Klein/PTW-style sigma attack** (Klein 2005 / Pyshkin–Tews–Weinmann
 2007, vote form as in aircrack-ng's `guesskeybytes`) against the RC4(nonce‖FLAG)
@@ -128,7 +128,7 @@ The service decrypts your ciphertext with key `nonce || FLAG` and leaks the resu
 2. Usable bias (Klein 2005 in PTW vote form — NOT the folklore FMS): `sigma_t := S_t^-1[(l - z_{l-1})] - j_t - SUM_p S_t[p]` estimates the cumulative key sum `K[n]+...+K[n+t]` with prob ~= 1.36/256 (Klein weight 13, Maitra-Paul second estimator ~= 1.11/256, weight 4); flag byte t = `sigma_t - sigma_{t-1}` (bytes come out as differences; the known `crypto{` prefix pins the first sigmas).
 3. Re-anchoring: `nonce = R(4 random) || known_prefix` makes KSA over `R || known || known` fully simulatable, so the frontier byte gets a full-strength vote (measured excess ~= 0.013 over the 1/256 floor: 15.3k true vs 12.9k floor at 200k samples, bias_measure.py).
 4. Three live rounds x ~130k samples (~392k queries, ~85 min, 8 sessions, ~79 q/s, zero errors): round 1 prefix `crypto{` gained `w1R3d_e`; round 2 gained `qu1v4l3nt_pr1`; round 3 gained `v4cy?!}` closing `}`. Winning sigma buckets led runners-up by 1300-2300 votes over a ~9000-vote floor.
-5. Certification: candidate flag must reproduce 30 held-out live keystreams (all four collections) before submission; that verifier rejected the near-miss tail `...pr1v4cy}`. Final: `crypto{w1R3d_equ1v4l3nt_pr1v4cy?!}` — ok:true, score_delta=120. Pipeline first validated on a synthetic flag end-to-end (test_pipeline.py: exact recovery in 4x120k rounds).
+5. Certification: candidate flag must reproduce 30 held-out live keystreams (all four collections) before submission; that verifier rejected the near-miss tail `...pr1v4cy}`. Final: `[flag — recorded in FLAGS/aes/challenge-45-cryptohack-oh-snap/flag.txt]` — ok:true, score_delta=120. Pipeline first validated on a synthetic flag end-to-end (test_pipeline.py: exact recovery in 4x120k rounds).
 
 ## Limitations / attempts that failed
 - The half-remembered FMS formulation (`S[i+1]=0 => z_i = K[i]+2 w.p. 1/2`) measured FLAT over 200k + 30k random keys across every remembered condition variant and (z-K) delta (fms_test.py, fms_search.py) — the real Klein formula had to be retrieved from academic sources; Internet Archive was down, the original FMS PDF was never obtained (IEICE survey + aircrack-ptw code sufficed).

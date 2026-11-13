@@ -1,6 +1,6 @@
 # AAR — CryptoHack "invariant" (250 pts, hashes, socket 13393)
 
-**Flag:** `crypto{preimages_of_the_all_zero_output}` (server said "Congratulations!", submitted via `submit_flag.py`, ok:true / 200; score_delta 0 = already credited).
+**Flag:** `[flag value withheld — real-flag strings live only under FLAGS/]` (server said "Congratulations!", submitted via `submit_flag.py`, ok:true / 200; score_delta 0 = already credited).
 
 ## The vulnerability
 The custom 64-bit block cipher `MyCipher` (16 nibbles, 31 rounds) has a **16-bit invariant subspace**:
@@ -46,7 +46,7 @@ Three design accidents stack into a back door: round keys XOR only a single bit 
 2. Choose m1 ∈ V ⇒ h1 = E_K(m1) ⊕ m1 has all nibbles in {0,1} (XOR of two {6,7} values).
 3. Choose m2 ∈ V ⇒ x = h1 ⊕ m2 ∈ V ⇒ E_K(x) ∈ V; whenever E_K(x) = m2 we get h2 = 0.
 4. K re-rolls with each tried m2, so brute-force all 2^16 candidates m2 ∈ V: hit probability 2^-16 per trial ⇒ ≈1 expected hit per m1; first random m1 (seed 0xC0FFEE) gave the preimage `77766676667766677767767767676667`.
-5. Digest verified locally == 0000000000000000 ⇒ server flag `crypto{preimages_of_the_all_zero_output}`, submitted ok:true. Work ≈ 2^16 cipher evals vs 2^64 generic.
+5. Digest verified locally == 0000000000000000 ⇒ server flag `[flag value withheld — real-flag strings live only under FLAGS/]`, submitted ok:true. Work ≈ 2^16 cipher evals vs 2^64 generic.
 
 ## Limitations / attempts that failed
 - This session verified and submitted rather than re-running the 2^16 search (preimage.txt end-to-end verified instead); first submit died on a transient TLS ConnectionReset (WinError 10054), retry succeeded.

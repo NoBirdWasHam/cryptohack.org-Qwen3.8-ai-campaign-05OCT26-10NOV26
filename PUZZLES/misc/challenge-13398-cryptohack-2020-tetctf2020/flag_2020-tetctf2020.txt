@@ -1,1 +1,1 @@
-TetCTF{2020_n0t_4_pr3d1ct4bl3_y34r}
+[flag — recorded in FLAGS/ctf-archive/challenge-13398-cryptohack-2020-tetctf2020/flag.txt]

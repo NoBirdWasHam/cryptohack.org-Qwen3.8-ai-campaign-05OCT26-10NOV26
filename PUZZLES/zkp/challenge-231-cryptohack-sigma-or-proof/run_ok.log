@@ -1,0 +1,6 @@
+phase 1 (correctness) accepted
+t1s0 True t1s1 True t2s0 True t2s1 True
+e0==e0b True e1==e1b False z0==z0b True z1==z1b False
+extracted witness from side 1: 836720021822632953967253380129400949390726253460485913278094251400270382775214499185323894079744658053699311217522945952676434455210917669249623769620930
+phase 2 (extraction) accepted
+FLAG: [flag — recorded in FLAGS/]

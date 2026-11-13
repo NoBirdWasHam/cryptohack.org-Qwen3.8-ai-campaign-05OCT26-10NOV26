@@ -24,7 +24,7 @@ Key gotcha: `[[real, fake][b](s)]` indexes with `b`, so **bit=0 → real**, bit=
 
 ## Key numbers
 - 296 groups = 296 bits = 37-byte flag; mask = 0x3D6D (15725).
-- Result: `ECSC{D3c1s10n4l_LWE_m0d_2_445fb8dc91}` (self-derived).
+- Result: `[flag — recorded in FLAGS/ctf-archive/challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor/flag.txt]` (self-derived).
 
 ## Pitfalls hit (worth remembering)
 - First decode attempt inverted real/fake and produced garbage that *didn't* fit the

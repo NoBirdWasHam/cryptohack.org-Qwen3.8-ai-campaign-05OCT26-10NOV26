@@ -1,8 +1,8 @@
 # AAR — Fast Primes (fast_primes, 75 pts, RSA)
 
 ## Result
-SOLVED 2026-10-17. Flag: `crypto{p00R_3570n14}`
-Submit JSON: `{"submitted": "crypto{p00R_3570n14}", "before": {"score": 8365, "solved": 172}, "after": {"score": 8440, "solved": 173}, "score_delta": 75}`
+SOLVED 2026-10-17. Flag: `[flag — recorded in FLAGS/rsa/challenge-102-cryptohack-fast_primes/flag.txt]`
+Submit JSON: `{"submitted": "[flag — recorded in FLAGS/rsa/challenge-102-cryptohack-fast_primes/flag.txt]", "before": {"score": 8365, "solved": 172}, "after": {"score": 8440, "solved": 173}, "score_delta": 75}`
 
 ## Attack
 The generator is the classic **ROCA** (Return Of the Coppersmith Attack) "fast prime" form:
@@ -23,7 +23,7 @@ flag.
 - Commands:
   - `curl -s "https://factordb.com/api?query=$(cat n.txt)" -o fdb2.json` → `{"status":"FF","factors":[[p,1],[q,1]]}`
   - local check (venv python): `isPrime(p) and isPrime(q) and p*q == N` → all True
-  - OAEP decrypt: `FLAG: crypto{p00R_3570n14}`
+  - OAEP decrypt: `FLAG: [flag — recorded in FLAGS/rsa/challenge-102-cryptohack-fast_primes/flag.txt]`
 - Server-accepted: `score_delta: 75`.
 
 ## Lessons

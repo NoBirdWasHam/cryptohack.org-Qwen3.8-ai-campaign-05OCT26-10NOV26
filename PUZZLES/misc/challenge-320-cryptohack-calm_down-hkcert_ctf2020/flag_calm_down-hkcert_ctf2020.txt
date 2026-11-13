@@ -1,1 +1,1 @@
-hkcert20{c4lm_d0wn_4nd_s0lv3_th3_ch4llen9e}
+[flag — recorded in FLAGS/ctf-archive/challenge-320-cryptohack-calm_down-hkcert_ctf2020/flag.txt]

@@ -1,7 +1,7 @@
 # AAR — diffecient (SEKAI CTF 2022, CryptoHack archive 311)
 
 Status: **SOLVED and submitted** (CryptoHack solved count 287 -> 288, verified by re-read).
-Flag: `SEKAI{56f066a1b13fd350ac4a4889efe22cb1825651843e9d0ccae0f87844d1d65190}`
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-311-cryptohack-diffecient-sekaictf2022/flag.txt]`
 
 ## Attack — murmur3 x86_32 zero-propagation differential on the first 8 bytes
 The Bloom filter only asks that two distinct keys land on the same 47 digest slots, so a

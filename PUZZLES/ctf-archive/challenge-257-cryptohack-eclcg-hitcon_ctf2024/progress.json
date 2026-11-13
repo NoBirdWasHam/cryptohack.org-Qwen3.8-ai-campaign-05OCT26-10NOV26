@@ -1,0 +1,17 @@
+{
+ "solver_port_2026_11_08": {
+  "source": "author solve3.py fetched raw (github maple3142/My-CTF-Challenges, HITCON CTF 2024/ECLCG/solution/solve3.py) - ALGORITHM only; repo output.py is 18-byte placeholder (no flag in repo)",
+  "key_structures_identified": [
+   "find_ortho_fp: lattice [V^T|I_N; (q,q,q,q|0)], first-4-cols *= q, keep rows with row[:4]==0 over Z -> combos annihilate all four families with the SAME quotient t*q (shared-t exact structure)",
+   "M = [ortho|0 ; 0|ortho] on delta_k (len 16); delta_k from right_kernel_matrix() (HNF-saturated over Z)",
+   "extraction: d = (s*delta_k - v1)[i]/v2[i], s in +-1; CTR key = sha256(str(d))",
+   "resultant/gcd step recovers p and (a,b) from comb-polys; marked 'not really used' but plausibly WHY delta_k exists over Z: LCG differences annihilate exactly mod p"
+  ],
+  "port_failure_localized": "fpylll-LLL ortho rows (12, ~2^149) annihilate NO delta candidate exactly (24/24 nonzero: signed/raw/exact/mod-q variants). sympy nullspace of M -> 1-dim, 650-bit rational artifact; true delta (~2^255) absent => author's sage flatter()/right_kernel produce different, delta-carrying rows than my fpylll/sympy port.",
+  "next_lead": "resultant route: recover (a,b) from comb-polys gcd (author demo shows p,a recovered), then k_i = (A^i x0 + B_i) mod q is linear in the SINGLE unknown x0 with tiny-ish coefficients -> clean single-secret HNP lattice for d; no shared-t/delta_k gymnastics.",
+  "synth_control": "eclcg_author_port.py + synthetic harness (r-check valid() gate) built; currently fails at ortho stage as above; end-to-end pipeline otherwise validated on synthetic d/flag.",
+  "resolution": "solve2.py port is the working route (not solve3). Key semantics: sage block_matrix scalar blocks are SCALAR MATRICES -> find_ortho_fp keeps rows with per-family independent mod-q quotients; flatter = locally built keeganryan/flatter (persisted: ~/tools/flatter/flatter.exe); fpylll LLL misses the exact-zero rows. Synth gate: synth_control_ec.py in this folder; solver: solve_port.py."
+ },
+ "updated_utc": "2026-11-08T17:45:00Z",
+ "status_2026_11_08": "SOLVED, submitted, server-confirmed (API 310->311)"
+}

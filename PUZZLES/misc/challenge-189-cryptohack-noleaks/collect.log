@@ -1,0 +1,37 @@
+banner: b'No leaks\n'
+0 cts 1 0s
+500 cts 463 48s
+1000 cts 920 97s
+1500 cts 1378 145s
+2000 cts 1833 193s
+2500 cts 2295 241s
+3000 cts 2754 289s
+3500 cts 3220 338s
+4000 cts 3683 386s
+4500 cts 4141 434s
+5000 cts 4601 482s
+5500 cts 5067 530s
+collected 5530 ciphertexts
+ct length: {20}
+0 missing: [99] min counts: [10, 11, 12]
+1 missing: [114] min counts: [6, 10, 11]
+2 missing: [121] min counts: [11, 12, 13]
+3 missing: [112] min counts: [10, 10, 13]
+4 missing: [116] min counts: [11, 11, 12]
+5 missing: [111] min counts: [8, 10, 11]
+6 missing: [123] min counts: [7, 10, 10]
+7 missing: [117] min counts: [10, 10, 10]
+8 missing: [110] min counts: [10, 12, 12]
+9 missing: [114] min counts: [9, 9, 11]
+10 missing: [52] min counts: [10, 11, 12]
+11 missing: [110] min counts: [12, 12, 12]
+12 missing: [100] min counts: [11, 11, 11]
+13 missing: [48] min counts: [11, 11, 12]
+14 missing: [109] min counts: [10, 12, 12]
+15 missing: [95] min counts: [10, 10, 11]
+16 missing: [48] min counts: [10, 11, 12]
+17 missing: [55] min counts: [9, 9, 11]
+18 missing: [112] min counts: [9, 10, 12]
+19 missing: [125] min counts: [12, 13, 13]
+FLAG GUESS: [flag value withheld — real-flag strings live only under FLAGS/]
+EXIT=0

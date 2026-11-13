@@ -1,1 +1,1 @@
-ECSC{l0g_pr0perty_w0rks_d1scr3t3ly_9d03dde5}
+[flag — recorded in FLAGS/ctf-archive/challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa/flag.txt]

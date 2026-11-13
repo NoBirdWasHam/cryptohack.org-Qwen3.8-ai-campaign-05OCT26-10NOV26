@@ -1,16 +1,16 @@
 # AAR — LWE Intro (challenge-168-cryptohack-lwe-intro)
 
 ## 1. Result
-**SOLVED** — answer `Gaussian elimination` (BARE answer-type: no wrapper), submitted via `submit_flag.py` on 2026-10-12 and live-confirmed in the user API (present in the 137 solved-challenges list as of 2026-10-13).
+**SOLVED** — answer `[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]` (BARE answer-type: no wrapper), submitted via `submit_flag.py` on 2026-10-12 and live-confirmed in the user API (present in the 137 solved-challenges list as of 2026-10-13).
 
 ## 2. Source
 - Statement: https://cryptohack.org/challenges/post-quantum/lwe-intro/ (cached in `challenge_meta.json`)
 - **NOT consulted:** solutions/writeups (self-solve rule).
 
 ## 3. The answer + verification
-- `Gaussian elimination`
-Answer-type (BARE). LWE intro: the technique to solve the underdetermined linear system is **Gaussian elimination**.
-- Submitted `Gaussian elimination` bare; accepted.
+- `[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]`
+Answer-type (BARE). LWE intro: the technique to solve the underdetermined linear system is **[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]**.
+- Submitted `[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]` bare; accepted.
 
 ## 4. Toolchain
 - Python 3.12 (~/tools/crypto-ctf/venv/Scripts/python.exe); numpy for the lattice det; PARI gp64 for mod-p polynomial roots (polrootsmod(Pol([...],x), p) — note: takes a Pol, not a coefficient list).
@@ -27,8 +27,8 @@ Answer-type (BARE). LWE intro: the technique to solve the underdetermined linear
 None — this is a teaching/knowledge question in the LWE intro track, not a broken system. The lesson it teaches: all of LWE's hardness lives in the error term. Strip the error away and an LWE sample (A, b) is just a system of linear equations over Z_q; the secret stops being hidden and falls out of ordinary linear algebra.
 
 ## How the answer follows
-The expected answer is the name of the technique: **Gaussian elimination**. Mechanism behind it: once you have at least n linearly independent samples b_i = <A_i, s> (mod q), row-reduce the n×n sample matrix over Z_q. Because q is prime, every nonzero pivot is invertible mod q, so elimination proceeds exactly like over the reals and yields the unique solution s with no noise window, no rounding, no lattice reduction. That is the "why it works" the track is building toward: noise-free LWE = solvable linear system. (The statement text itself was not archived into site.md — the statement field in challenge_meta.json is empty — so the mechanism above is stated from the archived answer and the surrounding track content, not quoted from a stored statement.)
-Answer string `Gaussian elimination` submitted BARE (no wrapper) 2026-10-12; live-confirmed in the user API 2026-10-13.
+The expected answer is the name of the technique: **[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]**. Mechanism behind it: once you have at least n linearly independent samples b_i = <A_i, s> (mod q), row-reduce the n×n sample matrix over Z_q. Because q is prime, every nonzero pivot is invertible mod q, so elimination proceeds exactly like over the reals and yields the unique solution s with no noise window, no rounding, no lattice reduction. That is the "why it works" the track is building toward: noise-free LWE = solvable linear system. (The statement text itself was not archived into site.md — the statement field in challenge_meta.json is empty — so the mechanism above is stated from the archived answer and the surrounding track content, not quoted from a stored statement.)
+Answer string `[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt]` submitted BARE (no wrapper) 2026-10-12; live-confirmed in the user API 2026-10-13.
 
 ## Limitations / attempts that failed
 - Knowledge retrieval, not a derivation — no computation was performed or needed; no solve script exists for this item.

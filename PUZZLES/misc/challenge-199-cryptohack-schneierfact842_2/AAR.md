@@ -1,6 +1,6 @@
 # AAR — schneierfact842_2 "Bruce Schneier's Password: Part 2" (misc 250) — SOLVED 2026-10-22 (+250)
 
-Flag: `crypto{!fact_in_#bot-chat}` (listener socket.cryptohack.org:13401; submit ok:true, score_delta 250)
+Flag: `[flag value withheld — real-flag strings live only under FLAGS/]` (listener socket.cryptohack.org:13401; submit ok:true, score_delta 250)
 
 ## The check
 `array = np.array(list(map(ord, password)))`; accept iff `isPrime(int(array.sum()))` and

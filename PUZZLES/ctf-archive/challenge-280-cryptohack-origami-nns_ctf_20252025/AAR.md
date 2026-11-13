@@ -340,7 +340,7 @@ PRICED NEXT STEP (only unblocked path to flag): fpm ladder at beta 75/80 x 2-3 m
 
 
 ## SOLVED_ACCEPTED — 2026-11-08 (17:22:25-05:00, API 311->312)
-Flag: NNS{k33p_f0ld1ng_4nd_f0ld1ng_l1k3_4n_0r1g4m1_m4st3r} — locally derived, self-derived method (provided
+Flag: [flag — recorded in FLAGS/ctf-archive/challenge-280-cryptohack-origami-nns_ctf_20252025/flag.txt] — locally derived, self-derived method (provided
 materials only, per earlier Source sections of this AAR).
 Terminal chain: REAL_FPP_RECOVERED.txt (f++,g++ from L3 glue, 08:43) + beta-75 tour #2 of the level-2 MINUS
 lattice (t280_fpm_h.cur.fplll, 14:40:37) -> t280_fin2.py deterministic finisher: scan (member gate) ->

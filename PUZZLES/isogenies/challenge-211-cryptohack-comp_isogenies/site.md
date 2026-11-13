@@ -1,7 +1,7 @@
 # Composite Isogeny — CryptoHack / Isogenies (60 pts)
 
 slug: `comp_isogenies` · category: Isogenies · points: 60
-Solved: 2026-10-15 · flag: `249510360818*i + 292990704480` (Sage GF(p^2,'i') string; score_delta +60, 7605→7665)
+Solved: 2026-10-15 · flag: `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]` (Sage GF(p^2,'i') string; score_delta +60, 7605→7665)
 
 ## Statement (from remaining_descs.json)
 
@@ -20,7 +20,7 @@ Resources:
 - 3^13 = 1594323. K has order 3^13 (verified: 3^13·K = O).
 
 ## Answer
-- **j(E') = 292990704480 + 249510360818·i** ∈ F_{p²}\F_p, submitted as `249510360818*i + 292990704480`.
+- **j(E') = 292990704480 + 249510360818·i** ∈ F_{p²}\F_p, submitted as `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]`.
 
 ## Method
 13-step Vélu chain over F_{p²} (comp_iso.py, pure Python):
@@ -29,13 +29,13 @@ Resources:
 - After 13 steps: E_13 = codomain of the 3^13-isogeny. j(E_13) computed from its (a, b) coefficients.
 
 ## Verification (verify_comp.py — all passed)
-- **V1**: composed map kills the kernel: φ_12∘…∘φ_0(K) = O. E_1 codomain = y² = x³ + 417919813652 x + 381823818623 — the **F_p-twist** of the server-verified three_isogenies codomain (same j = 96392670793, cross-checked against PARI `ellinit[13]` on that challenge).
+- **V1**: composed map kills the kernel: φ_12∘…∘φ_0(K) = O. E_1 codomain = y² = x³ + 417919813652 x + 381823818623 — the **F_p-twist** of the server-verified three_isogenies codomain (same j = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt], cross-checked against PARI `ellinit[13]` on that challenge).
 - **V2**: Frobenius symmetry: j(E'_13) with conjugate kernel K̄ equals conj(j(E_13)) exactly (292990704480 + 168431847693·i).
 - **V3**: total map is a group homomorphism E_0 → E_13: for two random F_{p²} points P, R on E_0, total(P+R) = total(P) + total(R) on E_13 (all images verified on-curve).
-- j(E_1) = 96392670793 matches the independent PARI computation for three_isogenies (the engine's first step is anchored to a server-verified answer).
+- j(E_1) = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt] matches the independent PARI computation for three_isogenies (the engine's first step is anchored to a server-verified answer).
 
 ## Flag-format lesson
-7 submission attempts before success. The grader expects the Sage `GF(p^2, 'i')` string representation: **imaginary part first, explicit `*`**: `249510360818*i + 292990704480`. Failed first: `249510360818i + 292990704480`, `292990704480+249510360818i`, `292990704480 249510360818`, `292990704480, 249510360818`, `292990704480 + 249510360818i`.
+7 submission attempts before success. The grader expects the Sage `GF(p^2, 'i')` string representation: **imaginary part first, explicit `*`**: `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]`. Failed first: `249510360818i + 292990704480`, `292990704480+249510360818i`, `292990704480 249510360818`, `292990704480, 249510360818`, `292990704480 + 249510360818i`.
 
 ## Evidence
 - comp_iso.py — F_{p²} field + EC + Vélu-3 engine + chain solver (incl. f2_sqrt Tonelli–Shanks)

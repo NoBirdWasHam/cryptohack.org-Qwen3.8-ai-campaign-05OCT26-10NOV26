@@ -1,0 +1,4 @@
+MODE=bkz20 rc=3
+MODE=bkz64 rc=3
+MODE=embed64 rc=3
+FPY_PROBES_DONE

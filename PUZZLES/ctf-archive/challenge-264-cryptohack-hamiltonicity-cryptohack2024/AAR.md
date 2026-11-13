@@ -1,7 +1,7 @@
 # AAR — 264-cryptohack-hamiltonicity-cryptohack2024: Hamiltonicity (CryptoHack2024, CTF-archive mirror)
 
 **Result:** SOLVED (2026-10-25, account NoBirdWasHam)
-**Flag:** `crypto{not_hashing_entire_statement_is_bad}`
+**Flag:** `[flag — recorded in FLAGS/ctf-archive/challenge-264-cryptohack-hamiltonicity-cryptohack2024/flag.txt]`
 **Listener:** archive.cryptohack.org 14635 (port taken from the ctf-archive category card in `cat_ctfarch.html`; archive.cryptohack.org site pages themselves are not used)
 
 ## Source
@@ -43,7 +43,7 @@ The interactive Hamiltonicity proof derives its per-round Fiat-Shamir challenge 
 ## How the answer follows
 1. Build verification BEFORE grinding: chal.py/hamiltonicity.py/example.py are byte-identical to the already-solved main-site twin challenge-234-cryptohack-sigma-hamiltonicity (numrounds=128; FS bit = sha256(str(comm_params) || FS_state || str(A))[-1] & 1); the ctf-archive card gives the same host:port (archive.cryptohack.org:14635) the #1 solver used -- same listener, same flag.
 2. Attack (solve.py): commit to a random permutation of the 5-vertex G, grind fresh Pedersen randomness until hash_committed_graph(A, state)[-1] & 1 == 0, send {A, z=[perm, openings]}; repeat 128 rounds.
-3. Observed: 128/128 rounds accepted; 278 total grind attempts (~2.17 commits/round, consistent with p=1/2 per try); one connection, seconds; flag crypto{not_hashing_entire_statement_is_bad} printed after round 127; submit ok:true, solved 240->241, score_delta 0 (archive credit); /api/user readback contains 'Hamiltonicity (CryptoHack)'.
+3. Observed: 128/128 rounds accepted; 278 total grind attempts (~2.17 commits/round, consistent with p=1/2 per try); one connection, seconds; flag [flag — recorded in FLAGS/ctf-archive/challenge-264-cryptohack-hamiltonicity-cryptohack2024/flag.txt] printed after round 127; submit ok:true, solved 240->241, score_delta 0 (archive credit); /api/user readback contains 'Hamiltonicity (CryptoHack)'.
 
 ## Limitations / attempts that failed
 - No independent re-implementation of the protocol was written for this twin: correctness rests on the byte-identical diff + live 128/128 accept + solved-list readback.

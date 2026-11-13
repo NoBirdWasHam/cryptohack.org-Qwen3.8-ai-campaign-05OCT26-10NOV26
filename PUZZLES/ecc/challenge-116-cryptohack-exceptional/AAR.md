@@ -8,7 +8,7 @@
 - **NOT consulted:** solutions page / writeups (no-cheat rule)
 
 ## The flag
-`crypto{H3ns3l_lift3d_my_fl4g!}`
+Recorded in `FLAGS/ecc/challenge-116-cryptohack-exceptional/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## Problem
 - 512-bit Weierstrass E/F_p, `assert is_prime(E.order())` ("protected against Pohlig–Hellman").

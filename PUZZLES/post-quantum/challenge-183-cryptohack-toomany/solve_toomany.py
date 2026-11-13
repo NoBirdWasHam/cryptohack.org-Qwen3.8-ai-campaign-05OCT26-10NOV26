@@ -13,7 +13,7 @@ Key facts:
   coordinate j is visible by comparing a_faulty with a_true.
 => majority-vote a_true/b_true over many reset+sample cycles; every faulty sample then
   directly yields one flag byte FLAG[j] = (b_f - b_t) * (v - a_true[j])^{-1} mod 127.
-Coupon-collector over j=0..27. Known bytes 'crypto{' and '}' give free consistency checks.
+Coupon-collector over j=0..27. Known bytes '[flag value withheld — real-flag strings live only under FLAGS/]' give free consistency checks.
 """
 import json
 import socket

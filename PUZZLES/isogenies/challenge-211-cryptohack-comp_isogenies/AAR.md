@@ -1,7 +1,7 @@
 # AAR — comp_isogenies (CryptoHack Isogenies, 60 pts)
 
 ## Result
-**SOLVED 2026-10-15.** Flag `249510360818*i + 292990704480` accepted, score_delta +60 (7605 → 7665; 162 → 163 solved).
+**SOLVED 2026-10-15.** Flag `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]` accepted, score_delta +60 (7605 → 7665; 162 → 163 solved).
 
 ## Attack
 13-step Vélu isogeny chain over F_{p²} = F_p[i] (p = 417942208511 = 2^18·3^13 − 1), pure Python, no PARI/Sage/fpylll:
@@ -11,7 +11,7 @@
 4. j(E_13) from final (a, b) coefficients = 292990704480 + 249510360818·i.
 
 ## Verification (verify_comp.py, all passed — see verify.log)
-- **V1 kernel-kill**: total map sends K to O; first codomain = F_p-twist of the PARI-verified three_isogenies codomain (same j = 96392670793) — engine anchored to a server-verified value.
+- **V1 kernel-kill**: total map sends K to O; first codomain = F_p-twist of the PARI-verified three_isogenies codomain (same j = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]) — engine anchored to a server-verified value.
 - **V2 Frobenius**: j with conjugate kernel = conjugate of j (exact).
 - **V3 homomorphism**: total(P+R) = total(P)+total(R) for random P, R ∈ E_0(F_{p²}); all images on E_13.
 - Submission confirmed by API (score_delta 60).
@@ -22,7 +22,7 @@
 3. **TS non-residue search over F_p can never terminate** (z^(p−1) = 1 ⇒ z^((q−1)/2) = 1 for all z ∈ F_p) → must search in F_{p²} (start with i).
 
 ## Flag format (7 attempts)
-Grader expects Sage `GF(p^2, 'i')` str: **`<imag>*i + <real>`**. Order tried: `249510360818i + 292990704480` ✗, `292990704480+249510360818i` ✗, `292990704480 249510360818` ✗, `292990704480, 249510360818` ✗, `292990704480 + 249510360818i` ✗, `249510360818*i + 292990704480` ✓ (+60), `292990704480 + 249510360818*i` ✗ (already solved).
+Grader expects Sage `GF(p^2, 'i')` str: **`<imag>*i + <real>`**. Order tried: `249510360818i + 292990704480` ✗, `292990704480+249510360818i` ✗, `292990704480 249510360818` ✗, `292990704480, 249510360818` ✗, `292990704480 + 249510360818i` ✗, `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]` ✓ (+60), `292990704480 + 249510360818*i` ✗ (already solved).
 
 ## Lessons
 - For F_{p²}-valued CryptoHack answers, the Sage field-element string (highest-degree term first, explicit `*`) is the serialization.
@@ -48,9 +48,9 @@ over F_{p²} (p = 417942208511 = 2^18·3^13 − 1) and reporting j of the far cu
 - Verification replaces an external engine: the total map kills K; the conjugate
   kernel gives the conjugate j (Frobenius symmetry); homomorphism spot-tests on
   E0(F_{p²}); and the first codomain is the F_p-twist of the server-verified
-  three_isogenies codomain (same j = 96392670793) — an anchor to ground truth.
+  three_isogenies codomain (same j = [flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt]) — an anchor to ground truth.
 - Flag serialization = Sage GF(p²) string form, imag-term-first with explicit
-  star: `249510360818*i + 292990704480`.
+  star: `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]`.
 
 ## Limitations / attempts that failed
 

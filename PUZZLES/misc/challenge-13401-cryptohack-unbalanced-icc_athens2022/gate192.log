@@ -1,0 +1,16 @@
+synth d=192b
+[m=3,t=1,a=1,X=2^192] r=20 formula margin/vec=48.6
+  det^0.05=3322.3 e^m=3064.3 det-margin/vec=-258.0
+  below-HG candidates: 0
+[m=4,t=2,a=0,X=2^192] r=35 formula margin/vec=124.3
+  det^0.02857142857142857=3961.3 e^m=4085.7 det-margin/vec=124.3
+  below-HG candidates: 30
+[m=4,t=2,a=1,X=2^192] r=35 formula margin/vec=160.9
+  det^0.02857142857142857=4216.9 e^m=4085.7 det-margin/vec=-131.2
+  below-HG candidates: 0
+[m=5,t=3,a=0,X=2^192] r=54 formula margin/vec=239.4
+  det^0.018518518518518517=4867.7 e^m=5107.1 det-margin/vec=239.4
+  below-HG candidates: 49
+[m=5,t=3,a=1,X=2^192] r=54 formula margin/vec=267.8
+  det^0.018518518518518517=5123.3 e^m=5107.1 det-margin/vec=-16.2
+  below-HG candidates: 40

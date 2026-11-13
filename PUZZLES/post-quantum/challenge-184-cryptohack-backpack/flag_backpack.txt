@@ -1,1 +1,1 @@
-crypto{my_kn4ps4ck_1s_l1ghtw31ght}
+[flag — recorded in FLAGS/post-quantum/challenge-184-cryptohack-backpack/flag.txt]

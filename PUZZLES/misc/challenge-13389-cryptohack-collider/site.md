@@ -2,7 +2,7 @@
 
 - **Platform:** CryptoHack · **Category:** Hash Functions → Collisions · **Points:** 50
 - **Source file:** `13389.py` (in this folder) · **Service:** socket.cryptohack.org 13389
-- **Solved:** 2026-10-14 by NoBirdWasHam · **Flag:** `crypto{m0re_th4n_ju5t_p1g30nh0le_pr1nc1ple}`
+- **Solved:** 2026-10-14 by NoBirdWasHam · **Flag:** `[flag — recorded in FLAGS/hashes/challenge-13389-cryptohack-collider/flag.txt]`
 - **Verification:** `submit_flag.py` → score 7245 → 7295 (+50), solved 156 → 157.
 
 ## Statement (verbatim)

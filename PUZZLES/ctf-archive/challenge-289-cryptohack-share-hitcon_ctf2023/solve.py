@@ -29,7 +29,7 @@ def interp_mod_p(xs, ys, r, p):
             row.append(xi)
         A.append(row)
         b.append((ys[j] - r) % p)
-    # Gaussian elimination mod p
+    # [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] mod p
     nrow = k
     piv_row = 0
     where = []

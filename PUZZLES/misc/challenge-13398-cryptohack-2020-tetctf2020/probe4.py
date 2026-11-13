@@ -48,7 +48,7 @@ def live_session(reveals, guess=None, read_deadline=20):
 proc = subprocess.run(
     [sys.executable, os.path.join(HERE, "2020.py")],
     input=b"1396\n1792\n0\n", capture_output=True, timeout=30,
-    env={**os.environ, "FLAG": "crypto{LOCAL_TEST}"})
+    env={**os.environ, "FLAG": "[flag value withheld — real-flag strings live only under FLAGS/]"})
 loc = proc.stdout.decode(errors="replace")
 print("LOCAL first-line:", repr(loc.splitlines()[0] if loc else ""))
 print("LOCAL nlines:", len(loc.splitlines()), "stderr:", repr(proc.stderr[:200]))

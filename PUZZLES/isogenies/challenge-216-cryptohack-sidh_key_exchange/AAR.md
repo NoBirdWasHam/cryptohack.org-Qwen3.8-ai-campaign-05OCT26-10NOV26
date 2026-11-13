@@ -1,7 +1,7 @@
 # AAR — challenge-216: SIDH Key Exchange (cryptohack.org, 80 pts)
 
 **Status:** SOLVED, submitted live 2026-10-21. Score 11400 → 11480 (201 solved).
-**Flag:** `crypto{congratulations_you_are_an_isogenist!}`
+**Flag:** `[flag — recorded in FLAGS/isogenies/challenge-216-cryptohack-sidh_key_exchange/flag.txt]`
 
 ## Problem
 `source.sage` gives p = 2^110·3^67 − 1, F = GF(p²) with i² = −1, E0: y² = x³ + x,
@@ -74,7 +74,7 @@ the SIDH diamond; the "math" is that the diamond commutes.
 - Shared secret = that j, serialized in Sage GF(p²) notation `im*i + re`. PARI
   prints j in its ffgen w-basis, so a basis change recovers the i-basis:
   reconstruct i = α + βw, then j_im = v/β, j_re = u − vα/β.
-  key = SHA256(str(j)) → AES-CBC → crypto{congratulations_you_are_an_isogenist!}.
+  key = SHA256(str(j)) → AES-CBC → [flag — recorded in FLAGS/isogenies/challenge-216-cryptohack-sidh_key_exchange/flag.txt].
 
 ## Limitations / attempts that failed
 

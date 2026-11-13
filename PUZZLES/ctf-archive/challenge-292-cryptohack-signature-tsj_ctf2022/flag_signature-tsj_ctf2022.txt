@@ -1,1 +1,1 @@
-TSJ{who_needs_gaussian_elimination_when_you_have_LLL?_https://github.com/jonasnick/ecdsaPredictableNonce}
+[flag — recorded in FLAGS/ctf-archive/challenge-292-cryptohack-signature-tsj_ctf2022/flag.txt]

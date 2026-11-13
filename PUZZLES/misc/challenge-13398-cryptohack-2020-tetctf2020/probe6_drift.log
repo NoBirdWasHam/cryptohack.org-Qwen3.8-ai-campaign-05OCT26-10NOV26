@@ -1,0 +1,5 @@
+host: archive.cryptohack.org 63222
+session 0 msb= 0 bytes= 12180 lines= 2020 nope= 2017 num_lines= [1398, 1794] win= False
+session 1 msb= 1 bytes= 12181 lines= 2020 nope= 2017 num_lines= [1398, 1794] win= False
+session 2 msb= 0 bytes= 12181 lines= 2020 nope= 2017 num_lines= [1398, 1794] win= False
+drift-check done: 0/3 alternating sessions -> verdict depends on fingerprint diff

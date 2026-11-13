@@ -1,6 +1,6 @@
 # AAR — ed25519_magic (ICC Athens), CryptoHack archive #312
 
-**Solved:** yes. Flag: `ICC{RFC8032_dispel_th3_m4gic}` (submit ok:true, solved-list 244→245, reconcile shows slug in LIVE solved set; archive challenges award 0 pts).
+**Solved:** yes. Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-312-cryptohack-ed25519_magic-icc_athens2022/flag.txt]` (submit ok:true, solved-list 244→245, reconcile shows slug in LIVE solved set; archive challenges award 0 pts).
 
 ## The vuln
 Server (`chal.py`) uses PyPI `ed25519==1.5` — C bindings to **ed25519-supercop-ref**

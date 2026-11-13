@@ -1,6 +1,6 @@
 # AAR — smithing_contest-ecsc_2024_it (SOLVED)
 
-flag: ECSC{d035_7h15_d357r0y35_ASA?!_b288a0c3f5d069fc}  (service-derived, live listener archive.cryptohack.org:25469; submitted ok:true, solved count 285→286)
+flag: [flag — recorded in FLAGS/ctf-archive/challenge-293-cryptohack-smithing_contest-ecsc_2024_it/flag.txt]  (service-derived, live listener archive.cryptohack.org:25469; submitted ok:true, solved count 285→286)
 
 ## The scheme
 IBE-style Boneh–Boyen signatures over a random 128-bit-bit BN curve (k=12, p=36u⁴−36u³+24u²−6u+1, u=1605213242,

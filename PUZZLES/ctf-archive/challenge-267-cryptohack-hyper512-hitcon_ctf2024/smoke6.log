@@ -1,0 +1,20 @@
+[    0.0s] instance output_test.txt: NB=32768 k=1 rows=16318 ct=27B
+[  101.8s] stage1 guess 0: bad=True rank=16252 free_lin=6 (99s)
+[  101.8s] stage1 guess 1: bad=True rank=16255 free_lin=3 (99s)
+[  102.2s] stage1 guess 2: bad=True rank=16254 free_lin=4 (99s)
+[  103.2s] stage1 guess 3: bad=False rank=16255 free_lin=3 (99s)
+[  201.2s] stage1 guess 5: bad=True rank=16255 free_lin=3 (99s)
+[  201.2s] stage1 guess 6: bad=True rank=16254 free_lin=4 (99s)
+[  201.4s] stage1 guess 4: bad=True rank=16252 free_lin=6 (100s)
+[  201.9s] stage1 guess 7: bad=True rank=16255 free_lin=3 (99s)
+[  201.9s] stage1 consistent guesses: [3]
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-267-cryptohack-hyper512-hitcon_ctf2024\solve6.py", line 243, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-267-cryptohack-hyper512-hitcon_ctf2024\solve6.py", line 223, in main
+    (xwres, rank2) = stage2(Y, Z, gift_bits, NB)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-267-cryptohack-hyper512-hitcon_ctf2024\solve6.py", line 108, in stage2
+    mA = _M['mA']; mB = _M['mB']
+         ~~^^^^^^
+KeyError: 'mA'

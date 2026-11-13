@@ -38,7 +38,7 @@ Note `pad()` runs ONCE before the loop: round 2 encrypts `iv1||ct1` **unpadded**
 - Don't paste hex from truncated terminal previews into scripts — fetch to a file.
 
 ## Result
-SOLVED. Flag: `zh3r0{wh0_th0ugh7_7h3_m3r53nn3_7w1573r_w45_5o_pr3d1c74bl3?c3rt41nly_n0t_m47454n0}`
+SOLVED. Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf_v2/flag.txt]`
 Submitted to slug `import_numpy_as_mt-zh3r0_ctf` (the task card's `-zh3r0_ctf_v2` is the
 CTF name, not part of the slug): submit ok:true, solved count 243→244 (archive
 challenges are 0-point, so score_delta 0 is expected; solved-list readback confirms).

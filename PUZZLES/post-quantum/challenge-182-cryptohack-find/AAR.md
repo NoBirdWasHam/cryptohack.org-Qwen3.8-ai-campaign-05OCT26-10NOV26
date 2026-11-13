@@ -45,7 +45,7 @@ Correct (exactly as the source's `decrypt`):
     a = (f * e) % q
     m = (a * pow(f, -1, g)) % g
 
-→ m = 231 bits = 29 bytes → **`crypto{Gauss_lattice_attack!}`**
+→ m = 231 bits = 29 bytes → **`[flag — recorded in FLAGS/post-quantum/challenge-182-cryptohack-find/flag.txt]`**
 
 ## Result
 

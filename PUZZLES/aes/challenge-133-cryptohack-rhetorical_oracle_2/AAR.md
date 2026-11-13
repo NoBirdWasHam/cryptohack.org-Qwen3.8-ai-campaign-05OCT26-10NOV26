@@ -11,11 +11,7 @@
 - **NOT consulted:** `/challenges/rhetorical_oracle_2/solutions/` page, search-engine writeups (no-cheat rule)
 
 ## The flag
-`crypto{m057_1n73r3571n6_3xp10175}`
-- Ground truth #1: the server returned it in its final response (solve3.py, attempt 1,
-  12348 queries, `live_solve3_log.txt`).
-- Ground truth #2: submitted via `submit_flag.py rhetorical_oracle_2 "crypto{...}"` →
-  API score_delta +150 (8515→8665), solved count 175→176.
+Recorded in `FLAGS/aes/challenge-133-cryptohack-rhetorical_oracle_2/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 Server (from provided `13437.py`): `P = AES-CBC-decrypt(K, iv=FIXED, ct)`; if unpadding OK

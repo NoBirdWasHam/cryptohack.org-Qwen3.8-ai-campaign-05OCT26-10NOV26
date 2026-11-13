@@ -1,0 +1,54 @@
+TEST1 codomain: a' = 269  b' = 82  (expect 269, 82)
+TEST1 OK (x-map + reconstruction verified)
+TEST2 candidates: [199, 220]
+TEST2 canonical A (v=23): 199 (server-accepted: 199)
+  point-mapping check A=199: verified=True mapped_points=419
+TEST2 OK (Montgomery conversion verified)
+TEST3 codomain: a' = 182  b' = 64  (PARI: 182, 64)
+TEST3 OK (independent engine == PARI)
+E0: y^2 = x^3 + 1 x + 0   #E = 420  j = 52
+step 1: l=5 kernel gen=(185,73) -> a'=269, b'=82  j'=13
+step 2: l=5 kernel gen=(144,259) -> a'=239, b'=292  j'=98
+step 3: l=5 kernel gen=(62,161) -> a'=293, b'=81  j'=62
+step 4: l=5 kernel gen=(79,152) -> a'=305, b'=14  j'=407
+step 5: l=5 kernel gen=(23,315) -> a'=83, b'=345  j'=407
+step 6: l=5 kernel gen=(232,175) -> a'=131, b'=381  j'=62
+step 7: l=5 kernel gen=(221,417) -> a'=183, b'=182  j'=98
+step 8: l=5 kernel gen=(332,102) -> a'=409, b'=157  j'=13
+step 9: l=5 kernel gen=(148,106) -> a'=321, b'=0  j'=52
+5-walk j-seq:   [52, 13, 98, 62, 407, 407, 62, 98, 13, 52]
+5-walk expect:  [52, 13, 98, 62, 407, 407, 62, 98, 13, 52]
+5-walk endpoint model: (321, 0) (expect (321, 0))
+5-walk CROSSCHECK OK (model-level, matches prime_power AAR exactly)
+E0: y^2 = x^3 + 1 x + 0   #E = 420  j = 52
+step 1: l=7 kernel gen=(80,389) -> a'=285, b'=87  j'=354
+step 2: l=7 kernel gen=(211,16) -> a'=248, b'=307  j'=106
+step 3: l=7 kernel gen=(168,352) -> a'=121, b'=189  j'=13
+step 4: l=7 kernel gen=(20,316) -> a'=399, b'=227  j'=184
+step 5: l=7 kernel gen=(371,293) -> a'=23, b'=309  j'=180
+step 6: l=7 kernel gen=(97,206) -> a'=265, b'=296  j'=98
+step 7: l=7 kernel gen=(6,114) -> a'=332, b'=176  j'=274
+step 8: l=7 kernel gen=(161,325) -> a'=0, b'=139  j'=0
+step 9: l=7 kernel gen=(35,81) -> a'=254, b'=385  j'=62
+step 10: l=7 kernel gen=(15,191) -> a'=195, b'=136  j'=48
+step 11: l=7 kernel gen=(18,375) -> a'=46, b'=145  j'=356
+step 12: l=7 kernel gen=(22,62) -> a'=298, b'=252  j'=407
+step 13: l=7 kernel gen=(45,325) -> a'=380, b'=94  j'=396
+step 14: l=7 kernel gen=(95,197) -> a'=184, b'=21  j'=396
+step 15: l=7 kernel gen=(114,114) -> a'=415, b'=86  j'=407
+step 16: l=7 kernel gen=(295,170) -> a'=216, b'=335  j'=356
+step 17: l=7 kernel gen=(110,7) -> a'=334, b'=40  j'=48
+step 18: l=7 kernel gen=(59,125) -> a'=156, b'=62  j'=62
+step 19: l=7 kernel gen=(80,293) -> a'=0, b'=211  j'=0
+step 20: l=7 kernel gen=(19,273) -> a'=340, b'=25  j'=274
+step 21: l=7 kernel gen=(115,342) -> a'=294, b'=25  j'=98
+step 22: l=7 kernel gen=(106,131) -> a'=48, b'=185  j'=180
+step 23: l=7 kernel gen=(275,25) -> a'=399, b'=192  j'=184
+step 24: l=7 kernel gen=(46,186) -> a'=154, b'=250  j'=13
+step 25: l=7 kernel gen=(172,156) -> a'=329, b'=65  j'=106
+step 26: l=7 kernel gen=(169,196) -> a'=229, b'=227  j'=354
+step 27: l=7 kernel gen=(48,73) -> a'=215, b'=0  j'=52
+7-walk j-seq:   [52, 354, 106, 13, 184, 180, 98, 274, 0, 62, 48, 356, 407, 396, 396, 407, 356, 48, 62, 0, 274, 98, 180, 184, 13, 106, 354, 52]
+7-walk endpoint model: (215, 0) (expect (215, 0))
+7-walk palindromic: True  j(12),j(13),j(14),j(15) = 407 396 396 407
+7-walk CROSSCHECK OK (model-level, matches prime_power AAR exactly)

@@ -1,2 +1,2 @@
-gap 180 FLAG: crypto{pseudorandom_shamir_adleman}
+gap 180 FLAG: [flag — recorded in FLAGS/misc/challenge-168-cryptohack-rsa-vs-rng/flag.txt]
 EXIT=0

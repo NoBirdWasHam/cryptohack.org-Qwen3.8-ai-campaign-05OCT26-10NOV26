@@ -12,8 +12,7 @@
 - **NOT consulted:** `/challenges/bespoke/solutions/`, any writeups (no-cheat rule)
 
 ## The flag
-`crypto{linear_padding_isnt_padding}`
-Verify: re-run `solve2.py` — a fresh session yields the same flag.
+Recorded in `FLAGS/rsa/challenge-105-cryptohack-bespoke/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 1. Read `13386.py`: flag `m` encrypted as `c = pow(a*m + b, 11, N)` with **fresh random

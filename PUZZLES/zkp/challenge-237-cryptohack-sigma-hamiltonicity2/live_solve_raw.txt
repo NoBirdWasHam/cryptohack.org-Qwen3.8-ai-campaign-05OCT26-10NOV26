@@ -1,0 +1,387 @@
+
+checking round 0
+challenge bit is 0
+accepted
+checking round 1
+challenge bit is 1
+accepted
+checking round 2
+challenge bit is 1
+accepted
+checking round 3
+challenge bit is 1
+accepted
+checking round 4
+challenge bit is 0
+accepted
+checking round 5
+challenge bit is 0
+accepted
+checking round 6
+challenge bit is 1
+accepted
+checking round 7
+challenge bit is 1
+accepted
+checking round 8
+challenge bit is 0
+accepted
+checking round 9
+challenge bit is 1
+accepted
+checking round 10
+challenge bit is 0
+accepted
+checking round 11
+challenge bit is 0
+accepted
+checking round 12
+challenge bit is 0
+accepted
+checking round 13
+challenge bit is 0
+accepted
+checking round 14
+challenge bit is 0
+accepted
+checking round 15
+challenge bit is 1
+accepted
+checking round 16
+challenge bit is 1
+accepted
+checking round 17
+challenge bit is 0
+accepted
+checking round 18
+challenge bit is 1
+accepted
+checking round 19
+challenge bit is 1
+accepted
+checking round 20
+challenge bit is 0
+accepted
+checking round 21
+challenge bit is 1
+accepted
+checking round 22
+challenge bit is 0
+accepted
+checking round 23
+challenge bit is 1
+accepted
+checking round 24
+challenge bit is 0
+accepted
+checking round 25
+challenge bit is 0
+accepted
+checking round 26
+challenge bit is 1
+accepted
+checking round 27
+challenge bit is 1
+accepted
+checking round 28
+challenge bit is 1
+accepted
+checking round 29
+challenge bit is 1
+accepted
+checking round 30
+challenge bit is 0
+accepted
+checking round 31
+challenge bit is 1
+accepted
+checking round 32
+challenge bit is 0
+accepted
+checking round 33
+challenge bit is 0
+accepted
+checking round 34
+challenge bit is 0
+accepted
+checking round 35
+challenge bit is 0
+accepted
+checking round 36
+challenge bit is 1
+accepted
+checking round 37
+challenge bit is 1
+accepted
+checking round 38
+challenge bit is 0
+accepted
+checking round 39
+challenge bit is 0
+accepted
+checking round 40
+challenge bit is 0
+accepted
+checking round 41
+challenge bit is 1
+accepted
+checking round 42
+challenge bit is 1
+accepted
+checking round 43
+challenge bit is 1
+accepted
+checking round 44
+challenge bit is 0
+accepted
+checking round 45
+challenge bit is 1
+accepted
+checking round 46
+challenge bit is 0
+accepted
+checking round 47
+challenge bit is 1
+accepted
+checking round 48
+challenge bit is 1
+accepted
+checking round 49
+challenge bit is 1
+accepted
+checking round 50
+challenge bit is 1
+accepted
+checking round 51
+challenge bit is 1
+accepted
+checking round 52
+challenge bit is 1
+accepted
+checking round 53
+challenge bit is 1
+accepted
+checking round 54
+challenge bit is 0
+accepted
+checking round 55
+challenge bit is 1
+accepted
+checking round 56
+challenge bit is 1
+accepted
+checking round 57
+challenge bit is 1
+accepted
+checking round 58
+challenge bit is 1
+accepted
+checking round 59
+challenge bit is 0
+accepted
+checking round 60
+challenge bit is 1
+accepted
+checking round 61
+challenge bit is 0
+accepted
+checking round 62
+challenge bit is 0
+accepted
+checking round 63
+challenge bit is 1
+accepted
+checking round 64
+challenge bit is 0
+accepted
+checking round 65
+challenge bit is 0
+accepted
+checking round 66
+challenge bit is 1
+accepted
+checking round 67
+challenge bit is 1
+accepted
+checking round 68
+challenge bit is 0
+accepted
+checking round 69
+challenge bit is 1
+accepted
+checking round 70
+challenge bit is 0
+accepted
+checking round 71
+challenge bit is 0
+accepted
+checking round 72
+challenge bit is 0
+accepted
+checking round 73
+challenge bit is 1
+accepted
+checking round 74
+challenge bit is 0
+accepted
+checking round 75
+challenge bit is 1
+accepted
+checking round 76
+challenge bit is 1
+accepted
+checking round 77
+challenge bit is 1
+accepted
+checking round 78
+challenge bit is 1
+accepted
+checking round 79
+challenge bit is 0
+accepted
+checking round 80
+challenge bit is 0
+accepted
+checking round 81
+challenge bit is 0
+accepted
+checking round 82
+challenge bit is 1
+accepted
+checking round 83
+challenge bit is 1
+accepted
+checking round 84
+challenge bit is 0
+accepted
+checking round 85
+challenge bit is 0
+accepted
+checking round 86
+challenge bit is 1
+accepted
+checking round 87
+challenge bit is 0
+accepted
+checking round 88
+challenge bit is 1
+accepted
+checking round 89
+challenge bit is 1
+accepted
+checking round 90
+challenge bit is 1
+accepted
+checking round 91
+challenge bit is 0
+accepted
+checking round 92
+challenge bit is 1
+accepted
+checking round 93
+challenge bit is 1
+accepted
+checking round 94
+challenge bit is 1
+accepted
+checking round 95
+challenge bit is 1
+accepted
+checking round 96
+challenge bit is 1
+accepted
+checking round 97
+challenge bit is 1
+accepted
+checking round 98
+challenge bit is 1
+accepted
+checking round 99
+challenge bit is 1
+accepted
+checking round 100
+challenge bit is 1
+accepted
+checking round 101
+challenge bit is 1
+accepted
+checking round 102
+challenge bit is 1
+accepted
+checking round 103
+challenge bit is 1
+accepted
+checking round 104
+challenge bit is 0
+accepted
+checking round 105
+challenge bit is 1
+accepted
+checking round 106
+challenge bit is 0
+accepted
+checking round 107
+challenge bit is 1
+accepted
+checking round 108
+challenge bit is 1
+accepted
+checking round 109
+challenge bit is 0
+accepted
+checking round 110
+challenge bit is 0
+accepted
+checking round 111
+challenge bit is 1
+accepted
+checking round 112
+challenge bit is 0
+accepted
+checking round 113
+challenge bit is 0
+accepted
+checking round 114
+challenge bit is 1
+accepted
+checking round 115
+challenge bit is 1
+accepted
+checking round 116
+challenge bit is 1
+accepted
+checking round 117
+challenge bit is 1
+accepted
+checking round 118
+challenge bit is 1
+accepted
+checking round 119
+challenge bit is 1
+accepted
+checking round 120
+challenge bit is 0
+accepted
+checking round 121
+challenge bit is 0
+accepted
+checking round 122
+challenge bit is 1
+accepted
+checking round 123
+challenge bit is 1
+accepted
+checking round 124
+challenge bit is 0
+accepted
+checking round 125
+challenge bit is 0
+accepted
+checking round 126
+challenge bit is 1
+accepted
+checking round 127
+challenge bit is 1
+accepted
+you've convinced me it has a hamiltonian path! Cool!
+b'[flag — recorded in FLAGS/]'

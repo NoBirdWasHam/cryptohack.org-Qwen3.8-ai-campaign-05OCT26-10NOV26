@@ -1,0 +1,39 @@
+FLAG length L = 42 (probe byte c=96)
+  bit 0 group 0 mask=150 in 4.0s
+  bit 0 group 1 mask=187 in 3.9s
+  bit 0 group 2 mask=85 in 3.6s
+  bit 0 group 3 mask=85 in 3.9s
+  bit 0 group 4 mask=1 in 0.1s
+  bit 1 group 0 mask=52 in 2.7s
+  bit 1 group 1 mask=155 in 2.7s
+  bit 1 group 2 mask=102 in 2.7s
+  bit 1 group 3 mask=152 in 2.7s
+  bit 1 group 4 mask=1 in 0.1s
+  bit 2 group 0 mask=123 in 3.0s
+  bit 2 group 1 mask=207 in 3.0s
+  bit 2 group 2 mask=120 in 3.0s
+  bit 2 group 3 mask=224 in 3.0s
+  bit 2 group 4 mask=1 in 0.1s
+  bit 3 group 0 mask=80 in 2.8s
+  bit 3 group 1 mask=206 in 2.9s
+  bit 3 group 2 mask=128 in 3.0s
+  bit 3 group 3 mask=1 in 3.0s
+  bit 3 group 4 mask=2 in 0.1s
+  bit 4 group 0 mask=29 in 3.0s
+  bit 4 group 1 mask=130 in 2.9s
+  bit 4 group 2 mask=255 in 2.8s
+  bit 4 group 3 mask=3 in 2.9s
+  bit 4 group 4 mask=0 in 0.0s
+  bit 5 group 0 mask=239 in 2.9s
+  bit 5 group 1 mask=125 in 2.8s
+  bit 5 group 2 mask=255 in 2.7s
+  bit 5 group 3 mask=255 in 2.8s
+  bit 5 group 4 mask=3 in 0.1s
+  bit 6 group 0 mask=255 in 2.7s
+  bit 6 group 1 mask=255 in 2.7s
+  bit 6 group 2 mask=0 in 0.0s
+  bit 6 group 3 mask=252 in 2.8s
+  bit 6 group 4 mask=3 in 0.1s
+prefix/suffix verification passed
+FLAG: crypto{test_flag_local_1234567890abcdefgh}
+MATCH

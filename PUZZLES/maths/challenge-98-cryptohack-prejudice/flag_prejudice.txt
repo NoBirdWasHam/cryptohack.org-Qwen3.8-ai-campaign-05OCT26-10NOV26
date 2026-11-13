@@ -1,1 +1,1 @@
-crypto{Forging_Primes_with_Francois_Arnault}
+[flag — recorded in FLAGS/maths/challenge-98-cryptohack-prejudice/flag.txt]

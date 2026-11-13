@@ -1,1 +1,1 @@
-crypto{r34l_t0_23D_m4p}
+[flag — recorded in FLAGS/maths/challenge-97-cryptohack-eisenstein/flag.txt]

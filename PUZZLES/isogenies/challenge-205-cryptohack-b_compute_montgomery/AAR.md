@@ -1,18 +1,18 @@
 # AAR — Montgomery Curves (challenge-205-cryptohack-b_compute_montgomery)
 
 ## 1. Result
-**SOLVED** — answer `527656397` (BARE answer-type: no wrapper), submitted via `submit_flag.py` on None and live-confirmed in the user API (present in the 137 solved-challenges list as of 2026-10-13).
+**SOLVED** — answer `[flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt]` (BARE answer-type: no wrapper), submitted via `submit_flag.py` on None and live-confirmed in the user API (present in the 137 solved-challenges list as of 2026-10-13).
 
 ## 2. Source
 - Statement: https://cryptohack.org/challenges/isogenies/b_compute_montgomery/ (cached in `challenge_meta.json`)
 - **NOT consulted:** solutions/writeups (self-solve rule).
 
 ## 3. The answer + verification
-- `527656397`
+- `[flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt]`
 Answer-type (BARE). E: y^2=x^3+ax+b (a=312589632, b=654443578, p=1912812599); find A of the isomorphic Montgomery curve y^2=x^3+Ax^2+x.
 - j(E) = 915617603 (invariant-based). Montgomery j(A) = -64(A^2-3)^3 (derived from b2=4A, b4=2, b6=1, b8=0; sanity A=0 -> 1728 OK).
 - Solve (A^2-3)^3 = -j/64: cube root w=1060294165 (PARI polrootsmod(Pol([1,0,0,-w_target],x),p)), t=A^2=3+w, A=+/-sqrt(t).
-- Two valid roots (A and -A share the same j): **527656397** and 1385156202, both verified j_mont(A)==j(E). Submitted 2026-10-12 (accepted); progress.json did not record the flag — primary value recorded here.
+- Two valid roots (A and -A share the same j): **[flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt]** and 1385156202, both verified j_mont(A)==j(E). Submitted 2026-10-12 (accepted); progress.json did not record the flag — primary value recorded here.
 - NOTE: the earlier `isogeny_answers.py` used a WRONG j_mont sign convention AND fed polrootsmod a coefficient list instead of a Pol (PARI error 'incorrect type in factormod (t_VEC)'). Both fixed 2026-10-13.
 
 ## 4. Toolchain
@@ -30,7 +30,7 @@ No vulnerability — an answer-type isomorphism exercise: j classifies elliptic 
 ## How the answer follows
 1. Compute j(E) from the invariants: with a=312589632, b=654443578, p=1912812599, j(E) = c4^3/Delta = 915617603 (re-verified mod p at AAR-upgrade time 2026-11-01; harness sanity j(x^3+x)=1728).
 2. The challenge's Montgomery model has j_mont(A) = -64(A^2-3)^3 (derived from b2=4A, b4=2, b6=1, b8=0 of its generalized-Weierstrass form — the a3^2 term is what makes b4=2; sanity A=0 -> 1728). Setting j_mont(A) = j(E) gives (A^2-3)^3 = -j/64.
-3. Extract a cube root w = 1060294165 of -j/64 (PARI `polrootsmod(Pol([1,0,0,-target],x),p)` — all roots, not just one), set A^2 = 3 + w, take modular square roots -> A in {527656397, 1385156202}. j_mont depends only on A^2, so both signs are valid (they form the quadratic-twist pair); both pass the end-check j_mont(A) == j(E) (re-confirmed for both at AAR-upgrade time). Submitted 527656397; accepted bare.
+3. Extract a cube root w = 1060294165 of -j/64 (PARI `polrootsmod(Pol([1,0,0,-target],x),p)` — all roots, not just one), set A^2 = 3 + w, take modular square roots -> A in {[flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt], 1385156202}. j_mont depends only on A^2, so both signs are valid (they form the quadratic-twist pair); both pass the end-check j_mont(A) == j(E) (re-confirmed for both at AAR-upgrade time). Submitted [flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt]; accepted bare.
 
 ## Limitations / attempts that failed
 - First harness pass had two real bugs, both recorded: a WRONG j_mont sign convention, and feeding `polrootsmod` a coefficient list instead of a `Pol` (PARI 'incorrect type in factormod (t_VEC)'). Fixed 2026-10-13; accepted answer comes from the corrected harness.

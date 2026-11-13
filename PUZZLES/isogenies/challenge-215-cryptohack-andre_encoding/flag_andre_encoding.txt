@@ -1,1 +1,1 @@
-crypto{weil_pairings_and_isogenies_are_best_friends}
+[flag — recorded in FLAGS/isogenies/challenge-215-cryptohack-andre_encoding/flag.txt]

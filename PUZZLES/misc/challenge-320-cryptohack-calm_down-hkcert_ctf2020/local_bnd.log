@@ -1,0 +1,9 @@
+[brk] t_hi=2^906 after 908q
+[bnd] t*=402256468301493709142790913403709973037012522857133325976753052646359099820596518848675039348524873133741538973351809233352527638818695651574757197359752231077955719085950151627467432422240689616686010223052695690726654742207284389233184095392166553688803424413243086345854 after 1813q 6s
+M: b'[flag value withheld — real-flag strings live only under FLAGS/].' queries: 1813 6.5s
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-320-cryptohack-calm_down-hkcert_ctf2020\chall_local512.py", line 70, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-320-cryptohack-calm_down-hkcert_ctf2020\chall_local512.py", line 57, in main
+    command = input('[cmd] ').split(' ')
+EOFError: EOF when reading a line

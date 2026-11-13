@@ -11,4 +11,4 @@
 [  208.9s] building stage2 masks in parent...
 [  309.2s] guess 1: stage2 rank=16503 X=65b764b7d1b8b83601685bce7e2ffdad W=217d23c7d14ef9e859af3f90365c5de1 full_check=PASS
 [  309.2s] KEY: 0x217d23c7d14ef9e859af3f90365c5de14cdc3e0aa6c08d4c011e3c09f41b8d7462810cdccdf0f0de6d036d86ec9549df65b764b7d1b8b83601685bce7e2ffdad
-[  309.2s] FLAG: hitcon{larger_states_is_still_no_match_of_fast_correlation_attacks!}
+[  309.2s] FLAG: [flag — recorded in FLAGS/ctf-archive/challenge-267-cryptohack-hyper512-hitcon_ctf2024/flag.txt]

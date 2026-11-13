@@ -1,1 +1,1 @@
-crypto{we_are_looking_for_the_keymaker_478415c4}
+[flag — recorded in FLAGS/diffie-hellman/challenge-130-cryptohack-matrix_revolutions/flag.txt]

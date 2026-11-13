@@ -1,0 +1,153 @@
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-280-cryptohack-origami-nns_ctf_20252025\solve8.py", line 130, in guarded
+    run()
+  File "~\Practice_runs\cryptohack_org\challenge-280-cryptohack-origami-nns_ctf_20252025\solve8.py", line 110, in run
+    M = load_ck("lll")
+        ^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-280-cryptohack-origami-nns_ctf_20252025\solve8.py", line 89, in load_ck
+    with gzip.open(ck(tag), "rt") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\AppData\Local\Programs\Python\Python312\Lib\gzip.py", line 61, in open
+    binary_file = GzipFile(filename, gz_mode, compresslevel)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\AppData\Local\Programs\Python\Python312\Lib\gzip.py", line 192, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'M_slll.txt.gz'
+
+1 resumed lll
+1 scan lll tried 0 min norm2 16129
+1 stage 20 slice 1 start; min norm2 16129
+300 heartbeat alive
+600 heartbeat alive
+900 heartbeat alive
+1200 heartbeat alive
+1500 heartbeat alive
+1800 heartbeat alive
+1981 stage 20 slice 1 returned; min norm2 16129
+1983 checkpointed 20
+1983 scan k20 tried 0 min norm2 16129
+1983 stage 20 slice 2 start; min norm2 16129
+2100 heartbeat alive
+2400 heartbeat alive
+2700 heartbeat alive
+3000 heartbeat alive
+3300 heartbeat alive
+3600 heartbeat alive
+3663 stage 20 slice 2 returned; min norm2 16129
+3665 checkpointed 20
+3666 scan k20 tried 0 min norm2 16129
+3666 stage 20 slice 3 start; min norm2 16129
+3900 heartbeat alive
+4200 heartbeat alive
+4500 heartbeat alive
+4800 heartbeat alive
+5100 heartbeat alive
+5296 stage 20 slice 3 returned; min norm2 16129
+5298 checkpointed 20
+5298 scan k20 tried 0 min norm2 16129
+5299 stage 20 slice 4 start; min norm2 16129
+5400 heartbeat alive
+5700 heartbeat alive
+6000 heartbeat alive
+6300 heartbeat alive
+6600 heartbeat alive
+6612 stage 20 slice 4 returned; min norm2 16129
+6613 checkpointed 20
+6614 scan k20 tried 0 min norm2 16129
+6614 stage 20 done
+6614 stage 25 slice 1 start; min norm2 16129
+6900 heartbeat alive
+7200 heartbeat alive
+7500 heartbeat alive
+7800 heartbeat alive
+8100 heartbeat alive
+8400 heartbeat alive
+8441 stage 25 slice 1 returned; min norm2 16129
+8443 checkpointed 25
+8443 scan k25 tried 0 min norm2 16129
+8443 stage 25 slice 2 start; min norm2 16129
+8700 heartbeat alive
+9000 heartbeat alive
+9300 heartbeat alive
+9600 heartbeat alive
+9900 heartbeat alive
+10200 heartbeat alive
+10501 heartbeat alive
+10514 stage 25 slice 2 returned; min norm2 16129
+10516 checkpointed 25
+10516 scan k25 tried 0 min norm2 16129
+10516 stage 25 slice 3 start; min norm2 16129
+10801 heartbeat alive
+11101 heartbeat alive
+11401 heartbeat alive
+11701 heartbeat alive
+12001 heartbeat alive
+12262 stage 25 slice 3 returned; min norm2 16129
+12264 checkpointed 25
+12264 scan k25 tried 0 min norm2 16129
+12264 stage 25 done
+12265 stage 30 slice 1 start; min norm2 16129
+12301 heartbeat alive
+12601 heartbeat alive
+12901 heartbeat alive
+13201 heartbeat alive
+13501 heartbeat alive
+13801 heartbeat alive
+14101 heartbeat alive
+14353 stage 30 slice 1 returned; min norm2 16129
+14355 checkpointed 30
+14355 scan k30 tried 0 min norm2 16129
+14356 stage 30 slice 2 start; min norm2 16129
+14401 heartbeat alive
+14701 heartbeat alive
+15001 heartbeat alive
+15301 heartbeat alive
+15601 heartbeat alive
+15901 heartbeat alive
+16201 heartbeat alive
+16383 stage 30 slice 2 returned; min norm2 16129
+16385 checkpointed 30
+16385 scan k30 tried 0 min norm2 16129
+16385 stage 30 slice 3 start; min norm2 16129
+16501 heartbeat alive
+16801 heartbeat alive
+17101 heartbeat alive
+17401 heartbeat alive
+17701 heartbeat alive
+18001 heartbeat alive
+18207 stage 30 slice 3 returned; min norm2 16129
+18209 checkpointed 30
+18209 scan k30 tried 0 min norm2 16129
+18209 stage 30 done
+18210 stage 40 slice 1 start; min norm2 16129
+18301 heartbeat alive
+18601 heartbeat alive
+18901 heartbeat alive
+19201 heartbeat alive
+19501 heartbeat alive
+19801 heartbeat alive
+20101 heartbeat alive
+20401 heartbeat alive
+20701 heartbeat alive
+21001 heartbeat alive
+21301 heartbeat alive
+21424 stage 40 slice 1 returned; min norm2 16129
+21426 checkpointed 40
+21426 scan k40 tried 0 min norm2 16129
+21426 stage 40 slice 2 start; min norm2 16129
+21601 heartbeat alive
+21901 heartbeat alive
+22201 heartbeat alive
+22501 heartbeat alive
+22801 heartbeat alive
+23101 heartbeat alive
+23401 heartbeat alive
+23701 heartbeat alive
+24001 heartbeat alive
+24301 heartbeat alive
+24332 stage 40 slice 2 returned; min norm2 16129
+24334 checkpointed 40
+24334 scan k40 tried 0 min norm2 16129
+24334 stage 40 done
+24334 NO FLAG

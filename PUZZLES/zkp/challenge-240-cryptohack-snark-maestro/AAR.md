@@ -1,6 +1,6 @@
 # AAR — 240-cryptohack-snark-maestro: Ticket Maestro (CryptoHack)
 
-**Result:** SOLVED — flag `crypto{m4ll34b1l1ty_fl4w_0r_r3r4nd0m1s4t10n_f34tur3?}`
+**Result:** SOLVED — flag `[flag — recorded in FLAGS/ctf-archive/challenge-299-cryptohack-ticket_maestro-cryptohack2024/flag.txt]`
 **Submitted:** ok:true, score_delta +200 (14775 → 14975), 2026-10-23
 **Account:** NoBirdWasHam
 

@@ -17,5 +17,5 @@ flag in the **HTTP/2** stream. The statement points to Wireshark's "TLS Decrypt"
 - `privkey.pem` — the server RSA private key (2048-bit, PKCS#8 `PRIVATE KEY` header)
 
 ## Answer
-`crypto{weaknesses_of_non_ephemeral_key_exchange}` — verified accepted via submit_flag.py
+`[flag — recorded in FLAGS/web/challenge-158-cryptohack-decrypting-tls12/flag.txt]` — verified accepted via submit_flag.py
 (2026-10-13, score 6470→6500, 140→141).

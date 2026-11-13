@@ -1,0 +1,6 @@
+BANNER: Welcome to my military grade encryption service! Try it out by encrypting a message. You can even encrypt the flag, you will not be able to decrypt it anyway...
+C_flag: 48 bytes, 3 blocks
+D = b7ab33f3c6859b54c2cdde1a142fb466
+
+PLAIN: b'[flag value withheld — real-flag strings live only under FLAGS/]'
+FLAG: [flag value withheld — real-flag strings live only under FLAGS/]

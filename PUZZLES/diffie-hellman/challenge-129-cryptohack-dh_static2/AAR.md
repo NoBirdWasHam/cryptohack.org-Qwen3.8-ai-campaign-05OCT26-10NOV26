@@ -1,5 +1,5 @@
 
-## SOLVED 2026-10-23 — flag crypto{uns4f3_pr1m3_sm4ll_oRd3r} (+120, score 15455/227)
+## SOLVED 2026-10-23 — flag [flag — recorded in FLAGS/diffie-hellman/challenge-129-cryptohack-dh_static2/flag.txt] (+120, score 15455/227)
 
 Attack (solve5.py):
 - Server strength rule (probe6): p must be EXACTLY 2048 bits and prime; no safe-prime or
@@ -22,7 +22,7 @@ The service reuses the same secret exponent b across connections (static-DH: it 
 2. Craft p = 2·R·S+1 (R 256-bit prime, S = product of random primes < 2000 filled to 2048 bits; p verified prime). Server replies B = 2^b mod p with b reused across sessions.
 3. For each prime power pe | S solve the DLP with gi = 2^{n/pe}, hi = B^{n/pe} using n = 2RS as a known **multiple** of ord_p(2) — so b mod pe is obtained without knowing ord_p(2). Per-session harvest ≈1790 bits (solve5.log: "b mod S ok; lcm bits now 1792").
 4. Second session with an independent S′: lcm of the two moduli reaches 3020 > 2048 bits ⇒ CRT gives b exactly (solve5.log: "b bits 1536" recovered against the 1536-bit target group; "captured P0 1536"). Final check: 2^b ≡ B on the original group.
-5. KDF from the server's own decryption path: key = sha1(str(A0^b mod P0))[:16], AES-128-CBC, iv = the 16-byte iv field ⇒ decrypts cleanly to flag `crypto{uns4f3_pr1m3_sm4ll_oRd3r}` (+120, score 15455/227).
+5. KDF from the server's own decryption path: key = sha1(str(A0^b mod P0))[:16], AES-128-CBC, iv = the 16-byte iv field ⇒ decrypts cleanly to flag `[flag — recorded in FLAGS/diffie-hellman/challenge-129-cryptohack-dh_static2/flag.txt]` (+120, score 15455/227).
 
 ## Limitations / attempts that failed
 Logged failed/near-miss paths: AES-**CTR** guess for the KDF mode in solve4 (the only thing wrong with that near-miss — actual mode is CBC); early param probes rejected by the strength rule (messages above); bugs en route — kt parity (odd kt made kt·q+1 always even), order factorization missing kt factors plus a `m//=1` infinite loop, bsgs giant-step sign and wrong modulus, PH CRT using xi instead of (xi−x), JSON trailing-data parse.

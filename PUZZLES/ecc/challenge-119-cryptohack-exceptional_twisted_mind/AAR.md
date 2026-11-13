@@ -1,6 +1,6 @@
 # AAR — 119-cryptohack-exceptional_twisted_mind: An Exceptional Twisted Mind (CryptoHack)
 
-**Result:** SOLVED — flag `crypto{no_need_for_twist_with_anomalous_attack_on_lift!}` (+125, score 14650→14775, solved 221→222, verified via submit_flag.py JSON ok:true).
+**Result:** SOLVED — flag `[flag value withheld — real-flag strings live only under FLAGS/]` (+125, score 14650→14775, solved 221→222, verified via submit_flag.py JSON ok:true).
 **Date:** 2026-10-23. (Prior-session OPEN analysis preserved in `AAR_open_20261020.md`.)
 
 ## Source
@@ -62,7 +62,7 @@ The server does its EC ladder over Z/p² (the socket's modulus is exactly p², p
 3. With t = −x/y the formal parameter at O and u(R̃) := t([N]R̃)/p ∈ Z/p, additivity of the formal group mod p² gives u(Q̃) = ±k·u(P̃) mod p ⇒ k ≡ ±u(Q̃)/u(P̃) mod p.
 4. u without E₁ arithmetic: [N]R̃ = R̃ + [N−1]R̃ is the degenerate chord (x₁ ≡ x₀, y₁ ≡ −y₀ mod p) while [N−1]R̃ computed affinely mod p² never degenerates; writing x₀−x₁ = p·d′ and ν = y₀−y₁ (a unit), first-order expansion gives the closed form u = d′·ν⁻¹ mod p (derivation check in "Setup/attack" section above).
 5. k < N < p ⇒ k mod p determines k up to sign — exactly the server's own min(k, N−k) ambiguity ⇒ enumerate both, ≤2 get_flag guesses.
-Execution: solve.py sim (exact ladder clone) 10/10 recoveries before network; live: x0=2, one get_pubkey, attack ~1 s, second guess accepted → flag `crypto{no_need_for_twist_with_anomalous_attack_on_lift!}` (+125).
+Execution: solve.py sim (exact ladder clone) 10/10 recoveries before network; live: x0=2, one get_pubkey, attack ~1 s, second guess accepted → flag `[flag value withheld — real-flag strings live only under FLAGS/]` (+125).
 
 ## Limitations / attempts that failed
 Carried from "Why the previous session stalled" and "Limitations (honest)" above: first live attempt crashed on privkey-as-string TypeError (harmless — fresh key per connection); u(P̃)=0 (Teichmüller x0) would kill the attack, probability 1/p, assert-guarded; if N > p the k mod p readout leaves a 2-way ambiguity not handled in code (here t > 0 so k < p). Prior-session ruled-outs that failed: small-subgroup Pohlig–Hellman, MOV, node degeneration, Infinity oracle, cross-connection PH, and empirical δ(k)/k fits against the wrong invariant (δ_T at an unknown point is uncomputable; [N]∘Teichmüller = O is what actually kills it).

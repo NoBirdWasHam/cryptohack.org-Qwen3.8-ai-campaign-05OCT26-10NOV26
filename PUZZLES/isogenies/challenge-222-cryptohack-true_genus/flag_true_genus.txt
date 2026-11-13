@@ -1,1 +1,1 @@
-crypto{Gauss_knew_how_to_break_CSIDH???}
+[flag — recorded in FLAGS/isogenies/challenge-222-cryptohack-true_genus/flag.txt]

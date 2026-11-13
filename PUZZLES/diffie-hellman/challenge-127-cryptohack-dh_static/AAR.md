@@ -12,7 +12,7 @@
 
 ## Flag
 
-`crypto{n07_3ph3m3r4l_3n0u6h}`
+`[flag — recorded in FLAGS/diffie-hellman/challenge-127-cryptohack-dh_static/flag.txt]`
 
 ## How it was solved
 
@@ -44,7 +44,7 @@
 
 ```
 ~/tools/crypto-ctf/venv/Scripts/python.exe -u solve.py
-cd ~/Practice_runs/cryptohack_org && python submit_flag.py dh_static "crypto{n07_3ph3m3r4l_3n0u6h}"
+cd ~/Practice_runs/cryptohack_org && python submit_flag.py dh_static "[flag — recorded in FLAGS/diffie-hellman/challenge-127-cryptohack-dh_static/flag.txt]"
 ```
 
 ## Exact outputs
@@ -59,12 +59,12 @@ C: p=P, g=A (Alice's public value), A=1
 S: Bob connects to you, send him some parameters: Bob says to you: {"B": "0xb1b00b48..."}
 S: Bob says to you: {"iv": "b5d3a6de707df6916d63ab0d2dfe6e3b", ...}
 shared secret s = A^b = 1672979704285245405540501819961909904698007377736076490271366396267786065674680629188219127597989604881283666046967412573262658391763801441018328185357500633854947639554905447923643380791821492760682950904361155289193535247290914356789403714288754218578607745054242775937105828896065533337976946907332080466764135754930965614040223373214902915323532760846659185976036119820093468471698545466453870973827806711857530568297666285659986195401914621622457371808306877
-PLAINTEXT: crypto{n07_3ph3m3r4l_3n0u6h}
+PLAINTEXT: [flag — recorded in FLAGS/diffie-hellman/challenge-127-cryptohack-dh_static/flag.txt]
 ```
 
-`submit_flag.py dh_static "crypto{n07_3ph3m3r4l_3n0u6h}"`:
+`submit_flag.py dh_static "[flag — recorded in FLAGS/diffie-hellman/challenge-127-cryptohack-dh_static/flag.txt]"`:
 ```json
-{"submitted": "crypto{n07_3ph3m3r4l_3n0u6h}", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 8035, "solved": 168}, "after": {"score": 8135, "solved": 169}, "score_delta": 100}
+{"submitted": "[flag — recorded in FLAGS/diffie-hellman/challenge-127-cryptohack-dh_static/flag.txt]", "submit": {"ok": true, "status": 200, "body": "Flag submitted. Press back to return to the challenge. Please enable JavaScript for a better experience"}, "before": {"score": 8035, "solved": 168}, "after": {"score": 8135, "solved": 169}, "score_delta": 100}
 ```
 
 ## Verification
@@ -73,7 +73,7 @@ PLAINTEXT: crypto{n07_3ph3m3r4l_3n0u6h}
 - Decryption produced clean ASCII flag with valid PKCS7 padding (a wrong key
   gives ~zero chance of this).
 - Independent earlier run (probe `attack_13373.py` logic) recovered a
-  different-connection flag `crypto{n07_3ph3m3r4l_3n0u6h}` too — the flag
+  different-connection flag `[flag — recorded in FLAGS/diffie-hellman/challenge-127-cryptohack-dh_static/flag.txt]` too — the flag
   string is constant per challenge, ciphertext fresh.
 - `score_delta: 100` from the user API — ground truth.
 

@@ -1,1 +1,1 @@
-HackTM{phi, not to mention RSA, is important for GLP}
+[flag — recorded in FLAGS/ctf-archive/challenge-262-cryptohack-glp420-hacktm_ctf2023/flag.txt]

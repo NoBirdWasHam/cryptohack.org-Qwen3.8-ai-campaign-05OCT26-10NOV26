@@ -29,4 +29,4 @@
 
 ## Flag
 
-`crypto{whoops_this_was_just_a_dlog}` — SUBMITTED & ACCEPTED 2026-10-16 (+70; score 8135→8205, 170 solved)
+`[flag — recorded in FLAGS/isogenies/challenge-214-cryptohack-whats_my_kernel/flag.txt]` — SUBMITTED & ACCEPTED 2026-10-16 (+70; score 8135→8205, 170 solved)

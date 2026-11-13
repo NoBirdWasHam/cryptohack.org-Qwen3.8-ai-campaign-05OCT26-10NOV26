@@ -1,6 +1,6 @@
 # AAR — share-hitcon_ctf2023 (CryptoHack ctf-archive) — SOLVED
 
-**Flag:** `hitcon{even_off_by_one_is_leaky_in_SSS}` — submitted & verified via
+**Flag:** `[flag — recorded in FLAGS/ctf-archive/challenge-289-cryptohack-share-hitcon_ctf2023/flag.txt]` — submitted & verified via
 `submit_flag.py` (solved count 277 → 278, 0 pts archive challenge).
 
 ## The flaw (self-derived)
@@ -20,7 +20,7 @@ candidate with prob ≈ 1-1/p → ≈ ln(p)+margin rounds pin down s mod p;
 intersect kill-sets across rounds, then CRT over ~290 bits of primes and submit.
 
 ## Performance notes (what killed the previous run)
-- v1 (`solve.py`) ran a separate Gaussian elimination per candidate: O(p⁴) —
+- v1 (`solve.py`) ran a separate [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] per candidate: O(p⁴) —
   unusable. v2 (`solve2.py`): one Lagrange basis per prime (O(p²) precomp),
   O(p²) kill-set per round. Selftest: 662 rounds → full 256-bit secret
   recovered in **5.7s** in-process.
@@ -39,7 +39,7 @@ intersect kill-sets across rounds, then CRT over ~290 bits of primes and submit.
 
 ## Live run evidence
 - Probe: banner-less `p = n = ` prompt; p=17,n=16 → 15 shares (matches replica).
-- Final attempt: 296 bits at t=28.2s → `secret =` → `hitcon{even_off_by_one_is_leaky_in_SSS}`
+- Final attempt: 296 bits at t=28.2s → `secret =` → `[flag — recorded in FLAGS/ctf-archive/challenge-289-cryptohack-share-hitcon_ctf2023/flag.txt]`
   (`_live4.log`). Attempt logs: `_live2.log`, `_live3.log`.
 
 ## Files
@@ -57,7 +57,7 @@ The server builds its Shamir polynomial with PyCryptodome's `getRandomRange(0, p
 4. Fast implementation (solve2.py): one Lagrange basis per prime (O(p²) precomp, O(p²) kill-set per round) → selftest recovers a full 256-bit secret in 5.7 s in-process; live reached `secret =` at t = 28.2 s (296 bits), inside the one-shot 30 s alarm → flag.
 
 ## Limitations / attempts that failed
-- v1 (solve.py): Gaussian elimination per candidate — O(p⁴), unusable.
+- v1 (solve.py): [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] per candidate — O(p⁴), unusable.
 - Two "wrong secret" red herrings were pure protocol traps while the math was already right: (a) signal.alarm(30) is total wall time per connection, so input must be sent in sync with reads; (b) the server reads p *and* n before comparing, so exit must be `4\n4\n<secret>\n` — a single `4\n` swallows the secret line as n.
 - Environment: Windows `python` (3.14) lacks PyCryptodome → use python3 3.10 (Crypto 3.24); a stray local listener needed Stop-Process.
 

@@ -1,7 +1,7 @@
 # AAR — Long Story Short (long_story_short, 60 pts, Hashes)
 
 ## Result
-SOLVED 2026-10-16. Flag: `crypto{hm4c_47e_my_l0n6_k3y}`
+SOLVED 2026-10-16. Flag: `[flag — recorded in FLAGS/hashes/challenge-140-cryptohack-long_story_short/flag.txt]`
 Submitted via user API (submit_flag.py) during the hashes-list session; accepted.
 
 ## Attack
@@ -30,7 +30,7 @@ The vault checks a 128-byte passphrase with HMAC-SHA256 (inside PBKDF2). HMAC si
 
 ## How the answer follows
 1. RFC 2104 key-shortening rule ⇒ HMAC(key = passphrase) ≡ HMAC(key = SHA-256(passphrase)) whenever len > 64.
-2. The published fingerprint IS SHA-256(passphrase); sending it (32 bytes, hex) makes the server derive the identical PBKDF2-HMAC-SHA256 key (salt `bluerock-vault-2026`, 200000 iters) ⇒ vault opens ⇒ server returns `crypto{hm4c_47e_my_l0n6_k3y}`.
+2. The published fingerprint IS SHA-256(passphrase); sending it (32 bytes, hex) makes the server derive the identical PBKDF2-HMAC-SHA256 key (salt `bluerock-vault-2026`, 200000 iters) ⇒ vault opens ⇒ server returns `[flag — recorded in FLAGS/hashes/challenge-140-cryptohack-long_story_short/flag.txt]`.
 3. The same computation was reproduced locally to confirm the reasoning before connecting; server-accepted flag archived in `flag.txt`.
 
 ## Limitations / attempts that failed

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-36-cryptohack-triple-des\solve_weakkey.py", line 82, in <module>
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-36-cryptohack-triple-des\solve_weakkey.py", line 61, in main
+    verify_weak_local()
+  File "~\Practice_runs\cryptohack_org\challenge-36-cryptohack-triple-des\solve_weakkey.py", line 45, in verify_weak_local
+    e = DES3.new(k * 3, DES3.MODE_ECB)  # 3-key with all equal: E_K^3 ... use plain DES check instead
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\tools\crypto-ctf\venv\Lib\site-packages\Crypto\Cipher\DES3.py", line 174, in new
+    return _create_cipher(sys.modules[__name__], key, mode, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\tools\crypto-ctf\venv\Lib\site-packages\Crypto\Cipher\__init__.py", line 49, in _create_cipher
+    res = _create_ecb_cipher(factory, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\tools\crypto-ctf\venv\Lib\site-packages\Crypto\Cipher\_mode_ecb.py", line 216, in _create_ecb_cipher
+    cipher_state = factory._create_base_cipher(kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\tools\crypto-ctf\venv\Lib\site-packages\Crypto\Cipher\DES3.py", line 99, in _create_base_cipher
+    key = adjust_key_parity(bstr(key_in))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\tools\crypto-ctf\venv\Lib\site-packages\Crypto\Cipher\DES3.py", line 85, in adjust_key_parity
+    raise ValueError("Triple DES key degenerates to single DES")
+ValueError: Triple DES key degenerates to single DES

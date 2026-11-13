@@ -1,1 +1,1 @@
-ICC{RFC8032_dispel_th3_m4gic}
+[flag — recorded in FLAGS/ctf-archive/challenge-312-cryptohack-ed25519_magic-icc_athens2022/flag.txt]

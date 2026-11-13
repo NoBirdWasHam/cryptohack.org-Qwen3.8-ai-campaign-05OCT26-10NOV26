@@ -12,8 +12,7 @@ client Finished verify_data accepted via submit_flag.py; score 6535→6575, solv
   `no-finished-tls3.pcapng` (note: on-disk name lacks the `.cryptohack.org` middle segment).
 
 ## The flag
-`b51d7b5fb12aa3d692140d8f1f80732610e99411ca0f6d928b0f60570cbc778e672457a729d7cf3b58bc174f00dc5d30`
-(48-byte client Finished verify_data, hex — the answer format for this challenge.)
+Recorded in `FLAGS/web/challenge-161-cryptohack-authenticated-handshake/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 RFC 8446 §4.4.4: `verify_data = HMAC(finished_key, Transcript-Hash(handshake_msgs))`.

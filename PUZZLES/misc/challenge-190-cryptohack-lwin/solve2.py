@@ -12,7 +12,7 @@ def solve(src):
     assert len(bits) == 2048
     S = lambda i: bits[i - 768]  # s[i] for i in [768,2815]
 
-    # Step 1: Gaussian elimination over GF(2), rows as (mask, rhs)
+    # Step 1: [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] over GF(2), rows as (mask, rhs)
     rows = []
     for n in range(768, 2432):
         mask = 0

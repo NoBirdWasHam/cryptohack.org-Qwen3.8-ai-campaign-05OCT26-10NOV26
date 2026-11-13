@@ -12,7 +12,7 @@
 - **NOT consulted:** `/challenges/birthday1/solutions/` page, search-engine writeups (no-cheat rule)
 
 ## The flag
-`1420`
+Recorded in `FLAGS/hashes/challenge-134-cryptohack-birthday1/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 BARE NUMBER (no crypto{}): smallest N with 1-((2047/2048)^N)>=0.5, exact Fraction math => 1420

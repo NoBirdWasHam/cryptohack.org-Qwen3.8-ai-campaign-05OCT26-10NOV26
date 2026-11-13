@@ -1,6 +1,6 @@
 # AAR — broken_oracle (HackTM CTF 2023), CryptoHack archive
 
-**Solved: yes.** Flag: `HackTM{h4v3_y0u_r34lly_f0und_4ll_7h3_bu65...?}`
+**Solved: yes.** Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-309-cryptohack-broken_oracle-hacktm_ctf2023/flag.txt]`
 Submit verified: `ok:true`, challenge solves counter incremented 247→248 (score_delta 0 — archive challenge, expected).
 
 ## The system

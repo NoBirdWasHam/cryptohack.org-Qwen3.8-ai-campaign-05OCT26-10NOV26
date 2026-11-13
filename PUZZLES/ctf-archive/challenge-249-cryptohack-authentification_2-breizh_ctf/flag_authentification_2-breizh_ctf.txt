@@ -1,1 +1,1 @@
-BZHCTF{encore_et_toujours_de_la_faute_du_stagiaire_350cd55e8bf628ea}
+[flag — recorded in FLAGS/ctf-archive/challenge-249-cryptohack-authentification_2-breizh_ctf/flag.txt]

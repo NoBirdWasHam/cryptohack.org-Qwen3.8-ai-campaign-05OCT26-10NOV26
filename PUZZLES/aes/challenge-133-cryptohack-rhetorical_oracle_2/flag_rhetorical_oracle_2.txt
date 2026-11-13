@@ -1,1 +1,1 @@
-crypto{m057_1n73r3571n6_3xp10175}
+[flag — recorded in FLAGS/aes/challenge-133-cryptohack-rhetorical_oracle_2/flag.txt]

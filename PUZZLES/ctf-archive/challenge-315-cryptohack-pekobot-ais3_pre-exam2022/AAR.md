@@ -1,7 +1,7 @@
 # AAR — pekobot (AIS3 Pre-Exam) / pekobot-ais3_pre-exam2022
 
 ## Result
-SOLVED. Flag: `AIS3{a_very_bad_ecc_implementation}` — submitted, accepted (site solved count 289→290; archived challenge, 0 score pts).
+SOLVED. Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-315-cryptohack-pekobot-ais3_pre-exam2022/flag.txt]` — submitted, accepted (site solved count 289→290; archived challenge, 0 score pts).
 
 ## Vulnerability (self-derived from provided server.py)
 Option 1 computes `S = Point(E, x, y) * d` with **no curve-membership check**, and quotes are a fixed public list (known plaintext). The key move:
@@ -37,7 +37,7 @@ The server's quote-signing path multiplies *any* (x, y) pair you hand it by the 
 ## How the answer follows
 1. From the flag-encryption option: `C2 = flag_pad XOR point_to_bytes(rP)`, with `C1 = rG` public.
 2. Feed coords of `C1` to the quote option: response `= quote XOR point_to_bytes(C1*d) = quote XOR point_to_bytes(rP)` (curve-membership unchecked, ECDLP never needed).
-3. XOR out: `C2 XOR response XOR quote = flag_pad` for the *correct* quote; the 8 quotes are a fixed public list and padding `ljust(64, b"\0")` makes the keystream byte-exact. The unique candidate starting `AIS3{` and printable through `}` is the flag: `AIS3{a_very_bad_ecc_implementation}`.
+3. XOR out: `C2 XOR response XOR quote = flag_pad` for the *correct* quote; the 8 quotes are a fixed public list and padding `ljust(64, b"\0")` makes the keystream byte-exact. The unique candidate starting `AIS3{` and printable through `}` is the flag: `[flag — recorded in FLAGS/ctf-archive/challenge-315-cryptohack-pekobot-ais3_pre-exam2022/flag.txt]`.
 4. Validation chain: offline replica `harness.py` recovered a planted local flag from the provided `elliptic_curve.py` *before* touching the service; live `archive.cryptohack.org:45328` menu matched `server.py`, flag decrypted on first live attempt (solved count 289 to 290).
 
 ## Limitations / attempts that failed

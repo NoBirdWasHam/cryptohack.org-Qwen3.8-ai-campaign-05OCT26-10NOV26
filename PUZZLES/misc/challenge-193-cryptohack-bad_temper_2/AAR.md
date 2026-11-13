@@ -1,6 +1,6 @@
 # bad_temper_2 — AAR (CryptoHack, 150 pts, misc)
 
-**Flag:** `crypto{533d5_0f_d357ruc710n}` (submitted, ok:true, score_delta=150)
+**Flag:** `[flag value withheld — real-flag strings live only under FLAGS/]` (submitted, ok:true, score_delta=150)
 **Recovered secret:** `9b54e82ce1f6680b592fc439429feda848bc1934a85de248640f1a3e495f9a8b`
 
 ## What the challenge was
@@ -74,7 +74,7 @@ MT19937 is not a CSPRNG, and CPython's bytes-seeding is no barrier either. The t
 3. Invert loop2 (multiplier 1566083941) analytically. It touches each index once, in the quirky order 2..623 then 1 (i is NOT reset after loop1) — so undo backwards: L1[i] = (F[i]+i) XOR T2(F[i-1]) for i = 623..3, then L1[1] = (F[1]+1) XOR T2(F[623]), then L1[2] = (F[2]+2) XOR T2(L1[1]).
 4. Loop1 (multiplier 1664525) wrote index i from the *old* init_genrand value S0[i] and the *new* L1[i-1], so each key word falls out directly: K[(i-1)%24] = L1[i] - (S0[i] XOR T1(L1[i-1])) - ((i-1)%24); ~26 cross-checking equations agree per word.
 5. Undo the Python-layer encoding: K[23..16] big-endian = the 32-byte secret, K[15..0] = sha512(secret) tail — the checksum passes, proving the recovery independently of the server.
-6. The model reproduces all 624 observed words plus a fresh 79th `get_seed` block; submitting the seed hex returns the flag `crypto{533d5_0f_d357ruc710n}` (ok:true, +150).
+6. The model reproduces all 624 observed words plus a fresh 79th `get_seed` block; submitting the seed hex returns the flag `[flag value withheld — real-flag strings live only under FLAGS/]` (ok:true, +150).
 
 ## Limitations / attempts that failed
 - Two forward-model guesses failed against real `getstate()` output before the math was pinned: an mt19937ar-original `mt[(i+623)%624]` variant and a mis-parenthesized variant; only reading the actual `_randommodule.c` + `Lib/random.py` fixed them.

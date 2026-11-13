@@ -1,1 +1,1 @@
-crypto{the_oracle_told_me_about_you_91e019ff}
+[flag — recorded in FLAGS/diffie-hellman/challenge-128-cryptohack-matrix_reloaded/flag.txt]

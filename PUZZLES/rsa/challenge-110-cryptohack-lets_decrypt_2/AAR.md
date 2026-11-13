@@ -1,7 +1,7 @@
 # AAR — 110-cryptohack-lets_decrypt_2: Let's Decrypt Again (CryptoHack, 175 pts)
 
 **Result:** SOLVED (2026-10-23, account NoBirdWasHam, score_delta +175, ok:true)
-**Flag:** `crypto{let's_decrypt_w4s_t0o_ez_do_1t_ag41n}`
+**Flag:** `[flag value withheld — real-flag strings live only under FLAGS/]`
 
 ## Source
 - Server source provided: `13394.py` (this folder). NOT consulted: /solutions/, writeups (no-cheat rule).
@@ -68,7 +68,7 @@ The server verifies a claim as `pow(SIGNATURE, e, n) == PKCS1v15-digest(msg)` us
 1. Fingerprint the digest on the live oracle: `SIGNATURE^E mod N` reveals **SHA-1** (not SHA-256) PKCS#1 v1.5, 96 bytes = `00 01 FF^58 00 || SHA1-DigestInfo(15B) || SHA1(msg)`, i.e. digest = `A·2^160 + SHA1(msg)` with A fixed — only 160 bits are message-controlled and the 64-hex suffix is inside the hash.
 2. Pick `n = p^k` odd prime power with `p ∤ SIGNATURE` and `p^k > 2^761`; live server needed p=7, k=272 because SIGNATURE is divisible by 2 and 3. Composite ⇒ passes the `isPrime` gate. `(Z/7^272)*` is cyclic of smooth order `7^271·6`.
 3. Compute `ord = ord_n(SIGNATURE)`. After the suffix appears, brute-force the regex-padding fields until candidate `t = A·2^160 + SHA1(msg)` satisfies `t^ord ≡ 1 mod n`, i.e. `t ∈ <SIGNATURE>` (~1–3 tries per gate; 5 SHA1 tries across all 3 gates).
-4. Recover `e = log_{SIGNATURE}(t)` by Pohlig–Hellman (all prime factors of the order ≤ 7) and submit `claim(index, msg, e)` — equality holds by construction and the regex gate passes on `msg[:-64]`. Fresh `e` per gate (n shared). XOR the 3 shares → flag `crypto{let's_decrypt_w4s_t0o_ez_do_1t_ag41n}`. Total runtime ~2 s.
+4. Recover `e = log_{SIGNATURE}(t)` by Pohlig–Hellman (all prime factors of the order ≤ 7) and submit `claim(index, msg, e)` — equality holds by construction and the regex gate passes on `msg[:-64]`. Fresh `e` per gate (n shared). XOR the 3 shares → flag `[flag value withheld — real-flag strings live only under FLAGS/]`. Total runtime ~2 s.
 
 ## Limitations / attempts that failed
 - `n = SIGNATURE − digest` with e=1: n must be fixed **before** the suffix is known ⇒ digest unknowable. Dead.

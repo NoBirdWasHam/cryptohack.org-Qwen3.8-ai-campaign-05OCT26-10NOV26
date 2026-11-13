@@ -1,0 +1,10 @@
+lll done 0.3500354290008545
+babai ok: False
+bkz done 202.77423906326294
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-303-cryptohack-u-turn-breizh_ctf2025\solve.py", line 64, in <module>
+    p = CVP.closest_vector(M, t, max_nodes=10**8)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/fpylll/fplll/svpcvp.pyx", line 165, in fpylll.fplll.svpcvp.closest_vector
+TypeError: closest_vector() got an unexpected keyword argument 'max_nodes'
+EXIT=1

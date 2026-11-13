@@ -9,7 +9,7 @@ ServerHello random accepted via submit_flag.py. (Slug: `tls-handshake`.)
 - **Statement provenance:** category page card text (cached in remaining_descs.json).
 
 ## The flag
-`67c6bf8ffd3364f8e5f3226e073409b331a2a555809f0d917d4324743c95c95c`
+Recorded in `FLAGS/web/challenge-154-cryptohack-tls-handshake/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 1. Same capture as sharks-wire: `cryptohack.org.pcapng`.

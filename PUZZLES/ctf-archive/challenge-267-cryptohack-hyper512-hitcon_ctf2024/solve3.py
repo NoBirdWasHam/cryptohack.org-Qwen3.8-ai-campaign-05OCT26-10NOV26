@@ -56,7 +56,7 @@ for i in K1:
     rows.append(r)
 print('rows built %.1fs' % (time.time() - t1), flush=True)
 
-# Gaussian elimination, pivot = lowest set bit (RHS col excluded from pivoting)
+# [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt], pivot = lowest set bit (RHS col excluded from pivoting)
 t2 = time.time()
 piv = {}
 rank = 0

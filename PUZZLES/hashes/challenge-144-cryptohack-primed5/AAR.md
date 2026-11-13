@@ -1,6 +1,6 @@
 # AAR — Challenge 144: PriMeD5
 
-**Result:** SOLVED + API-VERIFIED 2026-10-20 — `crypto{MD5_5uck5_p4rt_tw0}` (+100; 9735→9835, 186→187).
+**Result:** SOLVED + API-VERIFIED 2026-10-20 — `[flag — recorded in FLAGS/hashes/challenge-144-cryptohack-primed5/flag.txt]` (+100; 9735→9835, 186→187).
 **Date:** 2026-10-20 (UTC)
 
 ## Source

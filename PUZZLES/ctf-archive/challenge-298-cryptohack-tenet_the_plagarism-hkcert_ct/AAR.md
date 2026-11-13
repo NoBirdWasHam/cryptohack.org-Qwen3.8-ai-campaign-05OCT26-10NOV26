@@ -128,7 +128,7 @@ permanently-rule-blocked is the governance answer above.
 
 # SOLVED (2026-11-06) — 251-bit ASCII leak turns the "wall" into a GF(2) linear solve
 
-**Flag (derived, accepted):** `hkcert21{m1tm_l00ked_gr34t_bu7_n0t_th1s_t1m3}`
+**Flag (derived, accepted):** `[flag — recorded in FLAGS/ctf-archive/challenge-298-cryptohack-tenet_the_plagarism-hkcert_ct/flag.txt]`
 
 ## What the earlier passes got wrong
 Both prior analyses counted only the 216 whole-byte known bits and treated the 35 interior bytes as
@@ -155,7 +155,7 @@ padding that added two distinct bytes instead of a duplicate pair) before any re
 
 ## Real run — `solve.py --real`
 rank=251, coset dim=5, 32 solutions enumerated, weight<=16 even candidates: **1** (weight 14).
-Plaintext: `Congratulations! hkcert21{m1tm_l00ked_gr34t_bu7_n0t_th1s_t1m3}` (interior = 35 \w chars, regex fullmatch).
+Plaintext: `Congratulations! [flag — recorded in FLAGS/ctf-archive/challenge-298-cryptohack-tenet_the_plagarism-hkcert_ct/flag.txt]` (interior = 35 \w chars, regex fullmatch).
 End-to-end: recovered parity set padded to a 16-byte key `0c3e626681aebcbfc3c6c9ced9f4ffff` re-encrypts the
 plaintext to the **exact 62-byte statement ciphertext**.
 

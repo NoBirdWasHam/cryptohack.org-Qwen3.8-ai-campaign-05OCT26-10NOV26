@@ -205,7 +205,7 @@ planted bilinear system (semantic end-to-end). msolve on the eliminated h-only s
 h*y*=1 + 128 Boolean, 128 vars) returns the planted H_field EXACTLY in 0.17 s (5 blocks, rank_y=127)
 while the same 4 blocks in the original 512-var bilinear form reproduce the >14 s wall (AAR numbers
 confirmed). Honest negatives: msolve -t2 on the 256-var h+y linear+bilinear hybrid TIMEOUT >14 s —
-Gaussian elimination IS the solver here; no Groebner engine is wanted or needed.
+[flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] IS the solver here; no Groebner engine is wanted or needed.
 
 STRUCTURAL FINE-PRINT (measured, banked): near rank saturation stacked blocks CAN be dependent
 (SUM_c Z_c mu_c = 0 with mu_c supported on the 32-bit V-complement), so N=4 is the 2^0 borderline:
@@ -280,7 +280,7 @@ synthetic-gated before live).
 
 **Outcome.** Solved on the structural-elimination route; flag submitted via
 `submit_flag.py greatest_common_multiple-code` → server-side solved 307→308.
-Flag (verbatim from service): `codegate2024{Is_it_normal_if_some_data_is_obtainable_just_with_tag?...F_2^128's_super_property}`
+Flag (verbatim from service): `[flag — recorded in FLAGS/ctf-archive/challenge-263-cryptohack-greatest_common_multiple-code/flag.txt]`
 (the `...` is literal flag prose — log repr terminates cleanly).
 
 **Chain (all links now live-verified).**

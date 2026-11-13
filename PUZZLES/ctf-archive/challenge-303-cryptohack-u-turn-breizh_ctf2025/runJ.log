@@ -1,0 +1,5 @@
+L basis ok
+best embedding row norm2: 810
+x_true digits: [1, -1, 0, 2, 1, 0, 0, 1, 0, 1, -1, 1, 0, 1, -2, -2, 1, 0, 2, -1, 2, -1, -1, 1, -1, -1, 0, 2, 2, -2, 0, 1, 2, 2, 2, -1, -2, 2, 1, 2, 0, 2, 0, 0, -2, 1, 1, -1, -1, 2]
+flag candidates: ['[flag — recorded in FLAGS/]']  (scanned c < 3831 )
+FLAG: [flag — recorded in FLAGS/]

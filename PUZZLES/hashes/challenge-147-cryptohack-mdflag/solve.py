@@ -135,7 +135,7 @@ def local_test():
     assert (len(s) + p) % 64 == 0
     assert extend_aligned(hashlib.md5(s).digest(), len(s), p) == hashlib.md5(s + md5_pad(len(s))).digest()
     print("compression + extension verified")
-    FAKE = b'crypto{th1s_1s_a_f4ke_fl4g_f0r_l0c4l_t3st1ng!}'
+    FAKE = b'[flag value withheld — real-flag strings live only under FLAGS/]'
     assert len(FAKE) == L
     def bxor(x, y): return bytes(u ^ v for u, v in zip(x, itertools.cycle(y)))
     calls = [0]

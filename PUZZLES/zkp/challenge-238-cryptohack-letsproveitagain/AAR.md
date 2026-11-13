@@ -1,6 +1,6 @@
 # AAR — 238-cryptohack-letsproveitagain: Let's Prove It Again (CryptoHack, 175 pts)
 
-**Result:** SOLVED — flag `crypto{CRT_1s_m4gic_for_cryptanalysis}` (score_delta +175, ok:true)
+**Result:** SOLVED — flag `[flag value withheld — real-flag strings live only under FLAGS/]` (score_delta +175, ok:true)
 **Date:** 2026-10-22
 
 ## Source
@@ -50,7 +50,7 @@ The same Schnorr-over-flag server as part 1, "fixed" by the intern in three ways
 ## How the answer follows
 1. Turn choreography inside the 4-turn budget: get_proof (unlocks refresh) -> refresh(seed) -> P2 -> get_proof (burn, re-unlocks refresh) -> refresh(seed) -> P4; y_a == y_b confirms the shared prime; c*FLAG < p-1 and v < p-1 make both responses exact over the integers.
 2. Subtract: r_a - r_b = (c_b - c_a)*FLAG, so FLAG = (r_a - r_b)/(c_b - c_a). Brute-force salt_a, salt_b in [2,1024] (~10^6 recomputations of sha3_256(t^y^g^salt)); keep the pair where the quotient is an integer decoding to a valid flag (decode as part 1: nonce-XOR + one-byte strip + validate).
-3. Flag crypto{CRT_1s_m4gic_for_cryptanalysis} credited on the FIRST live attempt (score_delta +175, ok:true); 4/4 turns used; salt space 1023; c ~ 2^256 (no squaring this time).
+3. Flag [flag value withheld — real-flag strings live only under FLAGS/] credited on the FIRST live attempt (score_delta +175, ok:true); 4/4 turns used; salt space 1023; c ~ 2^256 (no squaring this time).
 
 ## Limitations / attempts that failed
 - No failed live approaches (recorded as such); offline harness validated 3/3 before connecting. Recorded caveat: the offline harness's FLAG-replacement string didn't match the placeholder, so locally it recovers the '????' placeholder -- attack mechanics were still fully exercised against the real server logic.

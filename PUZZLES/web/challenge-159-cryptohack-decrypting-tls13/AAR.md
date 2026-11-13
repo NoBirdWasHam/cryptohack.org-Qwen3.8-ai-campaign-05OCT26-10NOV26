@@ -1,7 +1,7 @@
 # AAR — Challenge 159: Decrypting TLS 1.3
 
 **Result:** **SOLVED + leaderboard-verified** (account NoBirdWasHam, 2026-10-13) — flag
-`crypto{export_SSLKEYLOGFILE}` accepted via submit_flag.py; score 6500→6535, solved 141→142.
+`[flag — recorded in FLAGS/web/challenge-159-cryptohack-decrypting-tls13/flag.txt]` accepted via submit_flag.py; score 6500→6535, solved 141→142.
 (Slug: `decrypting-tls13`.)
 **Date:** 2026-10-13 (UTC)
 
@@ -12,9 +12,7 @@
   `keylogfile13.txt`, `no-finished-tls3.pcapng`, `client_finished.py`.
 
 ## The flag
-`crypto{export_SSLKEYLOGFILE}` — from the decrypted HTTP/2 `DATA[1]` frame:
-`Flag: crypto{export_SSLKEYLOGFILE}` (the 43-byte plaintext: `00002200 0100000001` header
-+ `Flag: ...`).
+Recorded in `FLAGS/web/challenge-159-cryptohack-decrypting-tls13/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 Intended path (and what worked, 3 commands):
@@ -57,7 +55,7 @@ Not a break of TLS 1.3 — an operator-error scenario. The challenge hands over 
 
 ## How the answer follows
 1. NSS keylog lines are keyed by the connection's client_random, and the ClientHello is plaintext — so the correct keylog for a capture is found by a pure equality check, not trial and error: capture ClientHello random `210cb7af...` equals the lines in `keylogfile12.txt`. (The files are cross-named on the server; the "obvious" `keylogfile13.txt` belongs to the other capture.)
-2. With the matching secrets, tshark re-derives the TLS 1.3 read keys and decrypts; the HTTP/2 DATA frame on stream 1 is plaintext `Flag: crypto{export_SSLKEYLOGFILE}`.
+2. With the matching secrets, tshark re-derives the TLS 1.3 read keys and decrypts; the HTTP/2 DATA frame on stream 1 is plaintext `Flag: [flag — recorded in FLAGS/web/challenge-159-cryptohack-decrypting-tls13/flag.txt]`.
 3. Flag accepted with a real score delta (6500->6535), so the decrypted bytes — not a guess — were submitted.
 
 ## Limitations / attempts that failed

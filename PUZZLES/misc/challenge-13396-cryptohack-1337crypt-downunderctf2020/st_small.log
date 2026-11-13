@@ -1,0 +1,31 @@
+[selftest] p bits=512 pA candidates (4): [512, 512, 512, 512]
+[selftest] |p-pA| ~ 2^177  sign=-
+[params] delta=1 m=6 t=9 X=2^180 beta=2/5 eps=1/32
+[lattice] dim=15x15  HG margin: det^(1/w)~2^2693 vs b^m~2^3070 (+-377 bits slack)
+[lattice] LLL done in 0.1s
+[rows] 15 integral lattice polys
+[gcd] common-factor degree 2 (coeffs ~2^354)
+[roots] candidates: []
+[selftest] |p-pA| ~ 2^257  sign=+
+[params] delta=1 m=6 t=9 X=2^180 beta=2/5 eps=1/32
+[lattice] dim=15x15  HG margin: det^(1/w)~2^2693 vs b^m~2^3070 (+-377 bits slack)
+[lattice] LLL done in 0.1s
+[rows] 15 integral lattice polys
+[gcd] common-factor degree 0 (coeffs ~2^1)
+[roots] candidates: []
+[selftest] |p-pA| ~ 2^510  sign=-
+[params] delta=1 m=6 t=9 X=2^180 beta=2/5 eps=1/32
+[lattice] dim=15x15  HG margin: det^(1/w)~2^2693 vs b^m~2^3070 (+-377 bits slack)
+[lattice] LLL done in 0.1s
+[rows] 15 integral lattice polys
+[gcd] common-factor degree 2 (coeffs ~2^354)
+[roots] candidates: []
+[selftest] |p-pA| ~ 2^510  sign=-
+[params] delta=1 m=6 t=9 X=2^180 beta=2/5 eps=1/32
+[lattice] dim=15x15  HG margin: det^(1/w)~2^2693 vs b^m~2^3070 (+-377 bits slack)
+[lattice] LLL done in 0.1s
+[rows] 15 integral lattice polys
+[gcd] common-factor degree 0 (coeffs ~2^1)
+[roots] candidates: []
+[selftest] FAILED
+EXIT=1

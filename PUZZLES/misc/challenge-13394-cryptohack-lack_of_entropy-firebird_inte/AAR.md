@@ -1,6 +1,6 @@
 # AAR — lack_of_entropy-firebird_inte (Firebird Internal CTF, Mystiz)
 
-**SOLVED.** Flag: `firebird{b1n4ry_s34rch_f0r_th3_w1n!}` (submitted ok:true, status 200;
+**SOLVED.** Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-13394-cryptohack-lack_of_entropy-firebird_inte/flag.txt]` (submitted ok:true, status 200;
 solved count 256→257; score_delta 0 as expected for 0-pt archive challenges).
 
 ## The vulnerability
@@ -53,7 +53,7 @@ The RSA keypair is made from ONE random draw: p is 256 random bits and the "seco
 ## How the answer follows
 1. f is strictly increasing: more base-3 digits ⇒ more decimal digits; same length ⇒ lexicographic digit order = decimal order; carries at powers of 3 never break it (spot-checked at 2/3, 8/9, 3^40−1/3^40).
 2. Hence g(p) = p·f(p) is strictly increasing ⇒ p = g⁻¹(n) is unique and binary search on [1, 2^300] (~300 evaluations) recovers it; the assertion p·f(p) == n is the proof.
-3. Standard RSA from there: d = e⁻¹ mod (p−1)(q−1), m = c^d mod n; verified pow(m, e, n) == c on the flag bytes ⇒ flag `firebird{b1n4ry_s34rch_f0r_th3_w1n!}` (submitted ok:true, solves 256→257).
+3. Standard RSA from there: d = e⁻¹ mod (p−1)(q−1), m = c^d mod n; verified pow(m, e, n) == c on the flag bytes ⇒ flag `[flag — recorded in FLAGS/ctf-archive/challenge-13394-cryptohack-lack_of_entropy-firebird_inte/flag.txt]` (submitted ok:true, solves 256→257).
 
 ## Limitations / attempts that failed
 - Single-shot solve — no failed attempts recorded in run logs ("Nothing failed", original Limitations section).

@@ -1,0 +1,17 @@
+== toys ==
+[JM basic 40/80/30] N=149b log2(XY)=66.0 th~N^0.5=74.3
+  (2,) dim=(21, 21) hgp=0 R=143.0 found=None 0.0s
+  (3,) dim=(40, 40) hgp=0 R=285.0 found=None 2.7s
+  (4,) dim=(65, 65) hgp=0 R=427.0 found=None 31.0s
+  (5,) dim=(96, 96) hgp=0 R=569.0 found=None 299.0s
+== realratio ==
+[JM real-ratios 60/120/180] N=357b log2(XY)=236.0 th~N^0.5=178.3
+  (2,) dim=(21, 21) hgp=0 R=353.0 found=None 0.0s
+  (3,) dim=(40, 40) hgp=0 R=705.0 found=None 10.0s
+  (4,) dim=(65, 65) hgp=0 R=1057.0 found=None 119.1s
+  (3, 'ext', (1, 1)) dim=(55, 55) hgp=0 R=941.0 found=None 10.8s
+== real ==
+n=3070b log2(XY)=2043.0
+  (2,) dim=(21, 21) hgp=0 R_bits=3062.0 minScaled2log2=6124.0 HGneed<6124 nuseful=0 found=None 1.2s
+  (3,) dim=(40, 40) hgp=0 R_bits=6123.0 minScaled2log2=12246.0 HGneed<12246 nuseful=0 found=None 471.4s
+ALLDONE

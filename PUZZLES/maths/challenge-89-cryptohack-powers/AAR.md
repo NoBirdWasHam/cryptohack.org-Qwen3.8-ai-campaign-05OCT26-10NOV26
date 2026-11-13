@@ -1,7 +1,7 @@
 # AAR — Successive Powers (challenge-89)
 
 **Result:** **SOLVED** (2026-10-07) — flag submitted + API-verified (score 3650→3710, solved 85→86)
-**Flag:** `crypto{919,209}`
+**Flag:** `[flag — recorded in FLAGS/maths/challenge-89-cryptohack-powers/flag.txt]`
 
 ## Source
 - Statement page: `https://cryptohack.org/challenges/maths/` (card `data-challenge="powers"`,
@@ -30,7 +30,7 @@ for an unknown integer `x` and unknown 3-digit prime `p`.
 So `p=919, x=209` is the unique, verified solution.
 
 ## Flag + submission
-Statement order is "Find **p** and **x**", so `crypto{919,209}`. Submitted via in-page synchronous
+Statement order is "Find **p** and **x**", so `[flag — recorded in FLAGS/maths/challenge-89-cryptohack-powers/flag.txt]`. Submitted via in-page synchronous
 `XMLHttpRequest POST /submit/powers/` (same origin, carries the session cookies). The submit response
 body is identical for right/wrong flags, so ground truth = the user API:
 `/api/user/NoBirdWasHam/` shows **"Successive Powers" in the solved list, score 3710, 86 solved.**
@@ -68,7 +68,7 @@ Did not: consult any of the 30 site solutions/writeups; use any writeup flag.
 3. Verified by reconstruction: a[i]·209 ≡ a[i+1] (mod 919) for all 11 transitions;
    ord(209 mod 919) = 918; a tiny dlog gives 588 ≡ 209^25 and 209^(25+i) ≡ a[i] for all i — the whole
    list reproduced.
-4. Flag = crypto{919,209} (statement order: p then x); API-verified (score 3650→3710, solved 85→86).
+4. Flag = [flag — recorded in FLAGS/maths/challenge-89-cryptohack-powers/flag.txt] (statement order: p then x); API-verified (score 3650→3710, solved 85→86).
 
 ## Limitations / attempts that failed
 None recorded — the ratio constraint is deterministic and the surviving candidate is unique and fully

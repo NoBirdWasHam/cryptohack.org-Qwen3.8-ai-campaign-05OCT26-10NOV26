@@ -1,6 +1,6 @@
 # AAR — whats_my_kernel (What's My Kernel, 70 pts)
 
-Solved 2026-10-16. Flag: `crypto{whoops_this_was_just_a_dlog}`. Verified via user API: score 8135→8205, solved 169→170 (exact command output: `{"submitted": "crypto{whoops_this_was_just_a_dlog}", "submit": {"ok": true, "status": 200, ...}, "before": {"score": 8135, "solved": 169}, "after": {"score": 8205, "solved": 170}, "score_delta": 70}`).
+Solved 2026-10-16. Flag: `[flag — recorded in FLAGS/isogenies/challenge-214-cryptohack-whats_my_kernel/flag.txt]`. Verified via user API: score 8135→8205, solved 169→170 (exact command output: `{"submitted": "[flag — recorded in FLAGS/isogenies/challenge-214-cryptohack-whats_my_kernel/flag.txt]", "submit": {"ok": true, "status": 200, ...}, "before": {"score": 8135, "solved": 169}, "after": {"score": 8205, "solved": 170}, "score_delta": 70}`).
 
 ## Attack (self-solve, no external writeups)
 
@@ -20,7 +20,7 @@ The SIDH public key leaks the kernel when the two image points are collinear on 
 5. **Result**:
    `n = −m⁻¹ mod 2^216 = 0x77686f6f70735f746869735f7761735f6a7573745f615f646c6f67`
    `= bytes "whoops_this_was_just_a_dlog"` (27 bytes — exactly the 27-char FLAG slot: `n = bytes_to_long(FLAG[7:-1])`).
-6. **Flag**: `crypto{whoops_this_was_just_a_dlog}` — accepted (+70).
+6. **Flag**: `[flag — recorded in FLAGS/isogenies/challenge-214-cryptohack-whats_my_kernel/flag.txt]` — accepted (+70).
 
 The author planted the answer: the dlog recovers a 215-bit value that IS the 27-byte flag, reading "whoops_this_was_just_a_dlog" — the puzzle's own joke ("this was just a dlog").
 
@@ -30,7 +30,7 @@ The author planted the answer: the dlog recovers a 215-bit value that IS the 27-
 |---|-------|----------|-----|
 | 1 | **Wrong flag-length assumption**: carried "19 hex digits (76-bit n)" from pre-compaction context | `FLAG = b"crypto{???????????????????????????}"` — inner measured **27** chars (`python -c` string op: `inner length: 27`) | n is up to 216 bits; flag inner = 27 raw bytes, not hex |
 | 2 | Submitted `crypto{573745f615f646c6f67}` (= A mod 2^76, the 19-hex-digit candidate) | API: `score_delta: 0`, solved 168→168 | wrong (see #1) |
-| 3 | Submitted `crypto{his_was_just_a_dlog}` (last 19 chars of the ASCII) | API: `score_delta: 0`, solved 169→169 (the +100/168→169 between submits was a different challenge, from parallel subagent work, not this one) | wrong |
+| 3 | Submitted `[flag value withheld — real-flag strings live only under FLAGS/]` (last 19 chars of the ASCII) | API: `score_delta: 0`, solved 169→169 (the +100/168→169 between submits was a different challenge, from parallel subagent work, not this one) | wrong |
 | 4 | Misdiagnosis: suspected `output.txt` was locally-generated decoy data (the 215-bit ASCII "looked planted", inconsistent with a 76-bit n) | Fetched server static files: `raw equal: True` (output) and identical source — local data WAS the author's data; the real inconsistency was assumption #1 | Re-derived with 27-byte n → consistent |
 | 5 | Vélu 2-isogeny closed-form work (verify_n.py, velu2_test.py) was a dead-end for the flag: needed only if the kernel were NOT recoverable by dlog; the x-map formula `x' = 2(v²+f(x))/(u−x)² − x − 4u` was verified by direct point addition on two points over F_17, but the y-map/codomain-fit failed the homomorphism check over F_17 (13/15 rows off curve; several arithmetic slips in the toy). **Not used for the solve** — the ECDLP route made it unnecessary. | terminal outputs of velu2_test.py runs | abandoned (correctly: unnecessary) |
 | 6 | First solver run (pre-compaction) took 2144 s to bit 0 and died on missing `ec_sub` | solve.log / traceback | machine contention (parallel subagents); added `ec_sub`, rerun: 10.4 s total |

@@ -1,0 +1,19 @@
+  ***   at top-level: B=lll(M)
+  ***                   ^------
+  ***   not a function in function call
+A function with that name existed in GP-1.39.15. Please update your script.
+
+New syntax: lll(x) ===> qflll(x)
+
+qflll(x,{flag=0}): LLL reduction of the vectors forming the matrix x (gives the 
+unimodular transformation matrix T such that x*T is LLL-reduced). flag is 
+optional, and can be 0: default, 1: disable FLATTER, 2: assumes x is integral, 
+returns a partially reduced basis, 3: assumes x is integral, in place (return 
+x*T), 4: assumes x is integral, returns [K,T] where K is the integer kernel of 
+x and T the LLL reduced image, 5: same as 4 but x may have polynomial 
+coefficients, 8: same as 0 but x may have polynomial coefficients.
+
+
+  ***   Break loop: type 'break' to go back to GP prompt
+break> 
+? ... skipping file 'lattice.gp'

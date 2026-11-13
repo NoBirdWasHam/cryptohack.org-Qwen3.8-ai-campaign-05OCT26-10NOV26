@@ -1,0 +1,11 @@
+L bit_length: 785
+t0 bit_length: 785
+M^E == C: True
+Traceback (most recent call last):
+  File "~\Practice_runs\cryptohack_org\challenge-126-cryptohack-matrix\solve.py", line 74, in <module>
+    flag_bytes = bytes(int("".join(map(str, flag_bits[i:i + 8])), 2) for i in range(0, 272, 8))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~\Practice_runs\cryptohack_org\challenge-126-cryptohack-matrix\solve.py", line 74, in <genexpr>
+    flag_bytes = bytes(int("".join(map(str, flag_bits[i:i + 8])), 2) for i in range(0, 272, 8))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 2: ''

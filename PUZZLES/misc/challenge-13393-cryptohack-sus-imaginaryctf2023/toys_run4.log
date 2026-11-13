@@ -1,0 +1,12 @@
+[toy inside-threshold 40/80/30] N=149b log2(XY)=66.0 (JS exact-root heuristic needs X*Y <~ N^(2/4) = 74.5)
+  (m=2,t=2) dim=(78, 45) found=None vanish_useful=False minL1all=298b minL1useful=298b HGMarginUseful=0.0 0.1s
+  (m=3,t=2) dim=(150, 72) found=None vanish_useful=False minL1all=446b minL1useful=446b HGMarginUseful=-5.684341886080802e-14 0.9s
+  (m=3,t=3) dim=(202, 91) found=None vanish_useful=False minL1all=446b minL1useful=446b HGMarginUseful=-5.684341886080802e-14 2.1s
+  (m=4,t=3) dim=(330, 128) found=None vanish_useful=False minL1all=595b minL1useful=595b HGMarginUseful=0.0 10.7s
+  (m=5,t=4) EXC skip: 615 rows > 600 cap
+  (m=6,t=4) EXC skip: 868 rows > 600 cap
+[toy just-outside 40/80/96] N=215b log2(XY)=132.0 (JS exact-root heuristic needs X*Y <~ N^(2/4) = 107.5)
+  (m=3,t=3) dim=(202, 91) found=None vanish_useful=False minL1all=645b minL1useful=645b HGMarginUseful=0.0 3.6s
+  (m=5,t=4) EXC skip: 615 rows > 600 cap
+VALIDATION: FAIL | just-outside solved: False
+EXIT 0

@@ -1,8 +1,8 @@
 # AAR — Too Many Errors (toomany, 100 pts, post-quantum)
 
 ## Result
-SOLVED 2026-10-17. Flag: `crypto{f4ult_4ttack5_0n_lw3}`
-Submit JSON: `{"submitted": "crypto{f4ult_4ttack5_0n_lw3}", "submit": {"ok": true, "status": 200, ...}, "before": {"score": 8265, "solved": 171}, "after": {"score": 8365, "solved": 172}, "score_delta": 100}`
+SOLVED 2026-10-17. Flag: `[flag — recorded in FLAGS/post-quantum/challenge-183-cryptohack-toomany/flag.txt]`
+Submit JSON: `{"submitted": "[flag — recorded in FLAGS/post-quantum/challenge-183-cryptohack-toomany/flag.txt]", "submit": {"ok": true, "status": 200, ...}, "before": {"score": 8265, "solved": 171}, "after": {"score": 8365, "solved": 172}, "score_delta": 100}`
 
 ## Attack
 The server (13390.py) is an LWE sample generator over Z_127: each `get_sample` draws
@@ -39,7 +39,7 @@ which validated the deterministic-e hypothesis before trusting the unknowns.
   - `clean a count: 147 of 300`, `b_clean values: Counter({45: 147})`
   - `corrupted samples grouped: 153 unparseable: 0 coords hit: [0..27]`
   - `known-position sanity: PASS` (j=0 c=99, j=1 r=114, j=2 y=121, j=3 p=112, j=4 t=116, j=5 o=111, j=6 {=123, j=27 }=125)
-  - `FLAG: crypto{f4ult_4ttack5_0n_lw3}`
+  - `FLAG: [flag — recorded in FLAGS/post-quantum/challenge-183-cryptohack-toomany/flag.txt]`
   - `verification: 300/300 samples consistent with e in {-1,0,1}`
 - Independent full-sample check: every one of the 300 collected samples satisfies
   `b == <a, FLAG> + e (mod 127)` for some `e in {-1,0,1}`.

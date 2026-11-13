@@ -364,7 +364,7 @@ Bach-Shallit-style factoring in (Z/n)[x]/(f), f = random monic cubic. For random
 when f is irreducible mod p, Frobenius collapses t to the base field mod p ⇒ gcd(t coefficients, n) = p.
 Run: p (512 bits) found on try 3, 30 powders/try (solve_cyc.py; deterministic re-run solve_cyc_rerun.log).
 Structure verified: q = p²+p+1 prime, r = n/pq prime; φ=(p-1)(q-1)(r-1); decrypt e=65537.
-FLAG: ictf{idk_if_it_solvable_if_q_is_2+p+p^2_instead} — computed only from local output.txt.
+FLAG: [flag — recorded in FLAGS/ctf-archive/challenge-13393-cryptohack-sus-imaginaryctf2023/flag.txt] — computed only from local output.txt.
 Server: submitted via submit_flag.py; "Sus (ImaginaryCTF)" now in solved_challenges; API 309→310 (score 17195, archive 0 pts).
 Provenance: algorithm from public author README (disclosed); flag self-derived; red line intact.
 Why the 2026-10 "impossible" verdicts missed it: all four runs priced Coppersmith/lattice families.

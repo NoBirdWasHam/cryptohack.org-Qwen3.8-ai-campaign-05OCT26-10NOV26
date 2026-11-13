@@ -1,1 +1,1 @@
-firebird{b1n4ry_s34rch_f0r_th3_w1n!}
+[flag — recorded in FLAGS/ctf-archive/challenge-13394-cryptohack-lack_of_entropy-firebird_inte/flag.txt]

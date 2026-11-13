@@ -42,7 +42,7 @@ systems, 'multivariate' schemes, membership systems.
   REFORMULATION probes: linearizing substitutions (especially when the unknown is a FIELD element —
   see inversion-linearization below), eliminating existential aux variables over the coefficient
   ring, and constraint-density vs degree-of-regularity at higher density. Engines fail on SHAPE,
-  not on RAM: a 40-GB-dead wide formulation is often a sub-second Gaussian elimination under the
+  not on RAM: a 40-GB-dead wide formulation is often a sub-second [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] under the
   right substitution (measured 5+ orders of magnitude).
 - M4GB GF(2) at 320 dense quad vars is MEMORY-bound before time-bound: lcm-degree-3 selection grows
   past 3 GB within ~6 s (16-core build); msolve 512-var planted dense quads hits ~1.8 GB in <10 s.
@@ -105,7 +105,7 @@ deg-3, 40-65 GB measured). Elimination over GF(2)[h] gives Fitting/minor conditi
 still dead), BUT if the pencil comes from FIELD MULTIPLICATION, the substitution y = h^{-1} is a
 GF(2)-birational change of variables under which every membership condition Z in h^k*V becomes LINEAR
 in y for k=1 (bits of Z*y), and linear via Frobenius for k=2 (y^2 = sum_j y_j * e_j^2, cross terms
-die in char 2). Whole solve = Gaussian elimination on 32N rows x 128 cols + one field inversion:
+die in char 2). Whole solve = [flag — recorded in FLAGS/post-quantum/challenge-168-cryptohack-lwe-intro/flag.txt] on 32N rows x 128 cols + one field inversion:
 KB RAM, ms. Structural theorem: rank(T(h)|_V) = 96 for ALL h != 0 (field injectivity), so the
 per-block 32 conditions are independent until the kernel saturates; kdim(N) = 96,64,32,1..3 and 4-6
 random blocks isolate the planted root (24/24 seeds by N=6). Caveat-verified: near rank saturation

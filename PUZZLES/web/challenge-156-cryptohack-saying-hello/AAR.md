@@ -1,7 +1,7 @@
 # AAR — Saying Hello (saying-hello, 20 pts, Web course)
 
 ## Result
-SOLVED 2026-10-13. Flag (non-standard string): `ECDHE-RSA-AES256-GCM-SHA384`
+SOLVED 2026-10-13. Flag (non-standard string): `[flag — recorded in FLAGS/web/challenge-156-cryptohack-saying-hello/flag.txt]`
 Submitted via user API in the 2026-10-13 session; accepted; present in the live solved list
 (2026-10-17 verification).
 
@@ -18,7 +18,7 @@ None — observation-type, no crypto to break. TLS negotiates its parameters (ve
 
 ## How the answer follows
 1. The negotiated suite is the single cipher-suite ID the *server* echoes in its ServerHello (the client only offers a preference list, so the server's echo is the authoritative answer).
-2. Decoding the name: `ECDHE` = ephemeral ECDH key exchange (forward secrecy), `RSA` = server authentication/signing, `AES256-GCM` = AEAD bulk cipher (256-bit key), `SHA384` = PRF/hash. The human-readable string of that ID *is* the answer: `ECDHE-RSA-AES256-GCM-SHA384`.
+2. Decoding the name: `ECDHE` = ephemeral ECDH key exchange (forward secrecy), `RSA` = server authentication/signing, `AES256-GCM` = AEAD bulk cipher (256-bit key), `SHA384` = PRF/hash. The human-readable string of that ID *is* the answer: `[flag — recorded in FLAGS/web/challenge-156-cryptohack-saying-hello/flag.txt]`.
 3. Submitted through the user API (2026-10-13) and accepted; re-verified present in the live solved list on 2026-10-17.
 
 ## Limitations / attempts that failed

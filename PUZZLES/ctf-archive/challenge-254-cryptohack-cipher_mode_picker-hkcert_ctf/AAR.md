@@ -1,6 +1,6 @@
 # AAR — cipher_mode_picker-hkcert_ctf (archive.cryptohack.org:2951)
 
-**Solved: yes.** Flag: `hkcert21{w3_sh0u1d_n0t_g1v3_much_fr3ed0m_t0_us3r5_wh3n_1t_c0m3s_t0_cryp70gr4phy}`
+**Solved: yes.** Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-254-cryptohack-cipher_mode_picker-hkcert_ctf/flag.txt]`
 
 ## The vuln
 `chall.py` (1334 B, fetched from `/static/challenges/chall_0095f51d1a465af2ef03fb394d971c4e.py`):

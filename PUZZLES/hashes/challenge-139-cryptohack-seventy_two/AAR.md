@@ -1,6 +1,6 @@
 # AAR — Challenge 139: Seventy-Two (50 pts, hashes → key derivation)
 
-**Date:** 2026-10-14 · **Status:** SOLVED (server-verified) · **Flag:** `crypto{53v3n7y_7w0_by73_c31l1n6}`
+**Date:** 2026-10-14 · **Status:** SOLVED (server-verified) · **Flag:** `[flag — recorded in FLAGS/hashes/challenge-139-cryptohack-seventy_two/flag.txt]`
 **Delta:** +50 (7195 → 7245, 155 → 156 solved) · **Method:** self-solve from statement + provided `13433.py`. No solutions page, no writeups.
 
 ## Vulnerability

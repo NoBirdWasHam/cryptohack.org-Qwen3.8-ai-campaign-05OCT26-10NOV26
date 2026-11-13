@@ -1,0 +1,8 @@
+==== LIVE ====
+banner: Challenge 1
+C1 done
+banner: Challenge 2
+C2 done
+banner: Challenge 3
+C3 FAILED
+DONE

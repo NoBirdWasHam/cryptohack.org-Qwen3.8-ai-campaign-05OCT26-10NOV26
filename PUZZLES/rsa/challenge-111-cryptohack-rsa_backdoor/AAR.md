@@ -1,7 +1,7 @@
 # AAR — 111-cryptohack-rsa_backdoor: RSA Backdoor Viability (CryptoHack)
 
 **Result:** SOLVED (account NoBirdWasHam; 2026-10-23) — score_delta +175, verified `ok:true`
-**Flag:** `crypto{I_want_to_Break_Square-free_4p-1}`
+**Flag:** `[flag — recorded in FLAGS/rsa/challenge-111-cryptohack-rsa_backdoor/flag.txt]`
 
 ## Source
 - **Platform:** CryptoHack (https://cryptohack.org/)
@@ -90,7 +90,7 @@ The prime was generated as `p = (427·s²+1)/4`, so `4p−1 = 427·s²` — 427 
 2. Curve over R: E: y² = x³+Ax+B with A = 3x/(1728−x), B = 2x/(1728−x) (j = x). Point without square roots mod n: adjoin Y formally, S = R[Y]/(Y²−g(x0)), P = (x0, Y) — the group law never needs Y in Z/n.
 3. Binary ladder [n]P over S. When the p-components hit O (case #E(F_p) = p | n), some denominator has norm ≡ 0 mod p and ≠ 0 mod q (since #E(F_{q²}) = q²+1−t″ ∤ n), so gcd(norm, n) = p.
 4. If trace came out −1, twist E^d: y² = x³+d²Ax+d³B with random d ∈ R; each p-component flips iff d's component is a nonsquare ⇒ P(hit) = 1/4 per trial; loop until the ladder throws a bad denominator. (Trace check on a small instance via PARI `ellap` confirmed t = −1 at both roots, +1 after nonsquare twist — the twist loop is load-bearing.)
-5. q = n/p, d = e⁻¹ mod (p−1)(q−1), m = c^d mod n → flag `crypto{I_want_to_Break_Square-free_4p-1}`.
+5. q = n/p, d = e⁻¹ mod (p−1)(q−1), m = c^d mod n → flag `[flag — recorded in FLAGS/rsa/challenge-111-cryptohack-rsa_backdoor/flag.txt]`.
 Key numbers: n 4096 bits; p 2049 bits, verified prime with 4p−1 = 427·s², s 1021 bits; q 2048 bits; real run 573 s; self-test 4/4 on same-shape small instances.
 
 ## Limitations / attempts that failed

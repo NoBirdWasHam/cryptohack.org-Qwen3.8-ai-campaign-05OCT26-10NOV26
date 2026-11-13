@@ -1,7 +1,7 @@
 <!-- AAR -->
 # AAR — challenge-148-cryptohack-no_difference: No Difference (CryptoHack)
 
-**Result:** SOLVED (account NoBirdWasHam; date 2026-10-21) — flag `crypto{n0_d1ff_n0_pr0bl3m}`
+**Result:** SOLVED (account NoBirdWasHam; date 2026-10-21) — flag `[flag — recorded in FLAGS/hashes/challenge-148-cryptohack-no_difference/flag.txt]`
 **Date:** 2026-10-21
 
 ## Source
@@ -11,7 +11,7 @@
 - **NOT consulted:** solutions pages, search-engine writeups (no-cheat rule)
 
 ## The flag
-`crypto{n0_d1ff_n0_pr0bl3m}`
+Recorded in `FLAGS/hashes/challenge-148-cryptohack-no_difference/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 The hash's SBOX is NOT injective (rows satisfy S[x]=S[x^0x0F] plus cross-row duplicates).

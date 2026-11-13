@@ -1,7 +1,7 @@
 # AAR — Challenge 158: Decrypting TLS 1.2
 
 **Result:** **SOLVED + leaderboard-verified** (account NoBirdWasHam, 2026-10-13) — flag
-`crypto{weaknesses_of_non_ephemeral_key_exchange}` accepted via submit_flag.py; score
+`[flag — recorded in FLAGS/web/challenge-158-cryptohack-decrypting-tls12/flag.txt]` accepted via submit_flag.py; score
 6470→6500, solved 140→141. (Slug: `decrypting-tls12`.)
 **Date:** 2026-10-13 (UTC)
 
@@ -14,8 +14,7 @@
   `privkey.pem` (2048-bit RSA, **PKCS#8** `-----BEGIN PRIVATE KEY-----` header).
 
 ## The flag
-`crypto{weaknesses_of_non_ephemeral_key_exchange}` — recovered from the decrypted HTTP/2
-stream (the `DATA[1]` frame: `The flag is: crypto{weaknesses_of_non_ephemeral_key_exchange}`).
+Recorded in `FLAGS/web/challenge-158-cryptohack-decrypting-tls12/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 Intended path is the challenge's own: decrypt the TLS 1.2 RSA-key-exchange stream using the

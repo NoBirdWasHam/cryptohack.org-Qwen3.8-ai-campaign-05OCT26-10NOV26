@@ -1,0 +1,15 @@
+[easy-r40] Nbits=220 XYbits=96 thresh(N^(1/2))=110
+[easy-r40] m=5 u=1 w=1 -> {'st': 'none', 't': 216, 'c': 231}
+[easy-r40] m=5 u=1 w=2 -> {'st': 'skip', 't': 396, 'c': 336}
+[easy-r40] m=5 u=2 w=1 -> {'st': 'skip', 't': 396, 'c': 286}
+[easy-r40] m=7 u=1 w=1 -> {'st': 'skip', 't': 512, 'c': 435}
+[easy-r40] m=7 u=1 w=2 -> {'st': 'skip', 't': 960, 'c': 638}
+[easy-r40] m=7 u=2 w=1 -> {'st': 'skip', 't': 960, 'c': 540}
+[easy-r40] m=9 u=1 w=1 -> {'st': 'skip', 't': 1000, 'c': 703}
+[easy-r40] m=9 u=1 w=2 -> {'st': 'skip', 't': 1900, 'c': 1036}
+[easy-r40] m=9 u=2 w=1 -> {'st': 'skip', 't': 1900, 'c': 874}
+[easy-r40] m=11 u=1 w=1 -> {'st': 'skip', 't': 1728, 'c': 1035}
+[easy-r40] m=11 u=1 w=2 -> {'st': 'skip', 't': 3312, 'c': 1530}
+[easy-r40] m=11 u=2 w=1 -> {'st': 'skip', 't': 3312, 'c': 1288}
+[easy-r40] not solved (expected WON)
+PIPELINE UNVALIDATED - stop

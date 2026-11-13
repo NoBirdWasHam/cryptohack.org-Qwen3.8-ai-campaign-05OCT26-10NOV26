@@ -36,5 +36,5 @@ A2 = 4522659251780408437406975365247292335722093014799881326189
 k mod S = 3203891327605567684174888262717 (102b) t=5s
 k mod S' = 3134416559088660017162313785141 (102b) t=7s
 candidates: [2393741666513709879284235107418754905466424071755839611391]
-try 2393741666513709879284235107418754905466424071755839611391 -> {'message': 'Congratulations, you found my private key!', 'flag': 'crypto{tw1st_s3curity_of_x_0nly_ladder}'}
-FLAG: crypto{tw1st_s3curity_of_x_0nly_ladder}
+try 2393741666513709879284235107418754905466424071755839611391 -> {'message': 'Congratulations, you found my private key!', 'flag': '[flag — recorded in FLAGS/ecc/challenge-114-cryptohack-twisted_mind/flag.txt]'}
+FLAG: [flag — recorded in FLAGS/ecc/challenge-114-cryptohack-twisted_mind/flag.txt]

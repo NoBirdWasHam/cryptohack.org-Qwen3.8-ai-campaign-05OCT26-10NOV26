@@ -1,0 +1,55 @@
+=== stage k=20 attempt=1 19:55:51
+0 built
+1083 heartbeat alive
+1083 LLL done; min row norm2 = 16129
+1084 checkpointed lll
+Exception in thread Thread-2 (guarded):
+Traceback (most recent call last):
+  File "~\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "~\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "~\Practice_runs\cryptohack_org\challenge-280-cryptohack-origami-nns_ctf_20252025\solve7.py", line 167, in guarded
+    main()
+  File "~\Practice_runs\cryptohack_org\challenge-280-cryptohack-origami-nns_ctf_20252025\solve7.py", line 150, in main
+    checkpoint(M, "lll"); scan("lll", M)
+                          ^^^^
+NameError: name 'scan' is not defined
+1084 main thread exited
+=== k=20 attempt=1 exit=1 20:13:56
+=== stage k=20 attempt=2 20:14:01
+0 resumed from checkpoint lll
+1 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=20 attempt=2 exit=127 20:17:15
+=== stage k=25 attempt=1 20:17:20
+0 resumed from checkpoint lll
+0 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=25 attempt=1 exit=127 20:20:35
+=== stage k=25 attempt=2 20:20:40
+0 resumed from checkpoint lll
+0 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=25 attempt=2 exit=127 20:24:12
+=== stage k=30 attempt=1 20:24:18
+0 resumed from checkpoint lll
+1 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=30 attempt=1 exit=127 20:28:15
+=== stage k=30 attempt=2 20:28:20
+0 resumed from checkpoint lll
+0 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=30 attempt=2 exit=127 20:31:35
+=== stage k=40 attempt=1 20:31:40
+0 resumed from checkpoint lll
+0 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=40 attempt=1 exit=127 20:34:55
+=== stage k=40 attempt=2 20:35:00
+0 resumed from checkpoint lll
+0 max_time unsupported: attribute 'max_time' of 'fpylll.fplll.bkz_param.BKZParam' objects is not writable
+180 heartbeat alive
+=== k=40 attempt=2 exit=127 20:38:24
+ALL_DONE 20:38:29

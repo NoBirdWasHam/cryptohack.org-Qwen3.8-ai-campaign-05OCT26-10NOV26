@@ -1,6 +1,6 @@
 # AAR — CryptoHack "backpack" (120 pts, integer knapsack)
 
-**Flag:** `crypto{my_kn4ps4ck_1s_l1ghtw31ght}` — submitted, `score_delta: 120` (ok:true).
+**Flag:** `[flag — recorded in FLAGS/post-quantum/challenge-184-cryptohack-backpack/flag.txt]` — submitted, `score_delta: 120` (ok:true).
 
 ## The vuln
 Merkle–Hellman-style knapsack: superincreasing `b`, public `a_i = r·b_i mod q`, and
@@ -58,7 +58,7 @@ The public key is a Merkle-Hellman knapsack, but `encrypt` forgot the mod-q redu
 ## How the answer follows
 1. Subtract the known bits: t = ct - sum(known 1-bit weights) leaves aU*x = t over the integers in the 182 unknowns.
 2. Encode 0/1 solutions as *closest* vectors, not shortest: lattice L = {(2x, 2*aU*x) : x in Z^182} (rows (2e_i, 2aU_i)), target T = (1^182, 2t). Then dist^2((2x,2aU*x), T) = sum(2x_i-1)^2 + (2(aU*x - t))^2 — an exact identity: any 0/1 solution has dist^2 = 182; any non-0/1 coordinate costs >= +8; any aU*x != t costs >= +4. At this density the 0/1 solution is unique, so the message is the unique closest lattice point: the objective is flat on {0,1}^182 and nothing else can tie or beat it.
-3. Plain LLL (2.5 s) + Babai nearest-plane hit it (~3 s total). Verified end-to-end before submitting by recomputing the full 272-bit ciphertext from the candidate flag — flag `crypto{my_kn4ps4ck_1s_l1ghtw31ght}` (score_delta 120, ok:true).
+3. Plain LLL (2.5 s) + Babai nearest-plane hit it (~3 s total). Verified end-to-end before submitting by recomputing the full 272-bit ciphertext from the candidate flag — flag `[flag — recorded in FLAGS/post-quantum/challenge-184-cryptohack-backpack/flag.txt]` (score_delta 120, ok:true).
 
 ## Limitations / attempts that failed
 - Nine prior attempts (try1-try9, solve_bkz) shared one structural error: CLOS/SVP formulations contain the kernel relations (w, 0) with aU*w = 0 of norm^2 ~ 46, strictly shorter than the message vector (~91), so LLL/BKZ returns relations, never the message; row-scans for a 0/1 row are a lottery. try9's relation of norm^2 46 is the direct evidence.

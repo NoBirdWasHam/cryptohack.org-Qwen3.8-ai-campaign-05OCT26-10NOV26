@@ -1,7 +1,7 @@
 <!-- AAR -->
 # AAR — challenge-167-cryptohack-roulette: Nothing Up My Sleeve (CryptoHack)
 
-**Result:** SOLVED (account NoBirdWasHam; date 2026-10-21) — flag `crypto{No_Str1ngs_Att4ch3d}`
+**Result:** SOLVED (account NoBirdWasHam; date 2026-10-21) — flag `[flag — recorded in FLAGS/misc/challenge-167-cryptohack-roulette/flag.txt]`
 **Date:** 2026-10-21
 
 ## Source
@@ -11,7 +11,7 @@
 - **NOT consulted:** solutions pages, search-engine writeups (no-cheat rule)
 
 ## The flag
-`crypto{No_Str1ngs_Att4ch3d}`
+Recorded in `FLAGS/post-quantum/challenge-167-cryptohack-roulette/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## How it was solved
 Roulette spin values are the low bits of P256 scalar-mult states seeded 'nothing up my sleeve' (Q=P trick): spin_k = s_{k+1} & mask30 with s on the EC ladder. State-1 digits observed -> r1; per state the unknown high part c gives 65536 candidates s=(c<<240)+r_prev, filtered by observed spins; once the candidate set collapsed to 1, bet the exact number. Bankroll grew to $2365 and the server returned the flag. See bot3.py / bot3.log (120 spins, cands=1 at bet time).

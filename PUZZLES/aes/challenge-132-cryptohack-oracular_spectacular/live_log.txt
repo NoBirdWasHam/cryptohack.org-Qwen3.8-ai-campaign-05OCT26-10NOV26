@@ -1,0 +1,19 @@
+byte 15: blk2=0 (q=200)  blk1=9 (q=289)  total=489
+byte 14: blk2=1 (q=161)  blk1=7 (q=455)  total=1105
+byte 13: blk2=a (q=89)  blk1=9 (q=189)  total=1383
+byte 12: blk2=5 (q=172)  blk1=f (q=103)  total=1658
+byte 11: blk2=3 (q=1072)  blk1=e (q=230)  total=2960
+byte 10: blk2=c (q=118)  blk1=d (q=592)  total=3670
+byte  9: blk2=b (q=1002)  blk1=c (q=412)  total=5084
+byte  8: blk2=2 (q=115)  blk1=1 (q=427)  total=5626
+byte  7: blk2=c (q=138)  blk1=b (q=333)  total=6097
+byte  6: blk2=5 (q=114)  blk1=3 (q=385)  total=6596
+byte  5: blk2=8 (q=401)  blk1=f (q=554)  total=7551
+byte  4: blk2=b (q=99)  blk1=a (q=128)  total=7778
+byte  3: blk2=0 (q=433)  blk1=f (q=543)  total=8754
+byte  2: blk2=c (q=254)  blk1=4 (q=266)  total=9274
+byte  1: blk2=8 (q=507)  blk1=3 (q=137)  total=9918
+byte  0: blk2=9 (q=176)  blk1=b (q=95)  total=10189
+message guess: b34faf3b1cdef97998c0b85c2bc35a10  (queries used 10189)
+check -> {'flag': '[flag value withheld — real-flag strings live only under FLAGS/]'}
+FLAG: [flag value withheld — real-flag strings live only under FLAGS/]

@@ -1,6 +1,6 @@
 # AAR — Challenge 113: Digestive (60 pts, ECC)
 
-**Date:** 2026-10-14 · **Status:** SOLVED (server-verified + user-API submitted) · **Flag:** `crypto{thanx_for_ctf_inspiration_https://mastodon.social/@filippo/109360453402691894}`
+**Date:** 2026-10-14 · **Status:** SOLVED (server-verified + user-API submitted) · **Flag:** `[flag — recorded in FLAGS/ecc/challenge-113-cryptohack-digestive/flag.txt]`
 **Delta:** +60 (7345 → 7405, 158 → 159 solved) · **Method:** self-solve from statement + server behavior probing. No solutions page, no writeups consulted.
 
 ## Vulnerability

@@ -3,7 +3,7 @@
 - **Platform:** CryptoHack (socket service)
 - **Category:** hashes / **100 pts** / slug `primed5` (folder `challenge-144-cryptohack-primed5`)
 - **Service:** `socket.cryptohack.org:13392` (provided source `13392_provided.py`)
-- **Status:** SOLVED + API-VERIFIED 2026-10-20 — `crypto{MD5_5uck5_p4rt_tw0}` (+100, 186→187)
+- **Status:** SOLVED + API-VERIFIED 2026-10-20 — `[flag — recorded in FLAGS/hashes/challenge-144-cryptohack-primed5/flag.txt]` (+100, 186→187)
 
 ## Server (from provided source)
 RSA `pkcs1_15` over **MD5**. `sign`: only signs `isPrime(p)`, returns sig over `MD5(long_to_bytes(p))`.

@@ -1,0 +1,59 @@
+[
+ {
+  "t": "2026-11-02T12:35:47-0500",
+  "bytes": 12180,
+  "nlines": 2020,
+  "nnope": 2017,
+  "first": "Pick two indices to reveal, then guess the 2020th number!",
+  "nums": [
+   1100909331,
+   89179143
+  ],
+  "num_lines": [
+   1398,
+   1794
+  ],
+  "msb": 0,
+  "guess": 4155456843,
+  "tail": "",
+  "win": false
+ },
+ {
+  "t": "2026-11-02T12:35:48-0500",
+  "bytes": 12181,
+  "nlines": 2020,
+  "nnope": 2017,
+  "first": "Pick two indices to reveal, then guess the 2020th number!",
+  "nums": [
+   861178140,
+   1554350677
+  ],
+  "num_lines": [
+   1398,
+   1794
+  ],
+  "msb": 1,
+  "guess": 3549980279,
+  "tail": "[flag — recorded in FLAGS/]\n",
+  "win": false
+ },
+ {
+  "t": "2026-11-02T12:35:50-0500",
+  "bytes": 12181,
+  "nlines": 2020,
+  "nnope": 2017,
+  "first": "Pick two indices to reveal, then guess the 2020th number!",
+  "nums": [
+   2795326249,
+   576489067
+  ],
+  "num_lines": [
+   1398,
+   1794
+  ],
+  "msb": 0,
+  "guess": 2246896137,
+  "tail": "",
+  "win": false
+ }
+]

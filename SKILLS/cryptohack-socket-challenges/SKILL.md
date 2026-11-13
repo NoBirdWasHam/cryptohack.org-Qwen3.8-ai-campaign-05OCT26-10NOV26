@@ -113,7 +113,7 @@ Group: safe prime `p=2q+1`, `g=2`, order `q`. Relation `g^w = y mod p`.
   grind randomness until bit==0 and always answer the permutation-reveal branch. ~2.2 grinds/round.
   The ctf-archive mirror (slug hamiltonicity-cryptohack2024) is BYTE-IDENTICAL files + same
   host:port as the main-site twin: diff provided files vs solved twins before re-deriving; archive
-  submits show score_delta 0 — trust the solved-list readback. Flag crypto{not_hashing_entire_statement_is_bad}.
+  submits show score_delta 0 — trust the solved-list readback. Flag [flag — recorded in FLAGS/ctf-archive/challenge-264-cryptohack-hamiltonicity-cryptohack2024/flag.txt].
 - **snark-maestro / ticket_maestro-cryptohack2024 (SOLVED 2026-10-23/25, archive.cryptohack.org:26896)**: Groth16 (arkworks 0.3 BN254) ticket double-spend — verifier checks only e(A,B)=e(α,β)·e(L,δ)·e(C,γ), so (rA, r⁻¹B, C) is a fresh valid proof; ticket id = hash(serialized proof). Econ forces ≥11 forges. Proofs are ark-serialize **0.3.0 compressed** 128 B (G1 x LE + SWFlags top-2-bits last byte; G2 c0‖c1 flags on c1's last byte; Fq2 sign compares **(c1,c0)** lex; keep sqrt iff (y<−y) XOR positive). Pure-Python affine add/mul suffices (no pairing). Archive twin = same listener, same flag, separate site entry (score_delta 0, credit via solved-list growth). Solver: challenge-240-.../solve.py.
 - **couples (SOLVED 2026-10-21, BN254 pairing)**: server scalar `z` set via `z = inverse(poly(z_in,x), p)` with `poly = x^(z_in+7)-x^3`. Send `z_in = p-5`: Fermat ⇒ `poly ≡ 0` for all x≠0, and their extended-Euclid `inverse(0,p)` returns **0** → internal `z=0` → both pairing sides are `pairing(inf,·)=1` → any G/hsh yields the flag. Lesson: in pairing/DLOG servers, hunt for ways to zero the secret scalar (inverse(0)=0, poly≡0 via Fermat) — the check `x*z==1` guards only one degenerate case.
 
@@ -147,7 +147,7 @@ low 16 bytes. Blob = 656B = 41 blocks; blocks 33-39 interior to u, block 40 = pa
 - Local testing: stub `utils.listener` module, exec the server source, drive `Challenge()`
   in-process (harness.py pattern).
 
-## Lying/noisy oracle family (oracular_spectacular, SOLVED 2026-10-24, `crypto{with_smart_enough_searching_you_can_learn_everything}`)
+## Lying/noisy oracle family (oracular_spectacular, SOLVED 2026-10-24, `crypto{example_flag_format}`)
 Server: CBC padding oracle whose answer is flipped w.p. 0.6 (`good ^ (rng.random()>0.4)`),
 12000 queries, message = 32 hex chars (2 blocks, no pad on encrypt).
 - Truth rate 0.4 => each query is a ±1 LLR walk with drift +0.2/query on the TRUE answer,
@@ -172,7 +172,7 @@ accepts the identity point. Two deterministic forges: (1) sig' = R || LE32(s+L) 
 scalar after reduction, different bytes; (2) vk = identity `01||0*31`, sig = identity R
 || 32 zero bytes — `pack(0·B + h·(−O)) = 01||0*31 = R` for ANY message (works when the
 msg is random/unknown). unpackneg parity rule is `parity(x) = 1−signbit` (returns −A).
-Flag ICC{RFC8032_dispel_th3_m4gic}. Solver: challenge-312-.../solve.py (pure-Python
+Flag [flag — recorded in FLAGS/ctf-archive/challenge-312-cryptohack-ed25519_magic-icc_athens2022/flag.txt]. Solver: challenge-312-.../solve.py (pure-Python
 emulator of the C semantics + --local self-test). Pitfall: server prints the b64 sig
 BEFORE the 'Enter new signature:' prompt — capture the line preceding the prompt.
 
@@ -312,9 +312,9 @@ The output flag may carry the original event prefix (CHTB{...}, zh3r0{...}, ICC{
   after a clean full `read_file` of a small file if ANY earlier read used offset/limit (it stays
   flagged as a "partial view"). Do not re-read hoping to clear it and do NOT loop on write_file —
   use `patch` for the edit, or `rm` + `write_file` to recreate. Hit 3x on one AAR.md.
-- Native Windows tools get NO MSYS path translation: `cat > /c/Users/.../f.py` silently writes to
+- Native Windows tools get NO MSYS path translation: `cat > ~/f.py` silently writes to
   a literal `C:\c\Users\...` and the later `python /c/...` call dies with "can't open file".
-  Use `C:/Users/...` forward-slash paths for every native-tool argument (bash builtins like `cd`
+  Use `~` forward-slash paths for every native-tool argument (bash builtins like `cd`
   are fine with `/c/...`).
 - Python 3.12+: `(a for b in (X := expr) ...)` is a SyntaxError — a walrus cannot appear in a
   comprehension's iterable expression. Hoist the assignment to its own statement.

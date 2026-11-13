@@ -1,0 +1,21 @@
+TEST1 codomain: a' = 269  b' = 82  (expect 269, 82)
+TEST1 OK (x-map + reconstruction verified)
+TEST2 candidates: [199, 220]
+TEST2 canonical A (v=23): 199 (server-accepted: 199)
+  point-mapping check A=199: verified=True mapped_points=419
+TEST2 OK (Montgomery conversion verified)
+TEST3 codomain: a' = 182  b' = 64  (PARI: 182, 64)
+TEST3 OK (independent engine == PARI)
+E0: y^2 = x^3 + 1 x + 0   #E = 420  j = 52
+step 1: l=3 kernel gen=(178,52) -> a'=182, b'=64  j'=356
+step 2: l=3 kernel gen=(199,366) -> a'=292, b'=243  j'=180
+step 3: l=5 kernel gen=(308,238) -> a'=0, b'=303  j'=0
+step 4: l=5 kernel gen=(84,125) -> a'=133, b'=360  j'=356
+step 5: l=5 kernel gen=(27,111) -> a'=85, b'=223  j'=396
+step 6: l=7 kernel gen=(233,389) -> a'=394, b'=188  j'=396
+step 7: l=7 kernel gen=(112,106) -> a'=374, b'=311  j'=407
+step 8: l=7 kernel gen=(84,408) -> a'=335, b'=86  j'=356
+step 9: l=7 kernel gen=(186,186) -> a'=196, b'=398  j'=48
+FINAL short form: y^2 = x^3 + 196 x + 398  #E = 420   j = 48
+  root v=410: A=404  point-mapping verified=True (mapped 419)
+FLAG (Montgomery A): 404

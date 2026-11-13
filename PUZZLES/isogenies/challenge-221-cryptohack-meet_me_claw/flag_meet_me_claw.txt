@@ -1,1 +1,1 @@
-crypto{clawing_our_way_to_victory}
+[flag — recorded in FLAGS/isogenies/challenge-221-cryptohack-meet_me_claw/flag.txt]

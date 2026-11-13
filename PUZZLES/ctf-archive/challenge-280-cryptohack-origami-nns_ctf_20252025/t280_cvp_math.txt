@@ -1,0 +1,5 @@
+target t=(35/512)*1^1024:  ||t-0||^2 = 4.79   ||t-(f,g)||^2 = 65.21
+=> CVP(t, L) = 0 vector: hint-target is VACUOUS; scan_cli NP gate (resid^2<300)
+   would propose cvec=0 and reject only via the odd-weight parity gate.
+Kannan embedding of t therefore yields (0|w), never (f,g). Branch (3) dead by math,
+independent of engine. (ct-based target: ||ct-lift||~1400 >> lambda2 -> also dead.)

@@ -7,7 +7,7 @@
 - CryptoHack DH category, slug `matrix_reloaded` (100 pts). NOT consulted: solutions/writeups.
 
 ## The flag
-`crypto{the_oracle_told_me_about_you_91e019ff}`
+Recorded in `FLAGS/diffie-hellman/challenge-128-cryptohack-matrix_reloaded/flag.txt` — kept out of AAR prose per the flag-separation rule; sha256 in `FLAGS/INDEX.jsonl`.
 
 ## Problem
 - G ∈ GL₃₀(F_P), P 512-bit; H = G^SECRET; random v, w = H·v. KEY = sha256(str(SECRET))[:32]

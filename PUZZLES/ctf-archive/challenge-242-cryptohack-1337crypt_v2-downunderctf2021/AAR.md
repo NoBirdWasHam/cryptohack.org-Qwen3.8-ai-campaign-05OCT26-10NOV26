@@ -1,7 +1,7 @@
 # 1337crypt v2 (DownUnderCTF 2021) — AAR
 
 ## Solved
-Flag: `DUCTF{mantissa_in_crypto??_n0_th4nks!!}` — submitted, ok:true, solved-list 245→246.
+Flag: `[flag — recorded in FLAGS/ctf-archive/challenge-242-cryptohack-1337crypt_v2-downunderctf2021/flag.txt]` — submitted, ok:true, solved-list 245→246.
 
 ## The challenge (NOT plain Fermat despite the task hint)
 Files: `1337crypt-v2.sage`, `output.txt`. Sage source:

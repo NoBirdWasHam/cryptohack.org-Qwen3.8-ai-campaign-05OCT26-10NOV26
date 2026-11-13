@@ -1,1 +1,1 @@
-crypto{linear_padding_isnt_padding}
+[flag — recorded in FLAGS/rsa/challenge-105-cryptohack-bespoke/flag.txt]

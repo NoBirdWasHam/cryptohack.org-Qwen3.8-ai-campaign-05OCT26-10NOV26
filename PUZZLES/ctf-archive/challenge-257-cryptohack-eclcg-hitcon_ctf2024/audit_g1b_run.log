@@ -1,0 +1,38 @@
+{
+ "z_lattice_corrected": {
+  "det_bits": 256,
+  "log2_shortest": 14.45,
+  "log2_gaussian": 14.26,
+  "margin_bits": 0.19,
+  "verdict": "within Gaussian range => no planted short relation among z"
+ },
+ "z_lattice_control_random": {
+  "log2_shortest": 14.23
+ },
+ "typo_url_sweep": {
+  "n_probed": 12240,
+  "hits": []
+ },
+ "mt_seed_sweep": {
+  "seeds_probed": 65536,
+  "draws_per_seed": 3,
+  "hits": []
+ },
+ "gcd_density": {
+  "real_r": [
+   65,
+   136
+  ],
+  "real_s": [
+   52,
+   136
+  ],
+  "random_control": null,
+  "predicted_prob_gt1": 0.3921,
+  "random_200_groups": [
+   10574,
+   27200,
+   0.3887
+  ]
+ }
+}

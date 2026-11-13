@@ -1,1 +1,1 @@
-crypto{degenerates_will_never_keep_a_secret}
+[flag — recorded in FLAGS/ecc/challenge-115-cryptohack-degenerate/flag.txt]

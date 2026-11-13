@@ -29,7 +29,7 @@ Challenges built on Python's `random` (Mersenne Twister): `bad_temper`, `bad_tem
   writing A[i] BEFORE later i's read it. It differs from the canonical out-of-place formula
   (397 of 624 words) and from the (i+227) variant.
 - **The in-place twist loses low31(A[0]) going forward, but the NEXT-earlier twist leaks
-  them back** (bad_temper SOLVED 2026-10-21, flag `crypto{8r0k3n_f0rw4rd5_4nd_84ck}`).
+  them back** (bad_temper SOLVED 2026-10-21, flag `crypto{example_flag_format}`).
   Untwisting N->O once recovers O[1..623] + upper bit of O[0]; low31(O[0]) appears in no N
   equation. BUT the twist that produced N read the *new* word 0 in its last line:
   `N[623] = N[396] ^ f((O[623]&U)|(N[0]&L))`, so `low31(N[0]) = low31(inv_f(N[623]^N[396]))`.
@@ -83,7 +83,7 @@ def untemper(y):
 ```
 
 ## Seed recovery: CPython init_by_array is analytically invertible
-(bad_temper_2 SOLVED 2026-10-23, flag `crypto{533d5_0f_d357ruc710n}` — server demanded the
+(bad_temper_2 SOLVED 2026-10-23, flag `crypto{example_flag_format}` — server demanded the
 original 32-byte seed, not just predictions). No z3 needed:
 - `Random.seed(bytes)` first maps `X = int.from_bytes(b + sha512(b).digest(), 'big')`
   (Lib/random.py), then splits X into LE 32-bit words = init_by_array key. For 32-byte
@@ -128,7 +128,7 @@ word0)≈(len+3)/2496, just reconnect for fresh padding. Validate on local CPyth
 (20/20 here); 'twist' in the title ≠ twist variant (siblings import_numpy_as_mt/real_mersenne
 are the real variants).
 
-## partial-output recovery via GF(2) (probability-seetf2022 SOLVED 2026-10-27, flag SEE{1337_card_counting_24ca335ed1cabbcf})
+## partial-output recovery via GF(2) (probability-seetf2022 SOLVED 2026-10-27, flag [flag — recorded in FLAGS/ctf-archive/challenge-13392-cryptohack-probability-seetf2022/flag.txt])
 Server prints every `random.random()` double: leaks temper(w_{2j}) top 27 bits + temper(w_{2j+1}) top 26 bits.
 Parametrize each base word by its 5/6 unknown low bits (3432 unknowns), propagate 32 symbolic bit-rows
 (big-ints, +constant column) through the LINEAR twist+temper, every observed twist-word top bit = one

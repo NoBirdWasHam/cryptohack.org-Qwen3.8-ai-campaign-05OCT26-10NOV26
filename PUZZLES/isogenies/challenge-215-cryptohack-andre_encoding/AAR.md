@@ -4,7 +4,7 @@
 Reconstructed 2026-11-01 from the folder's dense same-day work trail (Oct 19: statement.txt, source.sage, output.txt, probe1–3.py, ec2.py, solve_b.py, solve_final.py, weil2.py, dbg5–16.gp, gen_gp.py, params.gp, bytes.gp, solve.gp, full_out*.txt) plus ledger nn215. No AAR existed at solve time; every HOW claim below traces to a file in this folder.
 
 ## Flag
-`crypto{weil_pairings_and_isogenies_are_best_friends}` — provenance: DERIVED locally; full_out3.txt logs the recovered bytes one by one (`1 b=99 c … 52 b=125 }`), matching the ledger flag field verbatim. No flag.txt existed → written now as flag_andre_encoding.txt from that derivation output.
+`[flag — recorded in FLAGS/isogenies/challenge-215-cryptohack-andre_encoding/flag.txt]` — provenance: DERIVED locally; full_out3.txt logs the recovered bytes one by one (`1 b=99 c … 52 b=125 }`), matching the ledger flag field verbatim. No flag.txt existed → written now as flag_andre_encoding.txt from that derivation output.
 
 ## Problem
 statement.txt: "novel encryption protocol... compression". Provided source.sage: p = 37·2⁶⁴·lcm(1..255) − 1, E/F_{p²}: y² = x³ + 1 (i² = −1), #E = (p+1)², two public points P, Q. For each flag byte b: pick random s < 2⁶⁴·b, form kernel ⟨((p+1)/(2⁶⁴·b))·(P + sQ)⟩ — a cyclic group of order **2⁶⁴·b** — compute φ = isogeny with that kernel, output φ(P), φ(Q). Ciphertext = 52 such point pairs (one per flag byte).

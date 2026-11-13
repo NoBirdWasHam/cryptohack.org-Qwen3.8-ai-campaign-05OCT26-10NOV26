@@ -1,6 +1,6 @@
 # AAR — Sign in Please (HKCERT CTF 2020, CryptoHack archive #291)
 
-**Solved:** YES — flag `hkcert20{d0_y0u_feel_s3cur3_wh3n_s19nin9_in?}`.
+**Solved:** YES — flag `[flag — recorded in FLAGS/ctf-archive/challenge-291-cryptohack-sign_in_please-hkcert_ctf2020/flag.txt]`.
 Listener printed it after `auth` (run2.log); submitted via submit_flag.py:
 `ok:true`, "Flag submitted.", solved count 242→243, solved-list readback contains
 "Sign in Please (HKCERT CTF)" (score_delta 0 = archive challenge, credited per brief).

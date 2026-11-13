@@ -1,0 +1,4 @@
+n=3070b log2(XY)=2043.0
+  (2,) dim=(21, 21) hgp=0 R_bits=3062.0 minScaled2log2=6124.0 HGneed<6124 nuseful=0 found=None 1.2s
+  (3,) dim=(40, 40) hgp=0 R_bits=6123.0 minScaled2log2=12246.0 HGneed<12246 nuseful=0 found=None 470.5s
+DONE

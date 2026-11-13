@@ -11,7 +11,9 @@ verify, recreate, and **learn** from it.
 
 ## Where this ended
 Level **33** · **17,195** stars · rank **#5** on the public scoreboard (screenshot above,
-2026-11-10). **231 challenges + 85 course completions** from an 85-solved baseline.
+2026-11-10). **231 challenge rows + 83 course rows** (314 ledger rows) from an 85-solved
+baseline; 230 self-contained puzzle dirs + 1 archive row whose record was never written
+(row 260 — solve verified via the site solved-list only; published as `null` + note, not back-filled).
 
 ![Category completion at campaign end](assets/categories.png)
 
@@ -36,26 +38,37 @@ The report landed:
 ![Maintainer ships the fix — commit title is our exact diagnosis (handles redacted)](assets/maintainer_fix_reply_redacted.png)
 
 Hours later the solver ran against the repaired container and the row closed **WALKED**:
-`CSC{let5_m0v3_b00tstr4pp1ng_t0_v1.1}` — service-given ciphertext, self-recovered key,
+`[flag — recorded in FLAGS/ctf-archive/challenge-246-cryptohack-additional_problems-csc_belgi/flag.txt]` — service-given ciphertext, self-recovered key,
 submitted and verified. This row is still the thesis of this repo: document the failure
 completely enough that even the other side can fix it, and let the solve finish the story.
 
 ## What you get here
+Two after-action reports per puzzle — one written for humans, one optimized for AI/LLM
+ingestion — plus a verification checklist where every flag row earns its check:
 ```
-PUZZLES/<category>/<puzzle>/   AAR.md + every script — self-contained, one dir per puzzle
+PUZZLES/<category>/<puzzle>/   AAR.md (human) + AGENT.md (AI twin) + every script we wrote
+                               + README.md stub (facts, skills, concept tags) — self-contained
 FLAGS/<category>/<puzzle>/     flag.txt — mirrored paths; INDEX.jsonl pairs+checksums each
+TAGS/                          concept tags (rsa, fiat-shamir-forgery, …) linking the puzzles
 SKILLS/                        the transferable skills this campaign produced (INDEX.yaml)
-SUPPORT/                       platform notes, runtime/models, sources, friction ledger,
-                               narrative (HUMAN.md) + machine-readable claims (AGENT.md),
-                               provenance doctrine, repo generator (build_repo.py)
+SUPPORT/                       VERIFICATION.md (per-puzzle audit checklist), platform notes,
+                               runtime/models, sources, friction ledger, campaign-level
+                               HUMAN.md + AGENT.md, provenance doctrine, build_repo.py
 GATES.md                       the publish gates (PII sweep, author-work exclusion) and results
 ```
+- **Verified, not asserted.** `SUPPORT/VERIFICATION.md` audits every puzzle dir (AAR present,
+  method has substance, AI-twin extracted, flag sha256 matches `FLAGS/INDEX.jsonl`, PII- and
+  flag-clean) and prints a pass/fail checklist; `PUZZLES/index.json` is its machine twin.
+  Flag values live **only** under `FLAGS/` — the audit pass purged every value that had leaked
+  into AAR prose or logs.
 - **Honor system, honored.** CryptoHack grades the submitted string; our doctrine is
   stricter: flags here were self-derived or service-given only — retrieved flags were never
-  submitted (SUPPORT/PROVENANCE.md). 229 flags carry values; 3 redacted ledger rows publish
-  `null` + note instead of a fabricated value; the closed row publishes nothing.
-- **Score etiquette:** this was learning on a friendly platform — the owner clears the
-  account before upload and reclears per batch (SUPPORT/BATCHES.md).
+  submitted (SUPPORT/PROVENANCE.md). **224** flags carry values (31 restored from
+  contemporaneous records, each with a dated provenance note in `FLAGS/INDEX.jsonl`);
+  7 challenge rows + 83 course rows publish `null` + note instead of a fabricated value.
+- **Score etiquette:** this was learning on a friendly platform — the account's scoreboard
+  was cleared as a courtesy on 2026-11-13 (see `cryptohack.org/user/NoBirdWasHam/`, now
+  level 1 / 0 points; the end-state screenshot above is the dated historical record).
 - **Recreatable:** rerun `SUPPORT/build_repo.py` against the working corpus to re-derive this
   tree; every puzzle dir runs standalone with a plain Python venv (fpylll/PARI where noted).
 - **PII-free by gate, not by promise:** zero host identity, zero third-party handles in text

@@ -19,5 +19,5 @@ client Finished `verify_data` and submit it.
 - `no-finished-tls3.pcapng` — TLS 1.3 capture (TLS_AES_256_GCM_SHA384 / 0x1302)
 
 ## Answer
-`b51d7b5fb12aa3d692140d8f1f80732610e99411ca0f6d928b0f60570cbc778e672457a729d7cf3b58bc174f00dc5d30`
+`[flag — recorded in FLAGS/web/challenge-161-cryptohack-authenticated-handshake/flag.txt]`
 Verified accepted via submit_flag.py (2026-10-13, score 6535→6575, 142→143).

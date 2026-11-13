@@ -1,0 +1,14 @@
+cfg m=6,t=4,a=0: r=77 margin/vec=-51.8
+[m=6,t=4,a=0,X=2^300] r=77 formula margin/vec=-51.8
+  det^0.012987012987012988=6184.8 e^m=6133.0 det-margin/vec=-51.8
+  below-HG candidates: 59
+  unis for extraction: 59
+    dbg pair(0,1)&(0,2) L0 Cdeg=71 Adeg=164
+    dbg pair(0,1)&(0,2) L1 Cdeg=0 Adeg=93
+    dbg pair(0,1)&(1,2) L0 Cdeg=71 Adeg=164
+    dbg pair(0,1)&(1,2) L1 Cdeg=0 Adeg=93
+   l0: Ss=10 layers=[(71, 93, 93), (71, 93, 93), (71, 93, 93), (71, 93, 93)] ri=NO
+   l0: Ss=10 layers=[(71, 93, 93), (71, 93, 93), (71, 93, 93), (71, 93, 93)] ri=NO
+  Res_x(0,1) y^25: 2 roots
+  FACTOR via exact Res_x root 256b pair(0,1)
+FLAG: ICC{unb4lanc3d_pr1m3s_0nly_m4k3_th1ngs_w0rs3}
