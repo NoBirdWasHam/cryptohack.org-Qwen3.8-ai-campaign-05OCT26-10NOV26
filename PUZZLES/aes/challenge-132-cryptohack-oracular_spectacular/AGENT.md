@@ -5,7 +5,7 @@ category: aes
 url: https://cryptohack.org/challenges/oracular_spectacular/
 status: solved
 date: 2026-10-24
-flag_ref: "FLAGS/challenge-132-cryptohack-oracular_spectacular/challenge-132-cryptohack-oracular_spectacular/flag.txt"
+flag_ref: "FLAGS/aes/challenge-132-cryptohack-oracular_spectacular/flag.txt"
 flag_sha256: eee0f7e647cc3a75c49492c549a354220e2259ed155309285ffd6ff7aefa6d11
 skills: []
 human_twin: AAR.md

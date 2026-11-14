@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/five_iso_csidh_twist/
 status: solved
 date: 2026-10-15
-flag_ref: "FLAGS/challenge-213-cryptohack-five_iso_csidh_twist/challenge-213-cryptohack-five_iso_csidh_twist/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-213-cryptohack-five_iso_csidh_twist/flag.txt"
 flag_sha256: 29e4967913b0cd86c82ee3c187e5aec668f94518e50b1c4891488f016e161724
 skills: []
 human_twin: AAR.md

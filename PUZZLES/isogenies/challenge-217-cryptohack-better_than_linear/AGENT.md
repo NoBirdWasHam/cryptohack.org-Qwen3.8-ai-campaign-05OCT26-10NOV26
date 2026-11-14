@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/better_than_linear/
 status: solved
 date: 2026-10-25
-flag_ref: "FLAGS/isogenies/challenge-217-cryptohack-better_than_linear/flag.txt (absent: FLAG-NOT-IN-LEDGER: solve verified via site solved-list; fla…)"
+flag_ref: "FLAGS/isogenies/challenge-217-cryptohack-better_than_linear/flag.txt (absent — honest null; see note in FLAGS/INDEX.jsonl)"
 flag_sha256: null — flag withheld (note in FLAGS/INDEX.jsonl)
 skills: []
 human_twin: AAR.md

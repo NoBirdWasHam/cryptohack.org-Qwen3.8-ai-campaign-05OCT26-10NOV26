@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/schneierfact842_2/
 status: solved
 date: 2026-10-21
-flag_ref: "FLAGS/challenge-199-cryptohack-schneierfact842_2/challenge-199-cryptohack-schneierfact842_2/flag.txt"
+flag_ref: "FLAGS/misc/challenge-199-cryptohack-schneierfact842_2/flag.txt"
 flag_sha256: 1b70976d855cd6b332a9a08b3ae8f8be7e293c3da74bd667da3895c97d93413e
 skills: []
 human_twin: AAR.md

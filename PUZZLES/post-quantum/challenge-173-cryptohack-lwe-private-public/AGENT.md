@@ -5,7 +5,7 @@ category: post-quantum
 url: https://cryptohack.org/challenges/lwe-private-public/
 status: solved
 date: 2026-10-13
-flag_ref: "FLAGS/challenge-173-cryptohack-lwe-private-public/challenge-173-cryptohack-lwe-private-public/flag.txt"
+flag_ref: "FLAGS/post-quantum/challenge-173-cryptohack-lwe-private-public/flag.txt"
 flag_sha256: 0887b81c877be1db0e3cd0002a0acea3ea1eb122e443bf2cac6208c24af0ceec
 skills: []
 human_twin: AAR.md

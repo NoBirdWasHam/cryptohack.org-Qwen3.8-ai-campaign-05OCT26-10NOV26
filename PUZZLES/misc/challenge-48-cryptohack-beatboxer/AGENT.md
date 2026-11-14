@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/course__beatboxer/
 status: solved
 date: 06 Oct 2026
-flag_ref: "FLAGS/challenge-48-cryptohack-beatboxer/challenge-48-cryptohack-beatboxer/flag.txt"
+flag_ref: "FLAGS/Symmetric Ciphers/challenge-48-cryptohack-beatboxer/flag.txt"
 flag_sha256: cdfbff0e64c09248ea03b78c3dd36c9626bdb34b628da515534698835d7ee351
 skills: []
 human_twin: AAR.md

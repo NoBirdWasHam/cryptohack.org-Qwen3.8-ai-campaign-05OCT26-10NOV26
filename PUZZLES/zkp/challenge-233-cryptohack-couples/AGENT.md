@@ -5,7 +5,7 @@ category: zkp
 url: https://cryptohack.org/challenges/couples/
 status: solved
 date: 2026-10-21
-flag_ref: "FLAGS/challenge-233-cryptohack-couples/challenge-233-cryptohack-couples/flag.txt"
+flag_ref: "FLAGS/zkp/challenge-233-cryptohack-couples/flag.txt"
 flag_sha256: fc2d099d0104ab6e8e7a12b5fd231717f9a60c15060cc47c635fe1883bcab78b
 skills: []
 human_twin: AAR.md

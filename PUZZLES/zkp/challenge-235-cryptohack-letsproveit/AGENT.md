@@ -5,7 +5,7 @@ category: zkp
 url: https://cryptohack.org/challenges/letsproveit/
 status: solved
 date: 2026-10-21
-flag_ref: "FLAGS/zkp/challenge-235-cryptohack-letsproveit/flag.txt (absent: FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed;…)"
+flag_ref: "FLAGS/zkp/challenge-235-cryptohack-letsproveit/flag.txt (absent — honest null; see note in FLAGS/INDEX.jsonl)"
 flag_sha256: null — flag withheld (note in FLAGS/INDEX.jsonl)
 skills: []
 human_twin: AAR.md

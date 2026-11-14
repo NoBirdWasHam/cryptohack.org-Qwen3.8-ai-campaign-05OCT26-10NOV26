@@ -5,7 +5,7 @@ category: zkp
 url: https://cryptohack.org/challenges/zkpintro/
 status: solved
 date: 2026-10-12
-flag_ref: "FLAGS/challenge-224-cryptohack-zkpintro/challenge-224-cryptohack-zkpintro/flag.txt"
+flag_ref: "FLAGS/zkp/challenge-224-cryptohack-zkpintro/flag.txt"
 flag_sha256: e09b4f666a1b42acfba8e201f71f67fd3cae291955cdb7d9590e982f78ebe85b
 skills: []
 human_twin: AAR.md

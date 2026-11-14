@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/noleaks/
 status: solved
 date: 2026-11-01
-flag_ref: "FLAGS/challenge-189-cryptohack-noleaks/challenge-189-cryptohack-noleaks/flag.txt"
+flag_ref: "FLAGS/misc/challenge-189-cryptohack-noleaks/flag.txt"
 flag_sha256: 38c5e968258ea59d2a46be811da654c2a7178e776757b9e427e06919741b79b0
 skills: []
 human_twin: AAR.md

@@ -56,5 +56,5 @@ Findings this pass fixed, in the open:
 | artifacts-cited | scripts/logs cited in AARs but absent from the dir were copied in (sanitized, 500 KB cap, author-work names excluded): 629 artifacts; 19 oversize stay out and are named in `PUZZLES/index.json` | **PASS** |
 
 Also 2026-11-13: `/home/<user>` added to the sanitizer (one real leak found in a copied
-shell script), `Strata`-alias match made word-boundary sensitive, and the account's
+shell script), `GPU-HOST`-alias match made word-boundary sensitive, and the account's
 scoreboard cleared as a courtesy (profile now level 1 / 0 points; screenshots are dated history).

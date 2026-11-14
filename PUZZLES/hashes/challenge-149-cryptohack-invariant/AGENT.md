@@ -5,7 +5,7 @@ category: hashes
 url: https://cryptohack.org/challenges/invariant/
 status: solved
 date: 2026-10-23
-flag_ref: "FLAGS/challenge-149-cryptohack-invariant/challenge-149-cryptohack-invariant/flag.txt"
+flag_ref: "FLAGS/hashes/challenge-149-cryptohack-invariant/flag.txt"
 flag_sha256: 73727b977e058cc91cb01684efe25616398b3296f5cbb14c593e059bca936379
 skills: []
 human_twin: AAR.md

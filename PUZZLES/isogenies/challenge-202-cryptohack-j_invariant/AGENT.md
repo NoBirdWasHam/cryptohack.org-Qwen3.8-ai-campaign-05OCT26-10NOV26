@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/j_invariant/
 status: solved
 date: 2026-11-01
-flag_ref: "FLAGS/challenge-202-cryptohack-j_invariant/challenge-202-cryptohack-j_invariant/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-202-cryptohack-j_invariant/flag.txt"
 flag_sha256: 743c7850cccfba5e53a9002663ec1ddd1079315a98bdbfdde10e6044f56abefe
 skills: []
 human_twin: AAR.md

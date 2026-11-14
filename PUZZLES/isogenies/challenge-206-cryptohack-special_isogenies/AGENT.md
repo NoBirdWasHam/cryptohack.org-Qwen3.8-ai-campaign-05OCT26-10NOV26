@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/special_isogenies/
 status: solved
 date: 2026-10-12
-flag_ref: "FLAGS/challenge-206-cryptohack-special_isogenies/challenge-206-cryptohack-special_isogenies/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-206-cryptohack-special_isogenies/flag.txt"
 flag_sha256: 29ef5f0b7fc0c2facd22af7e616542825331312745dfc31f37423ab0b5e005ee
 skills: [ctf-isogenies]
 human_twin: AAR.md

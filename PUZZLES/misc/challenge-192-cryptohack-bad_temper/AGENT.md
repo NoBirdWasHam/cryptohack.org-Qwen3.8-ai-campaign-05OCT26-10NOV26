@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/bad_temper/
 status: solved
 date: 2026-10-21
-flag_ref: "FLAGS/challenge-192-cryptohack-bad_temper/challenge-192-cryptohack-bad_temper/flag.txt"
+flag_ref: "FLAGS/misc/challenge-192-cryptohack-bad_temper/flag.txt"
 flag_sha256: d5831255184916a77c3a15c3b559a363f6ff201375bc339b1b1c484886267591
 skills: []
 human_twin: AAR.md

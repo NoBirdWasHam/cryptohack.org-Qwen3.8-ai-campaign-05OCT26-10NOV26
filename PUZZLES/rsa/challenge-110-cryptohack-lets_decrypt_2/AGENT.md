@@ -5,7 +5,7 @@ category: rsa
 url: https://cryptohack.org/challenges/lets_decrypt_2/
 status: solved
 date: 2026-10-23
-flag_ref: "FLAGS/rsa/challenge-110-cryptohack-lets_decrypt_2/flag.txt (absent: FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed;…)"
+flag_ref: "FLAGS/rsa/challenge-110-cryptohack-lets_decrypt_2/flag.txt (absent — honest null; see note in FLAGS/INDEX.jsonl)"
 flag_sha256: null — flag withheld (note in FLAGS/INDEX.jsonl)
 skills: []
 human_twin: AAR.md

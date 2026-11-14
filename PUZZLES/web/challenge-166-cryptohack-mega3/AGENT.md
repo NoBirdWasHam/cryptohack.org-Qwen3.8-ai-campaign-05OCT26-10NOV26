@@ -5,7 +5,7 @@ category: web
 url: https://cryptohack.org/challenges/mega3/
 status: solved
 date: 2026-10-23
-flag_ref: "FLAGS/challenge-166-cryptohack-mega3/challenge-166-cryptohack-mega3/flag.txt"
+flag_ref: "FLAGS/web/challenge-166-cryptohack-mega3/flag.txt"
 flag_sha256: 593e6037d2d1702a4b8347d766715ffd163a9ca928ba4ccc6b640e344871b9b7
 skills: []
 human_twin: AAR.md

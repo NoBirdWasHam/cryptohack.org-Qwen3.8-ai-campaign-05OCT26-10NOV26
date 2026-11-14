@@ -5,7 +5,7 @@ category: post-quantum
 url: https://cryptohack.org/challenges/lwe-low-bits/
 status: solved
 date: 2026-10-13
-flag_ref: "FLAGS/challenge-172-cryptohack-lwe-low-bits/challenge-172-cryptohack-lwe-low-bits/flag.txt"
+flag_ref: "FLAGS/post-quantum/challenge-172-cryptohack-lwe-low-bits/flag.txt"
 flag_sha256: 5c862790153d23a72dd410bb8b36819d51ac248cbaec4f6742efd8e75f20b175
 skills: []
 human_twin: AAR.md

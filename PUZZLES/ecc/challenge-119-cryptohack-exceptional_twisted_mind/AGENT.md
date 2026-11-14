@@ -5,7 +5,7 @@ category: ecc
 url: https://cryptohack.org/challenges/exceptional_twisted_mind/
 status: solved
 date: 2026-10-23
-flag_ref: "FLAGS/challenge-119-cryptohack-exceptional_twisted_mind/challenge-119-cryptohack-exceptional_twisted_mind/flag.txt"
+flag_ref: "FLAGS/ecc/challenge-119-cryptohack-exceptional_twisted_mind/flag.txt"
 flag_sha256: cc10ce4b3293c4d725f8e8845e23fff085d2eb6bc79eab1909a6d8c73b7ea16e
 skills: []
 human_twin: AAR.md

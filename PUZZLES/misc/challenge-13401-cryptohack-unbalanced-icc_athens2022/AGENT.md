@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/unbalanced-icc_athens2022/
 status: solved
 date: 2026-11-02
-flag_ref: "FLAGS/misc/challenge-13401-cryptohack-unbalanced-icc_athens2022/flag.txt (absent: FLAG-NOT-IN-LEDGER: solve verified via site solved-list; fla…)"
+flag_ref: "FLAGS/misc/challenge-13401-cryptohack-unbalanced-icc_athens2022/flag.txt (absent — honest null; see note in FLAGS/INDEX.jsonl)"
 flag_sha256: null — flag withheld (note in FLAGS/INDEX.jsonl)
 skills: []
 human_twin: AAR.md

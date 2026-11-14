@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/prime_power/
 status: solved
 date: 2026-10-14
-flag_ref: "FLAGS/challenge-210-cryptohack-prime_power/challenge-210-cryptohack-prime_power/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-210-cryptohack-prime_power/flag.txt"
 flag_sha256: 932ab0a0e4191d32c0af7b3f565b7b180dbe9869378abc5816f9add54b806e7f
 skills: []
 human_twin: AAR.md

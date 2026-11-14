@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/csidh_secret_exponents/
 status: solved
 date: 2026-10-15
-flag_ref: "FLAGS/challenge-209-cryptohack-secret_exponents/challenge-209-cryptohack-secret_exponents/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-209-cryptohack-secret_exponents/flag.txt"
 flag_sha256: f8bf41177a5f5e808a7ccb648b51080b031f15ca8018d91a576263d6cc626eb6
 skills: []
 human_twin: AAR.md

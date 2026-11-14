@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/big2/
 status: solved
 date: 2026-11-02
-flag_ref: "FLAGS/challenge-64-cryptohack-everything-is-still-big/challenge-64-cryptohack-everything-is-still-big/flag.txt"
+flag_ref: "FLAGS/rsa/challenge-64-cryptohack-everything-is-still-big/flag.txt"
 flag_sha256: 74a1ff8928394df718d5c033e63ddd7a605f29c974a90d1a05f5b7e77fa607ef
 skills: []
 human_twin: AAR.md

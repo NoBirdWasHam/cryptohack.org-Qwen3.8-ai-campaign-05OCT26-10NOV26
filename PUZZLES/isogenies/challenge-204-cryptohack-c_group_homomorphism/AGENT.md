@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/c_group_homomorphism/
 status: solved
 date: 2026-11-01
-flag_ref: "FLAGS/challenge-204-cryptohack-c_group_homomorphism/challenge-204-cryptohack-c_group_homomorphism/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-204-cryptohack-c_group_homomorphism/flag.txt"
 flag_sha256: 6f6648e4041ee6d50f7ba929445edf3aa7e4441debb4d0a3d04523e2d2578af5
 skills: []
 human_twin: AAR.md

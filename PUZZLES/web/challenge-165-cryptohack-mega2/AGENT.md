@@ -5,7 +5,7 @@ category: web
 url: https://cryptohack.org/challenges/mega2/
 status: solved
 date: 2026-10-23
-flag_ref: "FLAGS/web/challenge-165-cryptohack-mega2/flag.txt (absent: FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed;…)"
+flag_ref: "FLAGS/web/challenge-165-cryptohack-mega2/flag.txt (absent — honest null; see note in FLAGS/INDEX.jsonl)"
 flag_sha256: null — flag withheld (note in FLAGS/INDEX.jsonl)
 skills: []
 human_twin: AAR.md

@@ -5,7 +5,7 @@ category: zkp
 url: https://cryptohack.org/challenges/letsproveitagain/
 status: solved
 date: 2026-10-21
-flag_ref: "FLAGS/challenge-238-cryptohack-letsproveitagain/challenge-238-cryptohack-letsproveitagain/flag.txt"
+flag_ref: "FLAGS/zkp/challenge-238-cryptohack-letsproveitagain/flag.txt"
 flag_sha256: e108a84ed71aad7dbe3da5016273489c29609c1d7c9e81abd6add9e28df9b26e
 skills: []
 human_twin: AAR.md

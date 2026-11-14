@@ -5,7 +5,7 @@ category: post-quantum
 url: https://cryptohack.org/challenges/lattices/
 status: solved
 date: 2026-11-01
-flag_ref: "FLAGS/challenge-176-cryptohack-lattices/challenge-176-cryptohack-lattices/flag.txt"
+flag_ref: "FLAGS/post-quantum/challenge-176-cryptohack-lattices/flag.txt"
 flag_sha256: ce8bafb38615aeb5d44ebbabe78ec14ac35a5de87bdc5ad5ea82a72656024ce4
 skills: []
 human_twin: AAR.md

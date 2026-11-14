@@ -5,7 +5,7 @@ category: hashes
 url: https://cryptohack.org/challenges/birthday2/
 status: solved
 date: 2026-10-12
-flag_ref: "FLAGS/challenge-136-cryptohack-birthday2/challenge-136-cryptohack-birthday2/flag.txt"
+flag_ref: "FLAGS/hashes/challenge-136-cryptohack-birthday2/flag.txt"
 flag_sha256: 461144ccfd56ee3cf0f9a9d80e520c5b872166b23092d5fd838ecbdb46d64dab
 skills: []
 human_twin: AAR.md

@@ -5,7 +5,7 @@ category: misc
 url: https://cryptohack.org/challenges/course__curveball/
 status: solved
 date: 07 Oct 2026
-flag_ref: "FLAGS/challenge-86-cryptohack-curveball/challenge-86-cryptohack-curveball/flag.txt"
+flag_ref: "FLAGS/Elliptic Curves/challenge-86-cryptohack-curveball/flag.txt"
 flag_sha256: c99418b07057057f300842a2f5901c544afe0032128837cb5195da63d25d0441
 skills: []
 human_twin: AAR.md

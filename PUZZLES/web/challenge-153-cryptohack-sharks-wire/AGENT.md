@@ -5,7 +5,7 @@ category: web
 url: https://cryptohack.org/challenges/sharks-wire/
 status: solved
 date: 2026-10-13
-flag_ref: "FLAGS/challenge-153-cryptohack-sharks-wire/challenge-153-cryptohack-sharks-wire/flag.txt"
+flag_ref: "FLAGS/web/challenge-153-cryptohack-sharks-wire/flag.txt"
 flag_sha256: 238903180cc104ec2c5d8b3f20c5bc61b389ec0a967df8cc208cdc7cd454174f
 skills: []
 human_twin: AAR.md

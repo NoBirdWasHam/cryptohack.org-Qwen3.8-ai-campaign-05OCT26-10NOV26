@@ -5,7 +5,7 @@ category: post-quantum
 url: https://cryptohack.org/challenges/vectors/
 status: solved
 date: 2026-10-12
-flag_ref: "FLAGS/challenge-169-cryptohack-vectors/challenge-169-cryptohack-vectors/flag.txt"
+flag_ref: "FLAGS/post-quantum/challenge-169-cryptohack-vectors/flag.txt"
 flag_sha256: 73445aa688fddf09cf8b39ab9ddfc5b006c62e19403dd96825ad2deed8c4a76c
 skills: []
 human_twin: AAR.md

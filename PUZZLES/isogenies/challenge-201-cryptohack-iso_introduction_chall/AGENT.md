@@ -5,7 +5,7 @@ category: isogenies
 url: https://cryptohack.org/challenges/iso_introduction_chall/
 status: solved
 date: 2026-10-12
-flag_ref: "FLAGS/challenge-201-cryptohack-iso_introduction_chall/challenge-201-cryptohack-iso_introduction_chall/flag.txt"
+flag_ref: "FLAGS/isogenies/challenge-201-cryptohack-iso_introduction_chall/flag.txt"
 flag_sha256: 018e914ceb5838afa60e91525610af43f4e9480763468b507e75f2a6a41ff84d
 skills: [ctf-answer-challenges]
 human_twin: AAR.md

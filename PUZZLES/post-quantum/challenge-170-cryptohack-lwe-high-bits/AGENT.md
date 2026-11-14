@@ -5,7 +5,7 @@ category: post-quantum
 url: https://cryptohack.org/challenges/lwe-high-bits/
 status: solved
 date: 2026-10-13
-flag_ref: "FLAGS/challenge-170-cryptohack-lwe-high-bits/challenge-170-cryptohack-lwe-high-bits/flag.txt"
+flag_ref: "FLAGS/post-quantum/challenge-170-cryptohack-lwe-high-bits/flag.txt"
 flag_sha256: 14993db977ff54ff86b0c447cbf330d1718c108468ea0f0fe2ec1fbfdb73af2b
 skills: []
 human_twin: AAR.md

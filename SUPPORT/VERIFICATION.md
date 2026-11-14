@@ -8,7 +8,7 @@ Regenerated 2026-11-13 from the tree itself. Every flag row earns its check; not
 | method | solve/method/vulnerability/exploit section with ≥120 chars of substance (col shows measured length; warm-up challenges legitimately have short methods) |
 | AGENT | `AGENT.md` AI-twin present with extracted procedure (frontmatter, epistemic tags, sha256 pointer) |
 | flag | `FLAGS/**/flag.txt` sha256 **matches** `FLAGS/INDEX.jsonl` — or the row is an honest null with a recorded reason (✓ value-hashed · ○ honest null) |
-| clean | zero host-identity PII hits AND zero real-flag strings in prose/code (fakes/placeholders/code-fragments are policy-listed by the shared classifier; restored flag values carry dated provenance notes in `FLAGS/INDEX.jsonl`) |
+| clean | zero host-identity PII hits AND zero real-flag strings in prose/code (fakes/placeholders/code-fragments are policy-listed by one shared classifier; restored flag values carry dated provenance notes in `FLAGS/INDEX.jsonl`) |
 
 **Result: 229/230 PASS** · 224 flags value-verified · 6 null+note · campaign INDEX: 314 rows, 224 values, 90 null
 
