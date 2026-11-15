@@ -87,8 +87,8 @@ needed, just exact modular arithmetic:
   - **Montgomery j(A) = −64·(A²−3)³** — derive b2=4A, b4=**2** (a3²=1 — the off-by-one that
     broke the first attempt), b6=1, b8=0. Sanity: A=0 → 1728.
   - Solve (A²−3)³ = −j/64 mod p: cube root w (PARI `polrootsmod(Pol([1,0,0,−w_target],x),p)`),
-    t = A² = 3+w, A = ±√t (p≡3 mod 4 → pow(t,(p+1)//4,p)). TWO roots share the j: **[flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt]**
-    and 1385156202 ([flag — recorded in FLAGS/isogenies/challenge-205-cryptohack-b_compute_montgomery/flag.txt] accepted). Verify each with j_mont(A)==j(E) before submitting.
+    t = A² = 3+w, A = ±√t (p≡3 mod 4 → pow(t,(p+1)//4,p)). TWO roots share the j: **527656397**
+    and 1385156202 (527656397 accepted). Verify each with j_mont(A)==j(E) before submitting.
   - PARI trap: `polrootsmod([c0,c1,...], p)` errors `incorrect type in factormod (t_VEC)` —
     it needs `polrootsmod(Pol([c0,c1,...], x), p)`.
 - **a_spot_super (25)**: find the supersingular curve in a list (Montgomery A, p=2^127−1).
@@ -149,7 +149,7 @@ E = ellinit(Mod([0, A, 0, 1, 0], p));   /* Montgomery y2=x3+A x2+x -> [0,A,0,1,0
 if (ellcard(E) == p+1, print("SUPER A=", A), 0);
 ```
 ~400 ms/curve at 2^127, so 100 curves ≈ 40 s in a loop. The unique hit here was
-A=[flag — recorded in FLAGS/isogenies/challenge-203-cryptohack-a_spot_super/flag.txt] (idx 60), card = p+1 exactly.
+A=170141183460469230846243588177825628225 (idx 60), card = p+1 exactly.
 **PARI `if` is `if(cond, then, else)`** — a 3-arg function, NOT a block statement
 (`if (c) stmt;` is a syntax error). Put `print(...)` in the then-slot.
 
@@ -162,7 +162,7 @@ deg 5, #E=#E′=420, perfectly consistent.)
 ## Flag format (per `ctf-answer-challenges`)
 - "The flag is the j-invariant j(E')" → submit the **bare integer** (`287496`), no wrapper.
 - **j ∈ F_{p²}\F_p → Sage field-element string: `<imag>*i + <real>`** (highest-degree term
-  first, explicit `*`, spaces around `+`). comp_isogenies: `[flag — recorded in FLAGS/isogenies/challenge-211-cryptohack-comp_isogenies/flag.txt]`
+  first, explicit `*`, spaces around `+`). comp_isogenies: `249510360818*i + 292990704480`
   accepted after 6 wrong serializations (`imag*i + real` without `*`, `a+bi`, space/comma
   pairs, real-first). See ctf-answer-challenges for the general rule.
 - Confirm non-singularity first: discriminant `-16(4A³+27B²) ≠ 0`.
@@ -186,7 +186,7 @@ Vélu-3, chain solver, f2_sqrt). Recipe:
   (V2) Frobenius: chain with conjugate kernel gives conj(j) exactly;
   (V3) total map is a homomorphism: total(P+R) = total(P)+total(R) on random F_{p²} points.
 - Anchor: the FIRST step's codomain should land on a known curve — here E_1 was the F_p-
-  twist of the server-verified three_isogenies codomain (same j=[flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt], a6 = −a6 mod p).
+  twist of the server-verified three_isogenies codomain (same j=96392670793, a6 = −a6 mod p).
   If step 1 doesn't land where PARI says it should, the engine is broken before you
   waste hours on 13 steps.
 
@@ -213,7 +213,7 @@ If Q_B ∈ ⟨P_B⟩ (here it was — the two public points generate one cyclic 
 3. n IS the flag payload: read the FLAG placeholder length in the source BEFORE
    assuming hex. `bytes_to_long(FLAG[7:-1])` on a **27-?** slot = 216-bit int that was
    raw ASCII: −m⁻¹ mod 2^216 = 0x77686f6f…67 = b"whoops_this_was_just_a_dlog" →
-   flag `[flag — recorded in FLAGS/isogenies/challenge-214-cryptohack-whats_my_kernel/flag.txt]` (accepted). The 215-bit ASCII "weirdness"
+   flag `crypto{whoops_this_was_just_a_dlog}` (accepted). The 215-bit ASCII "weirdness"
    was the author's planted answer, not broken data — two wrong submits first
    (19-hex-digit assumption: A mod 2^76; then the last-19-chars tail) both rejected
    with score_delta 0.

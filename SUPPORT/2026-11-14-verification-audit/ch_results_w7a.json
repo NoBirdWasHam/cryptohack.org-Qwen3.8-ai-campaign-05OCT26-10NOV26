@@ -1,0 +1,33 @@
+{
+  "campaign": "w7a",
+  "date": "2026-11-14",
+  "worker": "w7a",
+  "solved": 2,
+  "total": 2,
+  "flags": {
+    "zkpintro": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "letsproveit": "FLAG-REDACTED-SEE-FLAGS-MIRROR"
+  },
+  "methods": {
+    "zkpintro": "Static quiz (5 pts, no server). Statement: flag = FLAG-REDACTED-SEE-FLAGS-MIRROR with the year Goldwasser et al. published 'The Knowledge Complexity of Interactive Proof Systems'. Verified via ACM DL: Goldwasser/Micali/Rackoff, STOC '85 (17th annual ACM symposium on Theory of Computing, doi 10.1145/22145.22178, published 01 Dec 1985; journal version SIAM J. Comput. 18(1), 1989). Canonical publication year = 1985. If checker ever rejects, alternate candidate is 1989.",
+    "letsproveit": "LIVE exploit vs socket.cryptohack.org:13430 (one TCP connection, JSON-line, entire attack in-session). Home-brew Fiat-Shamir proof: y=2^F mod p, t=g^v, c=sha3_256(long_to_bytes(t^y^g))^2, r=(v-c*F) mod (p-1); p=1024-bit from getPrime(1024) driven by random.Random(nonce+seed); server nonce (31B) shown in banner; masked FLAG = bytes_to_long(xor_nonce(add_random_nonprintable(FLAG), nonce)). Attack (p-capture): (1) seed search offline - pick 8-byte seeds s.t. first candidate R.getrandbits(1024)|1 for Random(nonce+seed) is prime (flint) AND p-1 has >=2^45 smooth part; (2) per seed: send {option:refresh, seed} then get_proof => server's getPrime accepts that first candidate, so p is known exactly (version-independent of isPrime randfunc); (3) Pohlig-Hellman on smooth factors l<=2^34 of p-1 yields F mod l^a from y=2^F; (4) ~6 seeds => ~336 CRT bits > 312-bit masked value; enumerate a+t*m, drop the one inserted nonprintable byte, unmask middle 31 bytes via XOR with instance nonce; (5) burn get_proofs keep within max_turns=12. Turn budget used: 12/12."
+  },
+  "verification": {
+    "letsproveit": "Flag recovered on TWO independent live instances with different server nonces (2026-11-14 12:57 run, nonce a18d8789..., and w7a re-run 17:07, nonce 9017c2c5...) -> identical flag. Length 38 == server assert len(FLAG)==38; 30-char body matches the '??????????????????????????????' mask in the challenge source; all printable ASCII. Raw transcript of w7a run: 36 logged send/receive JSON commands incl. first 'y' values from server.",
+    "zkpintro": "Derivation checked against ACM DL / SIAM publication metadata (paper year, not a flag lookup)."
+  },
+  "evidence": {
+    "w7a_live_stdout": "~/AppData/Local/hermes/cache/scratch/w6e/lpi_live_w7a.log",
+    "w7a_raw_transcript": "~/AppData/Local/hermes/cache/scratch/w6e/lpi_live_w7a.raw.log",
+    "w7a_flag_file": "~/AppData/Local/hermes/cache/scratch/w6e/lpi_w7a_flag.txt",
+    "prior_live_run": "~/AppData/Local/hermes/cache/scratch/w6e/lpi_live3.log",
+    "server_source": "~/AppData/Local/hermes/cache/scratch/w6e/letsproveit_13430.py",
+    "attack_library": "~/AppData/Local/hermes/cache/scratch/w6e/lpi_lib2.py",
+    "runner_created": "~/AppData/Local/hermes/cache/scratch/w6e/lpi_live_run_w7a.py"
+  },
+  "notes": [
+    "Flags NOT posted to cryptohack.org (owner submits).",
+    "w7a live attempt 1 aborted: CRT modulus only 276 bits < 312 needed (seed set too small); attempt 2 succeeded at 343 bits. Retry logic in lpi_live.attempt() handled it.",
+    "zkpintro alternate token if rejected: FLAG-REDACTED-SEE-FLAGS-MIRROR (SIAM J. Comput. journal version)."
+  ]
+}

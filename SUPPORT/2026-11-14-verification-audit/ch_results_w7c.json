@@ -1,0 +1,9 @@
+{
+  "unbalanced-icc_athens2022": {
+    "flag_sha256":"51be3a3d4da43041e0b0de56f6f07ebc80106ab542b82e24c91f3b7eb46f8b36","flag":"REDACTED-SEE-FLAGS-MIRROR",
+    "derivation": "Durfee-Nguyen ASIACRYPT 2000 trivariate Coppersmith (attack on Sun-Yang-Laih AC99 Scheme I, which this challenge instantiates: p 256-bit, q 768-bit, d 300-bit, e~N, ed=1+k*phi). Solve 2 + x*(A - y - z) = 0 (mod e), A=N+1, at root (2k, p, q) with yz=N substituted, so f(root)=2+k*2*phi=2ed=0 mod e. Shift lattice g_{k,i,b}=e^(m-k) x^i y^a z^b f^k (k<m, 1<=i<=m-k, b<2) and h_{k,j}=e^(m-k) y^(a+j) f^k (k<=m, j<=t) with m=8, t=5, a=1, bounds (2^301, 2^256, 2^768): rank 126 square lattice, DN determinant condition margin ~+46 bits/dim. LLL (fpylll, delta=0.99) rows divide column scales exactly; nontrivial short rows vanish over Z at (2k,p,q). Extract p via paper method: substitute z=N/y, resultant in x of two vanishing polys (fraction-free Bareiss over Z[y]), integer roots; verify p|N, then d=e^-1 mod (p-1)(q-1), m=c^d mod N.",
+    "p": "75168753438755674985316874654762244310439280226080322610559695177304739738629",
+    "q": "1093260078644283742568529615136939984288145751809546392360711715246380061948021739116176929284194923887114531004942607968626097500945032511180143970228711974797599906186810356213141273217737942456496807746787073995039628770495003767",
+    "d": "1190544698278006980290689057672994958324122451240664495599649838778428742089215729252625213"
+  }
+}

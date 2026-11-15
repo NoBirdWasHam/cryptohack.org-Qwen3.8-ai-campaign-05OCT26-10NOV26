@@ -1,5 +1,5 @@
 # CryptoHack — Qwen3.8 AI Learning Campaign
-### 2026-10-05 → 2026-11-10 · `NoBirdWasHam` · two local models · no cloud APIs
+### 2026-10-05 → 2026-11-10 · verification audit run completed 2026-11-14 · `NoBirdWasHam` · two local models · no cloud APIs
 
 ![Campaign end state](assets/scoreboard_profile.png)
 
@@ -10,12 +10,15 @@ failures are documented as carefully as the wins. Built so a human or another AI
 verify, recreate, and **learn** from it.
 
 ## Where this ended
-Level **33** · **17,195** stars · rank **#5** on the public scoreboard (screenshot above,
-2026-11-10). **231 challenge rows + 83 course rows** (314 ledger rows) from an 85-solved
-baseline; 230 self-contained puzzle dirs + 1 archive row whose record was never written
-(row 260 — solve verified via the site solved-list only; published as `null` + note, not back-filled).
-
-![Category completion at campaign end](assets/categories.png)
+**316 / 316 on the site.** Level **34** · **17,370** stars · rank **#1** on the public
+scoreboard — final state 2026-11-14, after the verification audit run (captures in
+`SUPPORT/2026-11-14-verification-audit/`). Solving itself ran 2026-10-05 → 2026-11-10,
+the last row (246) closing 2026-11-11 after the upstream service fix; the screenshot
+above is the dated 2026-11-10 capture, and every original solve date in the ledger
+stands. **231 challenge rows + 85 course rows** (316 ledger rows) from an 85-solved
+baseline; **232 self-contained puzzle dirs** — every row now carries its own record
+(row 260, published as `null` in the 2026-11-11 state, received its own derivation in
+the audit run; appendix at the bottom).
 
 ## The three hard rows — the honest heart of this repo
 | row | outcome |
@@ -81,3 +84,30 @@ GATES.md                       the publish gates (PII sweep, author-work exclusi
 4. `PUZZLES/ctf-archive/challenge-246-*` — how a *failure* should be documented
 5. `SUPPORT/FRICTION.md` — 104 wasted GPU-hours, eight days of read-only probing, and the
    probe that printed its author's verdict as its own conclusion ("That is YOU.")
+
+
+---
+
+## Appendix — verification audit run, completed 2026-11-14
+
+The ledger's original solve dates stand: the campaign finished 2026-11-10, with the last
+row (246) closing 2026-11-11 after the upstream service fix. After the owner clear of
+2026-11-13, a **verification audit pass (2026-11-13/14) independently re-derived the 87
+badges that did not persist** and reconciled the site against the ledger: live score
+17370, solved 316 == local 316 == queue 316, unmatched zero in both directions.
+Evidence lives in `SUPPORT/2026-11-14-verification-audit/` (`VERIFICATION-AUDIT-2026-11-14.md`
+row table, the 106-file solve-script archive with host paths and flag values stripped to
+sha256 links, the full-clear category board capture, and the final profile capture:
+**Level 34 · 17,370 · rank #1**).
+
+Rows whose published record changed during the audit:
+
+| row | delta |
+|---|---|
+| **260 · Fischlin's transformation** | was: `null`, "record never written" — audit produced its **own derivation**: live-service replay of the Fischlin-OR search path (64/64 rounds); puzzle dir `PUZZLES/ctf-archive/challenge-260-…` created with AAR + artifacts. Original row-credit date (2026-10-25) stands. |
+| **304 · Unbalanced (ICC Athens 2022)** | original credit 2026-11-02 stood on a credited-but-undocumented solve; the audit **independently derived it** (Durfee-Nguyen trivariate Coppersmith, rank-126 lattice, +46 b/dim margin, Bareiss-resultant extraction). Prior evidenced-negative sections remain, scoped to the bivariate route. |
+| **247/13396 · Authenticator** | original solve 2026-10-28 stands; the audit **re-derived it with an independent algorithm** (rainbow tables vs the original GPU brute). The puzzle folder — previously absent from this repo due to a legacy folder misname — is now published at `PUZZLES/ctf-archive/challenge-13396-…`. |
+
+Full delta bookkeeping: `SUPPORT/2026-11-14-verification-audit/ERRATA-UPDATE-2026-11-14.md`.
+The provenance red lines are unchanged: submitted flags are exclusively self-derived or
+service-given; `UNDISCLOSED = 0`.

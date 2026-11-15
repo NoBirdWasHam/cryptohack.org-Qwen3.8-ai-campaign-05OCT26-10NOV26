@@ -1,0 +1,57 @@
+{
+ "fflags": {
+  "flag_sha256":"f294f5c0064f93ed76def8799fd693e23b595188f3fdb34f06578d4683611bfd","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "flag is printed verbatim in the challenge statement (FLAG-REDACTED-SEE-FLAGS-MIRROR)"
+ },
+ "nc-intro": {
+  "flag_sha256":"2561069fbb24d74f4de592013f30f625264e9369b96fbbdaa6f12c8323defc16","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "ran attached great_snakes.py logic: join(chr(o ^ 0x32) for o in ords)"
+ },
+ "enc1": {
+  "flag_sha256":"44dccb08a8f05215d75ac3ca4f92dcb9efca2dfee7d512afc5da26ca5e42a631","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "chr() applied to each integer of the given ASCII array"
+ },
+ "enc2": {
+  "flag_sha256":"74f4188b4ad9c006ddc5217c1275f683b46b91eb5e1d7f3239a6e6b34ed811d4","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "bytes.fromhex(given hex).decode()"
+ },
+ "enc3": {
+  "flag_sha256":"e4a918e11f597fa37f5a6eef1fd3df622fa150f6bd394964fe886a84f1873901","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "base64.b64encode(bytes.fromhex(given hex)); answer is the Base64 string (site format crypto/FLAG/)"
+ },
+ "enc4": {
+  "flag_sha256":"6440aec2068cc9e544174cccef27a7338e03a849d92c0a2c54c711a7e53a8970","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "long_to_bytes(given integer) = int.to_bytes big-endian"
+ },
+ "xor0": {
+  "flag_sha256":"071ef1e3d2fcde73ad3f35d9be4885b6f397ba3e5d981c07c94c94b0e31f5a06","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "chr(ord(c)^13) for each char of the string 'label'"
+ },
+ "xor1": {
+  "flag_sha256":"90d5a0ce78165291e1b4ed4da92dc58d83256cb874798cb3c47c5c683309fa47","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "KEY2=(KEY2^K1)^K1; KEY3=(KEY2^K3)^KEY2; FLAG=(FLAG^K1^K2^K3)^K1^K2^K3 via self-inverse XOR"
+ },
+ "xorkey0": {
+  "flag_sha256":"233c0d431b22471d7a4bde08081bdc8d456c291cb3ce9d682580ae0b6584d623","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "brute-forced all 256 single-byte XOR keys; unique fully-printable plaintext at key 0x10"
+ },
+ "xorkey1": {
+  "flag_sha256":"518c365bc8690e376ce0ce51363748ee4eeb6a2ed4607c5cb938c77566cc57ca","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "XOR'd ct with known 'crypto{' -> 7-byte keystream 'myXORke'; period-8 repeating-key XOR, completed 8th key byte (0x79, key 'myXORkey'); unique readable plaintext"
+ },
+ "_failed": {
+  "nc-intro-2": "flag only obtainable by talking to live socket.cryptohack.org:11112 (dynamic endpoint forbidden by rules; not derivable from static attachment pwntools_example.py)",
+  "enc_interactive": "attached server source 13377.py has flag redacted (FLAG = 'FLAG-REDACTED-SEE-FLAGS-MIRROR'); flag is released only after 100 live levels on socket.cryptohack.org:13377 (dynamic endpoint forbidden)",
+  "transparency": "subdomain derived and cert-modulus-verified as thetransparencyflagishere.cryptohack.org (crt.sh ids 3347788342/3347792120 modulus == attached PEM modulus), but the flag string is served only by that live cryptohack page (rule 3 forbids contacting cryptohack dynamic endpoints)",
+  "xorkey2": "slug not present in ch_tasks.json (authoritative) (file has no xorkey2; xorimg1 exists, different challenge)",
+  "gcd1": "slug not present in ch_tasks.json (authoritative) (file has 'gcd' slug instead - different id, not attempted per file-authoritative rule)",
+  "egcd1": "slug not present in ch_tasks.json (authoritative) (file has 'egcd' slug instead - different id, not attempted per file-authoritative rule)",
+  "rational_modular_arithmetic": "slug not present in ch_tasks.json (authoritative) ",
+  "modarith1": "slug not present in ch_tasks.json (authoritative) ",
+  "modarith2": "slug not present in ch_tasks.json (authoritative) (file has 'mdiv' only)",
+  "modinv": "slug not present in ch_tasks.json (authoritative) ",
+  "pem": "slug not present in ch_tasks.json (authoritative) (file has 'pem1' slug instead - different id, not attempted)",
+  "certs": "slug not present in ch_tasks.json (authoritative) ",
+  "sshkeys": "slug not present in ch_tasks.json (authoritative) (file has 'ssh-keys' slug instead - different id, not attempted)"
+ }
+}

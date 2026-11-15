@@ -1,0 +1,27 @@
+{
+ "aes0": {"flag_sha256":"4ef5df0ec21c854d835ee4f92b2898debb45748d1aa12371ac0d910325947a6e","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "Quiz: statement asks 'the mathematical term for a one-to-one correspondence' (AES maps every block uniquely) = bijection; flag format FLAG-REDACTED-SEE-FLAGS-MIRROR."},
+ "aes1": {"flag_sha256":"ad22575af1e0073bf081bf58d65c38b82dd4418149660fa83e9d7034b03e7178","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "Quiz: 'best single-key attack against AES ... lowers AES-128 security to 126.1 bits, not improved for over 8 years' identifies the biclique (meet-in-the-middle) attack. Note: if checker rejects, alternate token is 'biclique'."},
+ "aes2": {"flag_sha256":"170707716d77729baa94fc8643183e56f81cf2bd7f2b736b127185fc546e634f","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "matrix.py: matrix2bytes = row-major flatten of [[99,114,121,112],[116,111,123,105],[110,109,97,116],[114,105,120,125]] -> 'FLAG-REDACTED-SEE-FLAGS-MIRROR'."},
+ "aes3": {"flag_sha256":"0c8f0bcde395fa11a663ac8534e4b527ff5534653022ae24c0ab6d3380d3c0b9","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "add_round_key.py: XOR state matrix with round_key byte-wise, flatten row-major -> 'FLAG-REDACTED-SEE-FLAGS-MIRROR'."},
+ "aes4": {"flag_sha256":"f4356c66114f767e43fa335993be34ec2d47327cab63fdf77c93295af3a9ca3f","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "sbox.py: apply inv_s_box to every byte of state, flatten -> 'FLAG-REDACTED-SEE-FLAGS-MIRROR'."},
+ "aes5": {"flag_sha256":"1ebce19bc4805aa8fe441799ec210102e302aeb01998085ef53440504dde03fb","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "diffusion.py: state is shift_rows(mix_columns(pt)) in the file's row-major notation; applying inv_mix_columns then inv_shift_rows (as defined in the file's notation) and flattening -> b'FLAG-REDACTED-SEE-FLAGS-MIRROR' (found by exhaustive composition search over the provided inverse steps)."},
+ "aes6": {"flag_sha256":"1ff4be2f78f73e129367e5323c79bb4b75b2538f56454e154992876f8c606fc9","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "aes_decrypt.py: completed full AES-128 decryption (own from-spec implementation: key expansion, initial AddRoundKey(rk10), 9 rounds InvShiftRows/InvSubBytes/AddRoundKey/InvMixColumns, final round w/o InvMixColumns) of key=3c... ct=d14f146a... ; plaintext = 'FLAG-REDACTED-SEE-FLAGS-MIRROR'. Cross-verified identical with PyCryptodome ECB decrypt."},
+ "dancing-queen": {"flag_sha256":"3b2733c6f64167ce5055f5b69f5ff42ca373d300b538ae1e4cdedc92ca846ba2","flag":"REDACTED-SEE-FLAGS-MIRROR", "derivation": "chacha20.py bug: block output = 20 rounds applied in-place WITHOUT adding the initial state (no feedforward). Known plaintext msg (86 bytes) XOR msg_enc gives final state of block (ctr=1,iv1); inverting the 20 rounds recovers the full initial state incl. the 256-bit key (verified: reconstructed keystream reproduces both msg_enc blocks exactly). Re-running the buggy block function with key + iv2 + counter=1 gives the flag keystream; XOR flag_enc -> 'FLAG-REDACTED-SEE-FLAGS-MIRROR'."},
+ "_failed": {
+  "block_cipher_starter": "interactive (HTTP oracle at aes.cryptohack.org; flag only produced server-side)",
+  "passwords_as_keys": "interactive (ciphertext only available from live aes.cryptohack.org endpoint)",
+  "ecbcbcwtf": "interactive (live CBC/ECB oracle at aes.cryptohack.org required)",
+  "ecb_oracle": "interactive (live ECB oracle required; secret flag server-side)",
+  "flipping_cookie": "interactive (live CBC cookie oracle required)",
+  "lazy_cbc": "interactive (live CBC IV-reuse oracle required)",
+  "symmetry": "interactive (live OFB oracle required)",
+  "bean_counter": "interactive (live ECB-as-CTR image oracle required)",
+  "ctrime": "interactive (live CTR+compression oracle required)",
+  "logon-zero": "interactive (socket.cryptohack.org 13399; attached server file 13399.py has flag masked 'FLAG-REDACTED-SEE-FLAGS-MIRROR', CFB8 attack needs live server)",
+  "stream_consciousness": "interactive (live stream-cipher oracle required)",
+  "pad_thai": "interactive (socket.cryptohack.org 13421; attached 13421.py flag masked; padding-oracle needs live server)",
+  "good_pad_ugly": "interactive (socket.cryptohack.org 13422; attached 13422.py flag masked; noisy padding-oracle needs live server)",
+  "paper_plane": "interactive (live IGE-mode chat oracle required)",
+  "forbidden_fruit": "interactive (live GCM nonce-reuse oracle required)"
+ }
+}

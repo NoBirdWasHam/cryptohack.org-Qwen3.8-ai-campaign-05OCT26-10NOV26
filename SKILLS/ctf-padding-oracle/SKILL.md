@@ -60,6 +60,20 @@ tells you the plaintext char there (or a padding check). To forge `sign(M*)` for
   collapses; budget the query cap accordingly (32-byte message ≈ 24k single-query equivalents
   may exceed a 12k cap → use bit-parallel probes or accept it's borderline).
 
+## GCM GHASH nonce-reuse forge (forbidden_fruit family, SOLVED 2026-11-14)
+Fixed-nonce GCM oracle: two known equal-length plaintexts give `Tdiff = Cdiff*H^2`
+(AAD/len blocks cancel, S cancels) → `H^2 = Tdiff·inv(Cdiff)`, `H = H2^(2^127)`
+(unique sqrt in char 2), `S = Tag ⊕ GHASH_H(A,C)`; validate on a third length; forge
+ct = ks1 ⊕ target-msg with ks from known plaintext, `Tag* = GHASH_H(...) ⊕ S`.
+- **Identity trap**: in the GCM bit-reflected ring the multiplicative identity is
+  `1<<127`, NOT int 1. A field-inverse accumulator seeded with int 1 returns
+  `X^(q-2)·x^127` (wrong) and the self-test `gmul(X,ginv(X))==1` CANCELS the error
+  (both sides carry x^127) — never seed accumulators with int 1; seed with the first
+  power instead. Verify ring+model against local PyCryptodome GCM (one fixed
+  `E_K(J0)` across several plaintext lengths) before blaming the server.
+- GHASH: zero-pad EVERY partial block incl. the last ciphertext chunk; lengths block
+  is 8B BE bits(A) || 8B BE bits(C).
+
 ## Pitfalls
 - Padding oracle gives `D(C_b)`, not plaintext — unchain at the end (`P_b = D_b ⊕ prev_b`).
 - A forge that "works" locally but fails server-side is almost always the `P[i]` vs `P[i-1]`

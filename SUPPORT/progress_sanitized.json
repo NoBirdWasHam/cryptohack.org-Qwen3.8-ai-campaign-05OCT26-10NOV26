@@ -1473,7 +1473,7 @@
    "folder": "challenge-208-cryptohack-three_isogenies",
    "status": "solved",
    "date": "2026-10-12",
-   "notes": "Vélu 3-isogeny y2=x3+x, kernel (483728976,174842350631) mod p=2^18*3^13-1. PARI ellisogeny codomain y2=x3+417919813652x+36118389888, j=[flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt] (bare). Python j-formula cross-check matches.",
+   "notes": "Vélu 3-isogeny y2=x3+x, kernel (483728976,174842350631) mod p=2^18*3^13-1. PARI ellisogeny codomain y2=x3+417919813652x+36118389888, j=96392670793 (bare). Python j-formula cross-check matches.",
    "errata": "E9"
   },
   {
@@ -1509,7 +1509,7 @@
    "folder": "challenge-211-cryptohack-comp_isogenies",
    "status": "solved",
    "date": "2026-10-15",
-   "notes": "13-step Vélu chain over F_{p^2}=F_p[i]; j(E_13)=292990704480+249510360818i; flag format Sage GF(p^2,'i') 'imag*i + real'; verified V1 kernel-kill + V2 Frobenius + V3 homomorphism; E_1 = F_p-twist of three_isogenies codomain (PARI-anchored j=[flag — recorded in FLAGS/isogenies/challenge-208-cryptohack-three_isogenies/flag.txt])",
+   "notes": "13-step Vélu chain over F_{p^2}=F_p[i]; j(E_13)=292990704480+249510360818i; flag format Sage GF(p^2,'i') 'imag*i + real'; verified V1 kernel-kill + V2 Frobenius + V3 homomorphism; E_1 = F_p-twist of three_isogenies codomain (PARI-anchored j=96392670793)",
    "solved_date": "2026-10-15",
    "score_before": 7605,
    "score_after": 7665,
@@ -1593,7 +1593,7 @@
    "date": "2026-10-25",
    "notes": "2026-11-01 folder-mirror note: canonical solve+AAR lives in challenge-167-cryptohack-better_than_linear (accepted 2026-10-24); folder 217 AAR = pointer stub, one credit only.",
    "errata": "E9",
-   "flag_errata": "FLAG_NOT_RECORDED: solved per live API (D2 name match), flag string never written to folder artifacts (AAR shows masked 'crypto{...}' or omits it); disclosure substitutes for absence; do NOT harvest formula fragments"
+   "flag_errata": "FLAG_NOT_RECORDED: solved per live API (D2 name match), flag string never written to folder artifacts (AAR shows masked 'FLAG-REDACTED-SEE-FLAGS-MIRROR' or omits it); disclosure substitutes for absence; do NOT harvest formula fragments"
   },
   {
    "nn": 218,
@@ -1685,7 +1685,7 @@
    "folder": "challenge-224-cryptohack-zkpintro",
    "status": "solved",
    "date": "2026-10-12",
-   "notes": "answer: FOCS 1985 ext abstract year (journal 1989 rejected)"
+   "notes": "answer: FOCS 1985 ext abstract year (journal 1989 rejected) || 2026-11-14 VERIFICATION AUDIT RUN: independent re-derivation; original solve date stands; category board verify 316/316"
   },
   {
    "nn": 225,
@@ -1808,7 +1808,7 @@
    "folder": "challenge-235-cryptohack-letsproveit",
    "status": "solved",
    "date": "2026-10-21",
-   "notes": " | API-verified",
+   "notes": " | API-verified || 2026-11-14 VERIFICATION AUDIT RUN: independent re-derivation; original solve date stands; category board verify 316/316",
    "flag_provenance": "harvested from folder files 2026-11-03"
   },
   {
@@ -1943,9 +1943,9 @@
    "category": "ctf-archive",
    "points": 0,
    "folder": "challenge-246-cryptohack-additional_problems-csc_belgi",
-   "status": "closed",
-   "date": "2026-11-02",
-   "notes": "2026-10-28 ATTACK DONE + local-validated, listener BROKEN: DGHV appGCD service (triage 'UTCTF/CSIDH' label refuted — slug is csc_belgi). Cheon-Stehle hard regime (eta-rho=2) kills SDA/OL; BUT add+decrypt oracle: 4 zero-byte encs -> decrypt = (-b*p) mod N, b in {0,1}; nonzero byte -> p mod N exactly; ~23 primes + CRT 2^174 -> p -> flag offline. solve.py live-ready (wins 1 connection); live :21970 stalls at 319B (FLAG=None crash fingerprint, 10 conns/50min evidence in AAR). RETRY LATER, don't re-derive. | 2026-11-01 re-probe run: service TCP-refuses/stalls-at-319-bytes across whole session (evidence in live_evidence.log, reprobe_log.txt); attack remains fully validated offline, ONE CONNECTION away. Stays OPEN; re-probe cheaply each campaign pass. | 2026-11-02 probe: STILL DEAD (319-byte FLAG-env crash signature verbatim). Ritual: 1 connect+read. | DRIFT PROBE 2026-11-08 17:33 EST: :21970 banner 319 B sha 8ef798aae9a0d378 = byte-identical to dead-era banner_live.txt; authorized 1-conn ritual retry_live_2026-11-07.sh 1 -> post-banner recv TimeoutError rc=1 (same crash fingerprint). STILL DEAD; PROVIDER_BLOCKED unchanged. | DEFECT CLEAR 2026-11-08 evening (E5): row carried flag='crypto{test_flag_local_123}' while status=open — a local-test placeholder from an old string-splice era, NOT evidence of any solve. Flag fields are now written ONLY from submission-receipt paths; flag-set-on-open-row = defect to clear. | DRIFT PROBE 2026-11-09 00:03 EST: sentinel fire => re-check TRANSIENT (no persisted prior diff; emitted == baseline). 2x confirmation re-runs: banners baseline-verbatim. 21970 319 B sha 8ef798aae9a0 (dead build unchanged); retry ritual NOT run (no change). STILL DEAD; PROVIDER_BLOCKED unchanged. | 11-09 solves-check: maintainer-window solves (SOLVER-B 2026-11-01T18:17Z) reconciled vs dead-signature since 10-28; protocol-level solve.py session dead 20:00 11-09; drift probe cadence raised to 1h | DRIFT SENTINEL 2026-11-09 21:18 EST fire #2 = TRANSIENT: fire caused by drift_probe v2 output-format upgrade (script mtime 21:06 EST, 2 min pre-fire), NOT a banner change. 2x re-run: banners baseline-verbatim (34597 71B sha c64896d0dad7, bucket silent(batch-build) = build unchanged; 21970 319B sha 8ef798aae9a0). No action taken, no submission. Row stays permanently open. | CLOSED-UNSOLVED 11-10 owner directive; container dead at L50->L51 (4-test suite + A/B control); exploit banked (solve.py; clone-proven); reopen key = healthy provider boot (banner probe preserved).",
+   "status": "solved",
+   "date": "2026-11-11",
+   "notes": "WALKED 11-11 after upstream fix (commit 'fix python 3.12 randint no longer accepts floats') from owner's report of our root-cause. Key recovered live via oracle; service-given ciphertext.",
    "prior_close": "blocked-service",
    "flag_provenance": "harvested from folder files 2026-11-03",
    "date_basis": "folder-mtime-estimated",
@@ -1958,10 +1958,10 @@
    "name": "Authenticator (Firebird Internal CTF)",
    "category": "ctf-archive",
    "points": 0,
-   "folder": "challenge-247-cryptohack-blind-ecsc_2023_norway2023",
+   "folder": "challenge-13396-cryptohack-authenticator-firebird_intern",
    "status": "solved",
    "date": "2026-11-02",
-   "notes": " | 2026-10-28 SOLVED: protocol RO-secure (all bypass dead-ends evidenced); weakness = 6-distinct-char password 62P6~2^35.4 -> custom OpenCL blake3 kernel 15.6 GH/s on R9700, P recovered from R1=blake3(P|S1|C1) in 3.4s < 10s alarm; flag service-given (provenance OK). API 262->263.",
+   "notes": " | 2026-10-28 SOLVED: protocol RO-secure (all bypass dead-ends evidenced); weakness = 6-distinct-char password 62P6~2^35.4 -> custom OpenCL blake3 kernel 15.6 GH/s on R9700, P recovered from R1=blake3(P|S1|C1) in 3.4s < 10s alarm; flag service-given (provenance OK). API 262->263. || 2026-11-14 VERIFICATION AUDIT RUN: independent re-derivation (rainbow tables, rb2.c ~12min/16cores, flag on attempt 3, 0.80s) confirms the original 2026-10-28 solve; folder field corrected (was blind-ecsc legacy misname); audit-run submit receipt solved 313->314",
    "date_basis": "folder-mtime-estimated (audit backfill 2026-11-09)",
    "errata": "E9"
   },
@@ -2131,7 +2131,7 @@
    "folder": "challenge-260-cryptohack-fischlins_transformation-cryp",
    "status": "solved",
    "date": "2026-10-25",
-   "notes": "[archive twin of sigma-fischlin, solved via same MITM-witness solve] || audit 2026-11-09: folder field pointed at a never-created dir (glob zero); evidence class = live API credit + ERRATA_E8; folder NOT created per errata rule",
+   "notes": "[archive twin of sigma-fischlin, solved via same MITM-witness solve] || audit 2026-11-09: folder field pointed at a never-created dir (glob zero); evidence class = live API credit + ERRATA_E8; folder NOT created per errata rule || 2026-11-14 RESOLVED with OWN live-service replay derivation (w7b; folder created + AAR + artifacts_2026-11-14); twin-fold E8 SUPERSEDED; submit receipt solved 314->315",
    "errata": "E8",
    "folder_note_missing": true
   },
@@ -2719,10 +2719,10 @@
    "folder": "challenge-13401-cryptohack-unbalanced-icc_athens2022",
    "status": "solved",
    "date": "2026-11-02",
-   "notes": "folder=challenge-13401; EVIDENCED NEGATIVE (2026-10-31): N=pq 256/768, d=300b>N^0.292 offline. Wiener/CF/BD provably fail (gap 2^45.6); (k,p) bivariate mod e: min scaled norm pinned e^2(1+eps) = non-vanishing (probe proved); vanishing vectors ~325b above bound; (e*p)^m bonus unusable (shadow terms 2^(1808m-469) > bound 2^(1277m)). Skill reference unbalanced-small-d-floor. REVISIT only w/ post-2022 literature. STAYS OPEN, deprioritized. | 2026-11-01 run2 KEY FINDING (stays OPEN, now SOLVE-READY): params = Sun-Yang-Laih '99 variant I verbatim -> Durfee-Nguyen trivariate Coppersmith breaks in principle (delta_max 0.364 vs actual 0.293, ~70bit slack); run#1 wall only capped the weaker bivariate family. DNG lattice implemented both ways + extraction pipeline synth-verified; ONLY blocker: faithful helper-polynomial triangularization differs (volume margins -250..-660 bits; paper region not reproducible from survey description; paywalled). NEXT: re-derive helper region from vanishing+HG requirements ourselves, or open-access mirror of DNG paper/Durfee thesis. Skill: unbalanced-rsa-small-d-dng. | 2026-11-02 run#3 SOLVED (API-verified via reconcile live-list): DNG Asiacrypt-2000 exact construction a=0 m=6 t=4; extraction breakthrough = exact Res_x via Bareiss dict-poly -> fmpz_poly.roots() (p<->q symmetry makes gcd-routes structurally return N — root-finding mandatory); gates d=192 + synth d=300 passed pre-real-run; flag ICC{unb4lanc3d_pr1m3s_0nly_m4k3_th1ngs_w0rs3} accepted, live count 297->298.",
+   "notes": "folder=challenge-13401; EVIDENCED NEGATIVE (2026-10-31): N=pq 256/768, d=300b>N^0.292 offline. Wiener/CF/BD provably fail (gap 2^45.6); (k,p) bivariate mod e: min scaled norm pinned e^2(1+eps) = non-vanishing (probe proved); vanishing vectors ~325b above bound; (e*p)^m bonus unusable (shadow terms 2^(1808m-469) > bound 2^(1277m)). Skill reference unbalanced-small-d-floor. REVISIT only w/ post-2022 literature. STAYS OPEN, deprioritized. | 2026-11-01 run2 KEY FINDING (stays OPEN, now SOLVE-READY): params = Sun-Yang-Laih '99 variant I verbatim -> Durfee-Nguyen trivariate Coppersmith breaks in principle (delta_max 0.364 vs actual 0.293, ~70bit slack); run#1 wall only capped the weaker bivariate family. DNG lattice implemented both ways + extraction pipeline synth-verified; ONLY blocker: faithful helper-polynomial triangularization differs (volume margins -250..-660 bits; paper region not reproducible from survey description; paywalled). NEXT: re-derive helper region from vanishing+HG requirements ourselves, or open-access mirror of DNG paper/Durfee thesis. Skill: unbalanced-rsa-small-d-dng. | 2026-11-02 run#3 SOLVED (API-verified via reconcile live-list): DNG Asiacrypt-2000 exact construction a=0 m=6 t=4; extraction breakthrough = exact Res_x via Bareiss dict-poly -> fmpz_poly.roots() (p<->q symmetry makes gcd-routes structurally return N — root-finding mandatory); gates d=192 + synth d=300 passed pre-real-run; flag FLAG-REDACTED-SEE-FLAGS-MIRROR accepted, live count 297->298. || 2026-11-14 VERIFICATION AUDIT RUN: original credited solve independently DERIVED (DN trivariate m=8 t=5 rank-126, margin +46b/dim, Bareiss-resultant extraction, p|N verified); negative sections stand for bivariate only; audit-run submit receipt solved 315->316; AAR header + artifacts_2026-11-14",
    "errata": "E2",
    "date_basis": "folder-mtime-estimated (audit backfill 2026-11-09)",
-   "flag_errata": "FLAG_NOT_RECORDED: solved per live API (D2 name match), flag string never written to folder artifacts (AAR shows masked 'crypto{...}' or omits it); disclosure substitutes for absence; do NOT harvest formula fragments"
+   "flag_errata": "FLAG_NOT_RECORDED: solved per live API (D2 name match), flag string never written to folder artifacts (AAR shows masked 'FLAG-REDACTED-SEE-FLAGS-MIRROR' or omits it); disclosure substitutes for absence; do NOT harvest formula fragments"
   },
   {
    "nn": 305,

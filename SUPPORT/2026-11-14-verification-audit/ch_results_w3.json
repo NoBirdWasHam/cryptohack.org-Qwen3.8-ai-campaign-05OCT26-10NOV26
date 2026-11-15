@@ -1,0 +1,89 @@
+{
+ "root0": {
+  "flag_sha256":"2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "p=29, ints=[14,6,11]: only QR is 6 (8^2=6 mod 29, other root 21); submit smaller root"
+ },
+ "root1": {
+  "flag_sha256":"5558e34410561b7d9fb9da77547b9ec85555155a5c10083e2f6d758cc75e5774","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "p 1024-bit, p=3 mod 4; exactly one QR among 10 ints: a=85256449776780591202928235662805033201684571648990042997557084658000067050672130152734911919581661523957075992761662315262685030115255938352540032297113615687815976039390537716707854569980516690246592112936796917504034711418465442893323439490171095447109457355598873230115172636184525449905022174536414781771; root=pow(a,(p+1)//4,p), submitted larger of the two roots"
+ },
+ "tonelli-shanks": {
+  "flag_sha256":"f1a993b549da232ba2e1763979733c67e87f5761599c5656fd55290366914728","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "p 2048-bit prime (p=1 mod 4); Tonelli-Shanks (sympy sqrt_mod); submitted smaller of the two roots; verified r^2=a mod p"
+ },
+ "crt1": {
+  "flag_sha256":"b543b2a3edcc48cc0f9d7159522673384b34fbce51920d75df4d0c184dd89b18","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "CRT: x=2 mod5, x=3 mod11, x=5 mod17 -> x mod 935"
+ },
+ "adrien": {
+  "flag_sha256":"6b9463c1fdbab81a5049295a0fbe687b8d0826f971f4e501883a470f1129b577","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "Goldwasser-like sign scheme: a is QR mod p (288260533169915), so legendre(c)=+1 for bit 1, -1 for bit 0; decoded 224 bits -> message"
+ },
+ "bionomials": {
+  "flag_sha256":"4a59fba3540a8db332af93c7927b2e9c6bc0c02b4bf4a110cad414b295163839","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "7^(e1*e2)*c1^e2 - 3^(e1*e2)*c2^e1 = 0 mod p (mod-p both sides=(21q)^(e1e2)); p=gcd(N,x), q=N/p; re-verified both congruences"
+ },
+ "rsa_starter_1": {
+  "flag_sha256":"eb4f56b901c90ae1997085cb575130bfe6664f34feee66ab9f9eb7694f2aae18","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "pow(101,17,22663)"
+ },
+ "rsa_starter_2": {
+  "flag_sha256":"c3ea99f86b2f8a74ef4145bb245155ff5f91cd856f287523481c15a1959d5fd1","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "encrypt m=12 with e=65537, N=17*23=391"
+ },
+ "rsa_starter_3": {
+  "flag_sha256":"be80e2fafa8ed562e188c39a75ab6f5e230d3d06b717745de6777c00226cf860","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "phi(N)=(p-1)(q-1) for given p,q"
+ },
+ "rsa_starter_4": {
+  "flag_sha256":"ecb5d0623c46e7276770e8484927fc272688ee8dde5e81c4d10d94cdbbb58179","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "d = inverse(65537, phi(N))"
+ },
+ "rsa_starter_5": {
+  "flag_sha256":"ac3fbb3474801233a338e0f27af3477773ad8772d35c87f70d9489837babb35a","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "m=pow(c,d,N); verified m^e mod N == c"
+ },
+ "rsa_starter_6": {
+  "flag_sha256":"1fcf0fe3db4a156ca761e01995964379b5bfea864f040d46455e3a640368a925","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "private.key = plain N,d; sig = pow(bytes_to_long(SHA256(b'FLAG-REDACTED-SEE-FLAGS-MIRROR')), d, N) (2047-bit modulus)"
+ },
+ "rsa_factoring": {
+  "flag_sha256":"ad49074bb1eaac985ea99561f20b113aa0c286254d97be7f36b1cd25281e53e8","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "N factored via PARI/GP (MPQS): 19704762736204164635843 * 25889363174021185185929; submitted smaller prime"
+ },
+ "inferius": {
+  "flag_sha256":"6159913df0fc8b08cca8f1818c52fa429fc35d9fa7833086e409f6d7b0b5410e","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "n=200-bit (not 1600): two 100-bit primes factored by PARI; phi=(p-1)(q-1), d=inv(e,phi), m=c^d; verified m^e=c"
+ },
+ "monoprime": {
+  "flag_sha256":"155bc7a914ad57c9a2838d088a7fe704fc4bc7c0ffa8d1477367be2c160ccb60","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "n is a 1024-bit PRIME; phi=n-1; d=inv(e,n-1); m=c^d; verified m^e=c"
+ },
+ "square": {
+  "flag_sha256":"2340ea0973f3fe5acbc57e5fd267556229d911f0ecbf34a79780cf880aaafdd1","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "N=p^2 with p=isqrt(N) (2048-bit); phi=p(p-1) not (p-1)^2; d=inv(e,phi); verified m^e=c"
+ },
+ "manyprime": {
+  "flag_sha256":"ae61647a2b38f00f135a27e58130780eacc46d1e73fdacedc2f5c34318bc9101","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "N = product of 32 prime factors (64-64-bit, via PARI ECM); phi=prod(p^(k-1)(p-1)); verified m^e=c"
+ },
+ "salty": {
+  "flag_sha256":"9e7450cd8d8147e0b01d7300571139e33793be4052d991bdf600666b47bc7d12","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "e=1 so c = m mod n = m; flag = long_to_bytes(ct) directly"
+ },
+ "modulus_inutilis": {
+  "flag_sha256":"e7732d0ec528708ca0c75a3e3bc50d0737904d49118c5102a65348024f0991e7","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "e=3 and m^3 < N (2048-bit modulus): integer cube root recovers m; verified r^3==ct"
+ },
+ "big": {
+  "flag_sha256":"d5cf66b9396fa6aff99c3e84d6c7ba3b37e72f6309374e4baf3f71aa4d20fa3e","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "d was a 256-bit prime so Wiener applies: continued fraction of e/N -> convergent k/d, phi=(ed-1)/k, roots of t^2-(N-phi+1)t+N give p,q; d=inv(e,phi); verified m^e=c"
+ },
+ "wires": {
+  "flag_sha256":"474dabb2dd0d899bc83c6815d7de9aa11f340930602a7f864dd3d54c9b7dd698","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "N given with own (e=0x10001,d): ed-1=2^5*r multiple of phi -> square-root chain factored N (1024-bit p); friends' exponents E=prod(5 x 17-bit e_i); m=c^(E^-1 mod phi); verified (c^dE)^E=c"
+ },
+ "_failed": {
+  "lets_decrypt_2": "interactive"
+ }
+}

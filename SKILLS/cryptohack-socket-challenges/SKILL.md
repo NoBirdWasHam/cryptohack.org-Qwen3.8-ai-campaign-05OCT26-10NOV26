@@ -14,6 +14,14 @@ CryptoHack interactive challenges run as Python servers on `socket.cryptohack.or
 - Fix: skip to the first `{` before parsing. Parse incrementally (buffer grows across `recv`s; a JSON object may span packets). Use `json.JSONDecoder().raw_decode` on `buf[buf.find(b'{'):]` and keep the tail for the next object.
 - The flag is often inside a JSON string (`{"flag": "crypto{...}"}`) — the `}` inside the flag string is fine as long as you use a real JSON parser, NOT "split on first `}`".
 
+## Padding-oracle JSON servers (pad_thai 13421 / good_pad_ugly 13422)
+Greeting is a plain-text LINE (no `{`); the JSON reply to your FIRST command arrives
+only after you send. Reading until the first `{` before sending deadlocks into a
+socket timeout — consume the greeting by `while not buf.endswith(b"\n")`.
+Noisy variant (`good | (rng>0.4)`): invalid says True w.p. 0.6, valid always True —
+False eliminates, re-query all survivors per byte, accept single survivor after ~22
+consecutive Trues (~2000 queries for a 32-hex-char message, cap 12000).
+
 ## `no_prompt` servers (the trap)
 Many CryptoHack servers set `self.no_prompt = True`. This means the listener **auto-sends the first `challenge({})` immediately** right after the greeting — you do NOT send anything first. So:
 - Connect, read greeting, then the FIRST `recv_json()` returns the first server object (e.g. `{"a":..., "y":...}`) with NO prior send. This is what works.
@@ -113,7 +121,7 @@ Group: safe prime `p=2q+1`, `g=2`, order `q`. Relation `g^w = y mod p`.
   grind randomness until bit==0 and always answer the permutation-reveal branch. ~2.2 grinds/round.
   The ctf-archive mirror (slug hamiltonicity-cryptohack2024) is BYTE-IDENTICAL files + same
   host:port as the main-site twin: diff provided files vs solved twins before re-deriving; archive
-  submits show score_delta 0 — trust the solved-list readback. Flag [flag — recorded in FLAGS/ctf-archive/challenge-264-cryptohack-hamiltonicity-cryptohack2024/flag.txt].
+  submits show score_delta 0 — trust the solved-list readback. Flag crypto{not_hashing_entire_statement_is_bad}.
 - **snark-maestro / ticket_maestro-cryptohack2024 (SOLVED 2026-10-23/25, archive.cryptohack.org:26896)**: Groth16 (arkworks 0.3 BN254) ticket double-spend — verifier checks only e(A,B)=e(α,β)·e(L,δ)·e(C,γ), so (rA, r⁻¹B, C) is a fresh valid proof; ticket id = hash(serialized proof). Econ forces ≥11 forges. Proofs are ark-serialize **0.3.0 compressed** 128 B (G1 x LE + SWFlags top-2-bits last byte; G2 c0‖c1 flags on c1's last byte; Fq2 sign compares **(c1,c0)** lex; keep sqrt iff (y<−y) XOR positive). Pure-Python affine add/mul suffices (no pairing). Archive twin = same listener, same flag, separate site entry (score_delta 0, credit via solved-list growth). Solver: challenge-240-.../solve.py.
 - **couples (SOLVED 2026-10-21, BN254 pairing)**: server scalar `z` set via `z = inverse(poly(z_in,x), p)` with `poly = x^(z_in+7)-x^3`. Send `z_in = p-5`: Fermat ⇒ `poly ≡ 0` for all x≠0, and their extended-Euclid `inverse(0,p)` returns **0** → internal `z=0` → both pairing sides are `pairing(inf,·)=1` → any G/hsh yields the flag. Lesson: in pairing/DLOG servers, hunt for ways to zero the secret scalar (inverse(0)=0, poly≡0 via Fermat) — the check `x*z==1` guards only one degenerate case.
 
@@ -147,7 +155,7 @@ low 16 bytes. Blob = 656B = 41 blocks; blocks 33-39 interior to u, block 40 = pa
 - Local testing: stub `utils.listener` module, exec the server source, drive `Challenge()`
   in-process (harness.py pattern).
 
-## Lying/noisy oracle family (oracular_spectacular, SOLVED 2026-10-24, `crypto{example_flag_format}`)
+## Lying/noisy oracle family (oracular_spectacular, SOLVED 2026-10-24, `crypto{with_smart_enough_searching_you_can_learn_everything}`)
 Server: CBC padding oracle whose answer is flipped w.p. 0.6 (`good ^ (rng.random()>0.4)`),
 12000 queries, message = 32 hex chars (2 blocks, no pad on encrypt).
 - Truth rate 0.4 => each query is a ±1 LLR walk with drift +0.2/query on the TRUE answer,
@@ -172,7 +180,7 @@ accepts the identity point. Two deterministic forges: (1) sig' = R || LE32(s+L) 
 scalar after reduction, different bytes; (2) vk = identity `01||0*31`, sig = identity R
 || 32 zero bytes — `pack(0·B + h·(−O)) = 01||0*31 = R` for ANY message (works when the
 msg is random/unknown). unpackneg parity rule is `parity(x) = 1−signbit` (returns −A).
-Flag [flag — recorded in FLAGS/ctf-archive/challenge-312-cryptohack-ed25519_magic-icc_athens2022/flag.txt]. Solver: challenge-312-.../solve.py (pure-Python
+Flag ICC{RFC8032_dispel_th3_m4gic}. Solver: challenge-312-.../solve.py (pure-Python
 emulator of the C semantics + --local self-test). Pitfall: server prints the b64 sig
 BEFORE the 'Enter new signature:' prompt — capture the line preceding the prompt.
 
@@ -282,6 +290,7 @@ first-ever observation is an irreducible gap — keep it explicitly on the recor
 "always dead". State the single falsifier of the verdict (one capture of >N bytes / output the dead build
 cannot produce) so anyone can flip it in minutes.
 Detection of the recovery event must match the FAILURE MODE: banner hashes miss redeploys that keep banner text — probe BEHAVIOR (one payload, watch for output the old build cannot produce). Bucket behavioral probes on text discriminators, not byte counts (input() prompts print every round in every build and fake 'responsive').
+RECOVERY CLOSE-OUT (when the provider ships the fix — re-test before any dead verdict is cited as final; the fix may already be live): 1. Fresh RAW capture with the owner-rule recorder — the byte count jumping from the corpse signature to the full protocol (banner+payload+responsive menu) is the recovery event. 2. Ground the upstream fix before citing it: GitHub commits API for the commit (message+timestamp), then the raw file at main showing the fixed line — cite the full commit URL in the AAR, and note when their fix form differs from the one proposed but is equivalent. 3. Run the SAME verified solver against the repaired service; provenance is WALKED only if the ciphertext came from the service, the key from your attack, and the decryption ran live — the pre-fix failure documentation stays in the AAR untouched; the solve appends to the same arc. 4. Close in one sweep: ledger row (status/flag/date/notes), AAR CLOSED-WALKED section, then any published-tree copies — and trust only the site readback (submit ok:true + solved-list growth via API). A solver's own debug self-check line can be stale clone-era logic (comparing against a value unknowable live, printing MATCH: False on a correct run): the readback, not the solver stdout, is the verifier.
 
 ## Service flag format comes from SERVICE OUTPUT, never from assumption
 The output flag may carry the original event prefix (CHTB{...}, zh3r0{...}, ICC{...}), not crypto{...}. Harvest/submit chains that regex only crypto{ will read "NO FLAG" while the service literally printed the flag (spongebob 294: collision accepted, flag on the socket, filter ate it). Extract whatever `{...}` token the service emits, submit, and trust only the solved-list readback.
@@ -311,10 +320,11 @@ The output flag may carry the original event prefix (CHTB{...}, zh3r0{...}, ICC{
 - write_file refuses to overwrite a file whose full content it has not seen, and re-refuses even
   after a clean full `read_file` of a small file if ANY earlier read used offset/limit (it stays
   flagged as a "partial view"). Do not re-read hoping to clear it and do NOT loop on write_file —
-  use `patch` for the edit, or `rm` + `write_file` to recreate. Hit 3x on one AAR.md.
-- Native Windows tools get NO MSYS path translation: `cat > ~/f.py` silently writes to
+  use `patch` for the edit, `rm` + `write_file` to recreate, or write the content directly with
+  python `open(path,"w")` via execute_code/terminal (cleanest for full-file rewrites). Hit 3x on one AAR.md.
+- Native Windows tools get NO MSYS path translation: `cat > /c/Users/.../f.py` silently writes to
   a literal `C:\c\Users\...` and the later `python /c/...` call dies with "can't open file".
-  Use `~` forward-slash paths for every native-tool argument (bash builtins like `cd`
+  Use `C:/Users/...` forward-slash paths for every native-tool argument (bash builtins like `cd`
   are fine with `/c/...`).
 - Python 3.12+: `(a for b in (X := expr) ...)` is a SyntaxError — a walrus cannot appear in a
   comprehension's iterable expression. Hoist the assignment to its own statement.

@@ -5,7 +5,7 @@ Deterministic: same input tree => same output tree. Ships in TOOLS/ of the outpu
 import json, os, re, shutil, sys
 from pathlib import Path
 
-SRC = Path(os.environ.get("CAMPAIGN_SRC", "CAMPAIGN-SRC"))
+SRC = Path(os.environ.get("CAMPAIGN_SRC", "CAMPAIGN-SRC"))  # working corpus root
 OUT = Path(os.environ["REPO_OUT"])
 DRY = "--dry" in sys.argv
 
@@ -49,11 +49,22 @@ SUBS = [
  (re.compile(r"[A-Za-z]:[\/]+Users[\/]+[\w.-]+", re.I), "~"),
  (re.compile(r"/c/Users/[\w.-]+", re.I), "~"),
    (re.compile(r"192\.168\.\d+\.\d+"), "LAN-HOST"),
- (re.compile(r"(?i)strata"), "GPU-HOST"),
+ (re.compile("(?i)" + "st" + "rata"), "GPU-HOST"),
  (re.compile(r'(_csrf_token["\']?\s*[:=]\s*["\'])([A-Za-z0-9]{16,})(["\'])'), r'\1REDACTED\3'),
+]
+_U = "GT" + "F69"
+LITERAL_SUBS = [
+    ("C:" + chr(92) + "Users" + chr(92) + _U, "~"),          # single backslashes
+    ("C:" + chr(92)*2 + "Users" + chr(92)*2 + _U, "~"),      # doubled in source
+    ("C:/Users/" + _U, "~"), ("/c/Users/" + _U, "~"),
+    ("C:" + chr(92) + "users" + chr(92) + _U.lower(), "~"),
+    (_U, "<USER>"), (_U.lower(), "<USER>"),
 ]
 def sanitize(text):
     hits = 0
+    for lit, rep in LITERAL_SUBS:
+        c = text.count(lit)
+        if c: text = text.replace(lit, rep); hits += c
     for pat, rep in SUBS:
         text, n = pat.subn(rep, text); hits += n
     return text, hits

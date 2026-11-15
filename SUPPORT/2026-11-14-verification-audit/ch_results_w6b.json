@@ -1,0 +1,41 @@
+{
+  "worker": "w6b",
+  "results": [
+    {
+      "slug": "enc_interactive",
+      "name": "Encoding Challenge",
+      "category": "general",
+      "flag_sha256":"9307bd75864df0d2b079c27964bfb0574f8b5a02aff9df809aa0bf1392753084","flag":"REDACTED-SEE-FLAGS-MIRROR",
+      "verified": true,
+      "attack": "socket.cryptohack.org:13377, JSON-line protocol (pwntools-free raw socket). 100 levels of base64/hex/rot13/bigint/utf-8; decode per 'type' field, reply {\"decoded\": ...} each round; flag returned after level 100. Levels passed: 100/100 live.",
+      "script": "~/AppData/Local/hermes/cache/scratch/w6b/solve_enc.py"
+    },
+    {
+      "slug": "nc-intro-2",
+      "name": "Network Attacks",
+      "category": "introduction",
+      "flag_sha256":"1abc478b5b26c6ed9339d6c82f914120820fe17fe2aba42e64debd785e3c259a","flag":"REDACTED-SEE-FLAGS-MIRROR",
+      "verified": true,
+      "attack": "socket.cryptohack.org:11112, send {\"buy\": \"flag\"} as JSON line; server replies {\"flag\": ...} directly.",
+      "script": "inline (execute_code socket script)"
+    },
+    {
+      "slug": "transparency",
+      "name": "Transparency",
+      "category": "general",
+      "flag_sha256":"de6bb5c5d2401e4c9c1b7447e3c3c6321c4d7cd419565819498aa2ffe4889663","flag":"REDACTED-SEE-FLAGS-MIRROR",
+      "verified": true,
+      "attack": "Subdomain thetransparencyflagishere.cryptohack.org (previously derived via crt.sh against transparency.pem modulus). GET https://thetransparencyflagishere.cryptohack.org/ returns the flag as plain body (HTTP 200, fetched live twice). Note: the live TLS cert has since rotated (Let's Encrypt renewal), so current cert modulus no longer matches the 2020-era challenge PEM; flag endpoint is unchanged.",
+      "script": "curl -k https://thetransparencyflagishere.cryptohack.org/"
+    },
+    {
+      "slug": "lets_decrypt_2",
+      "name": "Let's Decrypt Again",
+      "category": "rsa",
+      "flag_sha256":"ecfa62704fce3b8b89d50a90eb64d3f6f4dee4bb855ace9f32a1de1b5e723e83","flag":"REDACTED-SEE-FLAGS-MIRROR",
+      "verified": true,
+      "attack": "socket.cryptohack.org:13394. Server checks bytes_to_long(emsa_pkcs1_v15.encode(msg,96)) == pow(SIG,e,n) with attacker-chosen n (must be composite) and e. Recovered padding format by computing SIG^E mod N: 00 01 FF*58 00 || DigestInfo-SHA1(msg), 96 bytes. Chose n = q^52 with q=2010103 (prime, q-1 = 2*3*31*101*107 smooth, SIG verified primitive root mod q and SIG^(q-1) != 1 mod q^2, so SIG generates all of (Z/q^52)*); n = 2^1089 > digest. For each pattern msg (This is a test.../My name is.../valid P2SH BTC addr 3EovkHLK5kkAbE8Kpe53mkEbyQGjyf8ECw) + suffix, e = DLP_SIG(digest) mod n via pure-Python Pohlig-Hellman (CRT over prime-to-q part, 51-step BSGS lifting for the q-part). Three successful claims -> three shares -> XOR = flag. All three shares claimed in ONE live session.",
+      "script": "~/AppData/Local/hermes/cache/scratch/w6b/solve_ld2b.py"
+    }
+  ]
+}

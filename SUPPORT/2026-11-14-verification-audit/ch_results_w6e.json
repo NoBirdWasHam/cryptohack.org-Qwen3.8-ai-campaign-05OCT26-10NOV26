@@ -1,0 +1,20 @@
+{
+  "authenticator-firebird_intern": {
+    "status": "solved",
+    "flag_sha256":"38893f5a6dce6a73d678a6f8d132d69a8493294a4742e02fe14a30edd6437406","flag":"REDACTED-SEE-FLAGS-MIRROR",
+    "how": "Rainbow tables over 62P6=44261653680 6-distinct-char passwords; server alarm=10s forces offline precompute. Chains L=K=2048 with position-dependent salted reductions R_i(h)=unrank(le64(T(pw))^salt_i) (hash T fixed = blake3(pw||HANDSHAKE_FROM_SERVER||cc)); full-covering table N=M/L=21,612,135 chains in ~12min on 16 cores; rank-keyed endpoints + open-addressed integer index; online: connect, cc=16 zero bytes, walk K=2048 rounds x L steps, verify T(cand)==t0, answer HANDSHAKE_FROM_CLIENT. Per-connection success ~40% (coverage 63% x chain survival 65%); recovered on attempt 3, 0.80s connection-to-flag.",
+    "artifacts": {
+      "solver_c": "~/AppData/Local/hermes/cache/scratch/w6e/rb2.c",
+      "client": "~/AppData/Local/hermes/cache/scratch/w6e/auth_live2.py",
+      "table": "~/AppData/Local/hermes/cache/scratch/w6e/rb3.bin",
+      "flag_file": "~/AppData/Local/hermes/cache/scratch/w6e/auth_flag.txt"
+    },
+    "target": "archive.cryptohack.org:40156 (never submitted to website; flag derived offline)"
+  },
+  "handoff_status_notes": {
+    "zkpintro": "handed off to sibling worker; no new state from this session.",
+    "letsproveit": "handed off to sibling worker. Script: ~/AppData/Local/hermes/cache/scratch/w6e/letsproveit_13430.py (helpers lpi_lib.py/lpi_lib2.py/lpi_live.py in same dir); service socket.cryptohack.org port 13430. Prior-session log lpi_live3.log; possible earlier flag capture w6e/lpi_w7a_flag.txt (verify before reuse).",
+    "fischlins_transformation-cryp": "handed off to sibling worker; game client w6e/fis_game.py + fischlin_chal.py/fischlin_params.py present in w6e.",
+    "unbalanced-icc_athens2022": "handed off to sibling worker; latest solver attempt w6e/unbal4.py (toy instances were failing; kernel/CVP direction unproven)."
+  }
+}

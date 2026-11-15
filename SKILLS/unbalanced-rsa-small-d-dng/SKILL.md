@@ -39,14 +39,22 @@ family's practical cap is ~N^0.2925 (measured, challenge-13401 run#1).
 - fmpz_poly.real_roots() NOT implemented in python-flint; .roots() IS (exact; integer roots come back as ints).
 - A pdiv helper must return the QUOTIENT for exact division (a remainder helper silently returns {} and breaks gcd-layer logic).
 - LLL (delta 0.99) often succeeds even when raw volume margin/vec is negative (-52 bits/vec worked at d=300); guard per-vector, skip configs only below ~-100/vec, try small (m,t) first.
-- Survey descriptions of DNG helpers are INCOMPLETE: this region gives Gram-volume margins
-  −250 (paper's own example X=2^192!) to −660 bits/vector, worsening in m ⇒ no vanishing
-  vectors ever. Root cause: z-columns cost +768 bits/deg and the A=N+1 coefficient on the
-  x-column; the paper's real region must triangularize with monic ±1 diagonals (smallest
-  coefficients, incl. f^s's constant term) — get Figure 1 + Eq.5 from Durfee thesis
-  (theory.stanford.edu/~gdurf/durfee-thesis-phd.pdf — slow server, resume download) or
-  Hong et al. AMC 139 (2003) 351–362, or Ernst et al. Eurocrypt'05 (g-rows vanish over Z:
-  multiples of yz−N need NO e-factor at all).
+- SOLVED 2026-11-14 (cryptohack unbalanced-icc_athens2022, flag recovered): the earlier
+  "no vanishing vectors ever" conclusion applied to small (t,a) regions only. Use the DN00
+  Appendix-A EXACT determinant exponents Ce=Cx=m(m+1)(4m+3t+5)/6, Cy,Cz polynomials (a>=0 branch),
+  grid (m,t,a) on margin = ebits*m*r - (ebits*Ce+Xbits*Cx+Ybits*Cy+Zbits*Cz) over r=(m+1)(m+t+1)
+  and pick margin/r > 15 bits: for p256/q768/d300/e1022: m=8,t=5,a=1 gives +46 bits/dim at rank 126
+  and LLL'd rows vanished EXACTLY at (2k,p,q) (toy: 102/124 nontrivial rows vanish). a must be
+  ~alpha0*m (>=1 for m>=8); t ~ tau0*m. LLL 126x126 @ 9.5k-bit entries: 4551 s (fpylll, delta=0.99).
+- C=2 form f=2+x(A-y-z) pairs with root x0=2k (f(root)=2ed≡0 mod e); strict HG gate (norm*e^m
+  threshold, omega-scaled) fails even when rows DO vanish — never gate on it; verify by extraction.
+- Extraction (validated, exact): z=N/y with y^{Dz} clearing -> Sylvester matrix in x -> fraction-free
+  Bareiss over Z[y] (flint fmpz_poly, exact division via //, assert quo*prev==num) -> Res(y) deg 224,
+  ~120k-bit coeffs -> fmpz_poly.roots() exact integer roots -> p = root | N. msolve -P 0 over QQ also
+  solves {h1,h2,yz-N} but returns isolating INTERVALS (not exact) and [-1] spurious for >2 polys;
+  Bareiss route is preferred. Working code: scratch/unbal/{variants,realsolve,resultant_extract,finalize}.py.
+- Old Durfee-thesis Figure-1 hunt NOT needed: the survey's helper set + Appendix-A C formulas are
+  complete and sufficient once (m,t,a) are chosen from the margin grid.
 - Extraction: see "Extraction (validated)" section below — the old "p = gcd(N, const term of H(y))"
   claim is WRONG for this family (p↔q symmetry makes gcd = N). resultant_lib.py, dng2.py at
   challenge-13401 dir.

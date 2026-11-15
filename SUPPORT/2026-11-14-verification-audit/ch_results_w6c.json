@@ -1,0 +1,25 @@
+{
+  "course": "cryptohack aes (symmetric ciphers) HTTP-oracle batch w6c",
+  "generated": "2026-11-14",
+  "flags": {
+    "block_cipher_starter": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "passwords_as_keys": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "ecbcbcwtf": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "ecb_oracle": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "flipping_cookie": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "lazy_cbc": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "symmetry": "FLAG-REDACTED-SEE-FLAGS-MIRROR",
+    "bean_counter": "FLAG-REDACTED-SEE-FLAGS-MIRROR"
+  },
+  "methods": {
+    "block_cipher_starter": "GET /block_cipher_starter/encrypt_flag/ then GET /block_cipher_starter/decrypt/<ct>/ (ECB block permutation => server decrypts the flag ct for you)",
+    "passwords_as_keys": "GET /passwords_as_keys/encrypt_flag/ (ECB); KEY=md5(word), word=random choice of /usr/share/dict/words (gist URL in source); offline brute, first block checked against 'crypto{' prefix; hit word 'bluebell'; full ECB decrypt",
+    "ecbcbcwtf": "GET /ecbcbcwtf/encrypt_flag/ (CBC, iv||ct); GET /ecbcbcwtf/decrypt/<block>/ is ECB-decrypt => P_i = D(C_i) xor (iv|C_{i-1}) block by block",
+    "ecb_oracle": "GET /ecb_oracle/encrypt/<pt>/ = ECB(pt||FLAG) padded; length-probe -> LF=25; byte-at-a-time with 'A'*psz prefix (psz=(15-i)%16, 16 when 0 to avoid empty-path 404), candidate 16-byte block via encrypt, compare target block",
+    "flipping_cookie": "GET /flipping_cookie/get_cookie/ (CBC iv||ct of 'admin=False;expiry=...'); flip iv bytes 6..10 (F->T,a->r,l->u,s->e,e->;) => P0'='admin=True;;...'; GET /flipping_cookie/check_admin/<ct>/<iv'>/ returns flag",
+    "lazy_cbc": "IV==KEY. P=16 bytes, C1=/lazy_cbc/encrypt/<P>/; /lazy_cbc/receive/<C1||C1>/ errors 'Invalid plaintext: <hex>' leaking block1 = P^KEY^C1 => KEY; GET /lazy_cbc/get_flag/<KEY>/'",
+    "symmetry": "GET /symmetry/encrypt_flag/ = iv||ct (OFB); OFB keystream plaintext-independent => /symmetry/encrypt/<00*len>/<iv>/ leaks KS; flag = ct xor KS",
+    "bean_counter": "GET /bean_counter/encrypt/; StepUpCounter bug (int(value)-False) => keystream constant => 16-byte repeating XOR over bean_flag.png; recover KS from PNG magic + IHDR length(0000000d)+'IHDR', decrypt, read flag rendered in image (vision) = FLAG-REDACTED-SEE-FLAGS-MIRROR"
+  },
+  "verification": "every flag read from live service responses (check_admin 'flag' field, get_flag 'plaintext', local decrypts of service ciphertexts); image flag read twice by vision incl. per-line crops (FLAG-REDACTED-SEE-FLAGS-MIRROR)"
+}

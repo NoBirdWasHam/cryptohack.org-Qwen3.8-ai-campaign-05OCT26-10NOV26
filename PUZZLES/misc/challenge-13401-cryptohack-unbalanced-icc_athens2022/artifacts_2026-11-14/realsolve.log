@@ -1,0 +1,6 @@
+lattice 126x126; entries <= 9502 bits
+LLL done in 4551s
+nontrivial rows: 124; strict-HG passing: 0
+too few HG rows; take shortest nontrivial rows
+selected 6 vanishing polys, support sizes [115, 115, 115, 115, 115, 115]
+saved selected.pkl

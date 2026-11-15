@@ -58,3 +58,14 @@ Findings this pass fixed, in the open:
 Also 2026-11-13: `/home/<user>` added to the sanitizer (one real leak found in a copied
 shell script), `GPU-HOST`-alias match made word-boundary sensitive, and the account's
 scoreboard cleared as a courtesy (profile now level 1 / 0 points; screenshots are dated history).
+
+
+## Verification audit run — completed 2026-11-14 (gate delta)
+
+| gate | rule | result |
+|---|---|---|
+| G1 host/system identity | re-swept the 2026-11-14 audit-run files (puzzle dirs, wave archive, ledger, skills) | **PASS** — 0 hits after literal-sub sanitizer fix (regex-class sanitizer had silently missed backslash paths; replaced with deterministic literal subs in SUPPORT/build_repo.py; re-sweep clean) |
+| G2 authors' works | new puzzle dirs contain only our own artifacts (flag strings in two fischlin artifacts replaced by sha-link pointers) | **PASS** |
+| G3 secrets | csrf/cookie/credential patterns re-swept on delta | **PASS** |
+| G4 flag containment | audit-run result JSONs: `flag` values -> `flag_sha256` + REDACTED pointer; ledger notes: 3 flag strings scrubbed to `FLAG-REDACTED-SEE-FLAGS-MIRROR`; audit script archive: 47/106 files rewritten (paths + flags); new FLAGS rows follow the full-bytes sha256 convention | **PASS** |
+| reconciliation | live API vs ledger | 316 = 316 = 316, zero unmatched, score delta 0 (original solve dates unchanged) |

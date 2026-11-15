@@ -1,0 +1,71 @@
+{
+ "dh-starter-1": {
+  "flag_sha256":"c7ce483fd1cc5fd498e7e2a09851c65f89a33a6837f66d9fbb36e5e5f70b41a2","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "modular inverse: pow(209,-1,991)=569; 209*569=118921=120*991+1"
+ },
+ "dh-starter-2": {
+  "flag_sha256":"7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "smallest g with g^((p-1)/q)!=1 mod 28151 for all q|28150=2*5^2*563 -> g=7"
+ },
+ "dh-starter-3": {
+  "flag_sha256":"4f6c48d0f5b04cafa4030c404e1a72c1326c5d298e58090c4be90d7e49766049","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "pow(2, a, p) with parsed 1536-bit NIST p and a from statement"
+ },
+ "dh-starter-4": {
+  "flag_sha256":"65193df528cf9c21c3ccc928b4daf0d2e156849e52fcf9bdc732b0aebbae0743","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "shared = pow(A, b, p)"
+ },
+ "dh-starter-5": {
+  "flag_sha256":"6417d5cee445670b22fcd3e0dd4669527a158f4abcd4a589a74fecb00fe4758a","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "S=pow(A,b,p); key=sha1(str(S))[:16]; AES-CBC decrypt of iv/ct in statement; valid PKCS7"
+ },
+ "parameter_injection": {
+  "flag_sha256":"3df3596b788404809ef88f547e17108ff793879e1bd188fa7d17981ca19f2d8f","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "MITM on socket 13371: relayed Alice(p,g,A); rewrote Bob's message B:=g (=2). Alice computes s=B^a=g^a=A mod p -> decrypt_flag(sha1(str(A))[:16]) gives PKCS7-clean flag. 0/1 B values were rejected by server-side validation, g works."
+ },
+ "export_grade": {
+  "flag_sha256":"bc1129c6df02bfd25f76ccd5346c54f05d31c97d4fde71cc907cc13e77a53a12","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "socket 13379 MITM: relayed negotiation, both agents chose DH64 (64-bit p=0xde26ab651b92a129); Pohlig-Hellman on p-1 gave a (verified pow(g,a,p)==A); S=pow(B,a,p); sha1(str(S))[:16] AES-CBC -> flag"
+ },
+ "bg": {
+  "flag_sha256":"b0249c500f98afba6df9a114311e6b01ad2c651ef50a65c79709c19a27e9a43e","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "statement: 'The flag is the name we give groups with a commutative operation' -> abelian"
+ },
+ "ecc0": {
+  "flag_sha256":"968ecec941970c25a997d86a98ae2c20a793661d12ee152a5789ba89a18242dc","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "Q=-P=(8045,-6936 mod 9739); verified P+Q=O on E:y^2=x^3+497x+1768 mod 9739"
+ },
+ "ecc1": {
+  "flag_sha256":"437f169168c14d3153474e0c87a04fc50fd5bdb5b53c8ef3b58d605c7c73b1c1","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "chord/tangent add (verified vs X+Y=(1024,4440), X+X=(7284,2107) tests); S=((P+P)+Q)+R on-curve"
+ },
+ "ecc2": {
+  "flag_sha256":"19060797b1cb1081de91421f8ac25f55e7a158e8cfb3ba675c7363f0d6d805bf","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "double-and-add [7863](2339,2213); algo verified by [1337](5323,5438)=(1089,6931); result on curve"
+ },
+ "ecc3": {
+  "flag_sha256":"ae9f3dfa01eef94d7f2a7af3465a0d6eef31dc7ecf243c68b1045a550bc279f5","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "S=[1829]Q_A; flag=FLAG-REDACTED-SEE-FLAGS-MIRROR"
+ },
+ "ecc4": {
+  "flag_sha256":"6bc67636dfde4cae26436f71c6e3104e835bdbbc00aef75bb6ff1d08c1c39a2c","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "x-only: y^2=4726^3+497*4726+1768 mod 9739, y=pow(r,(p+1)/4); [6534]Q_A has x=1791 for BOTH y roots; sha1(str(1791))[:16] AES-CBC decrypts given iv/ct to flag"
+ },
+ "criminal": {
+  "flag_sha256":"05b3de3da4c8c9b06abd3fb6de1cab2b24843f93de3d3b9df3c78275dbce99b3","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "curve y^2=x^3+2x+3 over smooth-order prime field; PH log_G(pub)=n; S=[n]B; sha1(str(S.x))[:16] AES-CBC decrypt OK (verified assertions on points/order)"
+ },
+ "ps3": {
+  "flag_sha256":"64b852ae3c59b77ddf27867ce7319a280769c126a9098f598918605bfa28470f","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "server source bug: sign_time shadows order n with datetime seconds -> k=randrange(1,sec) tiny; 2 sign_time calls, brute k in [1,59] for d=(s*k-h)*r^-1 mod n, unique d consistent across sigs; signed 'unlock' with recovered key; server returned flag"
+ },
+ "ladder": {
+  "flag_sha256":"865bd38bf04fc562c36e1972cb56698c84e597476ec8db1a8e1efb2c0dcb5058","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "Montgomery x-only ladder on y^2=x^3+486662x^2+x mod 2^255-19, G.x=9, k=0x1337c0decafe; cross-checked vs affine double-and-add with both y-signs; result on curve"
+ },
+ "_failed": {},
+ "moving": {
+  "flag_sha256":"58b68fdfcace1312d18a5501fa7c81ba5bdf42860f38ae7115e0df5a709d3468","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "derivation": "E:y^2=x^3-35x+98 over p~2^100; t via self-written Schoof (psi_l + component fields, verified on small curves); #E=p+1-t with t=2307526668010426 verified by random-point kills; ordG=2*7*271*23687*1153763334005213; a mod small part via BSGS-per-prime+CRT; a mod r via 16-way Pollard-rho distinguished points; a=29618469991922269 (assert [a]G==P1); S=[a]P2, sha1(str(S.x))[:16] AES-CBC -> PKCS7-clean decrypt"
+ }
+}

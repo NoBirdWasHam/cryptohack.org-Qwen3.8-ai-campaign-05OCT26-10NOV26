@@ -74,7 +74,7 @@ CRITICAL PORT FACTS:
   on this instance. flatter builds on Windows/MSYS2: g++ -O2 -std=c++17 -fopenmp -include cstdint with
   -Iinclude -Iinclude/flatter -Isrc, exclude fplll_impl/eigen_impl, dlarf_/dlarfg_ shim compiled with gcc
   (g++ mangles .c!), mpfr/mpz objects linked first (dup is_upper_triangular), -Wl,--allow-multiple-definition.
-  Persisted binary: ~/tools/flatter/flatter.exe; CLI: stdin "[[a b][c d]]" -> stdout matrix.
+  Persisted binary: <toolroot>/flatter/flatter.exe (toolroot: windows-crypto-toolchain); CLI: stdin "[[a b][c d]]" -> stdout matrix.
 - sage matrix[:-1]/[1:] slice ROWS not columns; right_kernel_matrix is HNF-saturated (sympy nullspace fine ONLY for
   dim-1 kernels with small generator — else non-saturated rational artifacts).
 - solve3.py's compact variant (delta_k via shared-row kernel) resisted porting; solve2.py structure is the one to port.

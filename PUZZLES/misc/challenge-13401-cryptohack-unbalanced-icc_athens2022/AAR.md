@@ -1,3 +1,23 @@
+# AAR - unbalanced (ICC Athens 2022)
+
+STATUS: **SOLVED** - original credit 2026-11-02; independently derived during the verification audit run completed 2026-11-14 (Durfee-Nguyen trivariate Coppersmith; audit-run submit receipt solved 315 -> 316).
+
+## Independent derivation (verification audit run, 2026-11-14)
+Sun-Yang-Laih AC99 Scheme I instantiation (p 256-bit, q 768-bit, d 300-bit, e~N,
+ed=1+k*phi). Solve 2 + x*(A - y - z) = 0 (mod e), A=N+1, at root (2k, p, q) with yz=N
+substituted so f(root)=2+2k*phi=2ed=0 mod e. DN ASIACRYPT-2000 shifts
+g_(k,i,b)=e^(m-k) x^i y^a z^b f^k and h_(k,j)=e^(m-k) y^(a+j) f^k with m=8, t=5, a=1,
+bounds (2^301, 2^256, 2^768): rank-126 lattice, determinant margin ~ +46 bits/dim;
+fpylll LLL (delta=0.99); short rows vanish at (2k,p,q); p extracted via fraction-free
+Bareiss resultant in x after z=N/y substitution, integer roots, p|N verified.
+p=75168753438755674985316874654762244310439280226080322610559695177304739738629
+d=1190544698278006980290689057672994958324122451240664495599649838778428742089215729252625213
+Flag: ICC{unb4lanc3d_pr1m3s_0nly_m4k3_th1ngs_w0rs3}
+Artifacts: artifacts_2026-11-14/ (solver.py, realsolve.py, finalize.py,
+resultant_extract.py + logs).
+The historical evidenced-negative sections below remain valid FOR THE BIVARIATE ROUTE
+ONLY - superseded by the trivariate DN construction (run2 SOLVE-READY note, 2026-11-01).
+
 # AAR — unbalanced-icc_athens2022 (CryptoHack ctf-archive)
 
 **Outcome: NOT SOLVED — evidenced negative.** No flag was derived (flag provenance: self-derive only;

@@ -14,22 +14,24 @@ skills:
     description: Use for GLRT/Fano CTF distinguishing and guessing bounds.
   - name: cryptohack-aar-corpus
     description: Use when auditing/remediating/publishing a CTF AAR corpus.
+  - name: cryptohack-aes-http-oracles
+    description: Use when solving CryptoHack aes.cryptohack.org challenges.
   - name: cryptohack-socket-challenges
-    description: "Solve CryptoHack socket challenges headless."
+    description: Solve CryptoHack socket challenges headless.
   - name: ctf-answer-challenges
-    description: "CryptoHack answer challenges: flag format to submit."
+    description: CryptoHack answer challenges: flag format to submit.
   - name: ctf-crypto-attacks
     description: Use when a CTF crypto task needs a mode or property attack.
   - name: ctf-ecc-attacks
-    description: "Use for ECDLP/ECC CTF tasks: smooth orders, ladder checks."
+    description: Use for ECDLP/ECC CTF tasks: smooth orders, ladder checks.
   - name: ctf-isogenies
-    description: "CryptoHack isogeny challenges: PARI Vélu isogenies."
+    description: CryptoHack isogeny challenges: PARI Vélu isogenies.
   - name: ctf-lattices
-    description: "CryptoHack lattice/PQ: fpylll LLL/BKZ/SVP/CVP on Windows."
+    description: CryptoHack lattice/PQ: fpylll LLL/BKZ/SVP/CVP on Windows.
   - name: ctf-mt19937-cracking
-    description: "Use for MT19937 / Python random.Random stream cracking."
+    description: Use for MT19937 / Python random.Random stream cracking.
   - name: ctf-padding-oracle
-    description: "Use for CBC padding oracle attacks and forges in CTFs."
+    description: Use for CBC padding oracle attacks and forges in CTFs.
   - name: ctf-side-channels
     description: Use for CTF power/timing side-channel attacks.
   - name: ecdsa-lcg-nonce-unknown-modulus
@@ -61,7 +63,7 @@ skills:
   - name: poly-ring-toolkit
     description: Use for CTF polynomial roots, CRT, resultants and gcds.
   - name: popcount-happiness-cpsat
-    description: "Use when a CTF leaks popcount(A & m): solve via CP-SAT."
+    description: Use when a CTF leaks popcount(A & m): solve via CP-SAT.
   - name: ring-eval-lwe-distinguisher
     description: Use when ring-LWE secrets are small over split rings.
   - name: spn-fiber-coset-attack

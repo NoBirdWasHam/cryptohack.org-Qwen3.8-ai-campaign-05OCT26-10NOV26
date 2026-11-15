@@ -1,0 +1,16 @@
+{
+  "slug": "wots_up_2-ecsc_2023_norway202",
+  "name": "WOTS Up 2",
+  "category": "hashes",
+  "flag_sha256":"4d569f0f767cb9b77381d9a02061c4eec332af7a1e77d36194e3581042680a38","flag":"REDACTED-SEE-FLAGS-MIRROR",
+  "verified": true,
+  "scheme": "Plain Winternitz (w=256, SHA-256, KEY_LEN=32) in chal.py — no tweak/r values in the actual attachment; chain: pub[i]=H^256(priv[i]), sig[i]=H^(255-h_i)(priv[i]), verify: H^(h_i+1)(sig[i])==pub[i]",
+  "attack": "One-way hash chains allow lowering digest bytes only: from any valid sig[i]=H^(255-m_j_i)(priv_i) one can derive H^(255-t_i)(priv_i) for any t_i<=m_j_i by extra hashing. With 20 given signatures, per-coordinate max over signatures covers target digest bytes. Target message2 = '<pubkey0.hex()> sent 999999 WOTScoins to me' is deterministic from public_key[0]; its SHA-256 digest t_i satisfied t_i <= max_j m_j_i for all 32 coordinates, so the forged signature (first usable signature j with m_j_i>=t_i, extended by digs[j][i]-t_i hashes) is bit-identical to the real signature2.",
+  "flag_recovery": "aes_key = first byte of each forged chain element (matches chal.py), AES-256-CBC decrypt of data.json 'enc' with 'iv' -> 32-byte plaintext flag.",
+  "verification": "All 20 provided signatures re-verified against public_key; forged signature passed verify(forged, message2) == public_key; decrypted plaintext is clean ASCII FLAG-REDACTED-SEE-FLAGS-MIRROR (no padding artifacts).",
+  "files": {
+    "chal": "~/AppData/Local/hermes/cache/scratch/wots2/chal_455b7cde5b008daa22efc2ff172c9f28.py",
+    "data": "~/AppData/Local/hermes/cache/scratch/wots2/data_c1cf7f9624cc5c43e06c5c10b551a0e3.json",
+    "forge_script": "~/AppData/Local/hermes/cache/scratch/wots2/forge.py"
+  }
+}
