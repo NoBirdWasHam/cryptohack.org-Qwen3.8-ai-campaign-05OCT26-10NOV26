@@ -156,3 +156,25 @@ found ONE pre-existing residual — `PUZZLES/ctf-archive/challenge-305-*/dlp_run
 hardcoded the build dir `build/<hostname>`; replaced with `$(hostname)` (portable,
 identity-free). Re-run: 0 residuals. Earlier G1 wordings had covered username/LAN-IP
 patterns but not the machine hostname as a build-dir token — gate pattern widened.
+
+## Addendum — 2026-11-15c single-tree ruling (owner: lesson rows are cross-pollinated challenge rows)
+
+Owner clarification supersedes the same-day coursework-extraction split: every solved site
+row must show its AAR + info inside its category ("coursework is duplicate — it's
+cross-pollinated"). The separate COURSEWORK/ tree is retired; lesson records were moved
+back into `PUZZLES/<category>/` as `challenge-<NN>-cryptohack-<slug>`, **NN = row position
+on the site category page** (verified collision-free vs every existing ledger id; declared
+as position — never presented as a public challenge id, which lessons do not have).
+
+| change | scope |
+|---|---|
+| `COURSEWORK/<cat>/course-*` → `PUZZLES/<cat>/challenge-<pos>-cryptohack-<slug>` | 83 dirs, content byte-unchanged |
+| lesson flags → standard mirror `FLAGS/<cat>/challenge-<pos>-cryptohack-<slug>/flag.txt` | 32 files, sha256 re-verified (0 mismatches) |
+| `FLAGS/INDEX.jsonl` merged | 316 rows (233 numbered + 83 `kind: course-lesson`; 260 flags / 56 null), every note carried from prior rows + dated NN-convention clause |
+| docs regenerated | category READMEs (lesson rows marked), `PUZZLES/index.json` (316), `SUPPORT/CATEGORY_INDEX.md`, top README |
+
+Per-category dirs == site tiles again: 3/19/29/16/29/14/23/16/17/18/23/17/16/76 = 316
+(lessons included: 3/19/23/6/15/7/10/0… = 83). Validator green: dirs==rows, 3 files/dir,
+mirrors exact, all flag shas match. G1/G3 unchanged (no new content beyond path
+pointers); G8 — flag values touched no file outside mirrors/own dirs (path-rewrite pass
+touched pointers only).

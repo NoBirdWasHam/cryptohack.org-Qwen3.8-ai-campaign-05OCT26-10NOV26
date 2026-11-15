@@ -1,22 +1,7 @@
-# CTF Archive — 76 challenge dirs
-Site category page: https://cryptohack.org/challenges/ctf-archive/ · **76 rows on the site = 76 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
+# CTF Archive — 76 dirs
+Site category page: https://cryptohack.org/challenges/ctf-archive/ · **76 rows on the site, 76 dirs here (1:1)**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/ctf-archive/`.
 - `challenge-100-cryptohack-unimplemented-tetctf2021`
-- `challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it`
-- `challenge-13391-cryptohack-maybe_someday-googlectf2022`
-- `challenge-13391-cryptohack-twist_and_shout-zh3r0_ctf_v22`
-- `challenge-13392-cryptohack-probability-seetf2022`
-- `challenge-13393-cryptohack-sus-imaginaryctf2023`
-- `challenge-13394-cryptohack-lack_of_entropy-firebird_inte`
-- `challenge-13395-cryptohack-oofbleck-firebird_internal_ct`
-- `challenge-13396-cryptohack-1337crypt-downunderctf2020`
-- `challenge-13396-cryptohack-authenticator-firebird_intern`
-- `challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor`
-- `challenge-13398-cryptohack-2020-tetctf2020`
-- `challenge-13399-cryptohack-dark_arts-codegate_ctf2022`
-- `challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor`
-- `challenge-13401-cryptohack-unbalanced-icc_athens2022`
-- `challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023`
 - `challenge-242-cryptohack-1337crypt_v2-downunderctf2021`
 - `challenge-246-cryptohack-additional_problems-csc_belgi`
 - `challenge-247-cryptohack-blind-ecsc_2023_norway2023`
@@ -77,3 +62,18 @@ Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/ctf-archive/`.
 - `challenge-322-cryptohack-rsatogether-ecsc_2024_italy20`
 - `challenge-323-cryptohack-spongebob_squarepants__battle`
 - `challenge-325-cryptohack-d-phi-enc-hacktm_ctf2023`
+- `challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it`
+- `challenge-13391-cryptohack-maybe_someday-googlectf2022`
+- `challenge-13391-cryptohack-twist_and_shout-zh3r0_ctf_v22`
+- `challenge-13392-cryptohack-probability-seetf2022`
+- `challenge-13393-cryptohack-sus-imaginaryctf2023`
+- `challenge-13394-cryptohack-lack_of_entropy-firebird_inte`
+- `challenge-13395-cryptohack-oofbleck-firebird_internal_ct`
+- `challenge-13396-cryptohack-1337crypt-downunderctf2020`
+- `challenge-13396-cryptohack-authenticator-firebird_intern`
+- `challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor`
+- `challenge-13398-cryptohack-2020-tetctf2020`
+- `challenge-13399-cryptohack-dark_arts-codegate_ctf2022`
+- `challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor`
+- `challenge-13401-cryptohack-unbalanced-icc_athens2022`
+- `challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023`

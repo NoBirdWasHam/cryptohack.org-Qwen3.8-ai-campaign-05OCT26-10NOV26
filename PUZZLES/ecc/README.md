@@ -1,7 +1,18 @@
-# Elliptic Curves — 13 challenge dirs
-Site category page: https://cryptohack.org/challenges/ecc/ · **23 rows on the site = 13 numbered challenges + 10 course lessons · challenge dirs here 1:1 with the site's numbered rows**
+# Elliptic Curves — 23 dirs
+Site category page: https://cryptohack.org/challenges/ecc/ · **23 rows on the site, 23 dirs here (1:1)**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/ecc/`.
-Course lessons for this category live under `COURSEWORK/ecc/` (lesson format, dual record; flags colocated). See `COURSEWORK/index.jsonl`.
+10 of these dirs are **course-lesson rows** the site cross-pollinated into this category (dir NN = row position on the site page — lessons have no public challenge id); their records keep the run's lesson format and `kind: course-lesson` in `FLAGS/INDEX.jsonl`.
+- `challenge-1-cryptohack-bg`  *(lesson row)*
+- `challenge-2-cryptohack-ecc0`  *(lesson row)*
+- `challenge-3-cryptohack-ecc1`  *(lesson row)*
+- `challenge-4-cryptohack-ecc2`  *(lesson row)*
+- `challenge-5-cryptohack-ecc3`  *(lesson row)*
+- `challenge-6-cryptohack-ecc4`  *(lesson row)*
+- `challenge-7-cryptohack-criminal`  *(lesson row)*
+- `challenge-11-cryptohack-moving`  *(lesson row)*
+- `challenge-19-cryptohack-ps3`  *(lesson row)*
+- `challenge-22-cryptohack-ladder`  *(lesson row)*
+- `challenge-86-cryptohack-curveball`
 - `challenge-112-cryptohack-double_and_broken`
 - `challenge-113-cryptohack-digestive`
 - `challenge-114-cryptohack-twisted_mind`
@@ -14,4 +25,3 @@ Course lessons for this category live under `COURSEWORK/ecc/` (lesson format, du
 - `challenge-121-cryptohack-node`
 - `challenge-122-cryptohack-evil_twisted_mind`
 - `challenge-123-cryptohack-real_curves`
-- `challenge-86-cryptohack-curveball`

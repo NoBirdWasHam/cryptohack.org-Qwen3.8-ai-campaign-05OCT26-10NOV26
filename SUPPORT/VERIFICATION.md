@@ -283,3 +283,10 @@ Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
   README+AAR+AGENT; every flag hashes to its row (260/260 across both trees). Content of
   moved dirs byte-unchanged; frozen 11-14 audit dir untouched. Rationale + gates:
   `GATES.md` addendum 2026-11-15 (coursework extraction).
+
+## Re-check 2026-11-15c (single-tree: all 316 solved rows inside their categories)
+- Tree: 316 dirs == 14 site tiles (3/19/29/16/29/14/23/16/17/18/23/17/16/76); 233
+  numbered challenge dirs + 83 lesson dirs (NN = site row position, declared).
+  `FLAGS/INDEX.jsonl` 316 rows (260 flags / 56 null), mirrors exact, every flag hashes
+  (260/260); dirs carry README+AAR+AGENT (316/316). Moved content byte-unchanged; frozen
+  11-14 audit dir untouched. Rationale: `GATES.md` addendum 2026-11-15c.

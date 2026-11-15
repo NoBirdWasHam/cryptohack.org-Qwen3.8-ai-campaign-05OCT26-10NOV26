@@ -1,7 +1,6 @@
-# Hash Functions — 16 challenge dirs
-Site category page: https://cryptohack.org/challenges/hashes/ · **16 rows on the site = 16 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
+# Hash Functions — 16 dirs
+Site category page: https://cryptohack.org/challenges/hashes/ · **16 rows on the site, 16 dirs here (1:1)**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/hashes/`.
-- `challenge-13389-cryptohack-collider`
 - `challenge-134-cryptohack-birthday1`
 - `challenge-135-cryptohack-merkletrees`
 - `challenge-136-cryptohack-birthday2`
@@ -17,3 +16,4 @@ Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/hashes/`.
 - `challenge-147-cryptohack-mdflag`
 - `challenge-148-cryptohack-no_difference`
 - `challenge-149-cryptohack-invariant`
+- `challenge-13389-cryptohack-collider`
