@@ -1,11 +1,14 @@
 # Category index — 316 dirs, 1:1 with the site's 14 category pages (updated 2026-11-15)
 
-All solved site rows are documented in their site category — numbered challenges and the 83
-cross-pollinated course-lesson rows alike (owner ruling 2026-11-15). Lesson dirs carry NN =
-row position on the site page (no public challenge id exists for lessons); their INDEX rows
-keep `kind: course-lesson` and lesson-format records.
+**Dir numbering = the site's own row order** (NN = row position on the category page, applied
 
-| category | site tile | dirs here | of which lesson rows | flags | null (reason in INDEX) | first | last |
+to all rows uniformly). Numbered challenges additionally carry their historical ledger id as
+
+`ledger_nn` in `FLAGS/INDEX.jsonl` and in their dir README line; the run ledger
+
+(`SUPPORT/progress_sanitized.json`) remains keyed by that old NN as history.
+
+| category | site tile | dirs here | lesson rows | flags | null (reason in INDEX) | first | last |
 |---|---|---|---|---|---|---|---|
 | introduction (Introduction) | 3 | 3 | 3 | 3 | 0 | 2026-10-05 | 2026-10-05 |
 | general (General) | 19 | 19 | 19 | 1 | 18 | 2026-10-05 | 2026-10-05 |

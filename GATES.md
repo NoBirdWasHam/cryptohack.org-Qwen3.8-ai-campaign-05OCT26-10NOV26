@@ -178,3 +178,21 @@ Per-category dirs == site tiles again: 3/19/29/16/29/14/23/16/17/18/23/17/16/76 
 mirrors exact, all flag shas match. G1/G3 unchanged (no new content beyond path
 pointers); G8 — flag values touched no file outside mirrors/own dirs (path-rewrite pass
 touched pointers only).
+
+## Addendum — 2026-11-15d uniform site-order numbering (owner: numbering was mixed)
+
+Owner catch: after the merge, categories mixed two numbering systems — lesson dirs were
+site-row positions (1..N) while challenge dirs kept old ledger ids (124-130 etc.). Checked
+where puzzle numbers actually live: category rows print none, lesson pages redirect to the
+course, and even the numbered rows' inline static-file ids (e.g. 13373 for `dh_static`) do
+not match ledger ids. The only numbering a reader can see and check is **the site page's
+row order**, so all 316 dirs were renumbered to it uniformly.
+
+| change | scope |
+|---|---|
+| dir renames `challenge-<old>-...` → `challenge-<site-row-position>-...` | 233 (83 lesson dirs already conformed), two-phase swap-safe, 0 collisions |
+| historical ledger id preserved | new `ledger_nn` field on all 233 challenge INDEX rows + per-dir listing line; run ledger unchanged as history |
+| prose path rewrites | 467 files; all 233 old paths referenced in prose updated; frozen 11-14 audit dir untouched (path references there intentionally kept, noted) |
+
+Validator after renumber: 316 dirs == 316 rows, **every dir NN == its row position on the
+live category page** (re-parsed), 3 files/dir, FLAGS mirrors exact, all 260 flag shas match.

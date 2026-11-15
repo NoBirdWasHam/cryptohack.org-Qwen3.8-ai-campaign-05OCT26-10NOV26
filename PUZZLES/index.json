@@ -11,6 +11,7 @@
    "flag": "75a82ad04239dc49e70898f2e91267470fc77a05579f87b37ec7384fc759ea75",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/introduction/challenge-2-cryptohack-nc-intro": {
@@ -20,6 +21,7 @@
    "flag": "de8e866c8c34cb9694ac4495811dcb3af8226275fd2963cf5e166df19a4f4e78",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/introduction/challenge-3-cryptohack-nc-intro-2": {
@@ -29,6 +31,7 @@
    "flag": "aaf16fbddf961cc68c8befc10dd909cdd36109b45f55360270000416689cec74",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-1-cryptohack-enc1": {
@@ -38,6 +41,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-2-cryptohack-enc2": {
@@ -47,6 +51,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-3-cryptohack-enc3": {
@@ -56,6 +61,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-4-cryptohack-enc4": {
@@ -65,6 +71,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 4,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-5-cryptohack-enc_interactive": {
@@ -74,6 +81,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 5,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-6-cryptohack-xor0": {
@@ -83,6 +91,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 6,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-7-cryptohack-xor1": {
@@ -92,6 +101,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 7,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-8-cryptohack-xorkey0": {
@@ -101,6 +111,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 8,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-9-cryptohack-xorkey1": {
@@ -110,6 +121,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 9,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-10-cryptohack-xorimg1": {
@@ -119,6 +131,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 10,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-11-cryptohack-gcd": {
@@ -128,6 +141,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 11,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-12-cryptohack-egcd": {
@@ -137,6 +151,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 12,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-13-cryptohack-ma0": {
@@ -146,6 +161,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 13,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-14-cryptohack-ma1": {
@@ -155,6 +171,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 14,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-15-cryptohack-mdiv": {
@@ -164,6 +181,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 15,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-16-cryptohack-pem1": {
@@ -173,6 +191,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 16,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-17-cryptohack-certainly": {
@@ -182,6 +201,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 17,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-18-cryptohack-ssh-keys": {
@@ -191,6 +211,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 18,
    "kind": "course-lesson"
   },
   "PUZZLES/general/challenge-19-cryptohack-transparency": {
@@ -200,6 +221,7 @@
    "flag": "4e4d53eafb216cf3f0aad4cc4c4671f9f945c652cde8c9131695a1fc438cb439",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 19,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-1-cryptohack-aes0": {
@@ -209,6 +231,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-2-cryptohack-aes1": {
@@ -218,6 +241,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-3-cryptohack-aes2": {
@@ -227,6 +251,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-4-cryptohack-aes3": {
@@ -236,6 +261,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 4,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-5-cryptohack-aes4": {
@@ -245,6 +271,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 5,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-6-cryptohack-aes5": {
@@ -254,6 +281,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 6,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-7-cryptohack-aes6": {
@@ -263,6 +291,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 7,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-8-cryptohack-block_cipher_starter": {
@@ -272,6 +301,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 8,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-9-cryptohack-passwords_as_keys": {
@@ -281,6 +311,7 @@
    "flag": "23b47277a65c1bee7cfa53381cc46649a55cee377c41ab76cc9d790c179d3952",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 9,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-10-cryptohack-ecbcbcwtf": {
@@ -290,6 +321,7 @@
    "flag": "d569c380d375dbf4acc6de01440b743212bb163e4dd3473827514374d82da394",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 10,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-11-cryptohack-ecb_oracle": {
@@ -299,6 +331,7 @@
    "flag": "8991a400d52ae9adc5e627dd08e56a5690b433b3cf8acf7044735a67715a9b0b",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 11,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-12-cryptohack-flipping_cookie": {
@@ -308,6 +341,7 @@
    "flag": "e1c52210dbbb6c7576297b85bda07820589b05c615c1a5670ae307ccdb0ad7c8",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 12,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-13-cryptohack-lazy_cbc": {
@@ -317,6 +351,7 @@
    "flag": "f90f85376caa2ce377defc16aad19db2bff33fed09a852d7802d38c2475ee4d4",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 13,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-15-cryptohack-symmetry": {
@@ -326,6 +361,7 @@
    "flag": "e7f1ca8e0daec7df4e89e1cf92185c4b6c7364ab12aee187768134879d53af74",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 15,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-16-cryptohack-bean_counter": {
@@ -335,6 +371,7 @@
    "flag": "d737972f686e62ae909d9f8f54901facdce518119134951f846558782d0c73b8",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 16,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-17-cryptohack-ctrime": {
@@ -344,6 +381,7 @@
    "flag": "b0a5d21e2412be21138c206c38637843818f4000a167c515d9a9189d89d3c503",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 17,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-18-cryptohack-logon-zero": {
@@ -353,6 +391,7 @@
    "flag": "27084da99c61a3336dcb5e960d3f58f3458b97bc8139aaf3a1c5d1456aed2544",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 18,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-19-cryptohack-stream_consciousness": {
@@ -362,6 +401,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 19,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-20-cryptohack-dancing-queen": {
@@ -371,6 +411,7 @@
    "flag": "912106766d3edb14e6787d95d59330fd6b6af48b1a473069cd9abf0a8ee51d62",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 20,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-22-cryptohack-pad_thai": {
@@ -380,6 +421,7 @@
    "flag": "75a398969e859e4eeee46935057c03da0b4a51256002e38a45b8d7899a44cd81",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-05",
+   "nn_site_row": 22,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-24-cryptohack-good_pad_ugly": {
@@ -389,6 +431,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 24,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-27-cryptohack-paper_plane": {
@@ -398,6 +441,7 @@
    "flag": "b9d56f265d66cd86fd1cdfd58fe20ee58d13a41a9fee4b7180a977a2d16cd377",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 27,
    "kind": "course-lesson"
   },
   "PUZZLES/aes/challenge-28-cryptohack-forbidden_fruit": {
@@ -407,60 +451,73 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 28,
    "kind": "course-lesson"
   },
-  "PUZZLES/aes/challenge-36-cryptohack-triple_des": {
-   "aar_bytes": 7051,
+  "PUZZLES/aes/challenge-14-cryptohack-triple_des": {
+   "aar_bytes": 6944,
    "agent_twin": true,
    "stub": true,
    "flag": "52a0ed235b912f19d6ccb2cc5b7871ce3adcc17dd2e1b28bd9baca15b492fd8f",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 14,
+   "ledger_nn": "36",
    "kind": "challenge"
   },
-  "PUZZLES/aes/challenge-45-cryptohack-oh_snap": {
-   "aar_bytes": 11348,
+  "PUZZLES/aes/challenge-21-cryptohack-oh_snap": {
+   "aar_bytes": 11207,
    "agent_twin": true,
    "stub": true,
    "flag": "4622161d4340b982a82761b4876de534c22eaa02aa5a496cc513e91fcb9900dc",
    "flag_note": null,
    "date": "2026-10-23",
+   "nn_site_row": 21,
+   "ledger_nn": "45",
    "kind": "challenge"
   },
-  "PUZZLES/aes/challenge-48-cryptohack-beatboxer": {
+  "PUZZLES/aes/challenge-29-cryptohack-beatboxer": {
    "aar_bytes": 3226,
    "agent_twin": true,
    "stub": true,
    "flag": "cdfbff0e64c09248ea03b78c3dd36c9626bdb34b628da515534698835d7ee351",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-06",
+   "nn_site_row": 29,
+   "ledger_nn": "48",
    "kind": "challenge"
   },
-  "PUZZLES/aes/challenge-131-cryptohack-rhetorical_oracle": {
-   "aar_bytes": 2200,
+  "PUZZLES/aes/challenge-23-cryptohack-rhetorical_oracle": {
+   "aar_bytes": 2198,
    "agent_twin": true,
    "stub": true,
    "flag": "f16e07830e1f99b934dc958b599446e7c51731fca1d23525a54ed9c3de90fbc2",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 23,
+   "ledger_nn": "131",
    "kind": "challenge"
   },
-  "PUZZLES/aes/challenge-132-cryptohack-oracular_spectacular": {
-   "aar_bytes": 8827,
+  "PUZZLES/aes/challenge-25-cryptohack-oracular_spectacular": {
+   "aar_bytes": 8826,
    "agent_twin": true,
    "stub": true,
    "flag": "eee0f7e647cc3a75c49492c549a354220e2259ed155309285ffd6ff7aefa6d11",
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-10-24",
+   "nn_site_row": 25,
+   "ledger_nn": "132",
    "kind": "challenge"
   },
-  "PUZZLES/aes/challenge-133-cryptohack-rhetorical_oracle_2": {
-   "aar_bytes": 4555,
+  "PUZZLES/aes/challenge-26-cryptohack-rhetorical_oracle_2": {
+   "aar_bytes": 4554,
    "agent_twin": true,
    "stub": true,
    "flag": "eb7b5524dfc08ff0968e9cba34781c6f60446594a60ca09e129fc5396c831a20",
    "flag_note": null,
    "date": "2026-10-19",
+   "nn_site_row": 26,
+   "ledger_nn": "133",
    "kind": "challenge"
   },
   "PUZZLES/maths/challenge-1-cryptohack-root0": {
@@ -470,6 +527,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/maths/challenge-2-cryptohack-root1": {
@@ -479,6 +537,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/maths/challenge-3-cryptohack-tonelli-shanks": {
@@ -488,6 +547,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/maths/challenge-4-cryptohack-crt1": {
@@ -497,6 +557,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 4,
    "kind": "course-lesson"
   },
   "PUZZLES/maths/challenge-7-cryptohack-adrien": {
@@ -506,6 +567,7 @@
    "flag": "170e0ab65ff1ac2796243502346b1771356a0a5ef14d0c7f68a2babd7b1bb99c",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 7,
    "kind": "course-lesson"
   },
   "PUZZLES/maths/challenge-8-cryptohack-bionomials": {
@@ -515,96 +577,117 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 8,
    "kind": "course-lesson"
   },
-  "PUZZLES/maths/challenge-89-cryptohack-powers": {
-   "aar_bytes": 5013,
+  "PUZZLES/maths/challenge-5-cryptohack-powers": {
+   "aar_bytes": 5010,
    "agent_twin": true,
    "stub": true,
    "flag": "164907c5ea43093df0971f26041645c5a2902e390f5d624347a3b00a26fe4d14",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 5,
+   "ledger_nn": "89",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-90-cryptohack-common_ground": {
-   "aar_bytes": 2136,
+  "PUZZLES/maths/challenge-6-cryptohack-common_ground": {
+   "aar_bytes": 2093,
    "agent_twin": true,
    "stub": true,
    "flag": "1ad5ee9443386a28b6194c852a8588bbe09fea12f7c77643983cc84ef68770e2",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 6,
+   "ledger_nn": "90",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-91-cryptohack-broken-rsa": {
-   "aar_bytes": 2113,
+  "PUZZLES/maths/challenge-9-cryptohack-broken-rsa": {
+   "aar_bytes": 2111,
    "agent_twin": true,
    "stub": true,
    "flag": "8ef05423a1601fc172a775890d4fc029ed33a51e0c176fd1b2a531f81e8d64d1",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 9,
+   "ledger_nn": "91",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-92-cryptohack-no-way-back-home": {
+  "PUZZLES/maths/challenge-10-cryptohack-no-way-back-home": {
    "aar_bytes": 2139,
    "agent_twin": true,
    "stub": true,
    "flag": "f676b5b1eaa7bedbb005d12701f8e3cc60f3a424a0eaae2fb0985552871e1783",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 10,
+   "ledger_nn": "92",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-93-cryptohack-ellipse": {
+  "PUZZLES/maths/challenge-11-cryptohack-ellipse": {
    "aar_bytes": 2114,
    "agent_twin": true,
    "stub": true,
    "flag": "41e7b43b05ca6c35d41e3473d5c8e3bac16a7149166362866a460f9aeba1b2e9",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 11,
+   "ledger_nn": "93",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-94-cryptohack-roll_your_own": {
+  "PUZZLES/maths/challenge-12-cryptohack-roll_your_own": {
    "aar_bytes": 2094,
    "agent_twin": true,
    "stub": true,
    "flag": "5200b1f9a325e353cf8785d91ce2ab6813c6d8141454711f51469b3cd7c970e1",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 12,
+   "ledger_nn": "94",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-95-cryptohack-unencryptable": {
+  "PUZZLES/maths/challenge-13-cryptohack-unencryptable": {
    "aar_bytes": 2118,
    "agent_twin": true,
    "stub": true,
    "flag": "bf639873ea724b0ba6d04a137c3eca6f0726ef9a5e3c5a849d2929171cbd98e6",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 13,
+   "ledger_nn": "95",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-96-cryptohack-cofactor": {
+  "PUZZLES/maths/challenge-14-cryptohack-cofactor": {
    "aar_bytes": 2238,
    "agent_twin": true,
    "stub": true,
    "flag": "26b40a29612491c20dd1af89d39d4b4ddc75472c6c951027e9c6dce0fca03f6e",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 14,
+   "ledger_nn": "96",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-97-cryptohack-eisenstein": {
+  "PUZZLES/maths/challenge-15-cryptohack-eisenstein": {
    "aar_bytes": 2254,
    "agent_twin": true,
    "stub": true,
    "flag": "8d41d11e09c1f5b82f954d05dee05cdf6b0c92238058cd330c459a7f1047455f",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 15,
+   "ledger_nn": "97",
    "kind": "challenge"
   },
-  "PUZZLES/maths/challenge-98-cryptohack-prejudice": {
+  "PUZZLES/maths/challenge-16-cryptohack-prejudice": {
    "aar_bytes": 2203,
    "agent_twin": true,
    "stub": true,
    "flag": "e57f3f4c8e8ec03aa9b723e0931b495b8be01a54bcf01a84394b6af95bdd08b4",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 16,
+   "ledger_nn": "98",
    "kind": "challenge"
   },
   "PUZZLES/rsa/challenge-1-cryptohack-rsa_starter_1": {
@@ -614,6 +697,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-2-cryptohack-rsa_starter_2": {
@@ -623,6 +707,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-3-cryptohack-rsa_starter_3": {
@@ -632,6 +717,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-4-cryptohack-rsa_starter_4": {
@@ -641,6 +727,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 4,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-5-cryptohack-rsa_starter_5": {
@@ -650,6 +737,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 5,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-6-cryptohack-rsa_starter_6": {
@@ -659,6 +747,7 @@
    "flag": "259f7a318fa46d43acd6a32ce41c63e91e16d40fc7a8f3dea39dc5df59d1ef31",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 6,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-7-cryptohack-rsa_factoring": {
@@ -668,6 +757,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 7,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-8-cryptohack-inferius": {
@@ -677,6 +767,7 @@
    "flag": "7a0765f4f1fe6efa0370c35d88e82bd6e0b657f98da7efb9f4870b9dda1b0f48",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 8,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-9-cryptohack-monoprime": {
@@ -686,6 +777,7 @@
    "flag": "6b119f574a7280e711929e841b25f77f339422526064f8b6166cbfb61d73f3f6",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 9,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-10-cryptohack-square": {
@@ -695,6 +787,7 @@
    "flag": "1386ae23b06aeb8e84e4ed58636beb2ab598e864c5704fb4b50ec94584c0a111",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 10,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-11-cryptohack-manyprime": {
@@ -704,6 +797,7 @@
    "flag": "ce37eea406bb52022104380cc8b9a606ca753e81c9bf04e1cff49cb3a4f45f8a",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 11,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-12-cryptohack-salty": {
@@ -713,6 +807,7 @@
    "flag": "e81426c56dcc205c67c6f7596bc84dbbc447c7a9bb57cc626d3e4d16b2b65adb",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 12,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-13-cryptohack-modulus_inutilis": {
@@ -722,6 +817,7 @@
    "flag": "1eae7c52918425e949ad05d9ced278230568ddefee94aa35e0bdf256b89bce69",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 13,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-14-cryptohack-big": {
@@ -731,6 +827,7 @@
    "flag": "922ec7a41ae3c909c9644d4013d4fdde4511d9928be15f47e61487dcba9a4e5a",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 14,
    "kind": "course-lesson"
   },
   "PUZZLES/rsa/challenge-15-cryptohack-wires": {
@@ -740,132 +837,161 @@
    "flag": "b0d61216bf8ac49d830d5527bd3b98b751afe3bc4e245592ca8182386a7ef4f9",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 15,
    "kind": "course-lesson"
   },
-  "PUZZLES/rsa/challenge-64-cryptohack-big2": {
-   "aar_bytes": 2278,
+  "PUZZLES/rsa/challenge-16-cryptohack-big2": {
+   "aar_bytes": 2237,
    "agent_twin": true,
    "stub": true,
    "flag": "74a1ff8928394df718d5c033e63ddd7a605f29c974a90d1a05f5b7e77fa607ef",
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-11-02",
+   "nn_site_row": 16,
+   "ledger_nn": "64",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-99-cryptohack-infinite_descent": {
-   "aar_bytes": 2174,
+  "PUZZLES/rsa/challenge-18-cryptohack-infinite_descent": {
+   "aar_bytes": 2133,
    "agent_twin": true,
    "stub": true,
    "flag": "be67402be58948e17bc2d1e4c90f6e7506ae91da841767fd1cb530c7cdac1e3e",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 18,
+   "ledger_nn": "99",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-100-cryptohack-marin": {
-   "aar_bytes": 2077,
+  "PUZZLES/rsa/challenge-19-cryptohack-marin": {
+   "aar_bytes": 2075,
    "agent_twin": true,
    "stub": true,
    "flag": "d7f598a3594a66ada102200115f91b387eb19c642a4fa1282d9dec0efef08652",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 19,
+   "ledger_nn": "100",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-101-cryptohack-signing_server": {
-   "aar_bytes": 2138,
+  "PUZZLES/rsa/challenge-25-cryptohack-signing_server": {
+   "aar_bytes": 2095,
    "agent_twin": true,
    "stub": true,
    "flag": "feb78797c2e6660168fea6bd55654ef8aed8daeb74ca7b260c557e2f52f27ac0",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 25,
+   "ledger_nn": "101",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-102-cryptohack-fast_primes": {
-   "aar_bytes": 2918,
+  "PUZZLES/rsa/challenge-20-cryptohack-fast_primes": {
+   "aar_bytes": 2915,
    "agent_twin": true,
    "stub": true,
    "flag": "29d2ebd2504272d1ce21fd977e0a17462f5d61e2bbe381a1a51ca470c754b053",
    "flag_note": null,
    "date": "2026-10-17",
+   "nn_site_row": 20,
+   "ledger_nn": "102",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-103-cryptohack-lets_decrypt": {
-   "aar_bytes": 2126,
+  "PUZZLES/rsa/challenge-26-cryptohack-lets_decrypt": {
+   "aar_bytes": 2083,
    "agent_twin": true,
    "stub": true,
    "flag": "20fb475f629f57fdd18b0c1c789ef83b1c1fca660020456e1268581bf24a121d",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 26,
+   "ledger_nn": "103",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-104-cryptohack-ron_was_wrong": {
-   "aar_bytes": 2216,
+  "PUZZLES/rsa/challenge-21-cryptohack-ron_was_wrong": {
+   "aar_bytes": 2173,
    "agent_twin": true,
    "stub": true,
    "flag": "59e298ea2f8f04bf7bd4b6b2bbfa5d12837bed69bc18a1f1d444b2a6336e1803",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 21,
+   "ledger_nn": "104",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-105-cryptohack-bespoke": {
-   "aar_bytes": 3081,
+  "PUZZLES/rsa/challenge-23-cryptohack-bespoke": {
+   "aar_bytes": 3080,
    "agent_twin": true,
    "stub": true,
    "flag": "7f2c3fe94d0a0b67d1e2d5c510a72ac5f3f16947cd57a077c2ce133849e54af1",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 23,
+   "ledger_nn": "105",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-106-cryptohack-null_padding": {
-   "aar_bytes": 2156,
+  "PUZZLES/rsa/challenge-24-cryptohack-null_padding": {
+   "aar_bytes": 2113,
    "agent_twin": true,
    "stub": true,
    "flag": "8d39914c7a53cc3ae22cfbf07366886bc420b4e057ff2b47d6a2d5a46fe88fe2",
    "flag_note": null,
    "date": "2026-10-07",
+   "nn_site_row": 24,
+   "ledger_nn": "106",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-107-cryptohack-rsa_blinding": {
-   "aar_bytes": 2129,
+  "PUZZLES/rsa/challenge-27-cryptohack-rsa_blinding": {
+   "aar_bytes": 2127,
    "agent_twin": true,
    "stub": true,
    "flag": "ef6c0d8fb7adb1c3752af2a0be8a01067104790b25c1d1a5f2782478e333d692",
    "flag_note": null,
    "date": "2026-10-11",
+   "nn_site_row": 27,
+   "ledger_nn": "107",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-108-cryptohack-johan": {
-   "aar_bytes": 2252,
+  "PUZZLES/rsa/challenge-17-cryptohack-johan": {
+   "aar_bytes": 2250,
    "agent_twin": true,
    "stub": true,
    "flag": "197f66b8e3edc4546c7c20d12607f4635b99f9dcda9fe2da486ec295bc2a6769",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 17,
+   "ledger_nn": "108",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-109-cryptohack-pedro": {
-   "aar_bytes": 2114,
+  "PUZZLES/rsa/challenge-28-cryptohack-pedro": {
+   "aar_bytes": 2112,
    "agent_twin": true,
    "stub": true,
    "flag": "0d5ab889f8086b806458d19da51110ab19c3ade28f7fd69a9a4191a054b9ce25",
    "flag_note": null,
    "date": "2026-10-11",
+   "nn_site_row": 28,
+   "ledger_nn": "109",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-110-cryptohack-lets_decrypt_2": {
+  "PUZZLES/rsa/challenge-29-cryptohack-lets_decrypt_2": {
    "aar_bytes": 6562,
    "agent_twin": true,
    "stub": true,
    "flag": null,
    "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-23",
+   "nn_site_row": 29,
+   "ledger_nn": "110",
    "kind": "challenge"
   },
-  "PUZZLES/rsa/challenge-111-cryptohack-rsa_backdoor": {
-   "aar_bytes": 8802,
+  "PUZZLES/rsa/challenge-22-cryptohack-rsa_backdoor": {
+   "aar_bytes": 8800,
    "agent_twin": true,
    "stub": true,
    "flag": "925e37b07a2a11fdcb372fc394475c53291765b514b1d69c9b1a2baf3cb51a10",
    "flag_note": null,
    "date": "2026-10-24",
+   "nn_site_row": 22,
+   "ledger_nn": "111",
    "kind": "challenge"
   },
   "PUZZLES/diffie-hellman/challenge-1-cryptohack-dh-starter-1": {
@@ -875,6 +1001,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/diffie-hellman/challenge-2-cryptohack-dh-starter-2": {
@@ -884,6 +1011,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/diffie-hellman/challenge-3-cryptohack-dh-starter-3": {
@@ -893,6 +1021,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/diffie-hellman/challenge-4-cryptohack-dh-starter-4": {
@@ -902,6 +1031,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 4,
    "kind": "course-lesson"
   },
   "PUZZLES/diffie-hellman/challenge-5-cryptohack-dh-starter-5": {
@@ -911,6 +1041,7 @@
    "flag": "174187f02acd186245452fbfd60cfd7cb0c8e36e3c2f0afca2cfd2a457c99f41",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 5,
    "kind": "course-lesson"
   },
   "PUZZLES/diffie-hellman/challenge-6-cryptohack-parameter_injection": {
@@ -920,6 +1051,7 @@
    "flag": "65afc5f9624984b08cad683213c69f9b927470929668352de9eeec6012ae5514",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 6,
    "kind": "course-lesson"
   },
   "PUZZLES/diffie-hellman/challenge-7-cryptohack-export_grade": {
@@ -929,69 +1061,84 @@
    "flag": "565bbe87c0485db95da49dd1d6552f7b856ffa7eb5a4befe5fb8c827ebbb0083",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-06",
+   "nn_site_row": 7,
    "kind": "course-lesson"
   },
-  "PUZZLES/diffie-hellman/challenge-124-cryptohack-dh_additive": {
-   "aar_bytes": 5309,
+  "PUZZLES/diffie-hellman/challenge-9-cryptohack-dh_additive": {
+   "aar_bytes": 5297,
    "agent_twin": true,
    "stub": true,
    "flag": "f57b64180f29db6a820a2fe698c82453141ad107eac377c9c429f495dc663825",
    "flag_note": null,
    "date": "2026-10-15",
+   "nn_site_row": 9,
+   "ledger_nn": "124",
    "kind": "challenge"
   },
-  "PUZZLES/diffie-hellman/challenge-125-cryptohack-scriptkiddie": {
-   "aar_bytes": 4876,
+  "PUZZLES/diffie-hellman/challenge-11-cryptohack-scriptkiddie": {
+   "aar_bytes": 4871,
    "agent_twin": true,
    "stub": true,
    "flag": "5918eb02590493fd38bfd8babf8d804d6537efddfb4c56b48fb76167a28e59e5",
    "flag_note": null,
    "date": "2026-10-15",
+   "nn_site_row": 11,
+   "ledger_nn": "125",
    "kind": "challenge"
   },
-  "PUZZLES/diffie-hellman/challenge-126-cryptohack-matrix": {
-   "aar_bytes": 4462,
+  "PUZZLES/diffie-hellman/challenge-12-cryptohack-matrix": {
+   "aar_bytes": 4457,
    "agent_twin": true,
    "stub": true,
    "flag": "81be67a06e6f8f45b1a5189b29668a1e57a7a6fd0631f1c4ae73e1e025316a25",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 12,
+   "ledger_nn": "126",
    "kind": "challenge"
   },
-  "PUZZLES/diffie-hellman/challenge-127-cryptohack-dh_static": {
-   "aar_bytes": 6155,
+  "PUZZLES/diffie-hellman/challenge-8-cryptohack-dh_static": {
+   "aar_bytes": 6143,
    "agent_twin": true,
    "stub": true,
    "flag": "b04515e1d33d5bda2c6333753f7fca2acbce9f3f7226afd66f9f672f0a6eec18",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 8,
+   "ledger_nn": "127",
    "kind": "challenge"
   },
-  "PUZZLES/diffie-hellman/challenge-128-cryptohack-matrix_reloaded": {
-   "aar_bytes": 2708,
+  "PUZZLES/diffie-hellman/challenge-13-cryptohack-matrix_reloaded": {
+   "aar_bytes": 2707,
    "agent_twin": true,
    "stub": true,
    "flag": "4ab60d7b5702d43a92e91f6b17caa359a046878da41b7e9a5400f44d81466ddf",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 13,
+   "ledger_nn": "128",
    "kind": "challenge"
   },
-  "PUZZLES/diffie-hellman/challenge-129-cryptohack-dh_static2": {
-   "aar_bytes": 3637,
+  "PUZZLES/diffie-hellman/challenge-10-cryptohack-dh_static2": {
+   "aar_bytes": 3635,
    "agent_twin": true,
    "stub": true,
    "flag": "4bc962c429176bca3fedca1e698c73988624547231ddbddd6276aff66e79f828",
    "flag_note": null,
    "date": "2026-10-23",
+   "nn_site_row": 10,
+   "ledger_nn": "129",
    "kind": "challenge"
   },
-  "PUZZLES/diffie-hellman/challenge-130-cryptohack-matrix_revolutions": {
-   "aar_bytes": 6012,
+  "PUZZLES/diffie-hellman/challenge-14-cryptohack-matrix_revolutions": {
+   "aar_bytes": 5927,
    "agent_twin": true,
    "stub": true,
    "flag": "0f08918fe24a33001989b290916f7979e0b1de1e4ff54280d9bcad5628577d58",
    "flag_note": null,
    "date": "2026-10-20",
+   "nn_site_row": 14,
+   "ledger_nn": "130",
    "kind": "challenge"
   },
   "PUZZLES/ecc/challenge-1-cryptohack-bg": {
@@ -1001,6 +1148,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 1,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-2-cryptohack-ecc0": {
@@ -1010,6 +1158,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 2,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-3-cryptohack-ecc1": {
@@ -1019,6 +1168,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 3,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-4-cryptohack-ecc2": {
@@ -1028,6 +1178,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 4,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-5-cryptohack-ecc3": {
@@ -1037,6 +1188,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 5,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-6-cryptohack-ecc4": {
@@ -1046,6 +1198,7 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 6,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-7-cryptohack-criminal": {
@@ -1055,6 +1208,7 @@
    "flag": "0bff9dbac386ba4dab35f2a6aef607ebdc9f8d90c8eb2e51677a60a351d19e94",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 7,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-11-cryptohack-moving": {
@@ -1064,6 +1218,7 @@
    "flag": "70c189e4d7a7c0998b3c2273b36435babcc2c23744ad82216bd05dd3eb366942",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 11,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-19-cryptohack-ps3": {
@@ -1073,6 +1228,7 @@
    "flag": "6650072ffaf6308928f010aa02873e3eec819df5858431f1eecf9b4fb1c541ff",
    "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 19,
    "kind": "course-lesson"
   },
   "PUZZLES/ecc/challenge-22-cryptohack-ladder": {
@@ -1082,1770 +1238,2163 @@
    "flag": null,
    "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null — nothing reconstructed; dir NN = site row position on the category page (lessons have no public challenge id; owner ruling 2026-11-15: cross-pollinated lesson rows documented inside the challenge taxonomy)",
    "date": "2026-10-07",
+   "nn_site_row": 22,
    "kind": "course-lesson"
   },
-  "PUZZLES/ecc/challenge-86-cryptohack-curveball": {
+  "PUZZLES/ecc/challenge-18-cryptohack-curveball": {
    "aar_bytes": 1443,
    "agent_twin": true,
    "stub": true,
    "flag": "c99418b07057057f300842a2f5901c544afe0032128837cb5195da63d25d0441",
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-10-07",
+   "nn_site_row": 18,
+   "ledger_nn": "86",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-112-cryptohack-double_and_broken": {
-   "aar_bytes": 3721,
+  "PUZZLES/ecc/challenge-23-cryptohack-double_and_broken": {
+   "aar_bytes": 3719,
    "agent_twin": true,
    "stub": true,
    "flag": "d60e927fcebf51c827b769c23396eed0f778f08809ae71f4a6d536323c642c98",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 23,
+   "ledger_nn": "112",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-113-cryptohack-digestive": {
-   "aar_bytes": 4614,
+  "PUZZLES/ecc/challenge-17-cryptohack-digestive": {
+   "aar_bytes": 4613,
    "agent_twin": true,
    "stub": true,
    "flag": "9f79d93ba0caf7c182ce1ab33ae91049da4253b421eefe5e11de1a650b511506",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 17,
+   "ledger_nn": "113",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-114-cryptohack-twisted_mind": {
-   "aar_bytes": 4471,
+  "PUZZLES/ecc/challenge-12-cryptohack-twisted_mind": {
+   "aar_bytes": 4470,
    "agent_twin": true,
    "stub": true,
    "flag": "ff249fba1597b7fa58da3d5b3da7ff08e31ec19f25be6e2563f709bcd81a135a",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 12,
+   "ledger_nn": "114",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-115-cryptohack-degenerate": {
-   "aar_bytes": 3227,
+  "PUZZLES/ecc/challenge-21-cryptohack-degenerate": {
+   "aar_bytes": 3226,
    "agent_twin": true,
    "stub": true,
    "flag": "ec2d6dd876df1a5a362348541924dec6ee3340eee7464d80c3a2639c502386b3",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 21,
+   "ledger_nn": "115",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-116-cryptohack-exceptional": {
-   "aar_bytes": 3061,
+  "PUZZLES/ecc/challenge-8-cryptohack-exceptional": {
+   "aar_bytes": 3059,
    "agent_twin": true,
    "stub": true,
    "flag": "c2b7e91892a3788683436ffc6904e2bdd838bad38895c087773a8889c70ef100",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 8,
+   "ledger_nn": "116",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-117-cryptohack-micro": {
-   "aar_bytes": 2093,
+  "PUZZLES/ecc/challenge-9-cryptohack-micro": {
+   "aar_bytes": 2089,
    "agent_twin": true,
    "stub": true,
    "flag": "3709f3eb02625b27629fa8dbf74cf04186fd3f32f7c81f63d033418b6766989e",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 9,
+   "ledger_nn": "117",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-118-cryptohack-norandom": {
-   "aar_bytes": 2139,
+  "PUZZLES/ecc/challenge-20-cryptohack-norandom": {
+   "aar_bytes": 2137,
    "agent_twin": true,
    "stub": true,
    "flag": "947bc322875d8adcf0e615957dff0cf4ab5994a92c24c6b9aa190dc7705b98b8",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 20,
+   "ledger_nn": "118",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-119-cryptohack-exceptional_twisted_mind": {
+  "PUZZLES/ecc/challenge-13-cryptohack-exceptional_twisted_mind": {
    "aar_bytes": 8053,
    "agent_twin": true,
    "stub": true,
    "flag": "cc10ce4b3293c4d725f8e8845e23fff085d2eb6bc79eab1909a6d8c73b7ea16e",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-23",
+   "nn_site_row": 13,
+   "ledger_nn": "119",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-120-cryptohack-checkpoint": {
-   "aar_bytes": 3709,
+  "PUZZLES/ecc/challenge-14-cryptohack-checkpoint": {
+   "aar_bytes": 3707,
    "agent_twin": true,
    "stub": true,
    "flag": "7d1155e924fd2584349bbc7c747438505dca220fe268b4c52a7081f449d1a247",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 14,
+   "ledger_nn": "120",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-121-cryptohack-node": {
-   "aar_bytes": 7747,
+  "PUZZLES/ecc/challenge-10-cryptohack-node": {
+   "aar_bytes": 7745,
    "agent_twin": true,
    "stub": true,
    "flag": "67eb5b679946fa433c3747977438cb5a11fca575c9f65948f373f821107f4f4a",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 10,
+   "ledger_nn": "121",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-122-cryptohack-evil_twisted_mind": {
-   "aar_bytes": 2567,
+  "PUZZLES/ecc/challenge-15-cryptohack-evil_twisted_mind": {
+   "aar_bytes": 2565,
    "agent_twin": true,
    "stub": true,
    "flag": "16b8d52b561d610d18b40695223ae40cf00ddb29d828539062dd55c46db58ccb",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 15,
+   "ledger_nn": "122",
    "kind": "challenge"
   },
-  "PUZZLES/ecc/challenge-123-cryptohack-real_curves": {
-   "aar_bytes": 7804,
+  "PUZZLES/ecc/challenge-16-cryptohack-real_curves": {
+   "aar_bytes": 7801,
    "agent_twin": true,
    "stub": true,
    "flag": "ca38d56725bb20d21379ce377a01e4aa00aaef49fb29825efad761446110d108",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 16,
+   "ledger_nn": "123",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-134-cryptohack-birthday1": {
-   "aar_bytes": 2026,
+  "PUZZLES/hashes/challenge-1-cryptohack-birthday1": {
+   "aar_bytes": 2024,
    "agent_twin": true,
    "stub": true,
    "flag": "93c98d425a5db1e80a97bdce6cda61deed565f2f3eef0b68b82714dc598d86da",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-12",
+   "nn_site_row": 1,
+   "ledger_nn": "134",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-135-cryptohack-merkletrees": {
-   "aar_bytes": 2195,
+  "PUZZLES/hashes/challenge-14-cryptohack-merkletrees": {
+   "aar_bytes": 2193,
    "agent_twin": true,
    "stub": true,
    "flag": "69506160ed904ec7c26a3e7c38d2e75fe8a6648e8132bcbee4a8269c0ff623e2",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 14,
+   "ledger_nn": "135",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-136-cryptohack-birthday2": {
-   "aar_bytes": 2035,
+  "PUZZLES/hashes/challenge-2-cryptohack-birthday2": {
+   "aar_bytes": 2033,
    "agent_twin": true,
    "stub": true,
    "flag": "461144ccfd56ee3cf0f9a9d80e520c5b872166b23092d5fd838ecbdb46d64dab",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-12",
+   "nn_site_row": 2,
+   "ledger_nn": "136",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-138-cryptohack-stuffing": {
-   "aar_bytes": 2139,
+  "PUZZLES/hashes/challenge-4-cryptohack-stuffing": {
+   "aar_bytes": 2135,
    "agent_twin": true,
    "stub": true,
    "flag": "ab0f7eb70b873c4e4c55be045490db098715ec9986590c620b4a513e124f5348",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 4,
+   "ledger_nn": "138",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-139-cryptohack-seventy_two": {
-   "aar_bytes": 3680,
+  "PUZZLES/hashes/challenge-8-cryptohack-seventy_two": {
+   "aar_bytes": 3678,
    "agent_twin": true,
    "stub": true,
    "flag": "100d45132d471c9ed3877f13b8d5b30fbea5c1d7a94032b59810161078ef927c",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 8,
+   "ledger_nn": "139",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-140-cryptohack-long_story_short": {
-   "aar_bytes": 2554,
+  "PUZZLES/hashes/challenge-9-cryptohack-long_story_short": {
+   "aar_bytes": 2550,
    "agent_twin": true,
    "stub": true,
    "flag": "56bc579c05bac06f44a5d8a0b8e56afe4dc8e0e6f562541ace0b77e0d90df602",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 9,
+   "ledger_nn": "140",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-141-cryptohack-wots_up-ecsc_2023_norway2023": {
+  "PUZZLES/hashes/challenge-15-cryptohack-wots_up-ecsc_2023_norway2023": {
    "aar_bytes": 3317,
    "agent_twin": true,
    "stub": true,
    "flag": "9d4f0f944528d157ed4950a2a2d50e1c81aa4ddcc75e096d2a7fb52226ca51a0",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 15,
+   "ledger_nn": "141",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-142-cryptohack-md0": {
-   "aar_bytes": 2156,
+  "PUZZLES/hashes/challenge-10-cryptohack-md0": {
+   "aar_bytes": 2154,
    "agent_twin": true,
    "stub": true,
    "flag": "007d1189feb4070fd9b8085047269fb627286dd30bb60b7861783b40e1e66d54",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 10,
+   "ledger_nn": "142",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-143-cryptohack-wots_up_2-ecsc_2023_norway202": {
-   "aar_bytes": 3118,
+  "PUZZLES/hashes/challenge-16-cryptohack-wots_up_2-ecsc_2023_norway202": {
+   "aar_bytes": 3071,
    "agent_twin": true,
    "stub": true,
    "flag": "e7562192e9278d527fd78d1e093ab7e14946b698e02c264d82b4ebd0a11ae5c0",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 16,
+   "ledger_nn": "143",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-144-cryptohack-primed5": {
-   "aar_bytes": 3475,
+  "PUZZLES/hashes/challenge-5-cryptohack-primed5": {
+   "aar_bytes": 3473,
    "agent_twin": true,
    "stub": true,
    "flag": "3ae0a42d42255f988fe9e5840ffd1cb8d13af139377f00168309029fc3308be6",
    "flag_note": null,
    "date": "2026-10-20",
+   "nn_site_row": 5,
+   "ledger_nn": "144",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-145-cryptohack-twinkeys": {
-   "aar_bytes": 6113,
+  "PUZZLES/hashes/challenge-6-cryptohack-twinkeys": {
+   "aar_bytes": 6109,
    "agent_twin": true,
    "stub": true,
    "flag": "131b298f8d61bf911702249d0d472cdc30f718e6b1291639c4270b8b1012581f",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 6,
+   "ledger_nn": "145",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-146-cryptohack-mixed_up": {
-   "aar_bytes": 3618,
+  "PUZZLES/hashes/challenge-12-cryptohack-mixed_up": {
+   "aar_bytes": 3617,
    "agent_twin": true,
    "stub": true,
    "flag": "995265264f1dafdc60ce5dc4c4f9c77149cccca855e8b3b1b2674d341c4eea99",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 12,
+   "ledger_nn": "146",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-147-cryptohack-mdflag": {
-   "aar_bytes": 2109,
+  "PUZZLES/hashes/challenge-11-cryptohack-mdflag": {
+   "aar_bytes": 2107,
    "agent_twin": true,
    "stub": true,
    "flag": "9bbf63cf3ef9c8abb23afd02357ff12abdcba94ea33920ee40318cfe41bf9b80",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus record (the other candidate self-identifies as a local fake)",
    "date": "2026-10-21",
+   "nn_site_row": 11,
+   "ledger_nn": "147",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-148-cryptohack-no_difference": {
-   "aar_bytes": 1789,
+  "PUZZLES/hashes/challenge-7-cryptohack-no_difference": {
+   "aar_bytes": 1785,
    "agent_twin": true,
    "stub": true,
    "flag": "5d7e4b10159d5cc47d6135c239b22cd18524bbf097f895ba2b3c99d64f45f3d4",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 7,
+   "ledger_nn": "148",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-149-cryptohack-invariant": {
+  "PUZZLES/hashes/challenge-13-cryptohack-invariant": {
    "aar_bytes": 5013,
    "agent_twin": true,
    "stub": true,
    "flag": "73727b977e058cc91cb01684efe25616398b3296f5cbb14c593e059bca936379",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-23",
+   "nn_site_row": 13,
+   "ledger_nn": "149",
    "kind": "challenge"
   },
-  "PUZZLES/hashes/challenge-13389-cryptohack-collider": {
-   "aar_bytes": 6382,
+  "PUZZLES/hashes/challenge-3-cryptohack-collider": {
+   "aar_bytes": 6370,
    "agent_twin": true,
    "stub": true,
    "flag": "11718b5349ed80ace2facd8eacf4d02d27d3808c2921a4a3112140ea57af592a",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 3,
+   "ledger_nn": "13389",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-150-cryptohack-secure-protocols": {
-   "aar_bytes": 3153,
+  "PUZZLES/web/challenge-8-cryptohack-secure-protocols": {
+   "aar_bytes": 3143,
    "agent_twin": true,
    "stub": true,
    "flag": "5ba156703098d0c33fdaa743d4306235a901b339bcf449c469f6c9fd58d1abfd",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 8,
+   "ledger_nn": "150",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-151-cryptohack-token-appreciation": {
-   "aar_bytes": 1646,
+  "PUZZLES/web/challenge-1-cryptohack-token-appreciation": {
+   "aar_bytes": 1642,
    "agent_twin": true,
    "stub": true,
    "flag": "6d2f8ff9ede6f2fd78d38623bbd03ab9700a7d1e77ce70c8b67ec44447debb56",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 1,
+   "ledger_nn": "151",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-152-cryptohack-jwt-sessions": {
-   "aar_bytes": 1762,
+  "PUZZLES/web/challenge-2-cryptohack-jwt-sessions": {
+   "aar_bytes": 1754,
    "agent_twin": true,
    "stub": true,
    "flag": "4d458161029653e9d3c7e0f65616e7bdf432e264a02d509f70d2b2ddb939f9cf",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 2,
+   "ledger_nn": "152",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-153-cryptohack-sharks-wire": {
-   "aar_bytes": 3145,
+  "PUZZLES/web/challenge-9-cryptohack-sharks-wire": {
+   "aar_bytes": 3143,
    "agent_twin": true,
    "stub": true,
    "flag": "238903180cc104ec2c5d8b3f20c5bc61b389ec0a967df8cc208cdc7cd454174f",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-13",
+   "nn_site_row": 9,
+   "ledger_nn": "153",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-154-cryptohack-tls-handshake": {
-   "aar_bytes": 4200,
+  "PUZZLES/web/challenge-10-cryptohack-tls-handshake": {
+   "aar_bytes": 4199,
    "agent_twin": true,
    "stub": true,
    "flag": "23350c9ffd9cc7f7efccbc35a85a3de8e362e4dfa452ab3ff709436b8c25b926",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 10,
+   "ledger_nn": "154",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-155-cryptohack-no-way-jose": {
-   "aar_bytes": 2859,
+  "PUZZLES/web/challenge-3-cryptohack-no-way-jose": {
+   "aar_bytes": 2855,
    "agent_twin": true,
    "stub": true,
    "flag": "060d2161389afbeb67fe2c3a4c07df2ac80153b07f304dc8dcf3cee63e46222c",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 3,
+   "ledger_nn": "155",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-156-cryptohack-saying-hello": {
-   "aar_bytes": 2360,
+  "PUZZLES/web/challenge-11-cryptohack-saying-hello": {
+   "aar_bytes": 2358,
    "agent_twin": true,
    "stub": true,
    "flag": "3dc8734418fb2c835e2f002da0359665edfb09a3306dab2f11bb417fa1158663",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 11,
+   "ledger_nn": "156",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-157-cryptohack-jwt-secrets": {
-   "aar_bytes": 2416,
+  "PUZZLES/web/challenge-4-cryptohack-jwt-secrets": {
+   "aar_bytes": 2412,
    "agent_twin": true,
    "stub": true,
    "flag": "554542589a054a7f64aea9af6a0996a5cecf8c588e28190f3e00fc948a9112c8",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 4,
+   "ledger_nn": "157",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-158-cryptohack-decrypting-tls12": {
-   "aar_bytes": 5483,
+  "PUZZLES/web/challenge-12-cryptohack-decrypting-tls12": {
+   "aar_bytes": 5481,
    "agent_twin": true,
    "stub": true,
    "flag": "16ed445502deffb1b9837bdf2c6bbcb4506ea869542c08a354bbd05ee24245b2",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 12,
+   "ledger_nn": "158",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-159-cryptohack-decrypting-tls13": {
-   "aar_bytes": 5258,
+  "PUZZLES/web/challenge-13-cryptohack-decrypting-tls13": {
+   "aar_bytes": 5255,
    "agent_twin": true,
    "stub": true,
    "flag": "0d1babb9015b422c0da3eb21953753486c55bb0fba1b52388377e2efa03cc34a",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 13,
+   "ledger_nn": "159",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-160-cryptohack-rsa-or-hmac": {
-   "aar_bytes": 13123,
+  "PUZZLES/web/challenge-5-cryptohack-rsa-or-hmac": {
+   "aar_bytes": 13117,
    "agent_twin": true,
    "stub": true,
    "flag": "9e28425507b534600ed8fef00f64eb1a5ef7b47c740ea02710b7315a0bb67b5e",
    "flag_note": null,
    "date": "2026-10-20",
+   "nn_site_row": 5,
+   "ledger_nn": "160",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-161-cryptohack-authenticated-handshake": {
-   "aar_bytes": 6468,
+  "PUZZLES/web/challenge-14-cryptohack-authenticated-handshake": {
+   "aar_bytes": 6467,
    "agent_twin": true,
    "stub": true,
    "flag": "04f85165157cdb8cc66f79a2e4cef2cfbbb8bca304aedea555e76af0158100dc",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 14,
+   "ledger_nn": "161",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-162-cryptohack-json-in-json": {
-   "aar_bytes": 2791,
+  "PUZZLES/web/challenge-6-cryptohack-json-in-json": {
+   "aar_bytes": 2787,
    "agent_twin": true,
    "stub": true,
    "flag": "f4606e2ed0bdceff6d1b49e2630f1bc130b6ca8c2c27e4ab02693d88aaed3d5f",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 6,
+   "ledger_nn": "162",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-163-cryptohack-mega1": {
-   "aar_bytes": 4902,
+  "PUZZLES/web/challenge-15-cryptohack-mega1": {
+   "aar_bytes": 4901,
    "agent_twin": true,
    "stub": true,
    "flag": "9544fce93caa1022d87e4f9282d49f180573cf31beb116c1ee5e8d4f3c6a4df6",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 15,
+   "ledger_nn": "163",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-164-cryptohack-rsa-or-hmac-2": {
-   "aar_bytes": 1933,
+  "PUZZLES/web/challenge-7-cryptohack-rsa-or-hmac-2": {
+   "aar_bytes": 1931,
    "agent_twin": true,
    "stub": true,
    "flag": "102b91c9797c31d90f2f47d8480786712c5817a369bc6f667343bc493f8f3a3a",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 7,
+   "ledger_nn": "164",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-165-cryptohack-mega2": {
+  "PUZZLES/web/challenge-16-cryptohack-mega2": {
    "aar_bytes": 6438,
    "agent_twin": true,
    "stub": true,
    "flag": null,
    "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-23",
+   "nn_site_row": 16,
+   "ledger_nn": "165",
    "kind": "challenge"
   },
-  "PUZZLES/web/challenge-166-cryptohack-mega3": {
+  "PUZZLES/web/challenge-17-cryptohack-mega3": {
    "aar_bytes": 5548,
    "agent_twin": true,
    "stub": true,
    "flag": "593e6037d2d1702a4b8347d766715ffd163a9ca928ba4ccc6b640e344871b9b7",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-23",
+   "nn_site_row": 17,
+   "ledger_nn": "166",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-167-cryptohack-lwe-background": {
-   "aar_bytes": 3952,
+  "PUZZLES/post-quantum/challenge-8-cryptohack-lwe-background": {
+   "aar_bytes": 3938,
    "agent_twin": true,
    "stub": true,
    "flag": "a35f8d4a8c459a55cda195e517a0468d3ae81968f703b003e38399eced081ed5",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 8,
+   "ledger_nn": "167",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-168-cryptohack-lwe-intro": {
-   "aar_bytes": 3949,
+  "PUZZLES/post-quantum/challenge-9-cryptohack-lwe-intro": {
+   "aar_bytes": 3937,
    "agent_twin": true,
    "stub": true,
    "flag": "95a640c9f92afc7765451dcb767079870059179377cdb37327306cd5def261b3",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 9,
+   "ledger_nn": "168",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-169-cryptohack-vectors": {
+  "PUZZLES/post-quantum/challenge-1-cryptohack-vectors": {
    "aar_bytes": 2808,
    "agent_twin": true,
    "stub": true,
    "flag": "73445aa688fddf09cf8b39ab9ddfc5b006c62e19403dd96825ad2deed8c4a76c",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-12",
+   "nn_site_row": 1,
+   "ledger_nn": "169",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-170-cryptohack-lwe-high-bits": {
+  "PUZZLES/post-quantum/challenge-10-cryptohack-lwe-high-bits": {
    "aar_bytes": 3861,
    "agent_twin": true,
    "stub": true,
    "flag": "14993db977ff54ff86b0c447cbf330d1718c108468ea0f0fe2ec1fbfdb73af2b",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-13",
+   "nn_site_row": 10,
+   "ledger_nn": "170",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-171-cryptohack-basis": {
+  "PUZZLES/post-quantum/challenge-2-cryptohack-basis": {
    "aar_bytes": 2445,
    "agent_twin": true,
    "stub": true,
    "flag": null,
    "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-12",
+   "nn_site_row": 2,
+   "ledger_nn": "171",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-172-cryptohack-lwe-low-bits": {
+  "PUZZLES/post-quantum/challenge-11-cryptohack-lwe-low-bits": {
    "aar_bytes": 2857,
    "agent_twin": true,
    "stub": true,
    "flag": "5c862790153d23a72dd410bb8b36819d51ac248cbaec4f6742efd8e75f20b175",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-13",
+   "nn_site_row": 11,
+   "ledger_nn": "172",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-173-cryptohack-lwe-private-public": {
+  "PUZZLES/post-quantum/challenge-12-cryptohack-lwe-private-public": {
    "aar_bytes": 2338,
    "agent_twin": true,
    "stub": true,
    "flag": "0887b81c877be1db0e3cd0002a0acea3ea1eb122e443bf2cac6208c24af0ceec",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-13",
+   "nn_site_row": 12,
+   "ledger_nn": "173",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-174-cryptohack-gramschmidt": {
+  "PUZZLES/post-quantum/challenge-3-cryptohack-gramschmidt": {
    "aar_bytes": 3440,
    "agent_twin": true,
    "stub": true,
    "flag": "76570843244293eb2eed2e70a8624509a32780e4afd16cf9b288c159f30b2a98",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 3,
+   "ledger_nn": "174",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-175-cryptohack-lwe-lsb-regev": {
-   "aar_bytes": 2600,
+  "PUZZLES/post-quantum/challenge-13-cryptohack-lwe-lsb-regev": {
+   "aar_bytes": 2596,
    "agent_twin": true,
    "stub": true,
    "flag": "47b4fceead748df248e192da0d4cb187ebd08c154ce5111ef591a0d8f429335d",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 13,
+   "ledger_nn": "175",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-176-cryptohack-lattices": {
+  "PUZZLES/post-quantum/challenge-4-cryptohack-lattices": {
    "aar_bytes": 3185,
    "agent_twin": true,
    "stub": true,
    "flag": "ce8bafb38615aeb5d44ebbabe78ec14ac35a5de87bdc5ad5ea82a72656024ce4",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-11-01",
+   "nn_site_row": 4,
+   "ledger_nn": "176",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-177-cryptohack-lwe-bounded_noise": {
-   "aar_bytes": 3374,
+  "PUZZLES/post-quantum/challenge-14-cryptohack-lwe-bounded_noise": {
+   "aar_bytes": 3372,
    "agent_twin": true,
    "stub": true,
    "flag": "eec28fdbfe9f8750f6a8f3e07729ff10e241c3ee6140f3f1b22f0589845fca5a",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 14,
+   "ledger_nn": "177",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-178-cryptohack-gauss": {
-   "aar_bytes": 2439,
+  "PUZZLES/post-quantum/challenge-5-cryptohack-gauss": {
+   "aar_bytes": 2435,
    "agent_twin": true,
    "stub": true,
    "flag": "2cbb05dbb4d8780942b8fabc54c0f06a63ed200ba5af7773d8ad2ada055a5430",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 5,
+   "ledger_nn": "178",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-179-cryptohack-lwe-nativity": {
-   "aar_bytes": 2914,
+  "PUZZLES/post-quantum/challenge-15-cryptohack-lwe-nativity": {
+   "aar_bytes": 2910,
    "agent_twin": true,
    "stub": true,
    "flag": "92affc20482993ebfe3e92fa5de1dcaaab3db0d2fca4c728cc2d6e4fc71fa65a",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 15,
+   "ledger_nn": "179",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-180-cryptohack-lwe-missing-modulus": {
-   "aar_bytes": 3257,
+  "PUZZLES/post-quantum/challenge-16-cryptohack-lwe-missing-modulus": {
+   "aar_bytes": 3255,
    "agent_twin": true,
    "stub": true,
    "flag": "55022b7453cb7815e02532f71a38a63b843a82524a599d3c79e16efd5f9cc049",
    "flag_note": null,
    "date": "2026-10-13",
+   "nn_site_row": 16,
+   "ledger_nn": "180",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-181-cryptohack-lwe-noise-cheap": {
-   "aar_bytes": 7352,
+  "PUZZLES/post-quantum/challenge-17-cryptohack-lwe-noise-cheap": {
+   "aar_bytes": 7348,
    "agent_twin": true,
    "stub": true,
    "flag": "bad6834d681f681c11acabe9d0f3ee14a16eabef51d274214d2b1b899a69abd7",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 17,
+   "ledger_nn": "181",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-182-cryptohack-find": {
-   "aar_bytes": 3405,
+  "PUZZLES/post-quantum/challenge-6-cryptohack-find": {
+   "aar_bytes": 3403,
    "agent_twin": true,
    "stub": true,
    "flag": "32e7a37fe97212d77e156407812bfb8b4d048d0cd2be596503d9e279d4394f6a",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 6,
+   "ledger_nn": "182",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-183-cryptohack-toomany": {
-   "aar_bytes": 4252,
+  "PUZZLES/post-quantum/challenge-18-cryptohack-toomany": {
+   "aar_bytes": 4249,
    "agent_twin": true,
    "stub": true,
    "flag": "029b2339da8d9a456408bc77589741fb222d0b13e8dc06f472466f2299f889c3",
    "flag_note": null,
    "date": "2026-10-17",
+   "nn_site_row": 18,
+   "ledger_nn": "183",
    "kind": "challenge"
   },
-  "PUZZLES/post-quantum/challenge-184-cryptohack-backpack": {
-   "aar_bytes": 5898,
+  "PUZZLES/post-quantum/challenge-7-cryptohack-backpack": {
+   "aar_bytes": 5894,
    "agent_twin": true,
    "stub": true,
    "flag": "e049b07943d5d49336a3b0a4f480fe3daff4f841a41779bcbb1bede6251a5781",
    "flag_note": null,
    "date": "2026-10-24",
+   "nn_site_row": 7,
+   "ledger_nn": "184",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-201-cryptohack-iso_introduction_chall": {
+  "PUZZLES/isogenies/challenge-1-cryptohack-iso_introduction_chall": {
    "aar_bytes": 2371,
    "agent_twin": true,
    "stub": true,
    "flag": "018e914ceb5838afa60e91525610af43f4e9480763468b507e75f2a6a41ff84d",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-12",
+   "nn_site_row": 1,
+   "ledger_nn": "201",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-202-cryptohack-j_invariant": {
+  "PUZZLES/isogenies/challenge-2-cryptohack-j_invariant": {
    "aar_bytes": 3093,
    "agent_twin": true,
    "stub": true,
    "flag": "743c7850cccfba5e53a9002663ec1ddd1079315a98bdbfdde10e6044f56abefe",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-11-01",
+   "nn_site_row": 2,
+   "ledger_nn": "202",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-203-cryptohack-a_spot_super": {
-   "aar_bytes": 3830,
+  "PUZZLES/isogenies/challenge-3-cryptohack-a_spot_super": {
+   "aar_bytes": 3824,
    "agent_twin": true,
    "stub": true,
    "flag": "0378a21a5b7304c36e1ab039a815cb812b63a72758f508cf447422beef7e2cc7",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 3,
+   "ledger_nn": "203",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-204-cryptohack-c_group_homomorphism": {
+  "PUZZLES/isogenies/challenge-4-cryptohack-c_group_homomorphism": {
    "aar_bytes": 3164,
    "agent_twin": true,
    "stub": true,
    "flag": "6f6648e4041ee6d50f7ba929445edf3aa7e4441debb4d0a3d04523e2d2578af5",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-11-01",
+   "nn_site_row": 4,
+   "ledger_nn": "204",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-205-cryptohack-b_compute_montgomery": {
-   "aar_bytes": 4663,
+  "PUZZLES/isogenies/challenge-5-cryptohack-b_compute_montgomery": {
+   "aar_bytes": 4653,
    "agent_twin": true,
    "stub": true,
    "flag": "4b502dbd2a63a8113c7d71cfce154b230bde76215d06898a9c081ad5cfafe90f",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 5,
+   "ledger_nn": "205",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-206-cryptohack-special_isogenies": {
+  "PUZZLES/isogenies/challenge-12-cryptohack-special_isogenies": {
    "aar_bytes": 4891,
    "agent_twin": true,
    "stub": true,
    "flag": "29ef5f0b7fc0c2facd22af7e616542825331312745dfc31f37423ab0b5e005ee",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-12",
+   "nn_site_row": 12,
+   "ledger_nn": "206",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-207-cryptohack-two_isogenies": {
+  "PUZZLES/isogenies/challenge-7-cryptohack-two_isogenies": {
    "aar_bytes": 4945,
    "agent_twin": true,
    "stub": true,
    "flag": "4f23da8798b631cf06454a9dd395063326f26b25d225d76752733190f41566dc",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 7,
+   "ledger_nn": "207",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-208-cryptohack-three_isogenies": {
-   "aar_bytes": 3055,
+  "PUZZLES/isogenies/challenge-8-cryptohack-three_isogenies": {
+   "aar_bytes": 3045,
    "agent_twin": true,
    "stub": true,
    "flag": "0452816ab53f9ec334da41f3a5a1172971e6414bc8e215420a295e44f0341d9d",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 8,
+   "ledger_nn": "208",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-209-cryptohack-2d_dlog": {
-   "aar_bytes": 7460,
+  "PUZZLES/isogenies/challenge-6-cryptohack-2d_dlog": {
+   "aar_bytes": 7456,
    "agent_twin": true,
    "stub": true,
    "flag": "bcaa3ce35c033728330ec4b63e689685cc28d22664f773c6a902146b89f29ae7",
    "flag_note": null,
    "date": "2026-10-14",
+   "nn_site_row": 6,
+   "ledger_nn": "209",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-209-cryptohack-csidh_secret_exponents": {
+  "PUZZLES/isogenies/challenge-14-cryptohack-csidh_secret_exponents": {
    "aar_bytes": 8584,
    "agent_twin": true,
    "stub": true,
    "flag": "f8bf41177a5f5e808a7ccb648b51080b031f15ca8018d91a576263d6cc626eb6",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-15",
+   "nn_site_row": 14,
+   "ledger_nn": "209",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-210-cryptohack-prime_power": {
+  "PUZZLES/isogenies/challenge-13-cryptohack-prime_power": {
    "aar_bytes": 6852,
    "agent_twin": true,
    "stub": true,
    "flag": "932ab0a0e4191d32c0af7b3f565b7b180dbe9869378abc5816f9add54b806e7f",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-14",
+   "nn_site_row": 13,
+   "ledger_nn": "210",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-211-cryptohack-comp_isogenies": {
-   "aar_bytes": 5052,
+  "PUZZLES/isogenies/challenge-9-cryptohack-comp_isogenies": {
+   "aar_bytes": 5042,
    "agent_twin": true,
    "stub": true,
    "flag": "64759845ad9cf223c97af5def6e901fa697d8ab4e5496326c1403d4e0d3518d7",
    "flag_note": null,
    "date": "2026-10-15",
+   "nn_site_row": 9,
+   "ledger_nn": "211",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-213-cryptohack-five_iso_csidh_twist": {
+  "PUZZLES/isogenies/challenge-15-cryptohack-five_iso_csidh_twist": {
    "aar_bytes": 3484,
    "agent_twin": true,
    "stub": true,
    "flag": "29e4967913b0cd86c82ee3c187e5aec668f94518e50b1c4891488f016e161724",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-15",
+   "nn_site_row": 15,
+   "ledger_nn": "213",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-214-cryptohack-whats_my_kernel": {
-   "aar_bytes": 6578,
+  "PUZZLES/isogenies/challenge-17-cryptohack-whats_my_kernel": {
+   "aar_bytes": 6575,
    "agent_twin": true,
    "stub": true,
    "flag": "423dad515b319cbe64db26fcb9fa2b02b49eef6330b927e653bc312a8106d1c0",
    "flag_note": null,
    "date": "2026-10-16",
+   "nn_site_row": 17,
+   "ledger_nn": "214",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-215-cryptohack-andre_encoding": {
-   "aar_bytes": 4440,
+  "PUZZLES/isogenies/challenge-18-cryptohack-andre_encoding": {
+   "aar_bytes": 4439,
    "agent_twin": true,
    "stub": true,
    "flag": "7e0343ff72106edeac3820df26af3759d65948dc4dfa2eaa8829cc689d00a9aa",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 18,
+   "ledger_nn": "215",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-216-cryptohack-sidh_key_exchange": {
-   "aar_bytes": 5572,
+  "PUZZLES/isogenies/challenge-10-cryptohack-sidh_key_exchange": {
+   "aar_bytes": 5570,
    "agent_twin": true,
    "stub": true,
    "flag": "9358901925ece3f08fbbd4c473539f8f30191e446e982753a528d9f8ff3c4059",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 10,
+   "ledger_nn": "216",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-217-cryptohack-better_than_linear": {
+  "PUZZLES/isogenies/challenge-19-cryptohack-better_than_linear": {
    "aar_bytes": 2662,
    "agent_twin": true,
    "stub": true,
    "flag": null,
    "flag_note": "FLAG-NOT-IN-LEDGER: solve verified via site solved-list; flag redacted in AAR — never fabricated here",
    "date": "2026-10-25",
+   "nn_site_row": 19,
+   "ledger_nn": "217",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-218-cryptohack-abelian_sidh": {
-   "aar_bytes": 3837,
+  "PUZZLES/isogenies/challenge-20-cryptohack-abelian_sidh": {
+   "aar_bytes": 3835,
    "agent_twin": true,
    "stub": true,
    "flag": "76c1fd35fbe35e29d3b65e97d20e355d40d7eb6a5b5ff1207bcf9002b9bc9161",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 20,
+   "ledger_nn": "218",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-219-cryptohack-csidh_key_exchange": {
-   "aar_bytes": 4746,
+  "PUZZLES/isogenies/challenge-16-cryptohack-csidh_key_exchange": {
+   "aar_bytes": 4744,
    "agent_twin": true,
    "stub": true,
    "flag": "9fba9f31408ed30651c94e7e11c65e8d63a34261a9cda020d1c0efc9760664a3",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 16,
+   "ledger_nn": "219",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-220-cryptohack-dual_masters": {
-   "aar_bytes": 7873,
+  "PUZZLES/isogenies/challenge-21-cryptohack-dual_masters": {
+   "aar_bytes": 7871,
    "agent_twin": true,
    "stub": true,
    "flag": "ff1a40ff1fd4abe32647972c263f81b826f135caae99fb63631cb53c82b89e1d",
    "flag_note": null,
    "date": "2026-10-23",
+   "nn_site_row": 21,
+   "ledger_nn": "220",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-221-cryptohack-meet_me_claw": {
-   "aar_bytes": 5106,
+  "PUZZLES/isogenies/challenge-22-cryptohack-meet_me_claw": {
+   "aar_bytes": 5105,
    "agent_twin": true,
    "stub": true,
    "flag": "5b8df425de35321b74695a6970577345d079181395c818a8322ad356e3669310",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 22,
+   "ledger_nn": "221",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-222-cryptohack-true_genus": {
-   "aar_bytes": 12063,
+  "PUZZLES/isogenies/challenge-23-cryptohack-true_genus": {
+   "aar_bytes": 12061,
    "agent_twin": true,
    "stub": true,
    "flag": "829c327d37948b6e80ea31466943cf7de039259dfab2aeea658626c494ea2605",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 23,
+   "ledger_nn": "222",
    "kind": "challenge"
   },
-  "PUZZLES/isogenies/challenge-223-cryptohack-breaking_sidh": {
-   "aar_bytes": 5914,
+  "PUZZLES/isogenies/challenge-11-cryptohack-breaking_sidh": {
+   "aar_bytes": 5913,
    "agent_twin": true,
    "stub": true,
    "flag": "386c4ed59c3ac7f2558894b793e2e6689e129dc94e5bf5da61d22998fd413d0c",
    "flag_note": null,
    "date": "2026-10-22",
+   "nn_site_row": 11,
+   "ledger_nn": "223",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-224-cryptohack-zkpintro": {
-   "aar_bytes": 2043,
+  "PUZZLES/zkp/challenge-1-cryptohack-zkpintro": {
+   "aar_bytes": 2039,
    "agent_twin": true,
    "stub": true,
    "flag": "e09b4f666a1b42acfba8e201f71f67fd3cae291955cdb7d9590e982f78ebe85b",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
    "date": "2026-10-12",
+   "nn_site_row": 1,
+   "ledger_nn": "224",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-225-cryptohack-sigma-intro": {
-   "aar_bytes": 2100,
+  "PUZZLES/zkp/challenge-2-cryptohack-sigma-intro": {
+   "aar_bytes": 2096,
    "agent_twin": true,
    "stub": true,
    "flag": "b01217cf53a70626d3b6b5f9b8df2271d2eca82ea80eb9ad4e4db367c316f5b4",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 2,
+   "ledger_nn": "225",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-226-cryptohack-sigma-special-soundness": {
-   "aar_bytes": 2156,
+  "PUZZLES/zkp/challenge-3-cryptohack-sigma-special-soundness": {
+   "aar_bytes": 2152,
    "agent_twin": true,
    "stub": true,
    "flag": "b716e440f095166a58c911e1589c3a65010adb66a91161ce210b06f425b21851",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 3,
+   "ledger_nn": "226",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-227-cryptohack-sigma-shvzk": {
-   "aar_bytes": 2122,
+  "PUZZLES/zkp/challenge-4-cryptohack-sigma-shvzk": {
+   "aar_bytes": 2118,
    "agent_twin": true,
    "stub": true,
    "flag": "c1a7b854f70767829e55fc66d209160d9149593ce18411020c0e27140f3f2f41",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 4,
+   "ledger_nn": "227",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-228-cryptohack-sigma-nizk": {
-   "aar_bytes": 2087,
+  "PUZZLES/zkp/challenge-5-cryptohack-sigma-nizk": {
+   "aar_bytes": 2083,
    "agent_twin": true,
    "stub": true,
    "flag": "82e2d388e18d28f87829fec1e4d0e52494b0465e47f3f987ecc5ffefcd9494fd",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 5,
+   "ledger_nn": "228",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-229-cryptohack-pairingbased": {
-   "aar_bytes": 2215,
+  "PUZZLES/zkp/challenge-12-cryptohack-pairingbased": {
+   "aar_bytes": 2213,
    "agent_twin": true,
    "stub": true,
    "flag": "8283493d38c029c9850502f145a3b731d7c4a0e0cbb30a4a97ae1873c80ae1fa",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 12,
+   "ledger_nn": "229",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-230-cryptohack-sigma-too-honest": {
-   "aar_bytes": 2143,
+  "PUZZLES/zkp/challenge-6-cryptohack-sigma-too-honest": {
+   "aar_bytes": 2139,
    "agent_twin": true,
    "stub": true,
    "flag": "a6d6f6657781460b28d7b86918cce2a681f20de8fa3af24b2edd5f750bbb91e2",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 6,
+   "ledger_nn": "230",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-231-cryptohack-sigma-or-proof": {
-   "aar_bytes": 4180,
+  "PUZZLES/zkp/challenge-7-cryptohack-sigma-or-proof": {
+   "aar_bytes": 4178,
    "agent_twin": true,
    "stub": true,
    "flag": "3cfef71a5b8eb5fcc0897918315a87a243b9014ae05ea01edbec2e610fe27c45",
    "flag_note": null,
    "date": "2026-10-19",
+   "nn_site_row": 7,
+   "ledger_nn": "231",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-232-cryptohack-mistersaplinspreview": {
-   "aar_bytes": 2211,
+  "PUZZLES/zkp/challenge-13-cryptohack-mistersaplinspreview": {
+   "aar_bytes": 2209,
    "agent_twin": true,
    "stub": true,
    "flag": "8e092ebee5a095497ce409efe7068127155435d600c6aecd7fc6fd87028b9a34",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 13,
+   "ledger_nn": "232",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-233-cryptohack-couples": {
-   "aar_bytes": 2082,
+  "PUZZLES/zkp/challenge-14-cryptohack-couples": {
+   "aar_bytes": 2080,
    "agent_twin": true,
    "stub": true,
    "flag": "fc2d099d0104ab6e8e7a12b5fd231717f9a60c15060cc47c635fe1883bcab78b",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-21",
+   "nn_site_row": 14,
+   "ledger_nn": "233",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-234-cryptohack-sigma-hamiltonicity": {
-   "aar_bytes": 2218,
+  "PUZZLES/zkp/challenge-8-cryptohack-sigma-hamiltonicity": {
+   "aar_bytes": 2215,
    "agent_twin": true,
    "stub": true,
    "flag": "d7f32b82c53e72bc367797bd34b4ac2cfba720813515f217ce1c43a3b5cb9b2f",
    "flag_note": null,
    "date": "2026-10-23",
+   "nn_site_row": 8,
+   "ledger_nn": "234",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-235-cryptohack-letsproveit": {
+  "PUZZLES/zkp/challenge-15-cryptohack-letsproveit": {
    "aar_bytes": 5488,
    "agent_twin": true,
    "stub": true,
    "flag": null,
    "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-21",
+   "nn_site_row": 15,
+   "ledger_nn": "235",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-236-cryptohack-mistersaplinstheprover": {
-   "aar_bytes": 2331,
+  "PUZZLES/zkp/challenge-16-cryptohack-mistersaplinstheprover": {
+   "aar_bytes": 2329,
    "agent_twin": true,
    "stub": true,
    "flag": "7a0e4e2588ffc1beb6f23cde8147a5755a0c1a57033da50015d838932a826bb7",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 16,
+   "ledger_nn": "236",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-237-cryptohack-sigma-hamiltonicity2": {
+  "PUZZLES/zkp/challenge-9-cryptohack-sigma-hamiltonicity2": {
    "aar_bytes": 29504,
    "agent_twin": true,
    "stub": true,
    "flag": "79f2989f5bd4332bcaec6d61631aad8f0e5d47b0b715d91aa875827677cd3538",
    "flag_note": null,
    "date": "2026-11-10",
+   "nn_site_row": 9,
+   "ledger_nn": "237",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-238-cryptohack-letsproveitagain": {
+  "PUZZLES/zkp/challenge-17-cryptohack-letsproveitagain": {
    "aar_bytes": 5225,
    "agent_twin": true,
    "stub": true,
    "flag": "e108a84ed71aad7dbe3da5016273489c29609c1d7c9e81abd6add9e28df9b26e",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-21",
+   "nn_site_row": 17,
+   "ledger_nn": "238",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-239-cryptohack-sigma-fischlin": {
-   "aar_bytes": 2435,
+  "PUZZLES/zkp/challenge-10-cryptohack-sigma-fischlin": {
+   "aar_bytes": 2433,
    "agent_twin": true,
    "stub": true,
    "flag": "5b04e70e0d89f45430968fb88299511f487ec5282d4207b55b89ee9ea2bebd6c",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 10,
+   "ledger_nn": "239",
    "kind": "challenge"
   },
-  "PUZZLES/zkp/challenge-240-cryptohack-snark-maestro": {
-   "aar_bytes": 5346,
+  "PUZZLES/zkp/challenge-11-cryptohack-snark-maestro": {
+   "aar_bytes": 5345,
    "agent_twin": true,
    "stub": true,
    "flag": "5a0724223700de16086107c804d2c3561aa58271b8931210c1b66a1d064870c3",
    "flag_note": null,
    "date": "2026-10-23",
+   "nn_site_row": 11,
+   "ledger_nn": "240",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-167-cryptohack-roulette": {
-   "aar_bytes": 1773,
+  "PUZZLES/misc/challenge-6-cryptohack-roulette": {
+   "aar_bytes": 1741,
    "agent_twin": true,
    "stub": true,
    "flag": "20116af80e63697247c8ecb3f17fa47fadcd64281c111eafd113c927958af983",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 6,
+   "ledger_nn": "167",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-168-cryptohack-rsa-vs-rng": {
-   "aar_bytes": 1569,
+  "PUZZLES/misc/challenge-7-cryptohack-rsa-vs-rng": {
+   "aar_bytes": 1537,
    "agent_twin": true,
    "stub": true,
    "flag": "323d9178ab937dfd086ae0babed652192482b5ddac9bd304b6709c0e49f41403",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 7,
+   "ledger_nn": "168",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-172-cryptohack-lfsr-destroyer": {
-   "aar_bytes": 3564,
+  "PUZZLES/misc/challenge-11-cryptohack-lfsr-destroyer": {
+   "aar_bytes": 3563,
    "agent_twin": true,
    "stub": true,
    "flag": "51ebad63188c069257c7f94900c3063539defe473309c063793110e767265ed7",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 11,
+   "ledger_nn": "172",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-185-cryptohack-gofast": {
-   "aar_bytes": 2069,
+  "PUZZLES/misc/challenge-1-cryptohack-gofast": {
+   "aar_bytes": 2065,
    "agent_twin": true,
    "stub": true,
    "flag": "f37de1a3b6ade2c26c5814d8cd44554427cb5a230a6ae7dec717711d8ca96439",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 1,
+   "ledger_nn": "185",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-186-cryptohack-armory": {
-   "aar_bytes": 1664,
+  "PUZZLES/misc/challenge-13-cryptohack-armory": {
+   "aar_bytes": 1662,
    "agent_twin": true,
    "stub": true,
    "flag": "2c72e38a9f5a35198c57ac05e75bb272aa26bb3fb9e2b77b54fa0161efe920bd",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 13,
+   "ledger_nn": "186",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-187-cryptohack-bit": {
-   "aar_bytes": 2050,
+  "PUZZLES/misc/challenge-12-cryptohack-bit": {
+   "aar_bytes": 2048,
    "agent_twin": true,
    "stub": true,
    "flag": "77a5010329540897173a0292971c27b2ad58d2bf04bf7b41a6eb57c1598cdd00",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 12,
+   "ledger_nn": "187",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-188-cryptohack-schneierfact842": {
+  "PUZZLES/misc/challenge-15-cryptohack-schneierfact842": {
    "aar_bytes": 2067,
    "agent_twin": true,
    "stub": true,
    "flag": "8265045d368269eefa414bfd7ffd0aec4e9da3512d75f196a359a73b37bfa3fd",
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-11-01",
+   "nn_site_row": 15,
+   "ledger_nn": "188",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-189-cryptohack-noleaks": {
+  "PUZZLES/misc/challenge-2-cryptohack-noleaks": {
    "aar_bytes": 1860,
    "agent_twin": true,
    "stub": true,
    "flag": "38c5e968258ea59d2a46be811da654c2a7178e776757b9e427e06919741b79b0",
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-11-01",
+   "nn_site_row": 2,
+   "ledger_nn": "189",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-190-cryptohack-lwin": {
-   "aar_bytes": 5370,
+  "PUZZLES/misc/challenge-9-cryptohack-lwin": {
+   "aar_bytes": 5362,
    "agent_twin": true,
    "stub": true,
    "flag": "aee8128a3184e324ced50b975c8b80248e40a240510824c197f468e108d16fe8",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 9,
+   "ledger_nn": "190",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-191-cryptohack-lcg1": {
-   "aar_bytes": 2290,
+  "PUZZLES/misc/challenge-3-cryptohack-lcg1": {
+   "aar_bytes": 2286,
    "agent_twin": true,
    "stub": true,
    "flag": "78c04167a8f45725ac865c79a9a729c4f9abd7d80e94b61bcdedf4559e07e6db",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 3,
+   "ledger_nn": "191",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-192-cryptohack-bad_temper": {
-   "aar_bytes": 3100,
+  "PUZZLES/misc/challenge-4-cryptohack-bad_temper": {
+   "aar_bytes": 3096,
    "agent_twin": true,
    "stub": true,
    "flag": "d5831255184916a77c3a15c3b559a363f6ff201375bc339b1b1c484886267591",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-21",
+   "nn_site_row": 4,
+   "ledger_nn": "192",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-193-cryptohack-bad_temper_2": {
+  "PUZZLES/misc/challenge-5-cryptohack-bad_temper_2": {
    "aar_bytes": 7201,
    "agent_twin": true,
    "stub": true,
    "flag": "6116609428aa70fda8306f942bd1e417b4327570db66a348f88aaa18b4acf7d0",
    "flag_note": "restored 2026-11-13 from contemporaneous corpus run record (single unmasked candidate)",
    "date": "2026-10-23",
+   "nn_site_row": 5,
+   "ledger_nn": "193",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-194-cryptohack-jeff": {
-   "aar_bytes": 2488,
+  "PUZZLES/misc/challenge-10-cryptohack-jeff": {
+   "aar_bytes": 2486,
    "agent_twin": true,
    "stub": true,
    "flag": "7878091fc3f3de837b7514a2858d6d87a4fc683a0fb5b82645631e3a79a14419",
    "flag_note": null,
    "date": "2026-10-21",
+   "nn_site_row": 10,
+   "ledger_nn": "194",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-197-cryptohack-toshitreasure": {
-   "aar_bytes": 2790,
+  "PUZZLES/misc/challenge-14-cryptohack-toshitreasure": {
+   "aar_bytes": 2789,
    "agent_twin": true,
    "stub": true,
    "flag": "c9740a23d97f3fd5075b0f3d9974d893733bec4f9faaf5b5881a9b94379e4dcd",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 14,
+   "ledger_nn": "197",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-198-cryptohack-lcg2": {
-   "aar_bytes": 2340,
+  "PUZZLES/misc/challenge-8-cryptohack-lcg2": {
+   "aar_bytes": 2336,
    "agent_twin": true,
    "stub": true,
    "flag": "9ba13f366616ebb838fdf4f6e4b01c2361488e149a80ee82f29d2d0e0a59f423",
    "flag_note": null,
    "date": "2026-10-12",
+   "nn_site_row": 8,
+   "ledger_nn": "198",
    "kind": "challenge"
   },
-  "PUZZLES/misc/challenge-199-cryptohack-schneierfact842_2": {
+  "PUZZLES/misc/challenge-16-cryptohack-schneierfact842_2": {
    "aar_bytes": 4638,
    "agent_twin": true,
    "stub": true,
    "flag": "1b70976d855cd6b332a9a08b3ae8f8be7e293c3da74bd667da3895c97d93413e",
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-10-21",
+   "nn_site_row": 16,
+   "ledger_nn": "199",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-100-cryptohack-unimplemented-tetctf2021": {
+  "PUZZLES/ctf-archive/challenge-71-cryptohack-unimplemented-tetctf2021": {
    "aar_bytes": 4595,
    "agent_twin": true,
    "stub": true,
    "flag": "14de8c96dd0efd8e045d390ef80e6c087bfad14d7ddc9ab3b7ff3e1b45366bf2",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 71,
+   "ledger_nn": "100",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-242-cryptohack-1337crypt_v2-downunderctf2021": {
-   "aar_bytes": 3622,
+  "PUZZLES/ctf-archive/challenge-55-cryptohack-1337crypt_v2-downunderctf2021": {
+   "aar_bytes": 3621,
    "agent_twin": true,
    "stub": true,
    "flag": "0dba8748d093366a7ab18bd1e2387efd8c084e699a6b649818ac7f8d105eca3c",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 55,
+   "ledger_nn": "242",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-246-cryptohack-additional_problems-csc_belgi": {
-   "aar_bytes": 36699,
+  "PUZZLES/ctf-archive/challenge-7-cryptohack-additional_problems-csc_belgi": {
+   "aar_bytes": 36697,
    "agent_twin": true,
    "stub": true,
    "flag": "6c4c5c1f7f3794ed7f5a8533e9b91f49ef60c26ab3e3252019df35c5e6faf5e1",
    "flag_note": null,
    "date": "2026-11-11",
+   "nn_site_row": 7,
+   "ledger_nn": "246",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-247-cryptohack-blind-ecsc_2023_norway2023": {
+  "PUZZLES/ctf-archive/challenge-21-cryptohack-blind-ecsc_2023_norway2023": {
    "aar_bytes": 2595,
    "agent_twin": true,
    "stub": true,
    "flag": "d17d8b10ffd3e187be2c99753d623dcdf1cdc061236fcd7505e3db2badf6bed6",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 21,
+   "ledger_nn": "247",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-248-cryptohack-authentification_1-breizh_ctf": {
+  "PUZZLES/ctf-archive/challenge-1-cryptohack-authentification_1-breizh_ctf": {
    "aar_bytes": 4137,
    "agent_twin": true,
    "stub": true,
    "flag": "656160d0749984850258a1e8ea08528c37fac59b9214f8f5a38e3580003d242b",
    "flag_note": null,
    "date": "2026-10-28",
+   "nn_site_row": 1,
+   "ledger_nn": "248",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-249-cryptohack-authentification_2-breizh_ctf": {
+  "PUZZLES/ctf-archive/challenge-2-cryptohack-authentification_2-breizh_ctf": {
    "aar_bytes": 3322,
    "agent_twin": true,
    "stub": true,
    "flag": "1ed285b174ebd7cf2055c86e73d30e06d4ab5d9f24be7a1770108d5a5e43f92c",
    "flag_note": null,
    "date": "2026-10-31",
+   "nn_site_row": 2,
+   "ledger_nn": "249",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-251-cryptohack-c0ll1d3r-firebird_internal_ct": {
-   "aar_bytes": 7389,
+  "PUZZLES/ctf-archive/challenge-38-cryptohack-c0ll1d3r-firebird_internal_ct": {
+   "aar_bytes": 7299,
    "agent_twin": true,
    "stub": true,
    "flag": "bd829eaac098834d3d497ee1785463ab73bf27a54521dc25c489d440391d984f",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 38,
+   "ledger_nn": "251",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-254-cryptohack-cipher_mode_picker-hkcert_ctf": {
-   "aar_bytes": 2039,
+  "PUZZLES/ctf-archive/challenge-59-cryptohack-cipher_mode_picker-hkcert_ctf": {
+   "aar_bytes": 2038,
    "agent_twin": true,
    "stub": true,
    "flag": "69514b8543e14c65730b4e99c869e9acbb739afcbaf1b25be1f9b204a46700f8",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 59,
+   "ledger_nn": "254",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-256-cryptohack-do_you_have_good_eyes-breizh": {
+  "PUZZLES/ctf-archive/challenge-3-cryptohack-do_you_have_good_eyes-breizh": {
    "aar_bytes": 5847,
    "agent_twin": true,
    "stub": true,
    "flag": "a733fc30abb1832324f94f164e8c615ab2344cdf499586682ea0b55ec87d59f6",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 3,
+   "ledger_nn": "256",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-257-cryptohack-eclcg-hitcon_ctf2024": {
-   "aar_bytes": 46816,
+  "PUZZLES/ctf-archive/challenge-8-cryptohack-eclcg-hitcon_ctf2024": {
+   "aar_bytes": 46814,
    "agent_twin": true,
    "stub": true,
    "flag": "e8e89ba52193a84f561eb82a33eacc02ed46bb52a80d8bcab3179751ca9f2306",
    "flag_note": null,
    "date": "2026-11-08",
+   "nn_site_row": 8,
+   "ledger_nn": "257",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-259-cryptohack-failproof_revenge-sekaictf202": {
-   "aar_bytes": 36500,
+  "PUZZLES/ctf-archive/challenge-41-cryptohack-failproof_revenge-sekaictf202": {
+   "aar_bytes": 36499,
    "agent_twin": true,
    "stub": true,
    "flag": "f9b0b844b98544bcdd0fd94b82610fc922eb64fec48cd753efbc15937c79c6f4",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 41,
+   "ledger_nn": "259",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-260-cryptohack-fischlins_transformation-cryp": {
+  "PUZZLES/ctf-archive/challenge-9-cryptohack-fischlins_transformation-cryp": {
    "aar_bytes": 1957,
    "agent_twin": true,
    "stub": true,
    "flag": "5b04e70e0d89f45430968fb88299511f487ec5282d4207b55b89ee9ea2bebd6c",
    "flag_note": "flag self-derived in the 2026-11-14 verification audit run (see its AAR.md); the 2026-11-11 state published this row `null` on the record-never-written finding — superseded by our own derivation, never by a fabricated value",
    "date": "2026-10-25",
+   "nn_site_row": 9,
+   "ledger_nn": "260",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-261-cryptohack-functional-icc_athens2022": {
-   "aar_bytes": 7527,
+  "PUZZLES/ctf-archive/challenge-42-cryptohack-functional-icc_athens2022": {
+   "aar_bytes": 7524,
    "agent_twin": true,
    "stub": true,
    "flag": "42a5e39c6b94e50136635256d54be392923cf63a17df56df0dbbb73253949fd3",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 42,
+   "ledger_nn": "261",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-262-cryptohack-glp420-hacktm_ctf2023": {
-   "aar_bytes": 5963,
+  "PUZZLES/ctf-archive/challenge-22-cryptohack-glp420-hacktm_ctf2023": {
+   "aar_bytes": 5961,
    "agent_twin": true,
    "stub": true,
    "flag": "05685136bb0376c538cdc47c18ec91dd00663b3948937627dbd023533f90e61f",
    "flag_note": null,
    "date": "2026-10-28",
+   "nn_site_row": 22,
+   "ledger_nn": "262",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-263-cryptohack-greatest_common_multiple-code": {
-   "aar_bytes": 28339,
+  "PUZZLES/ctf-archive/challenge-10-cryptohack-greatest_common_multiple-code": {
+   "aar_bytes": 28336,
    "agent_twin": true,
    "stub": true,
    "flag": "f817d76e5f9e21cdc4ac63c2db1696b01ad9a0df741a88037b49d858fe57b046",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 10,
+   "ledger_nn": "263",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-264-cryptohack-hamiltonicity-cryptohack2024": {
-   "aar_bytes": 5925,
+  "PUZZLES/ctf-archive/challenge-11-cryptohack-hamiltonicity-cryptohack2024": {
+   "aar_bytes": 5923,
    "agent_twin": true,
    "stub": true,
    "flag": "d7f32b82c53e72bc367797bd34b4ac2cfba720813515f217ce1c43a3b5cb9b2f",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 11,
+   "ledger_nn": "264",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-265-cryptohack-hamiltonicity_2-cryptohack202": {
+  "PUZZLES/ctf-archive/challenge-12-cryptohack-hamiltonicity_2-cryptohack202": {
    "aar_bytes": 17050,
    "agent_twin": true,
    "stub": true,
    "flag": "79f2989f5bd4332bcaec6d61631aad8f0e5d47b0b715d91aa875827677cd3538",
    "flag_note": null,
    "date": "2026-11-10",
+   "nn_site_row": 12,
+   "ledger_nn": "265",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa": {
-   "aar_bytes": 3531,
+  "PUZZLES/ctf-archive/challenge-23-cryptohack-hide_and_seek-ecsc_2023_norwa": {
+   "aar_bytes": 3530,
    "agent_twin": true,
    "stub": true,
    "flag": "3a73d9f153625599e18e7865eaace776f9386e4e24898c1bd45026fb126a6667",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 23,
+   "ledger_nn": "266",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-267-cryptohack-hyper512-hitcon_ctf2024": {
-   "aar_bytes": 15049,
+  "PUZZLES/ctf-archive/challenge-13-cryptohack-hyper512-hitcon_ctf2024": {
+   "aar_bytes": 15048,
    "agent_twin": true,
    "stub": true,
    "flag": "adeee0a94b1c41df8801bf1351f3b41cf1a293fb18b8929df43aa59a326ed9ec",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 13,
+   "ledger_nn": "267",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-268-cryptohack-irish_flan-ecsc_2023_norway20": {
+  "PUZZLES/ctf-archive/challenge-24-cryptohack-irish_flan-ecsc_2023_norway20": {
    "aar_bytes": 3217,
    "agent_twin": true,
    "stub": true,
    "flag": "6d85158006bbb06edf06f2a7b25e9d9470010a5ca1239156c90980a178b34466",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 24,
+   "ledger_nn": "268",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-269-cryptohack-key_backup_service_1-hkcert_c": {
-   "aar_bytes": 2967,
+  "PUZZLES/ctf-archive/challenge-60-cryptohack-key_backup_service_1-hkcert_c": {
+   "aar_bytes": 2966,
    "agent_twin": true,
    "stub": true,
    "flag": "4749cd863f9fbb294c5a4f0d5c642f0a17fa5e4f18a407f683d25b8c49e66807",
    "flag_note": null,
    "date": "2026-10-28",
+   "nn_site_row": 60,
+   "ledger_nn": "269",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-270-cryptohack-key_backup_service_2-hkcert_c": {
-   "aar_bytes": 4204,
+  "PUZZLES/ctf-archive/challenge-61-cryptohack-key_backup_service_2-hkcert_c": {
+   "aar_bytes": 4203,
    "agent_twin": true,
    "stub": true,
    "flag": "d1bf207b7bd2fca10270e6e89541eab5e822cf9f12d258ff7b9da320d3fd9974",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 61,
+   "ledger_nn": "270",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-271-cryptohack-key_recovery-dctf2022": {
-   "aar_bytes": 5216,
+  "PUZZLES/ctf-archive/challenge-43-cryptohack-key_recovery-dctf2022": {
+   "aar_bytes": 5214,
    "agent_twin": true,
    "stub": true,
    "flag": "149886a635bd87392c67e6b6b412ef2ababbc723370f24eddc175fef12466d48",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 43,
+   "ledger_nn": "271",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-273-cryptohack-leet_universe-imaginaryctf_da": {
-   "aar_bytes": 22237,
+  "PUZZLES/ctf-archive/challenge-25-cryptohack-leet_universe-imaginaryctf_da": {
+   "aar_bytes": 22236,
    "agent_twin": true,
    "stub": true,
    "flag": "94857dd8d3b1470a7f9ae6859e0139d1df27a4faede352632a869d7c6fdc2fe8",
    "flag_note": null,
    "date": "2026-11-07",
+   "nn_site_row": 25,
+   "ledger_nn": "273",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-275-cryptohack-maybe_someday-maybe_someday_c": {
+  "PUZZLES/ctf-archive/challenge-46-cryptohack-maybe_someday-maybe_someday_c": {
    "aar_bytes": 5045,
    "agent_twin": true,
    "stub": true,
    "flag": "92131e52026880783175ee826e5fc568a1f52eb169844b79581a91ada4146681",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 46,
+   "ledger_nn": "275",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-276-cryptohack-or_proof-cryptohack2024": {
-   "aar_bytes": 2414,
+  "PUZZLES/ctf-archive/challenge-14-cryptohack-or_proof-cryptohack2024": {
+   "aar_bytes": 2413,
    "agent_twin": true,
    "stub": true,
    "flag": "3cfef71a5b8eb5fcc0897918315a87a243b9014ae05ea01edbec2e610fe27c45",
    "flag_note": null,
    "date": "2026-10-19",
+   "nn_site_row": 14,
+   "ledger_nn": "276",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-277-cryptohack-offtopic-ecsc_2024_italy2024": {
+  "PUZZLES/ctf-archive/challenge-15-cryptohack-offtopic-ecsc_2024_italy2024": {
    "aar_bytes": 5970,
    "agent_twin": true,
    "stub": true,
    "flag": "6b76b64c9124d066e4bcd4379e43643f0941f7236f821d0f31f8616f0fc24a11",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 15,
+   "ledger_nn": "277",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-280-cryptohack-origami-nns_ctf_20252025": {
-   "aar_bytes": 32263,
+  "PUZZLES/ctf-archive/challenge-4-cryptohack-origami-nns_ctf_20252025": {
+   "aar_bytes": 32261,
    "agent_twin": true,
    "stub": true,
    "flag": "3990a0d1733e20fc7f02ef297aa99231673858965110a7ee50ff757448d1bf12",
    "flag_note": null,
    "date": "2026-11-08",
+   "nn_site_row": 4,
+   "ledger_nn": "280",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-282-cryptohack-put_a_ring_on_it-ecsc_2023_no": {
+  "PUZZLES/ctf-archive/challenge-26-cryptohack-put_a_ring_on_it-ecsc_2023_no": {
    "aar_bytes": 2572,
    "agent_twin": true,
    "stub": true,
    "flag": "5e8441fff0d1ef7a06284e5cdd80751b8d2ac5181a05e21e1dea19ecfb65bf9d",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 26,
+   "ledger_nn": "282",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-283-cryptohack-quo_vadis-ecsc_2024_italy2024": {
+  "PUZZLES/ctf-archive/challenge-17-cryptohack-quo_vadis-ecsc_2024_italy2024": {
    "aar_bytes": 3261,
    "agent_twin": true,
    "stub": true,
    "flag": "c3b52d904b1afe91979d8c6da8fc6ef4db5c48ffafa32b848112ddc1f46eb1a4",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 17,
+   "ledger_nn": "283",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-284-cryptohack-rrssaa-ecsc_2023_norway2023": {
+  "PUZZLES/ctf-archive/challenge-27-cryptohack-rrssaa-ecsc_2023_norway2023": {
    "aar_bytes": 2602,
    "agent_twin": true,
    "stub": true,
    "flag": "11b79fe2651a57f1e03b93f74434610feef6f910e7be9fd2dec074e6490673f3",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 27,
+   "ledger_nn": "284",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-285-cryptohack-rsa_permutation-wacon2022": {
-   "aar_bytes": 7067,
+  "PUZZLES/ctf-archive/challenge-48-cryptohack-rsa_permutation-wacon2022": {
+   "aar_bytes": 7066,
    "agent_twin": true,
    "stub": true,
    "flag": "3cedd85294809758cb56d4691cfac2f975eae92807da57182a1f8c190a1c7f66",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 48,
+   "ledger_nn": "285",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-286-cryptohack-rsa_secret_sharing-wacon2022": {
+  "PUZZLES/ctf-archive/challenge-49-cryptohack-rsa_secret_sharing-wacon2022": {
    "aar_bytes": 5656,
    "agent_twin": true,
    "stub": true,
    "flag": "a2a4c2b28c84637201d19ae5fe18052adb6274483868587b8657e456a3dc0b31",
    "flag_note": null,
    "date": "2026-10-30",
+   "nn_site_row": 49,
+   "ledger_nn": "286",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-287-cryptohack-1n_jection-zh3r0_ctf_v22021": {
+  "PUZZLES/ctf-archive/challenge-56-cryptohack-1n_jection-zh3r0_ctf_v22021": {
    "aar_bytes": 2275,
    "agent_twin": true,
    "stub": true,
    "flag": "5769a5c2250c4ee7af7b4d76e754436b81dea03ac572377c96e898d47d196053",
    "flag_note": null,
    "date": "2026-10-26",
+   "nn_site_row": 56,
+   "ledger_nn": "287",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202": {
-   "aar_bytes": 3195,
+  "PUZZLES/ctf-archive/challenge-63-cryptohack-real_mersenne-zh3r0_ctf_v2202": {
+   "aar_bytes": 3192,
    "agent_twin": true,
    "stub": true,
    "flag": "ac3eef2bc3abbd04a38d567bcc42377d6b95fb1279f216d40ed6eaf3a08d789b",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 63,
+   "ledger_nn": "288",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-289-cryptohack-share-hitcon_ctf2023": {
-   "aar_bytes": 5536,
+  "PUZZLES/ctf-archive/challenge-28-cryptohack-share-hitcon_ctf2023": {
+   "aar_bytes": 5530,
    "agent_twin": true,
    "stub": true,
    "flag": "644d4537e6e2129754372e9d95bc69e55b2fa94e3fe354ccfd5193497bdc3203",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 28,
+   "ledger_nn": "289",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-291-cryptohack-sign_in_please-hkcert_ctf2020": {
-   "aar_bytes": 3347,
+  "PUZZLES/ctf-archive/challenge-76-cryptohack-sign_in_please-hkcert_ctf2020": {
+   "aar_bytes": 3346,
    "agent_twin": true,
    "stub": true,
    "flag": "6473c2e7a50f443e4a559c19fd9bf233881e820da2ef99c1998caba5c0231668",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 76,
+   "ledger_nn": "291",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-292-cryptohack-signature-tsj_ctf2022": {
-   "aar_bytes": 9467,
+  "PUZZLES/ctf-archive/challenge-50-cryptohack-signature-tsj_ctf2022": {
+   "aar_bytes": 9466,
    "agent_twin": true,
    "stub": true,
    "flag": "2ba312df360ca7b147dae6fed656c00592d8ab503e063da2469215c8f4ff856e",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 50,
+   "ledger_nn": "292",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-293-cryptohack-smithing_contest-ecsc_2024_it": {
-   "aar_bytes": 8196,
+  "PUZZLES/ctf-archive/challenge-19-cryptohack-smithing_contest-ecsc_2024_it": {
+   "aar_bytes": 8195,
    "agent_twin": true,
    "stub": true,
    "flag": "f607dddf96d1952c5802c726fbe3612dc5b545f4543ad37162badced3b3d2ced",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 19,
+   "ledger_nn": "293",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-295-cryptohack-sratslla_sea-hkcert_ctf2021": {
+  "PUZZLES/ctf-archive/challenge-66-cryptohack-sratslla_sea-hkcert_ctf2021": {
    "aar_bytes": 5741,
    "agent_twin": true,
    "stub": true,
    "flag": "90c6dafa63b77c6fae799f717cee601311517a955c824583f2bfc6a8d6b3af8d",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 66,
+   "ledger_nn": "295",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-296-cryptohack-substitution_cipher_iii-downu": {
+  "PUZZLES/ctf-archive/challenge-67-cryptohack-substitution_cipher_iii-downu": {
    "aar_bytes": 6029,
    "agent_twin": true,
    "stub": true,
    "flag": "37e958a95f9e84a525b62ea10586e65339af1b8626c7b8414124b893a86d7d1a",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 67,
+   "ledger_nn": "296",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-298-cryptohack-tenet_the_plagarism-hkcert_ct": {
-   "aar_bytes": 14309,
+  "PUZZLES/ctf-archive/challenge-68-cryptohack-tenet_the_plagarism-hkcert_ct": {
+   "aar_bytes": 14307,
    "agent_twin": true,
    "stub": true,
    "flag": "c034bf214c456fa1f0d920853568d81742612daf353c7c8366c6a0617a80b518",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 68,
+   "ledger_nn": "298",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-299-cryptohack-ticket_maestro-cryptohack2024": {
-   "aar_bytes": 2924,
+  "PUZZLES/ctf-archive/challenge-20-cryptohack-ticket_maestro-cryptohack2024": {
+   "aar_bytes": 2923,
    "agent_twin": true,
    "stub": true,
    "flag": "5a0724223700de16086107c804d2c3561aa58271b8931210c1b66a1d064870c3",
    "flag_note": null,
    "date": "2026-10-25",
+   "nn_site_row": 20,
+   "ledger_nn": "299",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-303-cryptohack-u-turn-breizh_ctf2025": {
-   "aar_bytes": 4023,
+  "PUZZLES/ctf-archive/challenge-5-cryptohack-u-turn-breizh_ctf2025": {
+   "aar_bytes": 4021,
    "agent_twin": true,
    "stub": true,
    "flag": "54278009ebfdbb9f7985d1a812502f02ccdf579a893c4763a3e5b524d3cff862",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 5,
+   "ledger_nn": "303",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-305-cryptohack-unevaluated-tetctf2021": {
-   "aar_bytes": 10049,
+  "PUZZLES/ctf-archive/challenge-70-cryptohack-unevaluated-tetctf2021": {
+   "aar_bytes": 10048,
    "agent_twin": true,
    "stub": true,
    "flag": "883833d8b7ce0b551914f58e2c34342c60f94c572cf13cdd4532a5433f5f83e4",
    "flag_note": null,
    "date": "2026-11-04",
+   "nn_site_row": 70,
+   "ledger_nn": "305",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-307-cryptohack-verilicious-cyber_apocalypse": {
+  "PUZZLES/ctf-archive/challenge-6-cryptohack-verilicious-cyber_apocalypse": {
    "aar_bytes": 3790,
    "agent_twin": true,
    "stub": true,
    "flag": "59c5836eeb8ba1b40499073797ef1d3af9d51db9dc8f166471a441fa3d3e8c87",
    "flag_note": null,
    "date": "2026-10-31",
+   "nn_site_row": 6,
+   "ledger_nn": "307",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-308-cryptohack-what_a_curve-breizh_ctf2023": {
-   "aar_bytes": 7399,
+  "PUZZLES/ctf-archive/challenge-32-cryptohack-what_a_curve-breizh_ctf2023": {
+   "aar_bytes": 7396,
    "agent_twin": true,
    "stub": true,
    "flag": "7fca15bee517687164ce41edcd7278cc0afd8865bd8d56b589a8cb8ffb9b8d1e",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 32,
+   "ledger_nn": "308",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-309-cryptohack-broken_oracle-hacktm_ctf2023": {
-   "aar_bytes": 4360,
+  "PUZZLES/ctf-archive/challenge-33-cryptohack-broken_oracle-hacktm_ctf2023": {
+   "aar_bytes": 4359,
    "agent_twin": true,
    "stub": true,
    "flag": "388a85cd431a88cfc7c111edce4f30597ee6fcfb02a83d547c96e4a4125b8ee4",
    "flag_note": null,
    "date": "2026-10-26",
+   "nn_site_row": 33,
+   "ledger_nn": "309",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-311-cryptohack-diffecient-sekaictf2022": {
-   "aar_bytes": 4692,
+  "PUZZLES/ctf-archive/challenge-52-cryptohack-diffecient-sekaictf2022": {
+   "aar_bytes": 4691,
    "agent_twin": true,
    "stub": true,
    "flag": "2d63f8d1009799d930b4f544c2f91f5d78fdac1a847a7239aaa4db379751ce31",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 52,
+   "ledger_nn": "311",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-312-cryptohack-ed25519_magic-icc_athens2022": {
-   "aar_bytes": 5348,
+  "PUZZLES/ctf-archive/challenge-53-cryptohack-ed25519_magic-icc_athens2022": {
+   "aar_bytes": 5347,
    "agent_twin": true,
    "stub": true,
    "flag": "123694166e855405169d977d3f187afb99f4ff5a6cfbfbbe04ec8cd4cd3b7f39",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 53,
+   "ledger_nn": "312",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf": {
-   "aar_bytes": 3759,
+  "PUZZLES/ctf-archive/challenge-72-cryptohack-import_numpy_as_mt-zh3r0_ctf": {
+   "aar_bytes": 3698,
    "agent_twin": true,
    "stub": true,
    "flag": "4e85a0a307958defca747f2c2ae5f135139cf39deab0d37e44da0496a74e6d13",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 72,
+   "ledger_nn": "313",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-315-cryptohack-pekobot-ais3_pre-exam2022": {
-   "aar_bytes": 4793,
+  "PUZZLES/ctf-archive/challenge-54-cryptohack-pekobot-ais3_pre-exam2022": {
+   "aar_bytes": 4791,
    "agent_twin": true,
    "stub": true,
    "flag": "6f8bc37d1c5df448de339a552459ded5b17a874d9055713cf14808be420d7b9b",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 54,
+   "ledger_nn": "315",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-316-cryptohack-unrandom_dsa-hacktm_ctf2023": {
-   "aar_bytes": 7133,
+  "PUZZLES/ctf-archive/challenge-36-cryptohack-unrandom_dsa-hacktm_ctf2023": {
+   "aar_bytes": 7131,
    "agent_twin": true,
    "stub": true,
    "flag": "8776288533d50ffa5b51d7e5eb6cb255c1141811350c70c5bcd1bc01826c3127",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 36,
+   "ledger_nn": "316",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021": {
-   "aar_bytes": 4820,
+  "PUZZLES/ctf-archive/challenge-57-cryptohack-a_joke_cipher-hkcert_ctf2021": {
+   "aar_bytes": 4818,
    "agent_twin": true,
    "stub": true,
    "flag": "ae38542a7e4eedaa0d81a501ed42af5aafabfc6e4a33ae2e8ac5a893d8e56a1d",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 57,
+   "ledger_nn": "318",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-319-cryptohack-chaos-zh3r0_ctf_v22021": {
+  "PUZZLES/ctf-archive/challenge-58-cryptohack-chaos-zh3r0_ctf_v22021": {
    "aar_bytes": 5454,
    "agent_twin": true,
    "stub": true,
    "flag": "f4d0cde062c5d31a5ac381b9f2d0282a6f1eef78f04497058e6717246337e47c",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 58,
+   "ledger_nn": "319",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-319-cryptohack-sign_in_please_again-hkcert_c": {
-   "aar_bytes": 14544,
+  "PUZZLES/ctf-archive/challenge-64-cryptohack-sign_in_please_again-hkcert_c": {
+   "aar_bytes": 14543,
    "agent_twin": true,
    "stub": true,
    "flag": "536bc4c2683ea92196d4d6a8c292139eeb7bb82e663c57fb73e50c9b93fe58e4",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 64,
+   "ledger_nn": "319",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-320-cryptohack-calm_down-hkcert_ctf2020": {
-   "aar_bytes": 6632,
+  "PUZZLES/ctf-archive/challenge-75-cryptohack-calm_down-hkcert_ctf2020": {
+   "aar_bytes": 6629,
    "agent_twin": true,
    "stub": true,
    "flag": "f1dfaa1d86bbf81e4f87f9445be2224cd878a77afac4c90d7beeafad4489c7b7",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 75,
+   "ledger_nn": "320",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-321-cryptohack-failproof-sekaictf2022": {
-   "aar_bytes": 7764,
+  "PUZZLES/ctf-archive/challenge-40-cryptohack-failproof-sekaictf2022": {
+   "aar_bytes": 7762,
    "agent_twin": true,
    "stub": true,
    "flag": "6b6e013e3b21a93588a7d0d7d6fa85d38622722a404647fba9bc0a360a2da536",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 40,
+   "ledger_nn": "321",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-322-cryptohack-rsatogether-ecsc_2024_italy20": {
+  "PUZZLES/ctf-archive/challenge-18-cryptohack-rsatogether-ecsc_2024_italy20": {
    "aar_bytes": 3081,
    "agent_twin": true,
    "stub": true,
    "flag": "5769a5c2250c4ee7af7b4d76e754436b81dea03ac572377c96e898d47d196053",
    "flag_note": "flag self-derived at solve time 2026-10-29 (staircase Shamir-over-phi -> exact phi-multiple -> Miller/Sabt factoring), contemporaneous API 278->279 record; dir missing from the 2026-11-11 build — published 2026-11-14 late audit pass",
    "date": "2026-10-29",
+   "nn_site_row": 18,
+   "ledger_nn": "322",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-323-cryptohack-spongebob_squarepants__battle": {
+  "PUZZLES/ctf-archive/challenge-65-cryptohack-spongebob_squarepants__battle": {
    "aar_bytes": 32931,
    "agent_twin": true,
    "stub": true,
    "flag": "a6c80933fe4421c271c99b5fa5f234707e9b602cb54d5ebc177216d0b33b40ca",
    "flag_note": null,
    "date": "not recorded in run ledger",
+   "nn_site_row": 65,
+   "ledger_nn": "323",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-325-cryptohack-d-phi-enc-hacktm_ctf2023": {
+  "PUZZLES/ctf-archive/challenge-34-cryptohack-d-phi-enc-hacktm_ctf2023": {
    "aar_bytes": 2643,
    "agent_twin": true,
    "stub": true,
    "flag": "1090ef0d6a2063049955c9c7367a870e8c0eb7cfbb3176e46e28829f06fd301e",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 34,
+   "ledger_nn": "325",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it": {
+  "PUZZLES/ctf-archive/challenge-16-cryptohack-one_round_crypto-ecsc_2024_it": {
    "aar_bytes": 7744,
    "agent_twin": true,
    "stub": true,
    "flag": "bd3dfca22e9f70be8e2471e835d257d01e9b2bb7e5e9cbf90e6215ba31dd3525",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 16,
+   "ledger_nn": "13390",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13391-cryptohack-maybe_someday-googlectf2022": {
-   "aar_bytes": 3782,
+  "PUZZLES/ctf-archive/challenge-45-cryptohack-maybe_someday-googlectf2022": {
+   "aar_bytes": 3781,
    "agent_twin": true,
    "stub": true,
    "flag": "92131e52026880783175ee826e5fc568a1f52eb169844b79581a91ada4146681",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 45,
+   "ledger_nn": "13391",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13391-cryptohack-twist_and_shout-zh3r0_ctf_v22": {
+  "PUZZLES/ctf-archive/challenge-69-cryptohack-twist_and_shout-zh3r0_ctf_v22": {
    "aar_bytes": 5836,
    "agent_twin": true,
    "stub": true,
    "flag": "9ff1a3020bf9fdda4a2611e887b58759495c3436d6d3051b3db692b67a5248cd",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 69,
+   "ledger_nn": "13391",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13392-cryptohack-probability-seetf2022": {
-   "aar_bytes": 3608,
+  "PUZZLES/ctf-archive/challenge-47-cryptohack-probability-seetf2022": {
+   "aar_bytes": 3605,
    "agent_twin": true,
    "stub": true,
    "flag": "2392d5f09b68db256193cb30b7f8a8d56bdfa16a968bdfb7acde85c35be6b546",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 47,
+   "ledger_nn": "13392",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13393-cryptohack-sus-imaginaryctf2023": {
-   "aar_bytes": 33393,
+  "PUZZLES/ctf-archive/challenge-29-cryptohack-sus-imaginaryctf2023": {
+   "aar_bytes": 33390,
    "agent_twin": true,
    "stub": true,
    "flag": "a75bd05d8f96186c1ce1facc3b28fa06b43312143abf04fd7e45c52a1b295966",
    "flag_note": null,
    "date": "2026-11-08",
+   "nn_site_row": 29,
+   "ledger_nn": "13393",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13394-cryptohack-lack_of_entropy-firebird_inte": {
-   "aar_bytes": 4384,
+  "PUZZLES/ctf-archive/challenge-44-cryptohack-lack_of_entropy-firebird_inte": {
+   "aar_bytes": 4378,
    "agent_twin": true,
    "stub": true,
    "flag": "4c494041ab89ca77c12f36214663a2e6b481ea0058e60774e1519cf55b5d9547",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 44,
+   "ledger_nn": "13394",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13395-cryptohack-oofbleck-firebird_internal_ct": {
-   "aar_bytes": 2479,
+  "PUZZLES/ctf-archive/challenge-62-cryptohack-oofbleck-firebird_internal_ct": {
+   "aar_bytes": 2476,
    "agent_twin": true,
    "stub": true,
    "flag": "276fd9efe411b824f6fd1cb8cb7b1615fc3d19957fbcbbb51d323396700948c3",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 62,
+   "ledger_nn": "13395",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13396-cryptohack-authenticator-firebird_intern": {
+  "PUZZLES/ctf-archive/challenge-37-cryptohack-authenticator-firebird_intern": {
    "aar_bytes": 4609,
    "agent_twin": true,
    "stub": true,
    "flag": "61626142036e9b9d51d9a87d5fad1cb02b1ceaa72cb5d7ab403733b38cd310eb",
    "flag_note": "flag self-derived at solve time 2026-10-28 (blake3 preimage search inside the 10s alarm, server-confirmed); row absent from the 2026-11-11 INDEX due to the legacy folder misname — restored 2026-11-14",
    "date": "2026-10-28",
+   "nn_site_row": 37,
+   "ledger_nn": "13396",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13396-cryptohack-1337crypt-downunderctf2020": {
-   "aar_bytes": 14872,
+  "PUZZLES/ctf-archive/challenge-73-cryptohack-1337crypt-downunderctf2020": {
+   "aar_bytes": 14866,
    "agent_twin": true,
    "stub": true,
    "flag": "d5c08794aab776ca3b72faef8ccbe9cb9201c6c6c84cfab7b9e36ac51f874f47",
    "flag_note": null,
    "date": "2026-11-05",
+   "nn_site_row": 73,
+   "ledger_nn": "13396",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor": {
-   "aar_bytes": 3970,
+  "PUZZLES/ctf-archive/challenge-31-cryptohack-twist_and_shout-ecsc_2023_nor": {
+   "aar_bytes": 3967,
    "agent_twin": true,
    "stub": true,
    "flag": "ccdfb32edf13dc5f9f7dc34ca05201b498c97b40641d26a5e7fe9305b605576f",
    "flag_note": null,
    "date": "2026-11-02",
+   "nn_site_row": 31,
+   "ledger_nn": "13397",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13398-cryptohack-2020-tetctf2020": {
-   "aar_bytes": 13251,
+  "PUZZLES/ctf-archive/challenge-74-cryptohack-2020-tetctf2020": {
+   "aar_bytes": 13245,
    "agent_twin": true,
    "stub": true,
    "flag": "c506648a67162d843817f48ff76c0bdbe5fd1d6ccb15a4f07b92f96ff2e332ec",
    "flag_note": null,
    "date": "2026-11-05",
+   "nn_site_row": 74,
+   "ledger_nn": "13398",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13399-cryptohack-dark_arts-codegate_ctf2022": {
-   "aar_bytes": 23317,
+  "PUZZLES/ctf-archive/challenge-39-cryptohack-dark_arts-codegate_ctf2022": {
+   "aar_bytes": 23311,
    "agent_twin": true,
    "stub": true,
    "flag": "a44f8f1c8d49d4e73b00de856118029f77b1506e5488f89861364a99164739c6",
    "flag_note": null,
    "date": "2026-11-06",
+   "nn_site_row": 39,
+   "ledger_nn": "13399",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor": {
-   "aar_bytes": 2903,
+  "PUZZLES/ctf-archive/challenge-30-cryptohack-tough_decisions-ecsc_2023_nor": {
+   "aar_bytes": 2900,
    "agent_twin": true,
    "stub": true,
    "flag": "cc3e78cfcf129dcb538372961d519210ecdf8f0dcf609f8d0ad3146d44dec77c",
    "flag_note": null,
    "date": "2026-10-30",
+   "nn_site_row": 30,
+   "ledger_nn": "13400",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13401-cryptohack-unbalanced-icc_athens2022": {
+  "PUZZLES/ctf-archive/challenge-51-cryptohack-unbalanced-icc_athens2022": {
    "aar_bytes": 18930,
    "agent_twin": true,
    "stub": true,
    "flag": "553d00525ad3e72b4036a1a2c910b7b194b113ab49d4bad1f01a5afe8f2e54d4",
    "flag_note": "flag self-derived in the 2026-11-14 verification audit run (see its AAR.md); the 2026-11-11 state published this row `null` on the record-never-written finding — superseded by our own derivation, never by a fabricated value",
    "date": "2026-11-02",
+   "nn_site_row": 51,
+   "ledger_nn": "13401",
    "kind": "challenge"
   },
-  "PUZZLES/ctf-archive/challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023": {
+  "PUZZLES/ctf-archive/challenge-35-cryptohack-kaitenzushi-hacktm_ctf2023": {
    "aar_bytes": 5443,
    "agent_twin": true,
    "stub": true,
    "flag": "6b417ce5f896ec9d3225e1594884e04dc1751d534a0c902bf0d7463e495c30b3",
    "flag_note": null,
    "date": "2026-11-01",
+   "nn_site_row": 35,
+   "ledger_nn": "13402",
    "kind": "challenge"
   }
  }

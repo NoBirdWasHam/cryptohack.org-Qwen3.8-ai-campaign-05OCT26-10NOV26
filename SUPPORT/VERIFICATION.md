@@ -33,7 +33,7 @@ Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
 
 | puzzle | why |
 |---|---|
-| `PUZZLES/zkp/challenge-224-cryptohack-zkpintro` | method 114 chars |
+| `PUZZLES/zkp/challenge-1-cryptohack-zkpintro` | method 114 chars |
 
 ## Checklist
 
@@ -290,3 +290,9 @@ Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
   `FLAGS/INDEX.jsonl` 316 rows (260 flags / 56 null), mirrors exact, every flag hashes
   (260/260); dirs carry README+AAR+AGENT (316/316). Moved content byte-unchanged; frozen
   11-14 audit dir untouched. Rationale: `GATES.md` addendum 2026-11-15c.
+
+## Re-check 2026-11-15d (uniform numbering: every dir NN == site row position)
+- 316 dirs, numbering = the site category page's row order for ALL rows; challenge dirs
+  also carry their old ledger id as `ledger_nn` in FLAGS/INDEX.jsonl. Validator re-parsed
+  the live category pages: every NN matches its row position; dirs==rows==mirrors;
+  260/260 flag shas match. Prior addenda: GATES 2026-11-15 / -15b / -15c / -15d.

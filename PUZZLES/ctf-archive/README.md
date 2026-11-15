@@ -1,79 +1,79 @@
 # CTF Archive — 76 dirs
 Site category page: https://cryptohack.org/challenges/ctf-archive/ · **76 rows on the site, 76 dirs here (1:1)**
-Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/ctf-archive/`.
-- `challenge-100-cryptohack-unimplemented-tetctf2021`
-- `challenge-242-cryptohack-1337crypt_v2-downunderctf2021`
-- `challenge-246-cryptohack-additional_problems-csc_belgi`
-- `challenge-247-cryptohack-blind-ecsc_2023_norway2023`
-- `challenge-248-cryptohack-authentification_1-breizh_ctf`
-- `challenge-249-cryptohack-authentification_2-breizh_ctf`
-- `challenge-251-cryptohack-c0ll1d3r-firebird_internal_ct`
-- `challenge-254-cryptohack-cipher_mode_picker-hkcert_ctf`
-- `challenge-256-cryptohack-do_you_have_good_eyes-breizh`
-- `challenge-257-cryptohack-eclcg-hitcon_ctf2024`
-- `challenge-259-cryptohack-failproof_revenge-sekaictf202`
-- `challenge-260-cryptohack-fischlins_transformation-cryp`
-- `challenge-261-cryptohack-functional-icc_athens2022`
-- `challenge-262-cryptohack-glp420-hacktm_ctf2023`
-- `challenge-263-cryptohack-greatest_common_multiple-code`
-- `challenge-264-cryptohack-hamiltonicity-cryptohack2024`
-- `challenge-265-cryptohack-hamiltonicity_2-cryptohack202`
-- `challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa`
-- `challenge-267-cryptohack-hyper512-hitcon_ctf2024`
-- `challenge-268-cryptohack-irish_flan-ecsc_2023_norway20`
-- `challenge-269-cryptohack-key_backup_service_1-hkcert_c`
-- `challenge-270-cryptohack-key_backup_service_2-hkcert_c`
-- `challenge-271-cryptohack-key_recovery-dctf2022`
-- `challenge-273-cryptohack-leet_universe-imaginaryctf_da`
-- `challenge-275-cryptohack-maybe_someday-maybe_someday_c`
-- `challenge-276-cryptohack-or_proof-cryptohack2024`
-- `challenge-277-cryptohack-offtopic-ecsc_2024_italy2024`
-- `challenge-280-cryptohack-origami-nns_ctf_20252025`
-- `challenge-282-cryptohack-put_a_ring_on_it-ecsc_2023_no`
-- `challenge-283-cryptohack-quo_vadis-ecsc_2024_italy2024`
-- `challenge-284-cryptohack-rrssaa-ecsc_2023_norway2023`
-- `challenge-285-cryptohack-rsa_permutation-wacon2022`
-- `challenge-286-cryptohack-rsa_secret_sharing-wacon2022`
-- `challenge-287-cryptohack-1n_jection-zh3r0_ctf_v22021`
-- `challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202`
-- `challenge-289-cryptohack-share-hitcon_ctf2023`
-- `challenge-291-cryptohack-sign_in_please-hkcert_ctf2020`
-- `challenge-292-cryptohack-signature-tsj_ctf2022`
-- `challenge-293-cryptohack-smithing_contest-ecsc_2024_it`
-- `challenge-295-cryptohack-sratslla_sea-hkcert_ctf2021`
-- `challenge-296-cryptohack-substitution_cipher_iii-downu`
-- `challenge-298-cryptohack-tenet_the_plagarism-hkcert_ct`
-- `challenge-299-cryptohack-ticket_maestro-cryptohack2024`
-- `challenge-303-cryptohack-u-turn-breizh_ctf2025`
-- `challenge-305-cryptohack-unevaluated-tetctf2021`
-- `challenge-307-cryptohack-verilicious-cyber_apocalypse`
-- `challenge-308-cryptohack-what_a_curve-breizh_ctf2023`
-- `challenge-309-cryptohack-broken_oracle-hacktm_ctf2023`
-- `challenge-311-cryptohack-diffecient-sekaictf2022`
-- `challenge-312-cryptohack-ed25519_magic-icc_athens2022`
-- `challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf`
-- `challenge-315-cryptohack-pekobot-ais3_pre-exam2022`
-- `challenge-316-cryptohack-unrandom_dsa-hacktm_ctf2023`
-- `challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021`
-- `challenge-319-cryptohack-chaos-zh3r0_ctf_v22021`
-- `challenge-319-cryptohack-sign_in_please_again-hkcert_c`
-- `challenge-320-cryptohack-calm_down-hkcert_ctf2020`
-- `challenge-321-cryptohack-failproof-sekaictf2022`
-- `challenge-322-cryptohack-rsatogether-ecsc_2024_italy20`
-- `challenge-323-cryptohack-spongebob_squarepants__battle`
-- `challenge-325-cryptohack-d-phi-enc-hacktm_ctf2023`
-- `challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it`
-- `challenge-13391-cryptohack-maybe_someday-googlectf2022`
-- `challenge-13391-cryptohack-twist_and_shout-zh3r0_ctf_v22`
-- `challenge-13392-cryptohack-probability-seetf2022`
-- `challenge-13393-cryptohack-sus-imaginaryctf2023`
-- `challenge-13394-cryptohack-lack_of_entropy-firebird_inte`
-- `challenge-13395-cryptohack-oofbleck-firebird_internal_ct`
-- `challenge-13396-cryptohack-1337crypt-downunderctf2020`
-- `challenge-13396-cryptohack-authenticator-firebird_intern`
-- `challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor`
-- `challenge-13398-cryptohack-2020-tetctf2020`
-- `challenge-13399-cryptohack-dark_arts-codegate_ctf2022`
-- `challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor`
-- `challenge-13401-cryptohack-unbalanced-icc_athens2022`
-- `challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023`
+Dir numbering = the site's row order (NN = row position on the category page). Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/ctf-archive/`.
+- `challenge-1-cryptohack-authentification_1-breizh_ctf`  *(ledger row 248)*
+- `challenge-2-cryptohack-authentification_2-breizh_ctf`  *(ledger row 249)*
+- `challenge-3-cryptohack-do_you_have_good_eyes-breizh`  *(ledger row 256)*
+- `challenge-4-cryptohack-origami-nns_ctf_20252025`  *(ledger row 280)*
+- `challenge-5-cryptohack-u-turn-breizh_ctf2025`  *(ledger row 303)*
+- `challenge-6-cryptohack-verilicious-cyber_apocalypse`  *(ledger row 307)*
+- `challenge-7-cryptohack-additional_problems-csc_belgi`  *(ledger row 246)*
+- `challenge-8-cryptohack-eclcg-hitcon_ctf2024`  *(ledger row 257)*
+- `challenge-9-cryptohack-fischlins_transformation-cryp`  *(ledger row 260)*
+- `challenge-10-cryptohack-greatest_common_multiple-code`  *(ledger row 263)*
+- `challenge-11-cryptohack-hamiltonicity-cryptohack2024`  *(ledger row 264)*
+- `challenge-12-cryptohack-hamiltonicity_2-cryptohack202`  *(ledger row 265)*
+- `challenge-13-cryptohack-hyper512-hitcon_ctf2024`  *(ledger row 267)*
+- `challenge-14-cryptohack-or_proof-cryptohack2024`  *(ledger row 276)*
+- `challenge-15-cryptohack-offtopic-ecsc_2024_italy2024`  *(ledger row 277)*
+- `challenge-16-cryptohack-one_round_crypto-ecsc_2024_it`  *(ledger row 13390)*
+- `challenge-17-cryptohack-quo_vadis-ecsc_2024_italy2024`  *(ledger row 283)*
+- `challenge-18-cryptohack-rsatogether-ecsc_2024_italy20`  *(ledger row 322)*
+- `challenge-19-cryptohack-smithing_contest-ecsc_2024_it`  *(ledger row 293)*
+- `challenge-20-cryptohack-ticket_maestro-cryptohack2024`  *(ledger row 299)*
+- `challenge-21-cryptohack-blind-ecsc_2023_norway2023`  *(ledger row 247)*
+- `challenge-22-cryptohack-glp420-hacktm_ctf2023`  *(ledger row 262)*
+- `challenge-23-cryptohack-hide_and_seek-ecsc_2023_norwa`  *(ledger row 266)*
+- `challenge-24-cryptohack-irish_flan-ecsc_2023_norway20`  *(ledger row 268)*
+- `challenge-25-cryptohack-leet_universe-imaginaryctf_da`  *(ledger row 273)*
+- `challenge-26-cryptohack-put_a_ring_on_it-ecsc_2023_no`  *(ledger row 282)*
+- `challenge-27-cryptohack-rrssaa-ecsc_2023_norway2023`  *(ledger row 284)*
+- `challenge-28-cryptohack-share-hitcon_ctf2023`  *(ledger row 289)*
+- `challenge-29-cryptohack-sus-imaginaryctf2023`  *(ledger row 13393)*
+- `challenge-30-cryptohack-tough_decisions-ecsc_2023_nor`  *(ledger row 13400)*
+- `challenge-31-cryptohack-twist_and_shout-ecsc_2023_nor`  *(ledger row 13397)*
+- `challenge-32-cryptohack-what_a_curve-breizh_ctf2023`  *(ledger row 308)*
+- `challenge-33-cryptohack-broken_oracle-hacktm_ctf2023`  *(ledger row 309)*
+- `challenge-34-cryptohack-d-phi-enc-hacktm_ctf2023`  *(ledger row 325)*
+- `challenge-35-cryptohack-kaitenzushi-hacktm_ctf2023`  *(ledger row 13402)*
+- `challenge-36-cryptohack-unrandom_dsa-hacktm_ctf2023`  *(ledger row 316)*
+- `challenge-37-cryptohack-authenticator-firebird_intern`  *(ledger row 13396)*
+- `challenge-38-cryptohack-c0ll1d3r-firebird_internal_ct`  *(ledger row 251)*
+- `challenge-39-cryptohack-dark_arts-codegate_ctf2022`  *(ledger row 13399)*
+- `challenge-40-cryptohack-failproof-sekaictf2022`  *(ledger row 321)*
+- `challenge-41-cryptohack-failproof_revenge-sekaictf202`  *(ledger row 259)*
+- `challenge-42-cryptohack-functional-icc_athens2022`  *(ledger row 261)*
+- `challenge-43-cryptohack-key_recovery-dctf2022`  *(ledger row 271)*
+- `challenge-44-cryptohack-lack_of_entropy-firebird_inte`  *(ledger row 13394)*
+- `challenge-45-cryptohack-maybe_someday-googlectf2022`  *(ledger row 13391)*
+- `challenge-46-cryptohack-maybe_someday-maybe_someday_c`  *(ledger row 275)*
+- `challenge-47-cryptohack-probability-seetf2022`  *(ledger row 13392)*
+- `challenge-48-cryptohack-rsa_permutation-wacon2022`  *(ledger row 285)*
+- `challenge-49-cryptohack-rsa_secret_sharing-wacon2022`  *(ledger row 286)*
+- `challenge-50-cryptohack-signature-tsj_ctf2022`  *(ledger row 292)*
+- `challenge-51-cryptohack-unbalanced-icc_athens2022`  *(ledger row 13401)*
+- `challenge-52-cryptohack-diffecient-sekaictf2022`  *(ledger row 311)*
+- `challenge-53-cryptohack-ed25519_magic-icc_athens2022`  *(ledger row 312)*
+- `challenge-54-cryptohack-pekobot-ais3_pre-exam2022`  *(ledger row 315)*
+- `challenge-55-cryptohack-1337crypt_v2-downunderctf2021`  *(ledger row 242)*
+- `challenge-56-cryptohack-1n_jection-zh3r0_ctf_v22021`  *(ledger row 287)*
+- `challenge-57-cryptohack-a_joke_cipher-hkcert_ctf2021`  *(ledger row 318)*
+- `challenge-58-cryptohack-chaos-zh3r0_ctf_v22021`  *(ledger row 319)*
+- `challenge-59-cryptohack-cipher_mode_picker-hkcert_ctf`  *(ledger row 254)*
+- `challenge-60-cryptohack-key_backup_service_1-hkcert_c`  *(ledger row 269)*
+- `challenge-61-cryptohack-key_backup_service_2-hkcert_c`  *(ledger row 270)*
+- `challenge-62-cryptohack-oofbleck-firebird_internal_ct`  *(ledger row 13395)*
+- `challenge-63-cryptohack-real_mersenne-zh3r0_ctf_v2202`  *(ledger row 288)*
+- `challenge-64-cryptohack-sign_in_please_again-hkcert_c`  *(ledger row 319)*
+- `challenge-65-cryptohack-spongebob_squarepants__battle`  *(ledger row 323)*
+- `challenge-66-cryptohack-sratslla_sea-hkcert_ctf2021`  *(ledger row 295)*
+- `challenge-67-cryptohack-substitution_cipher_iii-downu`  *(ledger row 296)*
+- `challenge-68-cryptohack-tenet_the_plagarism-hkcert_ct`  *(ledger row 298)*
+- `challenge-69-cryptohack-twist_and_shout-zh3r0_ctf_v22`  *(ledger row 13391)*
+- `challenge-70-cryptohack-unevaluated-tetctf2021`  *(ledger row 305)*
+- `challenge-71-cryptohack-unimplemented-tetctf2021`  *(ledger row 100)*
+- `challenge-72-cryptohack-import_numpy_as_mt-zh3r0_ctf`  *(ledger row 313)*
+- `challenge-73-cryptohack-1337crypt-downunderctf2020`  *(ledger row 13396)*
+- `challenge-74-cryptohack-2020-tetctf2020`  *(ledger row 13398)*
+- `challenge-75-cryptohack-calm_down-hkcert_ctf2020`  *(ledger row 320)*
+- `challenge-76-cryptohack-sign_in_please-hkcert_ctf2020`  *(ledger row 291)*

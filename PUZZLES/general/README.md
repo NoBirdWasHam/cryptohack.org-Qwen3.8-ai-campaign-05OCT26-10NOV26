@@ -1,7 +1,7 @@
 # General — 19 dirs
 Site category page: https://cryptohack.org/challenges/general/ · **19 rows on the site, 19 dirs here (1:1)**
-Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/general/`.
-19 of these dirs are **course-lesson rows** the site cross-pollinated into this category (dir NN = row position on the site page — lessons have no public challenge id); their records keep the run's lesson format and `kind: course-lesson` in `FLAGS/INDEX.jsonl`.
+Dir numbering = the site's row order (NN = row position on the category page). Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/general/`.
+19 lesson rows (cross-pollinated course lessons) are marked below and `kind: course-lesson` in `FLAGS/INDEX.jsonl`.
 - `challenge-1-cryptohack-enc1`  *(lesson row)*
 - `challenge-2-cryptohack-enc2`  *(lesson row)*
 - `challenge-3-cryptohack-enc3`  *(lesson row)*

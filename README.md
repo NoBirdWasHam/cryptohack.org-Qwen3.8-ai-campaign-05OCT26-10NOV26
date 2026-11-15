@@ -17,18 +17,14 @@ verify, recreate, and **learn** from it.
 Solving ran 2026-10-05 → 2026-11-10, the last row (246) closing 2026-11-11 after the
 upstream service fix; every original solve date in the ledger stands, and the 11-14
 date is used only for the audit run itself. **316 site rows = 233 numbered challenges
-+ 83 cross-pollinated course-lesson rows**, from an 85-solved baseline. The tree is
-**1:1 with the site's 14 category pages — every solved row documented in its category**
-(owner ruling 2026-11-15: the site teaches lessons but *lists* them as challenge rows, so
-their records live beside the numbered challenges, not in a separate course tree).
-Challenge dirs keep the ledger/site id in `challenge-<id>-cryptohack-<slug>`; lesson dirs
-use `challenge-<NN>-cryptohack-<slug>` where **NN = row position on the site page** —
-lessons have no public challenge id, and the position convention is declared in every
-lesson's INDEX note and dir README. `FLAGS/INDEX.jsonl` mirrors all 316 dirs 1:1
-(`kind: course-lesson` marks the 83). Category membership follows today's site
-pages, not the mid-run ledger labels — see the 2026-11-15 errata addendum; every row
-carries its own record (the two rows published `null` on record-never-written findings
-received own derivations in the audit run; appendix at the bottom).
++ 83 cross-pollinated course-lesson rows**, from an 85-solved baseline. **Dir numbering is the site's own row order — NN = row position on the category
+page**, applied uniformly to all 316 dirs, so `PUZZLES/<category>/` lists exactly as the site
+page does. Numbered challenges also keep their historical ledger id as `ledger_nn` in
+`FLAGS/INDEX.jsonl` (the run ledger stays keyed by it as history); lesson rows are marked
+`kind: course-lesson`. `FLAGS/INDEX.jsonl` mirrors all 316 dirs 1:1. Category membership
+follows today's site pages, not the mid-run ledger labels — see the 2026-11-15 errata
+addendum; every row carries its own record (the two rows published `null` on
+record-never-written findings received own derivations in the audit run; appendix at bottom).
 
 ## The three hard rows — the honest heart of this repo
 | row | outcome |
@@ -51,7 +47,7 @@ The report landed:
 ![Maintainer ships the fix — commit title is our exact diagnosis (handles redacted)](assets/maintainer_fix_reply_redacted.png)
 
 Hours later the solver ran against the repaired container and the row closed **WALKED**:
-`[flag — recorded in FLAGS/ctf-archive/challenge-246-cryptohack-additional_problems-csc_belgi/flag.txt]` — service-given ciphertext, self-recovered key,
+`[flag — recorded in FLAGS/ctf-archive/challenge-7-cryptohack-additional_problems-csc_belgi/flag.txt]` — service-given ciphertext, self-recovered key,
 submitted and verified. This row is still the thesis of this repo: document the failure
 completely enough that even the other side can fix it, and let the solve finish the story.
 
