@@ -1,0 +1,1 @@
+crypto{Zerologon_Windows_CVE-2020-1472}

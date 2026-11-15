@@ -87,3 +87,27 @@ Defect classes found and fixed (evidence + validator output in `GATES.md`
 Red lines held throughout: no original solve date altered; no flag fabricated or
 submitted that was not self-derived/service-given; every fix adds evidence rather
 than replacing history.
+
+---
+
+## Appendix — 2026-11-15: taxonomy reorg + lesson publication (post-audit, owner-flagged)
+
+1. **Taxonomy drift:** the repo grouped dirs by mid-run ledger categories; the site's
+   current 14 category pages differ (e.g. the 2022-2024 CTF rows that the ledger called
+   misc, `matrix_revolutions` now under Diffie-Hellman, `collider` under Hash Functions).
+   The tree now mirrors the site pages 1:1 — 316 dirs across 14 categories, counts equal
+   the site tiles exactly.
+2. **Course lessons published:** the 83 lesson rows that existed only as ledger records now
+   have lesson-format dirs (`course-<slug>`: README + AAR + AGENT twin) under their current
+   site category, each citing its ledger course row and, where one exists, the
+   contemporaneous corpus run record.
+3. **Lesson flag honesty:** "course rows are flagless by design" (GATES G5, 2026-11-11) was
+   an overstatement — 32 lesson AARs written during the course run contain unmasked flag
+   strings captured at lesson completion. Those 32 are restored as `FLAGS/…/flag.txt` with
+   dated provenance notes (single-candidate rule, same doctrine as the 31 challenge-row
+   restorations) and the flag strings were pointer-replaced in prose per G8. 51 lesson rows
+   have no unmasked single candidate and publish `null` + reason. No flag date changed; no
+   flag reconstructed after the fact.
+4. **Renamed dirs** keep their NN; old vs current slugs are documented here and in the
+   GATES 11-15 addendum (`everything-is-still-big`→`big2`, `secret_exponents`→
+   `csidh_secret_exponents`, hyphen/underscore/truncation variants).

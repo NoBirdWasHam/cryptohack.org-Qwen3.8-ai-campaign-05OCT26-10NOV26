@@ -17,11 +17,14 @@ verify, recreate, and **learn** from it.
 Solving ran 2026-10-05 → 2026-11-10, the last row (246) closing 2026-11-11 after the
 upstream service fix; every original solve date in the ledger stands, and the 11-14
 date is used only for the audit run itself. **316 site rows = 231 numbered challenges
-+ 85 course lessons**, from an 85-solved baseline, mirrored 1:1 by `FLAGS/INDEX.jsonl`
-(233 published puzzle dirs — the site also numbers two course lessons, beatboxer/
-curveball — plus 83 course rows) and **233 self-contained puzzle dirs**; every row
-carries its own record (the two rows published `null` on record-never-written findings
-received own derivations in the audit run; appendix at the bottom).
++ 85 course lessons**, from an 85-solved baseline, mirrored 1:1 by `FLAGS/INDEX.jsonl`.
+Since 2026-11-15 the tree is organized **1:1 with the site's 14 current category pages**:
+**316 self-contained dirs — one per site row** (233 challenge records + 83 course-lesson
+records; the site double-lists two lessons, beatboxer/curveball, which are published once,
+as their numbered records). Category membership follows today's site pages, not the
+mid-run ledger labels — see the 2026-11-15 errata addendum; every row carries its own record
+(the two rows published `null` on record-never-written findings received own derivations in
+the audit run; appendix at the bottom).
 
 ## The three hard rows — the honest heart of this repo
 | row | outcome |
@@ -70,14 +73,21 @@ GATES.md                       the publish gates (PII sweep, author-work exclusi
   sha256 pointer. `FLAGS/<cat>/<puzzle>/` mirrors the puzzle's category path exactly.
 - **Honor system, honored.** CryptoHack grades the submitted string; our doctrine is
   stricter: flags here were self-derived or service-given only — retrieved flags were never
-  submitted (SUPPORT/PROVENANCE.md). **228** flags carry values (31 restored from
-  contemporaneous records, each with a dated provenance note in `FLAGS/INDEX.jsonl`;
-  2 derived fresh in the 2026-11-14 audit run — rows 260 and unbalanced); 5 challenge
-  rows + 83 course rows publish `null` + note instead of a fabricated value.
-- **Score etiquette:** this was learning on a friendly platform — the owner cleared the
-  scoreboard as a courtesy on 2026-11-13 after documentation verification; the
-  verification audit pass then re-earned/re-verified the full set, and the profile
-  captures above are the current live state.
+  submitted (SUPPORT/PROVENANCE.md). **260** flags carry values (31 challenge rows +
+  32 course-lesson rows restored from contemporaneous records — the lesson restorations
+  2026-11-15, single unmasked candidate only — each with a dated provenance note in
+  `FLAGS/INDEX.jsonl`; 2 derived fresh in the 2026-11-14 audit run — rows 260 and
+  unbalanced); 5 challenge
+  rows + 51 course rows publish `null` + note instead of a fabricated value (lesson rows
+  without an unmasked single candidate stay null — nothing reconstructed).
+- **Score etiquette:** this was learning on a friendly platform — CryptoHack's scoreboard is
+  an honor system intended for humans, and anyone can copy flag strings onto it. Our
+  doctrine keeps the account's presence there temporary by design: the owner cleared it as a
+  courtesy on 2026-11-13 after documentation verification, the verification audit pass then
+  re-earned/re-verified the full set (its captures above are dated history of that pass, not
+  a claim about the live account), and on **2026-11-15 the account was cleared again** once
+  learning and verification were complete (live profile: Level 1 · 0 points). The evidence
+  of this campaign is this repository, not a leaderboard row.
 - **Recreatable:** rerun `SUPPORT/build_repo.py` against the working corpus to re-derive this
   tree; every puzzle dir runs standalone with a plain Python venv (fpylll/PARI where noted).
 - **PII-free by gate, not by promise:** zero host identity, zero third-party handles in text

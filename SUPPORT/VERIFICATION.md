@@ -269,3 +269,9 @@ Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
 | 228 | `challenge-238-cryptohack-letsproveitagain` | ✓ | 816 | ✓ | ✓ | ✓ | **✓** |
 | 229 | `challenge-239-cryptohack-sigma-fischlin` | ✓ | 471 | ✓ | ✓ | ✓ | **✓** |
 | 230 | `challenge-240-cryptohack-snark-maestro` | ✓ | 453 | ✓ | ✓ | ✓ | **✓** |
+
+## Re-check 2026-11-15 (site-1:1 reorg, this file's claims re-verified after the moves)
+- Tree: 316 dirs across the 14 site categories (3/19/29/16/29/14/23/16/17/18/23/17/16/76);
+  INDEX 316 rows 1:1; every dir has README+AAR+AGENT (316/316); every flag file hashes to
+  its row (260/260); zero validator defects; surviving-row notes/sha byte-identical to the
+  pre-reorg committed INDEX. Evidence + rules: `GATES.md` addendum 2026-11-15.

@@ -93,3 +93,32 @@ Post-fix validator: INDEX 316 rows = 233 challenge + 83 course; 228 values, 88 h
 nulls; every `puzzle` path resolves to a real dir; every flag file hashes to its row
 (228/228, full bytes); corpus↔repo diff: zero missing records; G1 host-identity sweep 0
 hits; G3 secrets sweep 0 hits; flag containment per G4 rule.
+
+## Addendum — 2026-11-15 site-1:1 reorg (owner flag: folder taxonomy ≠ the site's 14 categories)
+
+Owner observation: the tree had 12 category folders where the site shows 14 tiles, and
+several dirs sat under mid-run ledger categories the site no longer uses. The current site
+category pages (scraped 2026-11-15) became the authority for membership:
+
+| change | scope |
+|---|---|
+| dirs moved to their current site category | 31 (24 misc→ctf-archive, 3 post-quantum→misc, collider→hashes, matrix_revolutions→diffie-hellman, unimplemented→ctf-archive, beatboxer→aes, curveball→ecc) |
+| dir slugs renamed to the current site slug | 12 variants (incl. everything-is-still-big→big2, secret_exponents→csidh_secret_exponents, hyphen/underscore variants, two site-truncated slugs) |
+| course-lesson dirs published (`course-<slug>`, lesson format: no flag by graded-question design unless restored) | 83 — one per site row that had no dir; lesson↔ledger-row bijection 83/83 (the 85 ledger course rows minus beatboxer/curveball, published as numbered records) |
+| categories added | introduction, general (course-only on the site; READMEs explain the zero-flag design) |
+
+Per-category dir counts now equal the site tiles exactly (3/19/29/16/29/14/23/16/17/18/23/17/16/76 = 316).
+
+Gates rerun over the reorged tree: **G1 0 hits** (2,747 files incl. every new file);
+**G3 0 hits**; **G8** zero full-flag strings in any new file — the 32 restored lesson flags
+live only in `FLAGS/**/flag.txt` and their AAR prose was pointer-replaced; the
+pre-policy-listed legacy set (6 files) is byte-identical to the previously-passing state.
+**G5 updated honestly:** the claim "83 course rows are flagless by design" was too strong —
+32 lesson rows DO have contemporaneous in-run flag records in their corpus AARs and were
+restored under the same single-unmasked-candidate rule used for the 31 challenge rows
+(2026-11-15 dated notes); the remaining 51 publish null (masked/truncated/absent records).
+**G9:** INDEX rebuilt (316 rows, one per site row); every surviving challenge row's
+sha256 + provenance note verified identical to the pre-reorg committed row (0 mismatches
+after path/slug normalization); all 260 flag files hash-match their row; ledger rows
+untouched (mid-run categories preserved there as history; the site taxonomy lives in INDEX
+`site_category`).
