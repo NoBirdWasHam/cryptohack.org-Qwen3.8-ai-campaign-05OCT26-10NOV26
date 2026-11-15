@@ -66,3 +66,24 @@ Submitted flags are exclusively self-derived or service-given. The one disclosed
 retrieved-flag row (unrandom_dsa, TAINTED class, flag banked per owner ruling) retains
 its provenance note. No writeups/solution pages were consulted at any point in the
 post-clear wave.
+
+## Late pass — 2026-11-14 (post-publication integrity audit)
+
+Owner review of the live page triggered a full-tree audit of the published repo.
+Defect classes found and fixed (evidence + validator output in `GATES.md`
+"Integrity fixes — 2026-11-14"; checklist re-run in `SUPPORT/VERIFICATION.md`):
+
+1. **Publication gap:** rsatogether (challenge-322) — solved & documented in the corpus
+   on 2026-10-29 — never made it into the repo (no dir, no flag, no INDEX row).
+2. **INDEX integrity:** 2 appended dateless duplicate rows; authenticator row + flag
+   missing; 32 category-drifted `puzzle` paths; 83 ghost-dir course references;
+   31 FLAGS dirs not mirroring puzzle categories.
+3. **Self-contained promise:** fischlin + authenticator published without AGENT twin /
+   README stub; unbalanced twin text not updated after its 11-14 own derivation.
+4. **Front-page claim drift:** hero screenshot (rank #5) and stale counts; a
+   "purged every value" claim that contradicted gate G4; "now level 1 / 0 points"
+   after the audit re-solve.
+
+Red lines held throughout: no original solve date altered; no flag fabricated or
+submitted that was not self-derived/service-given; every fix adds evidence rather
+than replacing history.

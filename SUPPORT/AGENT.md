@@ -27,3 +27,8 @@ R-5 retracted claims stay visible: retraction is an edit to the AAR, not an over
 - Grinds without a falsifiable bound.
 - Verdict-instrument circularity (tool restates its author's hypothesis as output).
 - Atmosphere-claims about other players' methods.
+
+## Verification audit run — late pass (dated 2026-11-14)
+- A-013 [OBSERVED] Final profile state 2026-11-14: level 34, 17,370 stars, rank #1. src: SUPPORT/2026-11-14-verification-audit/PROFILE_rank1_2026-11-14.png
+- A-014 [OBSERVED] Full clear 2026-11-14: all 14 categories x/x; live solved 316 == ledger 316. src: SUPPORT/2026-11-14-verification-audit/FULLCLEAR_316_2026-11-14.png
+- A-015 [OBSERVED] Late audit of the published repo (full-tree, live-remote recomputation) found and fixed publication defects: rsatogether dir missing; INDEX duplicates/drift/authenticator-row gap; README hero + counts + hygiene claims stale; two dirs without AI twins. All fixed 2026-11-14; validator clean (GATES.md "Integrity fixes"). No solve date, flag, or provenance class changed.

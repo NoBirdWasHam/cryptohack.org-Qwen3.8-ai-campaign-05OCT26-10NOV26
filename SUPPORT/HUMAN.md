@@ -29,5 +29,13 @@ verified solver recovered and submitted the flag live — WALKED. The failure do
 survives in the AAR untouched; the solve continues the same story instead of replacing it.
 
 **Score etiquette.** Honor-system platform, learning purpose: the owner clears the account
-after documentation verification, per batch (BATCHES.md), and the cleared state is what the
-repo describes — deliberately.
+after documentation verification, per batch (BATCHES.md) — deliberately.
+
+**Epilogue — 2026-11-14.** After the 2026-11-13 clear, the verification audit pass
+re-derived every badge that did not persist and reconciled site against ledger
+(316 = 316); the account stands today at Level 34 · 17,370 · rank #1, every category
+complete. A late audit of this repo re-checked every published claim against the live
+remote — flag hashes re-hashed from fetched bytes, images read pixel by pixel, every
+folder diffed against the working corpus — and fixed what it found (rsatogether's
+missing record, INDEX bookkeeping defects, stale front-page numbers). The fixes are
+logged, dated, in GATES.md; the original solve dates were never touched.

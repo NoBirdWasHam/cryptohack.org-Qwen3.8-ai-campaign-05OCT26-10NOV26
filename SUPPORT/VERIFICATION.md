@@ -8,11 +8,26 @@ Regenerated 2026-11-13 from the tree itself. Every flag row earns its check; not
 | method | solve/method/vulnerability/exploit section with ≥120 chars of substance (col shows measured length; warm-up challenges legitimately have short methods) |
 | AGENT | `AGENT.md` AI-twin present with extracted procedure (frontmatter, epistemic tags, sha256 pointer) |
 | flag | `FLAGS/**/flag.txt` sha256 **matches** `FLAGS/INDEX.jsonl` — or the row is an honest null with a recorded reason (✓ value-hashed · ○ honest null) |
-| clean | zero host-identity PII hits AND zero real-flag strings in prose/code (fakes/placeholders/code-fragments are policy-listed by one shared classifier; restored flag values carry dated provenance notes in `FLAGS/INDEX.jsonl`) |
+| clean | zero host-identity PII hits AND zero real-flag strings outside `FLAGS/` and own-AAR prose (G4) (fakes/placeholders/code-fragments are policy-listed by one shared classifier; restored flag values carry dated provenance notes in `FLAGS/INDEX.jsonl`) |
 
 **Result: 229/230 PASS** · 224 flags value-verified · 6 null+note · campaign INDEX: 314 rows, 224 values, 90 null
 
-Machine twin: `PUZZLES/index.json`.
+Machine twin: `PUZZLES/index.json` (regenerated 2026-11-14 — see below).
+
+## Re-check — 2026-11-14 (late audit pass)
+
+Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
+
+| check | result |
+|---|---|
+| puzzle dirs | **233** (rsatogether/challenge-322 added; 230 at 2026-11-11 + fischlin + authenticator) |
+| AAR.md present | **233/233** |
+| AGENT.md twin + README stub | **233/233** (fischlin + authenticator were missing them — fixed) |
+| flag sha256 re-hashed from file bytes vs `FLAGS/INDEX.jsonl` | **228/228 match** · 88 honest nulls (5 challenge + 83 course) |
+| INDEX ↔ tree | one row per published entity; every `puzzle` path resolves; course rows name their ledger record |
+| INDEX ↔ ledger | 316 = 316; only alias pairs (documented in GATES) differ by slug |
+| corpus ↔ repo folder diff | zero missing records |
+| PII / secrets sweeps | 0 hits |
 
 ## Failing rows
 

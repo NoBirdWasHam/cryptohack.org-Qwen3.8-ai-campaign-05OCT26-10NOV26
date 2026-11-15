@@ -5,13 +5,17 @@ category: misc
 url: https://cryptohack.org/challenges/unbalanced-icc_athens2022/
 status: solved
 date: 2026-11-02
-flag_ref: "FLAGS/misc/challenge-13401-cryptohack-unbalanced-icc_athens2022/flag.txt (absent — honest null; see note in FLAGS/INDEX.jsonl)"
-flag_sha256: null — flag withheld (note in FLAGS/INDEX.jsonl)
+flag_ref: "FLAGS/misc/challenge-13401-cryptohack-unbalanced-icc_athens2022/flag.txt"
+flag_sha256: sha256:553d00525ad3e72b4036a1a2c910b7b194b113ab49d4bad1f01a5afe8f2e54d4
 skills: []
 human_twin: AAR.md
 ---
 
 # AGENT — unbalanced-icc_athens2022 (CryptoHack ctf-archive)
+
+> 2026-11-14 verification audit run: this row now carries an OWN derivation
+> (Durfee-Nguyen trivariate Coppersmith, rank-126 lattice, +46 b/dim margin) recorded in AAR.md;
+> the flag is mirrored at flag_ref. The earlier null was honest bookkeeping, superseded — not overwritten.
 Machine-optimized twin of the human AAR in this directory (mechanically regenerated from it; carries no extra facts).
 Epistemic tags: OBSERVED = artifact/evidence present in this dir · NOT OBSERVED = not recorded anywhere in the corpus.
 

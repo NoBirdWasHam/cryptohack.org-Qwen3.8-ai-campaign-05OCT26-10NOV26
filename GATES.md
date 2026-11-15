@@ -57,7 +57,7 @@ Findings this pass fixed, in the open:
 
 Also 2026-11-13: `/home/<user>` added to the sanitizer (one real leak found in a copied
 shell script), `GPU-HOST`-alias match made word-boundary sensitive, and the account's
-scoreboard cleared as a courtesy (profile now level 1 / 0 points; screenshots are dated history).
+scoreboard cleared as a courtesy (profile at level 1 / 0 points at clear time; the audit run below re-earned the set; screenshots are dated history).
 
 
 ## Verification audit run — completed 2026-11-14 (gate delta)
@@ -69,3 +69,27 @@ scoreboard cleared as a courtesy (profile now level 1 / 0 points; screenshots ar
 | G3 secrets | csrf/cookie/credential patterns re-swept on delta | **PASS** |
 | G4 flag containment | audit-run result JSONs: `flag` values -> `flag_sha256` + REDACTED pointer; ledger notes: 3 flag strings scrubbed to `FLAG-REDACTED-SEE-FLAGS-MIRROR`; audit script archive: 47/106 files rewritten (paths + flags); new FLAGS rows follow the full-bytes sha256 convention | **PASS** |
 | reconciliation | live API vs ledger | 316 = 316 = 316, zero unmatched, score delta 0 (original solve dates unchanged) |
+
+## Integrity fixes — 2026-11-14 (late audit pass, after owner review of the published page)
+
+A full-tree audit of the LIVE repo (every claim recomputed from the remote, every hosted
+image vision-audited, every flag re-hashed from fetched bytes, corpus↔repo folder diff)
+found and fixed the following. None of these changed any solve date, flag, or provenance
+class — they are publication-integrity defects:
+
+| defect | fix |
+|---|---|
+| README led with the 2026-11-10 capture (rank #5) and a 313/316 board; body claimed "now level 1 / 0 points" | hero replaced with the final rank-#1 profile + 316/316 board captures (bytes identical to the audit-dir copies); old captures relabeled as dated history; score-etiquette bullet rewritten to facts |
+| README claimed flag values "live only under FLAGS/" while gate G4 (and the tree) allow own-AAR prose | wording reconciled to what the gate actually enforces |
+| README counts stale (224 values; "7 challenge + 83 course null") | recomputed from the rebuilt INDEX: **228 values · 5 challenge + 83 course null** |
+| `FLAGS/INDEX.jsonl` carried 2 appended dateless duplicate rows (260, unbalanced) | merged into the canonical dated rows |
+| authenticator row absent from INDEX; its flag absent from FLAGS (folder was first-published 11-14) | row + `flag.txt` restored (self-derived 2026-10-28, dated note) |
+| **rsatogether (challenge-322, ECSC 2024 Italy) missing from the repo entirely** — full corpus record existed (own derivation 2026-10-29, API 278→279) | dir published (AAR + AGENT twin + stub + 26 files), flag mirrored, INDEX row added |
+| 32 INDEX `puzzle` paths + 31 FLAGS dirs drifted from the real category dirs; 83 course rows pointed at never-published ghost dirs | INDEX rebuilt (one row per published entity, paths = real dirs); FLAGS dirs `git mv`-mirrored to puzzle categories; course rows point at the ledger record and carry their name |
+| fischlin + authenticator dirs published without AGENT twins/stubs (breaking the self-contained promise); unbalanced twin still said "honest null" after its 11-14 derivation | twins + stubs written; twin updated; `PUZZLES/index.json` regenerated (233 dirs, 233 twins) |
+| ledger↔INDEX slug drift (site renames: big2↔everything-is-still-big, csidh_secret_exponents↔secret_exponents, import_numpy_as_mt suffix, c0ll1d3r suffix) | documented; INDEX keys = published dir slugs |
+
+Post-fix validator: INDEX 316 rows = 233 challenge + 83 course; 228 values, 88 honest
+nulls; every `puzzle` path resolves to a real dir; every flag file hashes to its row
+(228/228, full bytes); corpus↔repo diff: zero missing records; G1 host-identity sweep 0
+hits; G3 secrets sweep 0 hits; flag containment per G4 rule.

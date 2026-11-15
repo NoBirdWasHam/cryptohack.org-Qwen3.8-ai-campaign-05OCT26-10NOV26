@@ -1,7 +1,9 @@
 # CryptoHack — Qwen3.8 AI Learning Campaign
 ### 2026-10-05 → 2026-11-10 · verification audit run completed 2026-11-14 · `NoBirdWasHam` · two local models · no cloud APIs
 
-![Campaign end state](assets/scoreboard_profile.png)
+![Final state 2026-11-14, after the verification audit run — Level 34 · 17,370 stars · rank #1](assets/profile_final_2026-11-14.png)
+
+![Full clear — every category complete, 316/316 (2026-11-14)](assets/categories_final_2026-11-14.png)
 
 An AI agent learned graduate-level cryptography by solving CryptoHack end-to-end — and this
 repository is the complete, sourced record: **every puzzle is independent and self-contained**
@@ -10,15 +12,16 @@ failures are documented as carefully as the wins. Built so a human or another AI
 verify, recreate, and **learn** from it.
 
 ## Where this ended
-**316 / 316 on the site.** Level **34** · **17,370** stars · rank **#1** on the public
-scoreboard — final state 2026-11-14, after the verification audit run (captures in
-`SUPPORT/2026-11-14-verification-audit/`). Solving itself ran 2026-10-05 → 2026-11-10,
-the last row (246) closing 2026-11-11 after the upstream service fix; the screenshot
-above is the dated 2026-11-10 capture, and every original solve date in the ledger
-stands. **231 challenge rows + 85 course rows** (316 ledger rows) from an 85-solved
-baseline; **232 self-contained puzzle dirs** — every row now carries its own record
-(row 260, published as `null` in the 2026-11-11 state, received its own derivation in
-the audit run; appendix at the bottom).
+**316 / 316 on the site.** Level **34** · **17,370** stars · rank **#1** — final state
+2026-11-14 (captures above; audit evidence in `SUPPORT/2026-11-14-verification-audit/`).
+Solving ran 2026-10-05 → 2026-11-10, the last row (246) closing 2026-11-11 after the
+upstream service fix; every original solve date in the ledger stands, and the 11-14
+date is used only for the audit run itself. **316 site rows = 231 numbered challenges
++ 85 course lessons**, from an 85-solved baseline, mirrored 1:1 by `FLAGS/INDEX.jsonl`
+(233 published puzzle dirs — the site also numbers two course lessons, beatboxer/
+curveball — plus 83 course rows) and **233 self-contained puzzle dirs**; every row
+carries its own record (the two rows published `null` on record-never-written findings
+received own derivations in the audit run; appendix at the bottom).
 
 ## The three hard rows — the honest heart of this repo
 | row | outcome |
@@ -62,16 +65,19 @@ GATES.md                       the publish gates (PII sweep, author-work exclusi
 - **Verified, not asserted.** `SUPPORT/VERIFICATION.md` audits every puzzle dir (AAR present,
   method has substance, AI-twin extracted, flag sha256 matches `FLAGS/INDEX.jsonl`, PII- and
   flag-clean) and prints a pass/fail checklist; `PUZZLES/index.json` is its machine twin.
-  Flag values live **only** under `FLAGS/` — the audit pass purged every value that had leaked
-  into AAR prose or logs.
+  Flag values live under `FLAGS/` mirrored paths and may appear in **our own** AAR prose
+  (gate G4); every copy that had leaked into support files or logs was replaced by a
+  sha256 pointer. `FLAGS/<cat>/<puzzle>/` mirrors the puzzle's category path exactly.
 - **Honor system, honored.** CryptoHack grades the submitted string; our doctrine is
   stricter: flags here were self-derived or service-given only — retrieved flags were never
-  submitted (SUPPORT/PROVENANCE.md). **224** flags carry values (31 restored from
-  contemporaneous records, each with a dated provenance note in `FLAGS/INDEX.jsonl`);
-  7 challenge rows + 83 course rows publish `null` + note instead of a fabricated value.
-- **Score etiquette:** this was learning on a friendly platform — the account's scoreboard
-  was cleared as a courtesy on 2026-11-13 (see `cryptohack.org/user/NoBirdWasHam/`, now
-  level 1 / 0 points; the end-state screenshot above is the dated historical record).
+  submitted (SUPPORT/PROVENANCE.md). **228** flags carry values (31 restored from
+  contemporaneous records, each with a dated provenance note in `FLAGS/INDEX.jsonl`;
+  2 derived fresh in the 2026-11-14 audit run — rows 260 and unbalanced); 5 challenge
+  rows + 83 course rows publish `null` + note instead of a fabricated value.
+- **Score etiquette:** this was learning on a friendly platform — the owner cleared the
+  scoreboard as a courtesy on 2026-11-13 after documentation verification; the
+  verification audit pass then re-earned/re-verified the full set, and the profile
+  captures above are the current live state.
 - **Recreatable:** rerun `SUPPORT/build_repo.py` against the working corpus to re-derive this
   tree; every puzzle dir runs standalone with a plain Python venv (fpylll/PARI where noted).
 - **PII-free by gate, not by promise:** zero host identity, zero third-party handles in text
@@ -108,6 +114,14 @@ Rows whose published record changed during the audit:
 | **304 · Unbalanced (ICC Athens 2022)** | original credit 2026-11-02 stood on a credited-but-undocumented solve; the audit **independently derived it** (Durfee-Nguyen trivariate Coppersmith, rank-126 lattice, +46 b/dim margin, Bareiss-resultant extraction). Prior evidenced-negative sections remain, scoped to the bivariate route. |
 | **247/13396 · Authenticator** | original solve 2026-10-28 stands; the audit **re-derived it with an independent algorithm** (rainbow tables vs the original GPU brute). The puzzle folder — previously absent from this repo due to a legacy folder misname — is now published at `PUZZLES/ctf-archive/challenge-13396-…`. |
 
-Full delta bookkeeping: `SUPPORT/2026-11-14-verification-audit/ERRATA-UPDATE-2026-11-14.md`.
+| **322 · RSATogether (ECSC 2024 Italy)** | solved & documented 2026-10-29 (own derivation: staircase Shamir-over-φ → exact φ-multiple → Miller/Sabt factoring) but the **directory never made it into the 2026-11-11 build** — a full-tree corpus↔repo audit in the late 11-14 pass caught it; dir, AAR, twin, flag and INDEX row now published. Original solve date stands. |
+
+Full delta bookkeeping (incl. the late-pass integrity fixes — INDEX rebuild, mirror moves,
+front-page reconciliation): `SUPPORT/2026-11-14-verification-audit/ERRATA-UPDATE-2026-11-14.md`.
 The provenance red lines are unchanged: submitted flags are exclusively self-derived or
 service-given; `UNDISCLOSED = 0`.
+
+Dated intermediate captures, kept as history: the campaign-end profile at 2026-11-10
+(Level 33 · 17,195 · rank #5 — `assets/scoreboard_profile.png`) and the 313/316 category
+board of the same date (`assets/categories.png`); the account clear of 2026-11-13 sits
+between them and the final captures above.
