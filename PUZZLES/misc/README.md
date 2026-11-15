@@ -1,6 +1,5 @@
-# Misc — 16 dirs
-Site category page: https://cryptohack.org/challenges/misc/ · **16 rows on the site, 16 dirs here (1:1)**
-Mix: 16 solved-challenge records + 0 course-lesson records (graded questions in-run, flag `null` by provenance).
+# Misc — 16 challenge dirs
+Site category page: https://cryptohack.org/challenges/misc/ · **16 rows on the site = 16 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/misc/`.
 - `challenge-167-cryptohack-roulette`
 - `challenge-168-cryptohack-rsa-vs-rng`

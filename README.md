@@ -16,15 +16,18 @@ verify, recreate, and **learn** from it.
 2026-11-14 (captures above; audit evidence in `SUPPORT/2026-11-14-verification-audit/`).
 Solving ran 2026-10-05 → 2026-11-10, the last row (246) closing 2026-11-11 after the
 upstream service fix; every original solve date in the ledger stands, and the 11-14
-date is used only for the audit run itself. **316 site rows = 231 numbered challenges
-+ 85 course lessons**, from an 85-solved baseline, mirrored 1:1 by `FLAGS/INDEX.jsonl`.
-Since 2026-11-15 the tree is organized **1:1 with the site's 14 current category pages**:
-**316 self-contained dirs — one per site row** (233 challenge records + 83 course-lesson
-records; the site double-lists two lessons, beatboxer/curveball, which are published once,
-as their numbered records). Category membership follows today's site pages, not the
-mid-run ledger labels — see the 2026-11-15 errata addendum; every row carries its own record
-(the two rows published `null` on record-never-written findings received own derivations in
-the audit run; appendix at the bottom).
+date is used only for the audit run itself. **316 site rows = 233 numbered challenges
++ 83 course lessons** (the site double-lists two lesson-titled rows), from an 85-solved
+baseline. Since 2026-11-15 the tree mirrors the site's 14 current category pages with a
+two-tree layout (owner decision): **`PUZZLES/` holds only the 233 numbered challenge
+records — one self-contained dir per numbered site row, 1:1** — and the 83 course-lesson
+records live under **`COURSEWORK/`**, because the site retro-folded lesson rows into its
+challenge lists without giving lessons any public challenge id, and the run recorded them
+as taught lessons, not challenges. `FLAGS/INDEX.jsonl` mirrors the 233 challenge dirs 1:1;
+`COURSEWORK/index.jsonl` mirrors the lessons. Category membership follows today's site
+pages, not the mid-run ledger labels — see the 2026-11-15 errata addendum; every row carries
+its own record (the two rows published `null` on record-never-written findings received own
+derivations in the audit run; appendix at the bottom).
 
 ## The three hard rows — the honest heart of this repo
 | row | outcome |
@@ -58,6 +61,8 @@ ingestion — plus a verification checklist where every flag row earns its check
 PUZZLES/<category>/<puzzle>/   AAR.md (human) + AGENT.md (AI twin) + every script we wrote
                                + README.md stub (facts, skills, concept tags) — self-contained
 FLAGS/<category>/<puzzle>/     flag.txt — mirrored paths; INDEX.jsonl pairs+checksums each
+COURSEWORK/<category>/<lesson>/ the 83 course-lesson records (same dual record, lesson
+                               format; captured flags colocated; index.jsonl + index.json)
 TAGS/                          concept tags (rsa, fiat-shamir-forgery, …) linking the puzzles
 SKILLS/                        the transferable skills this campaign produced (INDEX.yaml)
 SUPPORT/                       VERIFICATION.md (per-puzzle audit checklist), platform notes,
@@ -73,12 +78,12 @@ GATES.md                       the publish gates (PII sweep, author-work exclusi
   sha256 pointer. `FLAGS/<cat>/<puzzle>/` mirrors the puzzle's category path exactly.
 - **Honor system, honored.** CryptoHack grades the submitted string; our doctrine is
   stricter: flags here were self-derived or service-given only — retrieved flags were never
-  submitted (SUPPORT/PROVENANCE.md). **260** flags carry values (31 challenge rows +
-  32 course-lesson rows restored from contemporaneous records — the lesson restorations
-  2026-11-15, single unmasked candidate only — each with a dated provenance note in
-  `FLAGS/INDEX.jsonl`; 2 derived fresh in the 2026-11-14 audit run — rows 260 and
-  unbalanced); 5 challenge
-  rows + 51 course rows publish `null` + note instead of a fabricated value (lesson rows
+  submitted (SUPPORT/PROVENANCE.md). **260 flags carry values: 228 under `FLAGS/` mirrors
+  (31 challenge rows restored from contemporaneous records, 2 derived fresh in the 2026-11-14
+  audit run — rows 260 and unbalanced — each with a dated provenance note in
+  `FLAGS/INDEX.jsonl`) + 32 colocated under `COURSEWORK/` (lesson rows restored 2026-11-15
+  from contemporaneous records, single unmasked candidate only)**; 5 challenge rows + 51
+  course rows publish `null` + note instead of a fabricated value (lesson rows
   without an unmasked single candidate stay null — nothing reconstructed).
 - **Score etiquette:** this was learning on a friendly platform — CryptoHack's scoreboard is
   an honor system intended for humans, and anyone can copy flag strings onto it. Our

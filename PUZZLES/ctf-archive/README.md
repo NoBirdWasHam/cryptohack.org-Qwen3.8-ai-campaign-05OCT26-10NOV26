@@ -1,6 +1,5 @@
-# CTF Archive — 76 dirs
-Site category page: https://cryptohack.org/challenges/ctf-archive/ · **76 rows on the site, 76 dirs here (1:1)**
-Mix: 76 solved-challenge records + 0 course-lesson records (graded questions in-run, flag `null` by provenance).
+# CTF Archive — 76 challenge dirs
+Site category page: https://cryptohack.org/challenges/ctf-archive/ · **76 rows on the site = 76 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/ctf-archive/`.
 - `challenge-100-cryptohack-unimplemented-tetctf2021`
 - `challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it`

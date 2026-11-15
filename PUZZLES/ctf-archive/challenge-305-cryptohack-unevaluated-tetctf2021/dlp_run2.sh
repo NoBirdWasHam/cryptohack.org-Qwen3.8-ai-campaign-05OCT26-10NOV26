@@ -3,7 +3,7 @@
 # (params.p40 absolute path; NCPUS_FAKE=2 -> cado believes 2 cores: honors host-load rule)
 export NCPUS_FAKE=2
 export PYTHONPATH=~/tools/cado-nfs/scripts
-cd ~/tools/cado-nfs/build/LANDT-SG13 || exit 9
+cd ~/tools/cado-nfs/build/$(hostname) || exit 9
 python3 -u cado-nfs.py -dlp \
   --parameters ~/tools/cado-nfs/parameters/dlp/params.p40 \
   --workdir ~/dlp_work \

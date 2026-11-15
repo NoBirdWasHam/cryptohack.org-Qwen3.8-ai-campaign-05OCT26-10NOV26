@@ -1,6 +1,5 @@
-# Lattices — 18 dirs
-Site category page: https://cryptohack.org/challenges/post-quantum/ · **18 rows on the site, 18 dirs here (1:1)**
-Mix: 18 solved-challenge records + 0 course-lesson records (graded questions in-run, flag `null` by provenance).
+# Lattices — 18 challenge dirs
+Site category page: https://cryptohack.org/challenges/post-quantum/ · **18 rows on the site = 18 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/post-quantum/`.
 - `challenge-167-cryptohack-lwe-background`
 - `challenge-168-cryptohack-lwe-intro`

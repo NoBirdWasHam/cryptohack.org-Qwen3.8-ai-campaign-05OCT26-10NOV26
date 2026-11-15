@@ -1,6 +1,5 @@
-# Crypto on the Web — 17 dirs
-Site category page: https://cryptohack.org/challenges/web/ · **17 rows on the site, 17 dirs here (1:1)**
-Mix: 17 solved-challenge records + 0 course-lesson records (graded questions in-run, flag `null` by provenance).
+# Crypto on the Web — 17 challenge dirs
+Site category page: https://cryptohack.org/challenges/web/ · **17 rows on the site = 17 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/web/`.
 - `challenge-150-cryptohack-secure-protocols`
 - `challenge-151-cryptohack-token-appreciation`

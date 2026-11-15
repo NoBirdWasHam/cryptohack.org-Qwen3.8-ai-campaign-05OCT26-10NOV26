@@ -1,7 +1,7 @@
-# Mathematics — 16 dirs
-Site category page: https://cryptohack.org/challenges/maths/ · **16 rows on the site, 16 dirs here (1:1)**
-Mix: 10 solved-challenge records + 6 course-lesson records (graded questions in-run, flag `null` by provenance).
+# Mathematics — 10 challenge dirs
+Site category page: https://cryptohack.org/challenges/maths/ · **16 rows on the site = 10 numbered challenges + 6 course lessons · challenge dirs here 1:1 with the site's numbered rows**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/maths/`.
+Course lessons for this category live under `COURSEWORK/maths/` (lesson format, dual record; flags colocated). See `COURSEWORK/index.jsonl`.
 - `challenge-89-cryptohack-powers`
 - `challenge-90-cryptohack-common_ground`
 - `challenge-91-cryptohack-broken-rsa`
@@ -12,9 +12,3 @@ Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/maths/`.
 - `challenge-96-cryptohack-cofactor`
 - `challenge-97-cryptohack-eisenstein`
 - `challenge-98-cryptohack-prejudice`
-- `course-adrien`
-- `course-bionomials`
-- `course-crt1`
-- `course-root0`
-- `course-root1`
-- `course-tonelli-shanks`

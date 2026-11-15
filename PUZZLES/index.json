@@ -1,289 +1,9 @@
 {
- "generated": "2026-11-15 (site-1:1 reorg: 316 dirs across the 14 current site categories; course lessons published as lesson-format dirs; lesson flags restored where a contemporaneous single candidate exists)",
- "puzzle_dirs": 316,
- "dirs_with_agent_twin": 316,
- "dirs_with_flag_value": 260,
+ "generated": "2026-11-15",
+ "puzzle_dirs": 233,
+ "dirs_with_agent_twin": 233,
+ "dirs_with_flag_value": 228,
  "entries": {
-  "PUZZLES/introduction/course-fflags": {
-   "aar_bytes": 3806,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "75a82ad04239dc49e70898f2e91267470fc77a05579f87b37ec7384fc759ea75",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/introduction/course-nc-intro": {
-   "aar_bytes": 4122,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "de8e866c8c34cb9694ac4495811dcb3af8226275fd2963cf5e166df19a4f4e78",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/introduction/course-nc-intro-2": {
-   "aar_bytes": 5467,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "aaf16fbddf961cc68c8befc10dd909cdd36109b45f55360270000416689cec74",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-enc1": {
-   "aar_bytes": 593,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-enc2": {
-   "aar_bytes": 589,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-enc3": {
-   "aar_bytes": 596,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-enc4": {
-   "aar_bytes": 628,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-enc_interactive": {
-   "aar_bytes": 642,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-xor0": {
-   "aar_bytes": 606,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-xor1": {
-   "aar_bytes": 612,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-xorkey0": {
-   "aar_bytes": 618,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-xorkey1": {
-   "aar_bytes": 649,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-xorimg1": {
-   "aar_bytes": 608,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-gcd": {
-   "aar_bytes": 628,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-egcd": {
-   "aar_bytes": 608,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-ma0": {
-   "aar_bytes": 622,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-ma1": {
-   "aar_bytes": 622,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-mdiv": {
-   "aar_bytes": 618,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-pem1": {
-   "aar_bytes": 627,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-certainly": {
-   "aar_bytes": 620,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-ssh-keys": {
-   "aar_bytes": 4562,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/general/course-transparency": {
-   "aar_bytes": 5168,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "4e4d53eafb216cf3f0aad4cc4c4671f9f945c652cde8c9131695a1fc438cb439",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes0": {
-   "aar_bytes": 639,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes1": {
-   "aar_bytes": 644,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes2": {
-   "aar_bytes": 636,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes3": {
-   "aar_bytes": 624,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes4": {
-   "aar_bytes": 664,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes5": {
-   "aar_bytes": 662,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-aes6": {
-   "aar_bytes": 652,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-block_cipher_starter": {
-   "aar_bytes": 688,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-passwords_as_keys": {
-   "aar_bytes": 5556,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "23b47277a65c1bee7cfa53381cc46649a55cee377c41ab76cc9d790c179d3952",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-ecbcbcwtf": {
-   "aar_bytes": 5242,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "d569c380d375dbf4acc6de01440b743212bb163e4dd3473827514374d82da394",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-ecb_oracle": {
-   "aar_bytes": 6706,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "8991a400d52ae9adc5e627dd08e56a5690b433b3cf8acf7044735a67715a9b0b",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-flipping_cookie": {
-   "aar_bytes": 6108,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "e1c52210dbbb6c7576297b85bda07820589b05c615c1a5670ae307ccdb0ad7c8",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-lazy_cbc": {
-   "aar_bytes": 5632,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "f90f85376caa2ce377defc16aad19db2bff33fed09a852d7802d38c2475ee4d4",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
   "PUZZLES/aes/challenge-36-cryptohack-triple_des": {
    "aar_bytes": 7051,
    "agent_twin": true,
@@ -291,54 +11,6 @@
    "flag": "52a0ed235b912f19d6ccb2cc5b7871ce3adcc17dd2e1b28bd9baca15b492fd8f",
    "flag_note": null,
    "date": "2026-10-16"
-  },
-  "PUZZLES/aes/course-symmetry": {
-   "aar_bytes": 4979,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "e7f1ca8e0daec7df4e89e1cf92185c4b6c7364ab12aee187768134879d53af74",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-bean_counter": {
-   "aar_bytes": 5846,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "d737972f686e62ae909d9f8f54901facdce518119134951f846558782d0c73b8",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-ctrime": {
-   "aar_bytes": 6088,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "b0a5d21e2412be21138c206c38637843818f4000a167c515d9a9189d89d3c503",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-logon-zero": {
-   "aar_bytes": 6769,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "27084da99c61a3336dcb5e960d3f58f3458b97bc8139aaf3a1c5d1456aed2544",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-stream_consciousness": {
-   "aar_bytes": 682,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-05"
-  },
-  "PUZZLES/aes/course-dancing-queen": {
-   "aar_bytes": 5918,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "912106766d3edb14e6787d95d59330fd6b6af48b1a473069cd9abf0a8ee51d62",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
   },
   "PUZZLES/aes/challenge-45-cryptohack-oh_snap": {
    "aar_bytes": 11348,
@@ -348,14 +20,6 @@
    "flag_note": null,
    "date": "2026-10-23"
   },
-  "PUZZLES/aes/course-pad_thai": {
-   "aar_bytes": 6258,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "75a398969e859e4eeee46935057c03da0b4a51256002e38a45b8d7899a44cd81",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-05"
-  },
   "PUZZLES/aes/challenge-131-cryptohack-rhetorical_oracle": {
    "aar_bytes": 2200,
    "agent_twin": true,
@@ -363,14 +27,6 @@
    "flag": "f16e07830e1f99b934dc958b599446e7c51731fca1d23525a54ed9c3de90fbc2",
    "flag_note": null,
    "date": "2026-10-12"
-  },
-  "PUZZLES/aes/course-good_pad_ugly": {
-   "aar_bytes": 675,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
   },
   "PUZZLES/aes/challenge-132-cryptohack-oracular_spectacular": {
    "aar_bytes": 8827,
@@ -388,60 +44,12 @@
    "flag_note": null,
    "date": "2026-10-19"
   },
-  "PUZZLES/aes/course-paper_plane": {
-   "aar_bytes": 7199,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "b9d56f265d66cd86fd1cdfd58fe20ee58d13a41a9fee4b7180a977a2d16cd377",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/aes/course-forbidden_fruit": {
-   "aar_bytes": 12150,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
   "PUZZLES/aes/challenge-48-cryptohack-beatboxer": {
    "aar_bytes": 3226,
    "agent_twin": true,
    "stub": true,
    "flag": "cdfbff0e64c09248ea03b78c3dd36c9626bdb34b628da515534698835d7ee351",
    "flag_note": "restored from ledger-era flag.txt (numeric/short answer format)",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/maths/course-root0": {
-   "aar_bytes": 2561,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/maths/course-root1": {
-   "aar_bytes": 3272,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/maths/course-tonelli-shanks": {
-   "aar_bytes": 3729,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/maths/course-crt1": {
-   "aar_bytes": 2692,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
    "date": "2026-10-06"
   },
   "PUZZLES/maths/challenge-89-cryptohack-powers": {
@@ -458,22 +66,6 @@
    "stub": true,
    "flag": "1ad5ee9443386a28b6194c852a8588bbe09fea12f7c77643983cc84ef68770e2",
    "flag_note": null,
-   "date": "2026-10-07"
-  },
-  "PUZZLES/maths/course-adrien": {
-   "aar_bytes": 3115,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "170e0ab65ff1ac2796243502346b1771356a0a5ef14d0c7f68a2babd7b1bb99c",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/maths/course-bionomials": {
-   "aar_bytes": 8255,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
    "date": "2026-10-07"
   },
   "PUZZLES/maths/challenge-91-cryptohack-broken-rsa": {
@@ -539,126 +131,6 @@
    "flag": "e57f3f4c8e8ec03aa9b723e0931b495b8be01a54bcf01a84394b6af95bdd08b4",
    "flag_note": null,
    "date": "2026-11-02"
-  },
-  "PUZZLES/rsa/course-rsa_starter_1": {
-   "aar_bytes": 3818,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-rsa_starter_2": {
-   "aar_bytes": 3286,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-rsa_starter_3": {
-   "aar_bytes": 3554,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-rsa_starter_4": {
-   "aar_bytes": 3705,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-rsa_starter_5": {
-   "aar_bytes": 3599,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-rsa_starter_6": {
-   "aar_bytes": 4718,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "259f7a318fa46d43acd6a32ce41c63e91e16d40fc7a8f3dea39dc5df59d1ef31",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-rsa_factoring": {
-   "aar_bytes": 3602,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-inferius": {
-   "aar_bytes": 4086,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "7a0765f4f1fe6efa0370c35d88e82bd6e0b657f98da7efb9f4870b9dda1b0f48",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-monoprime": {
-   "aar_bytes": 3180,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "6b119f574a7280e711929e841b25f77f339422526064f8b6166cbfb61d73f3f6",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-square": {
-   "aar_bytes": 3394,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "1386ae23b06aeb8e84e4ed58636beb2ab598e864c5704fb4b50ec94584c0a111",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-manyprime": {
-   "aar_bytes": 4200,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "ce37eea406bb52022104380cc8b9a606ca753e81c9bf04e1cff49cb3a4f45f8a",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-salty": {
-   "aar_bytes": 3057,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "e81426c56dcc205c67c6f7596bc84dbbc447c7a9bb57cc626d3e4d16b2b65adb",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-modulus_inutilis": {
-   "aar_bytes": 3535,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "1eae7c52918425e949ad05d9ced278230568ddefee94aa35e0bdf256b89bce69",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-big": {
-   "aar_bytes": 4210,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "922ec7a41ae3c909c9644d4013d4fdde4511d9928be15f47e61487dcba9a4e5a",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/rsa/course-wires": {
-   "aar_bytes": 4679,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "b0d61216bf8ac49d830d5527bd3b98b751afe3bc4e245592ca8182386a7ef4f9",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
   },
   "PUZZLES/rsa/challenge-64-cryptohack-big2": {
    "aar_bytes": 2278,
@@ -769,64 +241,8 @@
    "agent_twin": true,
    "stub": true,
    "flag": null,
-   "flag_note": "row 260 \u2014 record never written; flag published as null",
+   "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-23"
-  },
-  "PUZZLES/diffie-hellman/course-dh-starter-1": {
-   "aar_bytes": 1904,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/diffie-hellman/course-dh-starter-2": {
-   "aar_bytes": 2126,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/diffie-hellman/course-dh-starter-3": {
-   "aar_bytes": 2789,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/diffie-hellman/course-dh-starter-4": {
-   "aar_bytes": 2852,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/diffie-hellman/course-dh-starter-5": {
-   "aar_bytes": 2733,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "174187f02acd186245452fbfd60cfd7cb0c8e36e3c2f0afca2cfd2a457c99f41",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/diffie-hellman/course-parameter_injection": {
-   "aar_bytes": 3117,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "65afc5f9624984b08cad683213c69f9b927470929668352de9eeec6012ae5514",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
-  },
-  "PUZZLES/diffie-hellman/course-export_grade": {
-   "aar_bytes": 3635,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "565bbe87c0485db95da49dd1d6552f7b856ffa7eb5a4befe5fb8c827ebbb0083",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-06"
   },
   "PUZZLES/diffie-hellman/challenge-127-cryptohack-dh_static": {
    "aar_bytes": 6155,
@@ -884,62 +300,6 @@
    "flag_note": null,
    "date": "2026-10-20"
   },
-  "PUZZLES/ecc/course-bg": {
-   "aar_bytes": 631,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
-  },
-  "PUZZLES/ecc/course-ecc0": {
-   "aar_bytes": 628,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
-  },
-  "PUZZLES/ecc/course-ecc1": {
-   "aar_bytes": 628,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
-  },
-  "PUZZLES/ecc/course-ecc2": {
-   "aar_bytes": 642,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
-  },
-  "PUZZLES/ecc/course-ecc3": {
-   "aar_bytes": 630,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
-  },
-  "PUZZLES/ecc/course-ecc4": {
-   "aar_bytes": 636,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
-  },
-  "PUZZLES/ecc/course-criminal": {
-   "aar_bytes": 5872,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "0bff9dbac386ba4dab35f2a6aef607ebdc9f8d90c8eb2e51677a60a351d19e94",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-07"
-  },
   "PUZZLES/ecc/challenge-116-cryptohack-exceptional": {
    "aar_bytes": 3061,
    "agent_twin": true,
@@ -963,14 +323,6 @@
    "flag": "67eb5b679946fa433c3747977438cb5a11fca575c9f65948f373f821107f4f4a",
    "flag_note": null,
    "date": "2026-10-21"
-  },
-  "PUZZLES/ecc/course-moving": {
-   "aar_bytes": 6466,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "70c189e4d7a7c0998b3c2273b36435babcc2c23744ad82216bd05dd3eb366942",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-07"
   },
   "PUZZLES/ecc/challenge-114-cryptohack-twisted_mind": {
    "aar_bytes": 4471,
@@ -1028,14 +380,6 @@
    "flag_note": "restored 2026-11-13 from contemporaneous AAR record (server-confirmed at solve time)",
    "date": "2026-10-07"
   },
-  "PUZZLES/ecc/course-ps3": {
-   "aar_bytes": 5086,
-   "agent_twin": true,
-   "stub": true,
-   "flag": "6650072ffaf6308928f010aa02873e3eec819df5858431f1eecf9b4fb1c541ff",
-   "flag_note": "flag restored 2026-11-15 from the contemporaneous course-era lesson record embedded in this dir's AAR (single unmasked candidate, captured at lesson completion); site re-listed this lesson as a challenge row post-run",
-   "date": "2026-10-07"
-  },
   "PUZZLES/ecc/challenge-118-cryptohack-norandom": {
    "aar_bytes": 2139,
    "agent_twin": true,
@@ -1051,14 +395,6 @@
    "flag": "ec2d6dd876df1a5a362348541924dec6ee3340eee7464d80c3a2639c502386b3",
    "flag_note": null,
    "date": "2026-11-02"
-  },
-  "PUZZLES/ecc/course-ladder": {
-   "aar_bytes": 642,
-   "agent_twin": true,
-   "stub": true,
-   "flag": null,
-   "flag_note": "no single unmasked flag candidate in the contemporaneous lesson record; published null \u2014 nothing reconstructed",
-   "date": "2026-10-07"
   },
   "PUZZLES/ecc/challenge-112-cryptohack-double_and_broken": {
    "aar_bytes": 3721,
@@ -1321,7 +657,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": null,
-   "flag_note": "row 260 \u2014 record never written; flag published as null",
+   "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-23"
   },
   "PUZZLES/web/challenge-166-cryptohack-mega3": {
@@ -1345,7 +681,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": null,
-   "flag_note": "row 260 \u2014 record never written; flag published as null",
+   "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-12"
   },
   "PUZZLES/post-quantum/challenge-174-cryptohack-gramschmidt": {
@@ -1625,7 +961,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": null,
-   "flag_note": "row 260 \u2014 record never written; flag published as null",
+   "flag_note": "FLAG-NOT-IN-LEDGER: solve verified via site solved-list; flag redacted in AAR — never fabricated here",
    "date": "2026-10-25"
   },
   "PUZZLES/isogenies/challenge-218-cryptohack-abelian_sidh": {
@@ -1777,7 +1113,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": null,
-   "flag_note": "row 260 \u2014 record never written; flag published as null",
+   "flag_note": "FLAG-PLACEHOLDER-REMOVED: only a masked placeholder existed; true value never entered the ledger — solve itself verified via site solved-list.",
    "date": "2026-10-21"
   },
   "PUZZLES/zkp/challenge-236-cryptohack-mistersaplinstheprover": {
@@ -1993,7 +1329,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": "5b04e70e0d89f45430968fb88299511f487ec5282d4207b55b89ee9ea2bebd6c",
-   "flag_note": "flag self-derived in the 2026-11-14 verification audit run (see its AAR.md); the 2026-11-11 state published this row `null` on the record-never-written finding \u2014 superseded by our own derivation, never by a fabricated value",
+   "flag_note": "flag self-derived in the 2026-11-14 verification audit run (see its AAR.md); the 2026-11-11 state published this row `null` on the record-never-written finding — superseded by our own derivation, never by a fabricated value",
    "date": "2026-10-25"
   },
   "PUZZLES/ctf-archive/challenge-263-cryptohack-greatest_common_multiple-code": {
@@ -2065,7 +1401,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": "5769a5c2250c4ee7af7b4d76e754436b81dea03ac572377c96e898d47d196053",
-   "flag_note": "flag self-derived at solve time 2026-10-29 (staircase Shamir-over-phi -> exact phi-multiple -> Miller/Sabt factoring), contemporaneous API 278->279 record; dir missing from the 2026-11-11 build \u2014 published 2026-11-14 late audit pass",
+   "flag_note": "flag self-derived at solve time 2026-10-29 (staircase Shamir-over-phi -> exact phi-multiple -> Miller/Sabt factoring), contemporaneous API 278->279 record; dir missing from the 2026-11-11 build — published 2026-11-14 late audit pass",
    "date": "2026-10-29"
   },
   "PUZZLES/ctf-archive/challenge-293-cryptohack-smithing_contest-ecsc_2024_it": {
@@ -2217,7 +1553,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": "61626142036e9b9d51d9a87d5fad1cb02b1ceaa72cb5d7ab403733b38cd310eb",
-   "flag_note": "flag self-derived at solve time 2026-10-28 (blake3 preimage search inside the 10s alarm, server-confirmed); row absent from the 2026-11-11 INDEX due to the legacy folder misname \u2014 restored 2026-11-14",
+   "flag_note": "flag self-derived at solve time 2026-10-28 (blake3 preimage search inside the 10s alarm, server-confirmed); row absent from the 2026-11-11 INDEX due to the legacy folder misname — restored 2026-11-14",
    "date": "2026-10-28"
   },
   "PUZZLES/ctf-archive/challenge-251-cryptohack-c0ll1d3r-firebird_internal_ct": {
@@ -2329,7 +1665,7 @@
    "agent_twin": true,
    "stub": true,
    "flag": "553d00525ad3e72b4036a1a2c910b7b194b113ab49d4bad1f01a5afe8f2e54d4",
-   "flag_note": "flag self-derived in the 2026-11-14 verification audit run (see its AAR.md); the 2026-11-11 state published this row `null` on the record-never-written finding \u2014 superseded by our own derivation, never by a fabricated value",
+   "flag_note": "flag self-derived in the 2026-11-14 verification audit run (see its AAR.md); the 2026-11-11 state published this row `null` on the record-never-written finding — superseded by our own derivation, never by a fabricated value",
    "date": "2026-11-02"
   },
   "PUZZLES/ctf-archive/challenge-311-cryptohack-diffecient-sekaictf2022": {

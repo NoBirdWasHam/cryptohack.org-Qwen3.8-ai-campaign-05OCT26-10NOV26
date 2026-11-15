@@ -122,3 +122,37 @@ sha256 + provenance note verified identical to the pre-reorg committed row (0 mi
 after path/slug normalization); all 260 flag files hash-match their row; ledger rows
 untouched (mid-run categories preserved there as history; the site taxonomy lives in INDEX
 `site_category`).
+
+## Addendum — 2026-11-15 coursework extraction (owner decision: PUZZLES/ = challenges only)
+
+Owner review of the folder taxonomy: mixed `challenge-<id>-cryptohack-<slug>` and
+`course-<slug>` dir formats in the same category listings is not uniform, and lessons
+cannot honestly join the numbered format — the site gives lesson rows no public id
+(checked: 78/83 leak no static-file id; the 5 that do collide with existing challenge
+ids). Owner ruling: **courses stay out of the challenge taxonomy; the numbered challenge
+set must be complete and documented to standard.**
+
+| change | scope |
+|---|---|
+| `PUZZLES/<cat>/course-*` → `COURSEWORK/<cat>/course-*` | 83 dirs, content byte-unchanged |
+| `FLAGS/<cat>/course-*/flag.txt` → colocated `COURSEWORK/<cat>/course-*/flag.txt` | 32 files (sha256 re-verified after move, 0 mismatches) |
+| INDEX split | `FLAGS/INDEX.jsonl` 233 challenge rows (228 flags / 5 null); `COURSEWORK/index.jsonl` 83 lesson rows (32 flags / 51 null); rows byte-carried, no note re-templating |
+| live docs regenerated | category READMEs (233-dir listings + COURSEWORK pointers), `PUZZLES/index.json` (233), `COURSEWORK/index.json` (83), `SUPPORT/CATEGORY_INDEX.md`, top README |
+| frozen evidence untouched | `SUPPORT/2026-11-14-verification-audit/` byte-unchanged (path references inside it intentionally NOT rewritten) |
+
+Per-category challenge counts vs site tiles (challenges/lessons): introduction 0+3,
+general 0+19, aes 6+23, maths 10+6, rsa 14+15, diffie-hellman 7+7, ecc 13+10, and
+16/17/18/23/17/16/76 challenges in hashes/web/post-quantum/isogenies/zkp/misc/ctf-archive
+(lessons 0) — totals 233 + 83 = 316 site rows (*beatboxer/curveball are numbered ledger
+records whose lesson-titled double-listing on the site is noted in their dirs).
+
+Gates rerun over the extracted tree: G1 0 hits; G3 0 hits; G8 — the 32 restored lesson
+flag strings appear only in colocated `flag.txt` files (path rewrite pass touched prose
+pointers, 66 files); validator green (233 dirs == 233 INDEX rows == mirrored flags; 83
+coursework dirs == 83 rows; all shas match).
+
+Gate-fix note (this pass): full-tree G1 re-run with live hostname as a literal token
+found ONE pre-existing residual — `PUZZLES/ctf-archive/challenge-305-*/dlp_run2.sh`
+hardcoded the build dir `build/<hostname>`; replaced with `$(hostname)` (portable,
+identity-free). Re-run: 0 residuals. Earlier G1 wordings had covered username/LAN-IP
+patterns but not the machine hostname as a build-dir token — gate pattern widened.

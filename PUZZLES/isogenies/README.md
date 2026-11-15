@@ -1,6 +1,5 @@
-# Isogenies — 23 dirs
-Site category page: https://cryptohack.org/challenges/isogenies/ · **23 rows on the site, 23 dirs here (1:1)**
-Mix: 23 solved-challenge records + 0 course-lesson records (graded questions in-run, flag `null` by provenance).
+# Isogenies — 23 challenge dirs
+Site category page: https://cryptohack.org/challenges/isogenies/ · **23 rows on the site = 23 numbered challenges + 0 course lessons · challenge dirs here 1:1 with the site's numbered rows**
 Every dir: README stub + AAR.md + AGENT.md. Flags: `FLAGS/isogenies/`.
 - `challenge-201-cryptohack-iso_introduction_chall`
 - `challenge-202-cryptohack-j_invariant`
