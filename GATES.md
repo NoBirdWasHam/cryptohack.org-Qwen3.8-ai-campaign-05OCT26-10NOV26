@@ -9,7 +9,7 @@ SKILLS/ · SUPPORT/ · assets/.
 | G1 host/system identity | zero occurrences across 1634 files of: workstation username, machine hostname, account aliases, LAN IPs, GPU hostname, real user-home paths (`C:\Users\<name>`, `/c/Users/<name>`, `/home/<name>`), MACs | **PASS (0 residuals)** |
 | G2 authors' works not re-hosted | zero files named statement.txt / flag.txt / chall*.py / chal.py / challenge.py / source_provided.* / source.sage / output_provided.txt / Dockerfile / server.py / task.txt | **PASS (0)** |
 | G3 secrets | no credential assignments; 7 platform CSRF tokens scraped into page-cache notes -> REDACTED; 1 non-branded Discord invite -> DISCORD-INVITE | **PASS** |
-| G4 flag containment | flag VALUES live only in: `FLAGS/` (INDEX.jsonl + flag.txt), the puzzle's own AAR/AGENT prose, and declared worked examples in `SKILLS/*/SKILL.md` (38 values, 7 files — deliberately kept as taught material); logs, SUPPORT files and JSON dumps carry sha256 pointers only. (Wording corrected 2026-11-16: file is `FLAGS/INDEX.jsonl`, and the SKILL worked-example scope is now explicit rather than contradicted.) | **PASS** |
+| G4 flag containment | **Distinctive flag values** (non-numeric, ≥8 chars) live only in: `FLAGS/` (INDEX.jsonl + flag.txt), the puzzle's own AAR/AGENT prose, and declared worked examples in `SKILLS/*/SKILL.md`. **Class exception, disclosed:** BARE-answer challenges have flags that are common words or short numerals (`NOT`, `65537`, `Let's Encrypt`, …); those are ordinary vocabulary/digits that occur naturally in solve prose anywhere (SKILLS, SUPPORT notes, frozen audit JSON — e.g. the 15 common-numeral residuals in `progress_sanitized.json`, the `Authorization` hit in `wave-scripts.tar.gz`) and carry no disclosure content, so string-level containment does not apply to them; containment is enforced on the distinctive class only. (11-16b: counts removed from this gate — the same tree yields 31 / 37 / 38 distinctive values under three defensible sweep rules, so a printed count is not reproducible; scoping is by class. Filename corrected flags.jsonl→INDEX.jsonl in 11-16.) | **PASS** |
 | G5 honest nulls | 3 solved rows whose flags were ledger-redacted publish as null + note; 85 course rows are flagless by platform design; 229 rows carry values; nothing fabricated | **PASS** |
 | G6 provenance | every row dated + classed (WALKED / SERVICE-GIVEN / PRE-LEDGER-ERA labeled rather than back-classified) | **PASS** |
 
@@ -207,7 +207,7 @@ copy (identical to live `2d6d15d`) before acting. Fixes:
 | README "Start reading"/appendix paths used legacy ids → 5 dead paths | re-pointed to real dirs (zkp/`challenge-9-…sigma-hamiltonicity2`, ctf-archive/`challenge-12-…hamiltonicity_2…`, `challenge-7-…additional_problems…`, `challenge-9-…fischlins…`, `challenge-37-…authenticator…`) |
 | AGENT frontmatter / README titles carrying legacy `challenge-<old>-…` ids | audit found 7+2; full sweep found **233 + 35** — all rewritten to current dir ids (my 15d sweep only matched `PUZZLES/…`-prefixed paths; disclosed). The 83 lesson twins keep `record: course-twin` + `lesson: course-<slug>` (ledger-era lesson ids, matching the run record) — record ids, not dir paths; no change |
 | `GATES` G4 named `FLAGS/flags.jsonl` | corrected to `FLAGS/INDEX.jsonl` |
-| G4 scope vs SKILL worked examples | ~30–38 real flag values sit deliberately in 7 `SKILLS/*/SKILL.md` as taught worked examples. G4 rewritten to **enumerate** sanctioned locations (FLAGS/ + own AAR/AGENT prose + declared SKILL worked examples; values banned from logs/SUPPORT/JSON dumps) rather than contradict the tree. My exact count: 38 distinct values in 7 files (audit: ~30/7 — substring length cutoffs differ; no conflict in kind) |
+| G4 scope vs SKILL worked examples | ~30–38 real flag values sit deliberately in 7 `SKILLS/*/SKILL.md` as taught worked examples. G4 rewritten to **enumerate** sanctioned locations (FLAGS/ + own AAR/AGENT prose + declared SKILL worked examples; values banned from logs/SUPPORT/JSON dumps) rather than contradict the tree. My exact count: 38 distinct values in 7 files (audit: ~30/7 — substring length cutoffs differ; no conflict in kind). [11-16b erratum: a third sweep reproduced **31** — counts are extraction-rule dependent and were removed from G4; class-scoping replaced them] |
 | live flag values inside `SUPPORT/progress_sanitized.json` (reality: **2 distinct flags, 3 occurrences** — comp_isogenies + three_isogenies; the audit caught one) | scrubbed: the notes-field numeric form of the comp_isogenies flag → redaction + sha256 pointer (file is a sanitization artifact; the run ledger itself stays untouched as history). Note: the audit's quoted rendering differs in term order from the stored flag file — the notes-field form was scrubbed where it actually occurs; SKILLS hits of this value are in-scope worked examples per rewritten G4 |
 | VERIFICATION checklist names ≠ current dirs | those are the 2026-11-14 run's historical record — kept, with an explicit history note + `ledger_nn` mapping pointer above the table |
 | "dirs keep the ledger/site id" sentence | **not present** in live `2d6d15d` (removed in 15d); the audit was quoting pre-15d README text. The dead example paths it stood next to were real and are fixed above |
@@ -215,10 +215,12 @@ copy (identical to live `2d6d15d`) before acting. Fixes:
 | slug `fischlins_transformation-cryp` looks truncated | **site-published slug** — scraped `data-challenge` attribute contains it verbatim; not our truncation |
 
 **Adjudicated — 8 shared `ledger_nn` pairs** (100, 167, 168, 172, 209, 319, 13391, 13396): all
-pairs are *different slugs*. Root cause: the run ledger's NN was the site's global row
-position at the scrape date of first observation, and the site renumbered rows mid-run
-(lessons/reshuffles), so two different challenges recorded at different dates could inherit
-the same NN. Not mapping errors; values kept as history. All 16 affected INDEX rows now
+pairs are *different slugs*. Mechanism, scoped to evidence: the ledger's NN was the queue **position at record time** —
+the published queue itself shows NN 105/130/131 each held by two different slugs recorded on
+different run dates, and for 5 of the 8 INDEX collision pairs only one member exists in the
+final queue snapshot (the other's NN came from an earlier one). Positions shifted while the
+run was active; whether the site renumbered by row insertion or page reshuffle is not
+externally re-derived and is not claimed. Not mapping errors; values kept as history. All 16 affected INDEX rows now
 carry `ledger_nn_shared: true` (13396 additionally has the pre-existing misname note).
 
 Frozen 2026-11-14 audit dir and the run ledger: untouched.

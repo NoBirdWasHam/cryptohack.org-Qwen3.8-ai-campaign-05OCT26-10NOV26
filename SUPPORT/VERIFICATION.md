@@ -307,3 +307,12 @@ legacy id to the current dir.
   `progress_sanitized.json` no longer contains a live flag value; shared-`ledger_nn` rows
   machine-marked. Mechanical validator re-run green (dirs==rows, NN==site positions,
   260/260 shas, mirrors). Narrative: GATES 2026-11-16.
+
+## Re-check 2026-11-16b (second audit round: wording, counts, mechanism scoping)
+- G4 now scopes containment by CLASS (distinctive ≥8-char non-numeric vs common word/numeral
+  BARE answers, class exception disclosed) — printed counts removed after three defensible
+  sweeps yielded 31/37/38 on the same tree.
+- Shared-`ledger_nn` mechanism claim tightened to what the published ledger actually shows
+  (position-at-record-time; NN 105/130/131 dual-holded in-file across dates); site-side
+  renumber detail disclaimed as not externally re-derived. Narrative: GATES 11-16 addendum
+  (incl. the 38-count erratum). No structural changes this round.
