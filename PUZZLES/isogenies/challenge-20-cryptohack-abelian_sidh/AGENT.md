@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-218-cryptohack-abelian_sidh
+puzzle: challenge-20-cryptohack-abelian_sidh
 category: isogenies
 url: https://cryptohack.org/challenges/abelian_sidh/
 status: solved

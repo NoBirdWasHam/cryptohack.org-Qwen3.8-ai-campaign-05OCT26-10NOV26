@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13401-cryptohack-unbalanced-icc_athens2022
+puzzle: challenge-51-cryptohack-unbalanced-icc_athens2022
 category: CTF Archive
 url: https://cryptohack.org/challenges/unbalanced-icc_athens2022/
 status: solved

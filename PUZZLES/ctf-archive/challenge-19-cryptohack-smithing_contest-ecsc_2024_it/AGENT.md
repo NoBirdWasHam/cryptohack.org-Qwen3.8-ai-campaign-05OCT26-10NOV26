@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-293-cryptohack-smithing_contest-ecsc_2024_it
+puzzle: challenge-19-cryptohack-smithing_contest-ecsc_2024_it
 category: ctf-archive
 url: https://cryptohack.org/challenges/smithing_contest-ecsc_2024_it/
 status: solved

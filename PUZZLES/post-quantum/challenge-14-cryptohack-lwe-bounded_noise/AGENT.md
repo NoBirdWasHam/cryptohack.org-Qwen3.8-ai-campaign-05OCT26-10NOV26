@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-177-cryptohack-lwe-bounded_noise
+puzzle: challenge-14-cryptohack-lwe-bounded_noise
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-bounded_noise/
 status: solved

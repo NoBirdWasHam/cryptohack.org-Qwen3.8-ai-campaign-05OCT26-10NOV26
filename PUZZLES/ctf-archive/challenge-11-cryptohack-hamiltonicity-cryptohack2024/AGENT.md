@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-264-cryptohack-hamiltonicity-cryptohack2024
+puzzle: challenge-11-cryptohack-hamiltonicity-cryptohack2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/hamiltonicity-cryptohack2024/
 status: solved

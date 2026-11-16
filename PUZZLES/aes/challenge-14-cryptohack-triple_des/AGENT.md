@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-36-cryptohack-triple_des
+puzzle: challenge-14-cryptohack-triple_des
 category: Symmetric Ciphers
 url: https://cryptohack.org/challenges/triple_des/
 status: solved

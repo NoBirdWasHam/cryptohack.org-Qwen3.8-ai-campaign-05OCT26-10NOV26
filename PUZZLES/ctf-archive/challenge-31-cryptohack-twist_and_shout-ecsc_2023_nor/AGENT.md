@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor
+puzzle: challenge-31-cryptohack-twist_and_shout-ecsc_2023_nor
 category: CTF Archive
 url: https://cryptohack.org/challenges/twist_and_shout-ecsc_2023_nor/
 status: solved

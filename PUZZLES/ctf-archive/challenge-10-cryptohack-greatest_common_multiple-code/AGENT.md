@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-263-cryptohack-greatest_common_multiple-code
+puzzle: challenge-10-cryptohack-greatest_common_multiple-code
 category: ctf-archive
 url: https://cryptohack.org/challenges/greatest_common_multiple-code/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-291-cryptohack-sign_in_please-hkcert_ctf2020
+puzzle: challenge-76-cryptohack-sign_in_please-hkcert_ctf2020
 category: ctf-archive
 url: https://cryptohack.org/challenges/sign_in_please-hkcert_ctf2020/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13394-cryptohack-lack_of_entropy-firebird_inte
+puzzle: challenge-44-cryptohack-lack_of_entropy-firebird_inte
 category: CTF Archive
 url: https://cryptohack.org/challenges/lack_of_entropy-firebird_inte/
 status: solved

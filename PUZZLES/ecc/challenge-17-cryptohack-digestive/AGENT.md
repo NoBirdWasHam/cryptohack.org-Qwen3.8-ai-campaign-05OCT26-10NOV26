@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-113-cryptohack-digestive
+puzzle: challenge-17-cryptohack-digestive
 category: ecc
 url: https://cryptohack.org/challenges/digestive/
 status: solved

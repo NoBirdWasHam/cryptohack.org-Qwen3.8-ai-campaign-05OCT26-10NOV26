@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-275-cryptohack-maybe_someday-maybe_someday_c
+puzzle: challenge-46-cryptohack-maybe_someday-maybe_someday_c
 category: ctf-archive
 url: https://cryptohack.org/challenges/maybe_someday-maybe_someday_c/
 status: solved

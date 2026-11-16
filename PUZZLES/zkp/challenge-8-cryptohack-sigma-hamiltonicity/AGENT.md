@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-234-cryptohack-sigma-hamiltonicity
+puzzle: challenge-8-cryptohack-sigma-hamiltonicity
 category: zkp
 url: https://cryptohack.org/challenges/sigma-hamiltonicity/
 status: solved

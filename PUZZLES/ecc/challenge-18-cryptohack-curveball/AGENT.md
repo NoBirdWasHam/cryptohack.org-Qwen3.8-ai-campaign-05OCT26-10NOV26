@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-86-cryptohack-curveball
+puzzle: challenge-18-cryptohack-curveball
 category: Elliptic Curves
 url: https://cryptohack.org/challenges/course__curveball/
 status: solved

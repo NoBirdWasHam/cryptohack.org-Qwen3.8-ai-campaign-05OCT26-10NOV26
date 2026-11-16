@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-303-cryptohack-u-turn-breizh_ctf2025
+puzzle: challenge-5-cryptohack-u-turn-breizh_ctf2025
 category: ctf-archive
 url: https://cryptohack.org/challenges/u-turn-breizh_ctf2025/
 status: solved

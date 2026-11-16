@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-309-cryptohack-broken_oracle-hacktm_ctf2023
+puzzle: challenge-33-cryptohack-broken_oracle-hacktm_ctf2023
 category: ctf-archive
 url: https://cryptohack.org/challenges/broken_oracle-hacktm_ctf2023/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-144-cryptohack-primed5
+puzzle: challenge-5-cryptohack-primed5
 category: hashes
 url: https://cryptohack.org/challenges/primed5/
 status: solved

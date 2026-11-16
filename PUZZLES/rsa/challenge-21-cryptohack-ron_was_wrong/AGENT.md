@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-104-cryptohack-ron_was_wrong
+puzzle: challenge-21-cryptohack-ron_was_wrong
 category: RSA
 url: https://cryptohack.org/challenges/ron_was_wrong/
 status: solved

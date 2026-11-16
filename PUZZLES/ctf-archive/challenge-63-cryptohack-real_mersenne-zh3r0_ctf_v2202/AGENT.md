@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-288-cryptohack-real_mersenne-zh3r0_ctf_v2202
+puzzle: challenge-63-cryptohack-real_mersenne-zh3r0_ctf_v2202
 category: ctf-archive
 url: https://cryptohack.org/challenges/real_mersenne-zh3r0_ctf_v2202/
 status: solved

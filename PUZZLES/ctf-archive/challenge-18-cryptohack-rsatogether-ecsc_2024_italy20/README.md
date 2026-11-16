@@ -1,4 +1,4 @@
-# AAR — rsatogether (CryptoHack ctf-archive, ECSC 2024 Italy)  ·  `challenge-322-cryptohack-rsatogether-ecsc_2024_italy20`
+# AAR — rsatogether (CryptoHack ctf-archive, ECSC 2024 Italy)  ·  `challenge-18-cryptohack-rsatogether-ecsc_2024_italy20`
 - **Category:** ctf-archive · **Solved:** 2026-10-29 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/rsatogether-ecsc_2024_italy20/
 - **Flag:** mirrored + checksummed in `FLAGS/INDEX.jsonl` (provenance + sha256)

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-187-cryptohack-bit
+puzzle: challenge-12-cryptohack-bit
 category: misc
 url: https://cryptohack.org/challenges/bit/
 status: solved

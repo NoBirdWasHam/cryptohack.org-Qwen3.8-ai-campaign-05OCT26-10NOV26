@@ -1,4 +1,4 @@
-# : Collider (50 pts, hash functions → collisions)  ·  `challenge-13389-cryptohack-collider`
+# : Collider (50 pts, hash functions → collisions)  ·  `challenge-3-cryptohack-collider`
 - **Category:** misc · **Solved:** 2026-10-14 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/collider/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

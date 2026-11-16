@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-320-cryptohack-calm_down-hkcert_ctf2020
+puzzle: challenge-75-cryptohack-calm_down-hkcert_ctf2020
 category: CTF Archive
 url: https://cryptohack.org/challenges/calm_down-hkcert_ctf2020/
 status: solved

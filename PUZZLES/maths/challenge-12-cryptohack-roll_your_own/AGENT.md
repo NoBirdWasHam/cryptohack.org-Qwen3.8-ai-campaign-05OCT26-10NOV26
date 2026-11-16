@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-94-cryptohack-roll_your_own
+puzzle: challenge-12-cryptohack-roll_your_own
 category: maths
 url: https://cryptohack.org/challenges/roll_your_own/
 status: solved

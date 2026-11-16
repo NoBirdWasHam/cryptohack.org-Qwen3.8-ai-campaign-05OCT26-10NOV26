@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-118-cryptohack-norandom
+puzzle: challenge-20-cryptohack-norandom
 category: ecc
 url: https://cryptohack.org/challenges/norandom/
 status: solved

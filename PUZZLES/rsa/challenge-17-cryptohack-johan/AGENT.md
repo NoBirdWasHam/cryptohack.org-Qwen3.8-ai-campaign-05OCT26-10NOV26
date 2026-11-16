@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-108-cryptohack-johan
+puzzle: challenge-17-cryptohack-johan
 category: rsa
 url: https://cryptohack.org/challenges/johan/
 status: solved

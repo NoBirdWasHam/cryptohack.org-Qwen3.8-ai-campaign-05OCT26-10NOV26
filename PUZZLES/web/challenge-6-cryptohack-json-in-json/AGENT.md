@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-162-cryptohack-json-in-json
+puzzle: challenge-6-cryptohack-json-in-json
 category: web
 url: https://cryptohack.org/challenges/json-in-json/
 status: solved

@@ -1,4 +1,4 @@
-# # AAR — challenge-323 spongebob_squarepants__battle (CryptoHack / HTB Cyber Apocalypse crossover)  ·  `challenge-323-cryptohack-spongebob_squarepants__battle`
+# # AAR — challenge-323 spongebob_squarepants__battle (CryptoHack / HTB Cyber Apocalypse crossover)  ·  `challenge-65-cryptohack-spongebob_squarepants__battle`
 - **Category:** misc · **Solved:** — · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/spongebob_squarepants__battle/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

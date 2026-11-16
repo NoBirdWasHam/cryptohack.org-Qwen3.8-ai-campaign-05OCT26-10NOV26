@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-233-cryptohack-couples
+puzzle: challenge-14-cryptohack-couples
 category: zkp
 url: https://cryptohack.org/challenges/couples/
 status: solved

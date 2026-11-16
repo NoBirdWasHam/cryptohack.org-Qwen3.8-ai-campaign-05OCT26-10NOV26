@@ -54,7 +54,7 @@ completely enough that even the other side can fix it, and let the solve finish 
 ## What you get here
 Two after-action reports per puzzle — one written for humans, one optimized for AI/LLM
 ingestion — plus a verification checklist where every flag row earns its check:
-```
+``
 PUZZLES/<category>/<puzzle>/   AAR.md (human) + AGENT.md (AI twin) + every script we wrote
                                + README.md stub (facts, skills, concept tags) — self-contained
 FLAGS/<category>/<puzzle>/     flag.txt — mirrored paths; INDEX.jsonl pairs+checksums each
@@ -65,7 +65,7 @@ SUPPORT/                       VERIFICATION.md (per-puzzle audit checklist), pla
                                runtime/models, sources, friction ledger, campaign-level
                                HUMAN.md + AGENT.md, provenance doctrine, build_repo.py
 GATES.md                       the publish gates (PII sweep, author-work exclusion) and results
-```
+``
 - **Verified, not asserted.** `SUPPORT/VERIFICATION.md` audits every puzzle dir (AAR present,
   method has substance, AI-twin extracted, flag sha256 matches `FLAGS/INDEX.jsonl`, PII- and
   flag-clean) and prints a pass/fail checklist; `PUZZLES/index.json` is its machine twin.
@@ -97,8 +97,8 @@ GATES.md                       the publish gates (PII sweep, author-work exclusi
 ## Start reading
 1. `SUPPORT/HUMAN.md` — the whole arc, plain language
 2. `SUPPORT/AGENT.md` — the same facts as tagged claims (`[OBSERVED/NOT OBSERVED/UNKNOWN]`)
-3. `PUZZLES/zkp/challenge-237-*` + `PUZZLES/ctf-archive/challenge-265-*` — the twin forgery
-4. `PUZZLES/ctf-archive/challenge-246-*` — how a *failure* should be documented
+3. `PUZZLES/zkp/challenge-9-cryptohack-sigma-hamiltonicity2` + `PUZZLES/ctf-archive/challenge-12-cryptohack-hamiltonicity_2-cryptohack202` — the twin forgery
+4. `PUZZLES/ctf-archive/challenge-7-cryptohack-additional_problems-csc_belgi` — how a *failure* should be documented
 5. `SUPPORT/FRICTION.md` — 104 wasted GPU-hours, eight days of read-only probing, and the
    probe that printed its author's verdict as its own conclusion ("That is YOU.")
 
@@ -121,9 +121,9 @@ Rows whose published record changed during the audit:
 
 | row | delta |
 |---|---|
-| **260 · Fischlin's transformation** | was: `null`, "record never written" — audit produced its **own derivation**: live-service replay of the Fischlin-OR search path (64/64 rounds); puzzle dir `PUZZLES/ctf-archive/challenge-260-…` created with AAR + artifacts. Original row-credit date (2026-10-25) stands. |
+| **260 · Fischlin's transformation** | was: `null`, "record never written" — audit produced its **own derivation**: live-service replay of the Fischlin-OR search path (64/64 rounds); puzzle dir `PUZZLES/ctf-archive/challenge-9-cryptohack-fischlins_transformation-cryp` created with AAR + artifacts. Original row-credit date (2026-10-25) stands. |
 | **304 · Unbalanced (ICC Athens 2022)** | original credit 2026-11-02 stood on a credited-but-undocumented solve; the audit **independently derived it** (Durfee-Nguyen trivariate Coppersmith, rank-126 lattice, +46 b/dim margin, Bareiss-resultant extraction). Prior evidenced-negative sections remain, scoped to the bivariate route. |
-| **247/13396 · Authenticator** | original solve 2026-10-28 stands; the audit **re-derived it with an independent algorithm** (rainbow tables vs the original GPU brute). The puzzle folder — previously absent from this repo due to a legacy folder misname — is now published at `PUZZLES/ctf-archive/challenge-13396-…`. |
+| **247/13396 · Authenticator** | original solve 2026-10-28 stands; the audit **re-derived it with an independent algorithm** (rainbow tables vs the original GPU brute). The puzzle folder — previously absent from this repo due to a legacy folder misname — is now published at `PUZZLES/ctf-archive/challenge-37-cryptohack-authenticator-firebird_intern`. |
 
 | **322 · RSATogether (ECSC 2024 Italy)** | solved & documented 2026-10-29 (own derivation: staircase Shamir-over-φ → exact φ-multiple → Miller/Sabt factoring) but the **directory never made it into the 2026-11-11 build** — a full-tree corpus↔repo audit in the late 11-14 pass caught it; dir, AAR, twin, flag and INDEX row now published. Original solve date stands. |
 

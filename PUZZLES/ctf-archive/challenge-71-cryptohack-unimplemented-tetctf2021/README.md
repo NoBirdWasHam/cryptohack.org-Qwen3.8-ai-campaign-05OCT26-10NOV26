@@ -1,4 +1,4 @@
-# # AAR — unimplemented-tetctf2021 (CryptoHack CTF archive)  ·  `challenge-100-cryptohack-unimplemented-tetctf2021`
+# # AAR — unimplemented-tetctf2021 (CryptoHack CTF archive)  ·  `challenge-71-cryptohack-unimplemented-tetctf2021`
 - **Category:** rsa · **Solved:** 2026-11-01 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/unimplemented-tetctf2021/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

@@ -1,4 +1,4 @@
-# # AAR — lfsr-destroyer (CryptoHack, 250 pts)  ·  `challenge-172-cryptohack-lfsr-destroyer`
+# # AAR — lfsr-destroyer (CryptoHack, 250 pts)  ·  `challenge-11-cryptohack-lfsr-destroyer`
 - **Category:** post-quantum · **Solved:** 2026-10-21 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/lfsr-destroyer/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-256-cryptohack-do_you_have_good_eyes-breizh
+puzzle: challenge-3-cryptohack-do_you_have_good_eyes-breizh
 category: ctf-archive
 url: https://cryptohack.org/challenges/do_you_have_good_eyes-breizh/
 status: solved

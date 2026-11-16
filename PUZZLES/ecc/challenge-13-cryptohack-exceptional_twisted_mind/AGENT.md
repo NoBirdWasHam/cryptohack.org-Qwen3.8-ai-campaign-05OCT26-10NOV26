@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-119-cryptohack-exceptional_twisted_mind
+puzzle: challenge-13-cryptohack-exceptional_twisted_mind
 category: ecc
 url: https://cryptohack.org/challenges/exceptional_twisted_mind/
 status: solved

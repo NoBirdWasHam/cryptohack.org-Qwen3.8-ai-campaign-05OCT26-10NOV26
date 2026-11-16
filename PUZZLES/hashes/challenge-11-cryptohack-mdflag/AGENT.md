@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-147-cryptohack-mdflag
+puzzle: challenge-11-cryptohack-mdflag
 category: hashes
 url: https://cryptohack.org/challenges/mdflag/
 status: solved

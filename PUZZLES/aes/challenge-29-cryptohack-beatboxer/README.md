@@ -1,4 +1,4 @@
-# # AAR — Beatboxer (beatboxer, 150 pts, ECC course / AES)  ·  `challenge-48-cryptohack-beatboxer`
+# # AAR — Beatboxer (beatboxer, 150 pts, ECC course / AES)  ·  `challenge-29-cryptohack-beatboxer`
 - **Category:** misc · **Solved:** 06 Oct 2026 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/course__beatboxer/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

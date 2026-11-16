@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-289-cryptohack-share-hitcon_ctf2023
+puzzle: challenge-28-cryptohack-share-hitcon_ctf2023
 category: ctf-archive
 url: https://cryptohack.org/challenges/share-hitcon_ctf2023/
 status: solved

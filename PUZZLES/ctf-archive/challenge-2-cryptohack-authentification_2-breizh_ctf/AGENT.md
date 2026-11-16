@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-249-cryptohack-authentification_2-breizh_ctf
+puzzle: challenge-2-cryptohack-authentification_2-breizh_ctf
 category: ctf-archive
 url: https://cryptohack.org/challenges/authentification_2-breizh_ctf/
 status: solved

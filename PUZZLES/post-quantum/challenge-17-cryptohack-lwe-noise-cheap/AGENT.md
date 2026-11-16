@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-181-cryptohack-lwe-noise-cheap
+puzzle: challenge-17-cryptohack-lwe-noise-cheap
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-noise-cheap/
 status: solved

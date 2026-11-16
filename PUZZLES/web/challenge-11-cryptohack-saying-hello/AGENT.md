@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-156-cryptohack-saying-hello
+puzzle: challenge-11-cryptohack-saying-hello
 category: web
 url: https://cryptohack.org/challenges/saying-hello/
 status: solved

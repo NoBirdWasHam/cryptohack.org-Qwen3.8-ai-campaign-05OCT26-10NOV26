@@ -1,4 +1,4 @@
-# AAR — fischlins_transformation (CSC Belgium) (CryptoHack ctf-archive)  ·  `challenge-260-cryptohack-fischlins_transformation-cryp`
+# AAR — fischlins_transformation (CSC Belgium) (CryptoHack ctf-archive)  ·  `challenge-9-cryptohack-fischlins_transformation-cryp`
 - **Category:** ctf-archive · **Solved:** 2026-10-25 (own derivation 2026-11-14 audit run) · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/fischlins-transformation-cryp/
 - **Flag:** mirrored + checksummed in `FLAGS/INDEX.jsonl` (provenance + sha256)

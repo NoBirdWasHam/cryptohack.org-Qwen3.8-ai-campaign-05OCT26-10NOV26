@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-198-cryptohack-lcg2
+puzzle: challenge-8-cryptohack-lcg2
 category: misc
 url: https://cryptohack.org/challenges/lcg2/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-235-cryptohack-letsproveit
+puzzle: challenge-15-cryptohack-letsproveit
 category: zkp
 url: https://cryptohack.org/challenges/letsproveit/
 status: solved

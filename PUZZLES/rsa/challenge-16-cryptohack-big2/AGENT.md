@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-64-cryptohack-big2
+puzzle: challenge-16-cryptohack-big2
 category: RSA
 url: https://cryptohack.org/challenges/big2/
 status: solved

@@ -1,4 +1,4 @@
-# # AAR — tough_decisions (ECSC 2023 Norway, ctf-archive)  ·  `challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor`
+# # AAR — tough_decisions (ECSC 2023 Norway, ctf-archive)  ·  `challenge-30-cryptohack-tough_decisions-ecsc_2023_nor`
 - **Category:** misc · **Solved:** 2026-10-30 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/tough_decisions-ecsc_2023_nor/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

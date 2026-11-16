@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13393-cryptohack-sus-imaginaryctf2023
+puzzle: challenge-29-cryptohack-sus-imaginaryctf2023
 category: CTF Archive
 url: https://cryptohack.org/challenges/sus-imaginaryctf2023/
 status: solved

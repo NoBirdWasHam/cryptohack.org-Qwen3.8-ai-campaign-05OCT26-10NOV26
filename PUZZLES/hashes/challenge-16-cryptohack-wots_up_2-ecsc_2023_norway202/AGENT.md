@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-143-cryptohack-wots_up_2-ecsc_2023_norway202
+puzzle: challenge-16-cryptohack-wots_up_2-ecsc_2023_norway202
 category: Hash Functions
 url: https://cryptohack.org/challenges/wots_up_2-ecsc_2023_norway2023/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-254-cryptohack-cipher_mode_picker-hkcert_ctf
+puzzle: challenge-59-cryptohack-cipher_mode_picker-hkcert_ctf
 category: ctf-archive
 url: https://cryptohack.org/challenges/cipher_mode_picker-hkcert_ctf/
 status: solved

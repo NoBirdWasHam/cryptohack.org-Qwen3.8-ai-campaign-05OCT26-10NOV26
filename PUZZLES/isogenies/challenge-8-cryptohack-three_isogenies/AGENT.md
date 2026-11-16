@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-208-cryptohack-three_isogenies
+puzzle: challenge-8-cryptohack-three_isogenies
 category: isogenies
 url: https://cryptohack.org/challenges/three_isogenies/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-139-cryptohack-seventy_two
+puzzle: challenge-8-cryptohack-seventy_two
 category: hashes
 url: https://cryptohack.org/challenges/seventy_two/
 status: solved

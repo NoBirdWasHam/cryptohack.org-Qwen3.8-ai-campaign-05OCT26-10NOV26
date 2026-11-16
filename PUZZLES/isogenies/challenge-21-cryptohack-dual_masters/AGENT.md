@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-220-cryptohack-dual_masters
+puzzle: challenge-21-cryptohack-dual_masters
 category: isogenies
 url: https://cryptohack.org/challenges/dual_masters/
 status: solved

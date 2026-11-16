@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-242-cryptohack-1337crypt_v2-downunderctf2021
+puzzle: challenge-55-cryptohack-1337crypt_v2-downunderctf2021
 category: ctf-archive
 url: https://cryptohack.org/challenges/1337crypt_v2-downunderctf2021/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-132-cryptohack-oracular_spectacular
+puzzle: challenge-25-cryptohack-oracular_spectacular
 category: aes
 url: https://cryptohack.org/challenges/oracular_spectacular/
 status: solved

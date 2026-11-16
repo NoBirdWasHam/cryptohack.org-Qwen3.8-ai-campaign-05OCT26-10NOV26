@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-308-cryptohack-what_a_curve-breizh_ctf2023
+puzzle: challenge-32-cryptohack-what_a_curve-breizh_ctf2023
 category: ctf-archive
 url: https://cryptohack.org/challenges/what_a_curve-breizh_ctf2023/
 status: solved

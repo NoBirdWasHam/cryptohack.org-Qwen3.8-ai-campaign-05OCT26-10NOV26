@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-210-cryptohack-prime_power
+puzzle: challenge-13-cryptohack-prime_power
 category: isogenies
 url: https://cryptohack.org/challenges/prime_power/
 status: solved

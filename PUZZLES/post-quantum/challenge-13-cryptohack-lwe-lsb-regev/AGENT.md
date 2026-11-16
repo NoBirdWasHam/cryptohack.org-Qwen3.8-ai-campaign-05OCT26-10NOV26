@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-175-cryptohack-lwe-lsb-regev
+puzzle: challenge-13-cryptohack-lwe-lsb-regev
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-lsb-regev/
 status: solved

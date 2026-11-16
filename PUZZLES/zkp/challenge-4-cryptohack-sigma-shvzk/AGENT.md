@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-227-cryptohack-sigma-shvzk
+puzzle: challenge-4-cryptohack-sigma-shvzk
 category: zkp
 url: https://cryptohack.org/challenges/sigma-shvzk/
 status: solved

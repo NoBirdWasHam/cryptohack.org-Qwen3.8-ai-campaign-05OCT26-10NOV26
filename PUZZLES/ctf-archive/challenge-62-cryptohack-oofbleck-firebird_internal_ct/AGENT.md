@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13395-cryptohack-oofbleck-firebird_internal_ct
+puzzle: challenge-62-cryptohack-oofbleck-firebird_internal_ct
 category: CTF Archive
 url: https://cryptohack.org/challenges/oofbleck-firebird_internal_ct/
 status: solved

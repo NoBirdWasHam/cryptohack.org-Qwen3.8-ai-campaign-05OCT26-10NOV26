@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-115-cryptohack-degenerate
+puzzle: challenge-21-cryptohack-degenerate
 category: ecc
 url: https://cryptohack.org/challenges/degenerate/
 status: solved

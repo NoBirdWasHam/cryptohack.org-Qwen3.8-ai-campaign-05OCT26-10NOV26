@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-130-cryptohack-matrix_revolutions
+puzzle: challenge-14-cryptohack-matrix_revolutions
 category: Diffie-Hellman
 url: https://cryptohack.org/challenges/matrix_revolutions/
 status: solved

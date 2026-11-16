@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-267-cryptohack-hyper512-hitcon_ctf2024
+puzzle: challenge-13-cryptohack-hyper512-hitcon_ctf2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/hyper512-hitcon_ctf2024/
 status: solved

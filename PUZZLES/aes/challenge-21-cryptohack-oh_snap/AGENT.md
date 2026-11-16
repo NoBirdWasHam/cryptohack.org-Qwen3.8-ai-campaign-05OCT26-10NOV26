@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-45-cryptohack-oh_snap
+puzzle: challenge-21-cryptohack-oh_snap
 category: Symmetric Ciphers
 url: https://cryptohack.org/challenges/oh_snap/
 status: solved

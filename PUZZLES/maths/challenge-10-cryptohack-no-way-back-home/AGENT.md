@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-92-cryptohack-no-way-back-home
+puzzle: challenge-10-cryptohack-no-way-back-home
 category: maths
 url: https://cryptohack.org/challenges/no-way-back-home/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-197-cryptohack-toshitreasure
+puzzle: challenge-14-cryptohack-toshitreasure
 category: misc
 url: https://cryptohack.org/challenges/toshitreasure/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-323-cryptohack-spongebob_squarepants__battle
+puzzle: challenge-65-cryptohack-spongebob_squarepants__battle
 category: CTF Archive
 url: https://cryptohack.org/challenges/spongebob_squarepants__battle/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-171-cryptohack-basis
+puzzle: challenge-2-cryptohack-basis
 category: post-quantum
 url: https://cryptohack.org/challenges/basis/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-239-cryptohack-sigma-fischlin
+puzzle: challenge-10-cryptohack-sigma-fischlin
 category: zkp
 url: https://cryptohack.org/challenges/sigma-fischlin/
 status: solved

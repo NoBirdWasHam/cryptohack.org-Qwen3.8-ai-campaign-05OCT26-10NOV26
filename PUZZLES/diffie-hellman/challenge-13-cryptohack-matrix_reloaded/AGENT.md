@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-128-cryptohack-matrix_reloaded
+puzzle: challenge-13-cryptohack-matrix_reloaded
 category: diffie-hellman
 url: https://cryptohack.org/challenges/matrix_reloaded/
 status: solved

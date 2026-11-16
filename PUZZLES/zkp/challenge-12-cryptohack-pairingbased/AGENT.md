@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-229-cryptohack-pairingbased
+puzzle: challenge-12-cryptohack-pairingbased
 category: zkp
 url: https://cryptohack.org/challenges/pairingbased/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-292-cryptohack-signature-tsj_ctf2022
+puzzle: challenge-50-cryptohack-signature-tsj_ctf2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/signature-tsj_ctf2022/
 status: solved

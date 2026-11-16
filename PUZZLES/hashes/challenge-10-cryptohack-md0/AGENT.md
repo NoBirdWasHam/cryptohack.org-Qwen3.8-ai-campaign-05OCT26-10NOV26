@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-142-cryptohack-md0
+puzzle: challenge-10-cryptohack-md0
 category: hashes
 url: https://cryptohack.org/challenges/md0/
 status: solved

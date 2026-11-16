@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-205-cryptohack-b_compute_montgomery
+puzzle: challenge-5-cryptohack-b_compute_montgomery
 category: isogenies
 url: https://cryptohack.org/challenges/b_compute_montgomery/
 status: solved

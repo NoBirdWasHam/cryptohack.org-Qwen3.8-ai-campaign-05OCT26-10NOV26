@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-100-cryptohack-marin
+puzzle: challenge-19-cryptohack-marin
 category: rsa
 url: https://cryptohack.org/challenges/marin/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-190-cryptohack-lwin
+puzzle: challenge-9-cryptohack-lwin
 category: misc
 url: https://cryptohack.org/challenges/lwin/
 status: solved

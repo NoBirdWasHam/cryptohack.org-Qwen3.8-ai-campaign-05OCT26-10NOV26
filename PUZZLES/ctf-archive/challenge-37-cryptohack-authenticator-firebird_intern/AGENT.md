@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13396-cryptohack-authenticator-firebird_intern
+puzzle: challenge-37-cryptohack-authenticator-firebird_intern
 category: ctf-archive
 url: https://cryptohack.org/challenges/authenticator/
 status: solved

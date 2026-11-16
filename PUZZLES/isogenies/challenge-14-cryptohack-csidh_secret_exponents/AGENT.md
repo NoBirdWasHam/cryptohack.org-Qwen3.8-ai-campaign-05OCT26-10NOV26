@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-209-cryptohack-csidh_secret_exponents
+puzzle: challenge-14-cryptohack-csidh_secret_exponents
 category: Isogenies
 url: https://cryptohack.org/challenges/csidh_secret_exponents/
 status: solved

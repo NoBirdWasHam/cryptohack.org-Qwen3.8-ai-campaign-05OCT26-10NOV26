@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-280-cryptohack-origami-nns_ctf_20252025
+puzzle: challenge-4-cryptohack-origami-nns_ctf_20252025
 category: ctf-archive
 url: https://cryptohack.org/challenges/origami-nns_ctf_20252025/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-125-cryptohack-scriptkiddie
+puzzle: challenge-11-cryptohack-scriptkiddie
 category: diffie-hellman
 url: https://cryptohack.org/challenges/scriptkiddie/
 status: solved

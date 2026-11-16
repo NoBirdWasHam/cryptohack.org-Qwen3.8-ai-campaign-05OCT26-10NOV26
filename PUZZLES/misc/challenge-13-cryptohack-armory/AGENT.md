@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-186-cryptohack-armory
+puzzle: challenge-13-cryptohack-armory
 category: misc
 url: https://cryptohack.org/challenges/armory/
 status: solved

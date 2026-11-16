@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-315-cryptohack-pekobot-ais3_pre-exam2022
+puzzle: challenge-54-cryptohack-pekobot-ais3_pre-exam2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/pekobot-ais3_pre-exam2022/
 status: solved

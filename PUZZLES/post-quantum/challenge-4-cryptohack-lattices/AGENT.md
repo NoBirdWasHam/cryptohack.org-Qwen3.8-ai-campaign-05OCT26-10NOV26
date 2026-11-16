@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-176-cryptohack-lattices
+puzzle: challenge-4-cryptohack-lattices
 category: post-quantum
 url: https://cryptohack.org/challenges/lattices/
 status: solved

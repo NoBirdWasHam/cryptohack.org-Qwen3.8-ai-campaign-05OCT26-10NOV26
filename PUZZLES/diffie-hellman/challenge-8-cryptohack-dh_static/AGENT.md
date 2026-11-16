@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-127-cryptohack-dh_static
+puzzle: challenge-8-cryptohack-dh_static
 category: diffie-hellman
 url: https://cryptohack.org/challenges/dh_static/
 status: solved

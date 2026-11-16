@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-168-cryptohack-rsa-vs-rng
+puzzle: challenge-7-cryptohack-rsa-vs-rng
 category: Misc
 url: https://cryptohack.org/challenges/rsa-vs-rng/
 status: solved

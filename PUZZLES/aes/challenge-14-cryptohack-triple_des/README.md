@@ -1,4 +1,4 @@
-# : Triple DES (CryptoHack Symmetric Ciphers / AES)  ·  `challenge-36-cryptohack-triple_des`
+# : Triple DES (CryptoHack Symmetric Ciphers / AES)  ·  `challenge-14-cryptohack-triple_des`
 - **Category:** misc · **Solved:** 16 Oct 2026 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/triple_des/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

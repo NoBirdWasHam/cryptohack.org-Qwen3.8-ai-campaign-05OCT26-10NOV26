@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-194-cryptohack-jeff
+puzzle: challenge-10-cryptohack-jeff
 category: misc
 url: https://cryptohack.org/challenges/jeff/
 status: solved

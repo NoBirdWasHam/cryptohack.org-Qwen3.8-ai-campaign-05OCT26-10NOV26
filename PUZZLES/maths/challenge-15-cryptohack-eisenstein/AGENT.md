@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-97-cryptohack-eisenstein
+puzzle: challenge-15-cryptohack-eisenstein
 category: maths
 url: https://cryptohack.org/challenges/eisenstein/
 status: solved

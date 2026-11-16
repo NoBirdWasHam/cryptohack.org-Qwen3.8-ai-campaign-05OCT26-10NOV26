@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-151-cryptohack-token-appreciation
+puzzle: challenge-1-cryptohack-token-appreciation
 category: web
 url: https://cryptohack.org/challenges/token-appreciation/
 status: solved

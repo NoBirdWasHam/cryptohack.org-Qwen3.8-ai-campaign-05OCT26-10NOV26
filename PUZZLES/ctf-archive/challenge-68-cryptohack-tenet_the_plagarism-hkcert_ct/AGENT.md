@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-298-cryptohack-tenet_the_plagarism-hkcert_ct
+puzzle: challenge-68-cryptohack-tenet_the_plagarism-hkcert_ct
 category: ctf-archive
 url: https://cryptohack.org/challenges/tenet_the_plagarism-hkcert_ct/
 status: solved

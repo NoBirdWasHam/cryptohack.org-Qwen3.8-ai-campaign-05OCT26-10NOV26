@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13396-cryptohack-1337crypt-downunderctf2020
+puzzle: challenge-73-cryptohack-1337crypt-downunderctf2020
 category: CTF Archive
 url: https://cryptohack.org/challenges/1337crypt-downunderctf2020/
 status: solved

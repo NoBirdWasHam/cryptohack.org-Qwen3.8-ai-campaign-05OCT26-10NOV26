@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-228-cryptohack-sigma-nizk
+puzzle: challenge-5-cryptohack-sigma-nizk
 category: zkp
 url: https://cryptohack.org/challenges/sigma-nizk/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-140-cryptohack-long_story_short
+puzzle: challenge-9-cryptohack-long_story_short
 category: hashes
 url: https://cryptohack.org/challenges/long_story_short/
 status: solved

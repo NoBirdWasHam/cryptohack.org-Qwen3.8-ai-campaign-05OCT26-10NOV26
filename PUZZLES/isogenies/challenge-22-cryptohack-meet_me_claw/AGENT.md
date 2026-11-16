@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-221-cryptohack-meet_me_claw
+puzzle: challenge-22-cryptohack-meet_me_claw
 category: isogenies
 url: https://cryptohack.org/challenges/meet_me_claw/
 status: solved

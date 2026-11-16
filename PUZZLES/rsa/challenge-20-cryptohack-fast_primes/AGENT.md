@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-102-cryptohack-fast_primes
+puzzle: challenge-20-cryptohack-fast_primes
 category: rsa
 url: https://cryptohack.org/challenges/fast_primes/
 status: solved

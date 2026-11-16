@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-148-cryptohack-no_difference
+puzzle: challenge-7-cryptohack-no_difference
 category: hashes
 url: https://cryptohack.org/challenges/no_difference/
 status: solved

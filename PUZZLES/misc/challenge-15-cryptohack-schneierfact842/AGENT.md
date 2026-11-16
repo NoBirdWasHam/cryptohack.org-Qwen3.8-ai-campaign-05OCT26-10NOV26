@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-188-cryptohack-schneierfact842
+puzzle: challenge-15-cryptohack-schneierfact842
 category: misc
 url: https://cryptohack.org/challenges/schneierfact842/
 status: solved

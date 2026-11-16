@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-157-cryptohack-jwt-secrets
+puzzle: challenge-4-cryptohack-jwt-secrets
 category: web
 url: https://cryptohack.org/challenges/jwt-secrets/
 status: solved

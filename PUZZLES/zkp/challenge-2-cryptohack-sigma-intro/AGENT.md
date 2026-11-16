@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-225-cryptohack-sigma-intro
+puzzle: challenge-2-cryptohack-sigma-intro
 category: zkp
 url: https://cryptohack.org/challenges/sigma-intro/
 status: solved

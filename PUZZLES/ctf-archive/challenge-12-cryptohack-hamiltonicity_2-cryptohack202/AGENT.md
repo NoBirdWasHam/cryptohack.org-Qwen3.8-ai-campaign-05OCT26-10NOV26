@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-265-cryptohack-hamiltonicity_2-cryptohack202
+puzzle: challenge-12-cryptohack-hamiltonicity_2-cryptohack202
 category: ctf-archive
 url: https://cryptohack.org/challenges/hamiltonicity_2-cryptohack202/
 status: solved

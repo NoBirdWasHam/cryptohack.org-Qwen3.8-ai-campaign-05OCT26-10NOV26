@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-192-cryptohack-bad_temper
+puzzle: challenge-4-cryptohack-bad_temper
 category: misc
 url: https://cryptohack.org/challenges/bad_temper/
 status: solved

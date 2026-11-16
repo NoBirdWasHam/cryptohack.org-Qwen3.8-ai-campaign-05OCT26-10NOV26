@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-325-cryptohack-d-phi-enc-hacktm_ctf2023
+puzzle: challenge-34-cryptohack-d-phi-enc-hacktm_ctf2023
 category: CTF Archive
 url: https://cryptohack.org/challenges/d-phi-enc-hacktm_ctf2023/
 status: solved

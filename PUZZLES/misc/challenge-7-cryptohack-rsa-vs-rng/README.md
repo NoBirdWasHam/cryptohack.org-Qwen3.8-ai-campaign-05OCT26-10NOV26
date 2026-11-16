@@ -1,4 +1,4 @@
-# <!-- AAR -->  ·  `challenge-168-cryptohack-rsa-vs-rng`
+# <!-- AAR -->  ·  `challenge-7-cryptohack-rsa-vs-rng`
 - **Category:** post-quantum · **Solved:** 2026-10-21 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/rsa-vs-rng/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

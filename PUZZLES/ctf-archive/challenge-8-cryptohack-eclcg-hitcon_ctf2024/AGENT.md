@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-257-cryptohack-eclcg-hitcon_ctf2024
+puzzle: challenge-8-cryptohack-eclcg-hitcon_ctf2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/eclcg-hitcon_ctf2024/
 status: solved

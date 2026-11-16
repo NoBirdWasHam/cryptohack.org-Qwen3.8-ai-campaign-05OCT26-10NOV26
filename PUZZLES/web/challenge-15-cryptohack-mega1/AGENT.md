@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-163-cryptohack-mega1
+puzzle: challenge-15-cryptohack-mega1
 category: web
 url: https://cryptohack.org/challenges/mega1/
 status: solved

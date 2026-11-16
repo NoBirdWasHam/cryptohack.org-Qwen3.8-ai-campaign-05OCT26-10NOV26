@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-259-cryptohack-failproof_revenge-sekaictf202
+puzzle: challenge-41-cryptohack-failproof_revenge-sekaictf202
 category: ctf-archive
 url: https://cryptohack.org/challenges/failproof_revenge-sekaictf202/
 status: solved

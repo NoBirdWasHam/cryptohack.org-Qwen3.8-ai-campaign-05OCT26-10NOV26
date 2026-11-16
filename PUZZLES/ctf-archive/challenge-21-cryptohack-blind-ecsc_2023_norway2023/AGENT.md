@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-247-cryptohack-blind-ecsc_2023_norway2023
+puzzle: challenge-21-cryptohack-blind-ecsc_2023_norway2023
 category: ctf-archive
 url: https://cryptohack.org/challenges/authenticator-firebird_intern/
 status: solved

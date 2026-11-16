@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-117-cryptohack-micro
+puzzle: challenge-9-cryptohack-micro
 category: ecc
 url: https://cryptohack.org/challenges/micro/
 status: solved

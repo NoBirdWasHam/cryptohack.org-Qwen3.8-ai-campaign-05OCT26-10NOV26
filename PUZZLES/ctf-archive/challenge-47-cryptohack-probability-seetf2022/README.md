@@ -1,4 +1,4 @@
-# # AAR — probability-seetf2022 (SEETF 'probability')  ·  `challenge-13392-cryptohack-probability-seetf2022`
+# # AAR — probability-seetf2022 (SEETF 'probability')  ·  `challenge-47-cryptohack-probability-seetf2022`
 - **Category:** misc · **Solved:** 2026-11-02 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/probability-seetf2022/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

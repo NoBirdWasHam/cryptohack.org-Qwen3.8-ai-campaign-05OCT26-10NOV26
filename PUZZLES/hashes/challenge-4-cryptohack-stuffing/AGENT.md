@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-138-cryptohack-stuffing
+puzzle: challenge-4-cryptohack-stuffing
 category: hashes
 url: https://cryptohack.org/challenges/stuffing/
 status: solved

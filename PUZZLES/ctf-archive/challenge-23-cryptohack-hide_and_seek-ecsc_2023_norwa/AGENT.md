@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-266-cryptohack-hide_and_seek-ecsc_2023_norwa
+puzzle: challenge-23-cryptohack-hide_and_seek-ecsc_2023_norwa
 category: ctf-archive
 url: https://cryptohack.org/challenges/hide_and_seek-ecsc_2023_norwa/
 status: solved

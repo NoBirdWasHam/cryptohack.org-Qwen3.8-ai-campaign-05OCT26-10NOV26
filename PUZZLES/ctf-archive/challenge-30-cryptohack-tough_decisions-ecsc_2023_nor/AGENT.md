@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13400-cryptohack-tough_decisions-ecsc_2023_nor
+puzzle: challenge-30-cryptohack-tough_decisions-ecsc_2023_nor
 category: CTF Archive
 url: https://cryptohack.org/challenges/tough_decisions-ecsc_2023_nor/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13391-cryptohack-twist_and_shout-zh3r0_ctf_v22
+puzzle: challenge-69-cryptohack-twist_and_shout-zh3r0_ctf_v22
 category: CTF Archive
 url: https://cryptohack.org/challenges/twist_and_shout-zh3r0_ctf_v22/
 status: solved

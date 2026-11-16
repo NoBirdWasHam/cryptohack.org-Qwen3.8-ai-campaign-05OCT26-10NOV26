@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023
+puzzle: challenge-35-cryptohack-kaitenzushi-hacktm_ctf2023
 category: CTF Archive
 url: https://cryptohack.org/challenges/kaitenzushi-hacktm_ctf2023/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13392-cryptohack-probability-seetf2022
+puzzle: challenge-47-cryptohack-probability-seetf2022
 category: CTF Archive
 url: https://cryptohack.org/challenges/probability-seetf2022/
 status: solved

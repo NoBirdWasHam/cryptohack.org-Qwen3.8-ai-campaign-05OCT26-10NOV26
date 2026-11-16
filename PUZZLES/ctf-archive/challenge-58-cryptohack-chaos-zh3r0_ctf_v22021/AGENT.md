@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-319-cryptohack-chaos-zh3r0_ctf_v22021
+puzzle: challenge-58-cryptohack-chaos-zh3r0_ctf_v22021
 category: CTF Archive
 url: https://cryptohack.org/challenges/chaos-zh3r0_ctf_v22021/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-230-cryptohack-sigma-too-honest
+puzzle: challenge-6-cryptohack-sigma-too-honest
 category: zkp
 url: https://cryptohack.org/challenges/sigma-too-honest/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-141-cryptohack-wots_up-ecsc_2023_norway2023
+puzzle: challenge-15-cryptohack-wots_up-ecsc_2023_norway2023
 category: hashes
 url: https://cryptohack.org/challenges/wots_up-ecsc_2023_norway2023/
 status: solved

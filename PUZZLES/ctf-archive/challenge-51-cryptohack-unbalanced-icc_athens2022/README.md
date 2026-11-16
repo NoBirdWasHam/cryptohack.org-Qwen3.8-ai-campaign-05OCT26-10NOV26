@@ -1,4 +1,4 @@
-# # AAR — unbalanced-icc_athens2022 (CryptoHack ctf-archive)  ·  `challenge-13401-cryptohack-unbalanced-icc_athens2022`
+# # AAR — unbalanced-icc_athens2022 (CryptoHack ctf-archive)  ·  `challenge-51-cryptohack-unbalanced-icc_athens2022`
 - **Category:** misc · **Solved:** 2026-11-02 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/unbalanced-icc_athens2022/
 - **Flag:** null + note (see `FLAGS/INDEX.jsonl`) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

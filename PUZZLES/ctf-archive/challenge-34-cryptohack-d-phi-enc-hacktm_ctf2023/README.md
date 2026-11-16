@@ -1,4 +1,4 @@
-# # AAR — d-phi-enc (HackTM CTF 2023)  ·  `challenge-325-cryptohack-d-phi-enc-hacktm_ctf2023`
+# # AAR — d-phi-enc (HackTM CTF 2023)  ·  `challenge-34-cryptohack-d-phi-enc-hacktm_ctf2023`
 - **Category:** misc · **Solved:** 2026-11-02 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/d-phi-enc-hacktm_ctf2023/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

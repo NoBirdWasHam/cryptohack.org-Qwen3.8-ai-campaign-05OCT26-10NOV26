@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-282-cryptohack-put_a_ring_on_it-ecsc_2023_no
+puzzle: challenge-26-cryptohack-put_a_ring_on_it-ecsc_2023_no
 category: ctf-archive
 url: https://cryptohack.org/challenges/put_a_ring_on_it-ecsc_2023_no/
 status: solved

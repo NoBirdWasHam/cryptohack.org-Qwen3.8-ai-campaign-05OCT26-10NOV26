@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-170-cryptohack-lwe-high-bits
+puzzle: challenge-10-cryptohack-lwe-high-bits
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-high-bits/
 status: solved

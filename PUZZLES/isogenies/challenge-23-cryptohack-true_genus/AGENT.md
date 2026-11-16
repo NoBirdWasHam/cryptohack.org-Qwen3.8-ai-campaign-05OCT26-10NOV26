@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-222-cryptohack-true_genus
+puzzle: challenge-23-cryptohack-true_genus
 category: isogenies
 url: https://cryptohack.org/challenges/true_genus/
 status: solved

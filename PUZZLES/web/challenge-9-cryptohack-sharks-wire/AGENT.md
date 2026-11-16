@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-153-cryptohack-sharks-wire
+puzzle: challenge-9-cryptohack-sharks-wire
 category: web
 url: https://cryptohack.org/challenges/sharks-wire/
 status: solved

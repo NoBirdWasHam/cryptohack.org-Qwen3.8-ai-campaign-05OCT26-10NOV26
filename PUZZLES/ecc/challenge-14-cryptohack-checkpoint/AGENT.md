@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-120-cryptohack-checkpoint
+puzzle: challenge-14-cryptohack-checkpoint
 category: ecc
 url: https://cryptohack.org/challenges/checkpoint/
 status: solved

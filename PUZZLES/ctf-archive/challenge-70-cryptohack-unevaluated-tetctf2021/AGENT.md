@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-305-cryptohack-unevaluated-tetctf2021
+puzzle: challenge-70-cryptohack-unevaluated-tetctf2021
 category: ctf-archive
 url: https://cryptohack.org/challenges/unevaluated-tetctf2021/
 status: solved

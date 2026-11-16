@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-111-cryptohack-rsa_backdoor
+puzzle: challenge-22-cryptohack-rsa_backdoor
 category: rsa
 url: https://cryptohack.org/challenges/rsa_backdoor/
 status: solved

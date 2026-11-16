@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13389-cryptohack-collider
+puzzle: challenge-3-cryptohack-collider
 category: Hash Functions
 url: https://cryptohack.org/challenges/collider/
 status: solved

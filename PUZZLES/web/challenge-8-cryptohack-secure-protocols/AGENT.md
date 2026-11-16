@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-150-cryptohack-secure-protocols
+puzzle: challenge-8-cryptohack-secure-protocols
 category: web
 url: https://cryptohack.org/challenges/secure-protocols/
 status: solved

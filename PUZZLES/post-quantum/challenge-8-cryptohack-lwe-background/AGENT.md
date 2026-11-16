@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-167-cryptohack-lwe-background
+puzzle: challenge-8-cryptohack-lwe-background
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-background/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13391-cryptohack-maybe_someday-googlectf2022
+puzzle: challenge-45-cryptohack-maybe_someday-googlectf2022
 category: CTF Archive
 url: https://cryptohack.org/challenges/maybe_someday-googlectf2022/
 status: solved

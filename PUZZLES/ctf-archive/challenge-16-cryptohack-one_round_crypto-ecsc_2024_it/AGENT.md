@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it
+puzzle: challenge-16-cryptohack-one_round_crypto-ecsc_2024_it
 category: CTF Archive
 url: https://cryptohack.org/challenges/one_round_crypto-ecsc_2024_it/
 status: solved

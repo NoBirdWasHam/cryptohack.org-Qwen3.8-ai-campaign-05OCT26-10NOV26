@@ -1,4 +1,4 @@
-# # AAR — dark_arts-codegate_ctf2022 (CryptoHack CTF-archive, contributed by rkm0959)  ·  `challenge-13399-cryptohack-dark_arts-codegate_ctf2022`
+# # AAR — dark_arts-codegate_ctf2022 (CryptoHack CTF-archive, contributed by rkm0959)  ·  `challenge-39-cryptohack-dark_arts-codegate_ctf2022`
 - **Category:** misc · **Solved:** 2026-11-06 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/dark_arts-codegate_ctf2022/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

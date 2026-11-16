@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-296-cryptohack-substitution_cipher_iii-downu
+puzzle: challenge-67-cryptohack-substitution_cipher_iii-downu
 category: ctf-archive
 url: https://cryptohack.org/challenges/substitution_cipher_iii-downu/
 status: solved

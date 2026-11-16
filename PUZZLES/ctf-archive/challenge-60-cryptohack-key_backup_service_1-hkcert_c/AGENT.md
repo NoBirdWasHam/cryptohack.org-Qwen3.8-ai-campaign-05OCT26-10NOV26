@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-269-cryptohack-key_backup_service_1-hkcert_c
+puzzle: challenge-60-cryptohack-key_backup_service_1-hkcert_c
 category: ctf-archive
 url: https://cryptohack.org/challenges/key_backup_service_1-hkcert_c/
 status: solved

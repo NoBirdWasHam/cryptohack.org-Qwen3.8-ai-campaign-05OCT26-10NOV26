@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13399-cryptohack-dark_arts-codegate_ctf2022
+puzzle: challenge-39-cryptohack-dark_arts-codegate_ctf2022
 category: CTF Archive
 url: https://cryptohack.org/challenges/dark_arts-codegate_ctf2022/
 status: solved

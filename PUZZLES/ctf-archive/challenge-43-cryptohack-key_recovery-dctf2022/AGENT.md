@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-271-cryptohack-key_recovery-dctf2022
+puzzle: challenge-43-cryptohack-key_recovery-dctf2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/key_recovery-dctf2022/
 status: solved

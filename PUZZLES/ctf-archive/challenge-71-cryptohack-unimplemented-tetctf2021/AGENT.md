@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-100-cryptohack-unimplemented-tetctf2021
+puzzle: challenge-71-cryptohack-unimplemented-tetctf2021
 category: CTF Archive
 url: https://cryptohack.org/challenges/unimplemented-tetctf2021/
 status: solved

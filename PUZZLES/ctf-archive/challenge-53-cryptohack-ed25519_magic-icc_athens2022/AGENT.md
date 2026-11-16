@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-312-cryptohack-ed25519_magic-icc_athens2022
+puzzle: challenge-53-cryptohack-ed25519_magic-icc_athens2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/ed25519_magic-icc_athens2022/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-48-cryptohack-beatboxer
+puzzle: challenge-29-cryptohack-beatboxer
 category: Symmetric Ciphers
 url: https://cryptohack.org/challenges/course__beatboxer/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-206-cryptohack-special_isogenies
+puzzle: challenge-12-cryptohack-special_isogenies
 category: isogenies
 url: https://cryptohack.org/challenges/special_isogenies/
 status: solved

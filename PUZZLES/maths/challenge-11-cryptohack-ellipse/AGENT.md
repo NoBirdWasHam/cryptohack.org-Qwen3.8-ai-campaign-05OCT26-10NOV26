@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-93-cryptohack-ellipse
+puzzle: challenge-11-cryptohack-ellipse
 category: maths
 url: https://cryptohack.org/challenges/ellipse/
 status: solved

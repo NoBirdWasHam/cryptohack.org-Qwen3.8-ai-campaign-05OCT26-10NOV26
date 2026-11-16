@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-90-cryptohack-common_ground
+puzzle: challenge-6-cryptohack-common_ground
 category: Mathematics
 url: https://cryptohack.org/challenges/common_ground/
 status: solved

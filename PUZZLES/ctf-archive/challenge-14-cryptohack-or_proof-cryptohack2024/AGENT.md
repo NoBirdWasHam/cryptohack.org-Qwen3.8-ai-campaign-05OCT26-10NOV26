@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-276-cryptohack-or_proof-cryptohack2024
+puzzle: challenge-14-cryptohack-or_proof-cryptohack2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/or_proof-cryptohack2024/
 status: solved

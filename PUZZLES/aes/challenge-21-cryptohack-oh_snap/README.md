@@ -1,4 +1,4 @@
-# : Oh SNAP (CryptoHack Symmetric Ciphers / AES)  ·  `challenge-45-cryptohack-oh_snap`
+# : Oh SNAP (CryptoHack Symmetric Ciphers / AES)  ·  `challenge-21-cryptohack-oh_snap`
 - **Category:** misc · **Solved:** 2026-10-23 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/oh_snap/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

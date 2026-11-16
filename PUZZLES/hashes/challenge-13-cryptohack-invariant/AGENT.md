@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-149-cryptohack-invariant
+puzzle: challenge-13-cryptohack-invariant
 category: hashes
 url: https://cryptohack.org/challenges/invariant/
 status: solved

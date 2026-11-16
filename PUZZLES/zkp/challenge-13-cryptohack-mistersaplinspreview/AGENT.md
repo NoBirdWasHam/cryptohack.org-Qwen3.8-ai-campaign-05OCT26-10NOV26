@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-232-cryptohack-mistersaplinspreview
+puzzle: challenge-13-cryptohack-mistersaplinspreview
 category: zkp
 url: https://cryptohack.org/challenges/mistersaplinspreview/
 status: solved

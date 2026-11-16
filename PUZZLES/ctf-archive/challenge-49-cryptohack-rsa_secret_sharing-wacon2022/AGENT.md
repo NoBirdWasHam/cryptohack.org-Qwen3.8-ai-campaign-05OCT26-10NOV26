@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-286-cryptohack-rsa_secret_sharing-wacon2022
+puzzle: challenge-49-cryptohack-rsa_secret_sharing-wacon2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/rsa_secret_sharing-wacon2022/
 status: solved

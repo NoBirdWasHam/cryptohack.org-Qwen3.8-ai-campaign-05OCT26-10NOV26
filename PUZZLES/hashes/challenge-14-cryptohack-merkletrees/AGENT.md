@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-135-cryptohack-merkletrees
+puzzle: challenge-14-cryptohack-merkletrees
 category: hashes
 url: https://cryptohack.org/challenges/merkletrees/
 status: solved

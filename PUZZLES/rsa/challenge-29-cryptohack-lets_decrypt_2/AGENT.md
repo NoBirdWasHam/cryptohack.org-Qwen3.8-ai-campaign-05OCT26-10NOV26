@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-110-cryptohack-lets_decrypt_2
+puzzle: challenge-29-cryptohack-lets_decrypt_2
 category: rsa
 url: https://cryptohack.org/challenges/lets_decrypt_2/
 status: solved

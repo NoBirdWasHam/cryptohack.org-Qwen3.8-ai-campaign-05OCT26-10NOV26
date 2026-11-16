@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-277-cryptohack-offtopic-ecsc_2024_italy2024
+puzzle: challenge-15-cryptohack-offtopic-ecsc_2024_italy2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/offtopic-ecsc_2024_italy2024/
 status: solved

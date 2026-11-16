@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-13398-cryptohack-2020-tetctf2020
+puzzle: challenge-74-cryptohack-2020-tetctf2020
 category: CTF Archive
 url: https://cryptohack.org/challenges/2020-tetctf2020/
 status: solved

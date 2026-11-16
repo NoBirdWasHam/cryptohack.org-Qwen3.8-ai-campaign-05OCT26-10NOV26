@@ -1473,7 +1473,7 @@
    "folder": "challenge-208-cryptohack-three_isogenies",
    "status": "solved",
    "date": "2026-10-12",
-   "notes": "Vélu 3-isogeny y2=x3+x, kernel (483728976,174842350631) mod p=2^18*3^13-1. PARI ellisogeny codomain y2=x3+417919813652x+36118389888, j=96392670793 (bare). Python j-formula cross-check matches.",
+   "notes": "Vélu 3-isogeny y2=x3+x, kernel (483728976,174842350631) mod p=2^18*3^13-1. PARI ellisogeny codomain y2=x3+417919813652x+36118389888, j=[REDACTED flag value — sha256 0452816ab53f9ec3…, FLAGS/INDEX.jsonl row PUZZLES/isogenies/challenge-8-cryptohack-three_isogenies] (bare). Python j-formula cross-check matches.",
    "errata": "E9"
   },
   {
@@ -1509,7 +1509,7 @@
    "folder": "challenge-211-cryptohack-comp_isogenies",
    "status": "solved",
    "date": "2026-10-15",
-   "notes": "13-step Vélu chain over F_{p^2}=F_p[i]; j(E_13)=292990704480+249510360818i; flag format Sage GF(p^2,'i') 'imag*i + real'; verified V1 kernel-kill + V2 Frobenius + V3 homomorphism; E_1 = F_p-twist of three_isogenies codomain (PARI-anchored j=96392670793)",
+   "notes": "13-step Vélu chain over F_{p^2}=F_p[i]; j(E_13)=[REDACTED — flag value; sha256 64759845ad9cf223…; FLAGS/INDEX.jsonl row isogenies/challenge-9-cryptohack-comp_isogenies]; flag format Sage GF(p^2,'i') 'imag*i + real'; verified V1 kernel-kill + V2 Frobenius + V3 homomorphism; E_1 = F_p-twist of three_isogenies codomain (PARI-anchored j=[REDACTED flag value — sha256 0452816ab53f9ec3…, FLAGS/INDEX.jsonl row PUZZLES/isogenies/challenge-8-cryptohack-three_isogenies])",
    "solved_date": "2026-10-15",
    "score_before": 7605,
    "score_after": 7665,

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-91-cryptohack-broken-rsa
+puzzle: challenge-9-cryptohack-broken-rsa
 category: maths
 url: https://cryptohack.org/challenges/broken-rsa/
 status: solved

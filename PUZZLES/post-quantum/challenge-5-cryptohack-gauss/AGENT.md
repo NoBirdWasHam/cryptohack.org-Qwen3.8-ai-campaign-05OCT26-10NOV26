@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-178-cryptohack-gauss
+puzzle: challenge-5-cryptohack-gauss
 category: post-quantum
 url: https://cryptohack.org/challenges/gauss/
 status: solved

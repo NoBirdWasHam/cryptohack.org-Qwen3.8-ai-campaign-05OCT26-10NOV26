@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-316-cryptohack-unrandom_dsa-hacktm_ctf2023
+puzzle: challenge-36-cryptohack-unrandom_dsa-hacktm_ctf2023
 category: ctf-archive
 url: https://cryptohack.org/challenges/unrandom_dsa-hacktm_ctf2023/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-98-cryptohack-prejudice
+puzzle: challenge-16-cryptohack-prejudice
 category: maths
 url: https://cryptohack.org/challenges/prejudice/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-283-cryptohack-quo_vadis-ecsc_2024_italy2024
+puzzle: challenge-17-cryptohack-quo_vadis-ecsc_2024_italy2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/quo_vadis-ecsc_2024_italy2024/
 status: solved

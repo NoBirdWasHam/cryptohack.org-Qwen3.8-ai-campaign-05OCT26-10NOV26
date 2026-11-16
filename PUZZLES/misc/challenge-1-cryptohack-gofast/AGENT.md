@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-185-cryptohack-gofast
+puzzle: challenge-1-cryptohack-gofast
 category: misc
 url: https://cryptohack.org/challenges/gofast/
 status: solved

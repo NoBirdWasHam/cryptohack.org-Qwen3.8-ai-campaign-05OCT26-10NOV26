@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-182-cryptohack-find
+puzzle: challenge-6-cryptohack-find
 category: post-quantum
 url: https://cryptohack.org/challenges/find/
 status: solved

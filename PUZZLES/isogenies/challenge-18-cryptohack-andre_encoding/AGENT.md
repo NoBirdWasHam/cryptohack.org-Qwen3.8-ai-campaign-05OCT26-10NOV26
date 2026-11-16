@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-215-cryptohack-andre_encoding
+puzzle: challenge-18-cryptohack-andre_encoding
 category: isogenies
 url: https://cryptohack.org/challenges/andre_encoding/
 status: solved

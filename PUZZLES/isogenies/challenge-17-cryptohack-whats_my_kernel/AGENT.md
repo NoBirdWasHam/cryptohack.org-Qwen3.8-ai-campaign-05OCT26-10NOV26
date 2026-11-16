@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-214-cryptohack-whats_my_kernel
+puzzle: challenge-17-cryptohack-whats_my_kernel
 category: isogenies
 url: https://cryptohack.org/challenges/whats_my_kernel/
 status: solved

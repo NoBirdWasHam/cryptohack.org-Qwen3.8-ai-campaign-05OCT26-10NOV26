@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-106-cryptohack-null_padding
+puzzle: challenge-24-cryptohack-null_padding
 category: RSA
 url: https://cryptohack.org/challenges/null_padding/
 status: solved

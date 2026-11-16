@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-260-cryptohack-fischlins_transformation-cryp
+puzzle: challenge-9-cryptohack-fischlins_transformation-cryp
 category: ctf-archive
 url: https://cryptohack.org/challenges/fischlins_transformation/
 status: solved

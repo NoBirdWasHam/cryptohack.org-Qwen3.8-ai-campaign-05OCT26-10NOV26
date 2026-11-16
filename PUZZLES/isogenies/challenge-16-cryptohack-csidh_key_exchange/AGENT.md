@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-219-cryptohack-csidh_key_exchange
+puzzle: challenge-16-cryptohack-csidh_key_exchange
 category: isogenies
 url: https://cryptohack.org/challenges/csidh_key_exchange/
 status: solved

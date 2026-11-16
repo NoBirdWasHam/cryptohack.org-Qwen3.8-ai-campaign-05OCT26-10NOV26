@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-131-cryptohack-rhetorical_oracle
+puzzle: challenge-23-cryptohack-rhetorical_oracle
 category: aes
 url: https://cryptohack.org/challenges/rhetorical_oracle/
 status: solved

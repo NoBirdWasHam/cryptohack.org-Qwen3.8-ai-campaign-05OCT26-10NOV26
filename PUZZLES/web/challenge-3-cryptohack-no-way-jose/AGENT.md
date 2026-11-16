@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-155-cryptohack-no-way-jose
+puzzle: challenge-3-cryptohack-no-way-jose
 category: web
 url: https://cryptohack.org/challenges/no-way-jose/
 status: solved

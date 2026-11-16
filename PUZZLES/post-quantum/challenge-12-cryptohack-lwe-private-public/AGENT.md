@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-173-cryptohack-lwe-private-public
+puzzle: challenge-12-cryptohack-lwe-private-public
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-private-public/
 status: solved

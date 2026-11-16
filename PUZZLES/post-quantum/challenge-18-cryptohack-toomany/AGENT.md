@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-183-cryptohack-toomany
+puzzle: challenge-18-cryptohack-toomany
 category: post-quantum
 url: https://cryptohack.org/challenges/toomany/
 status: solved

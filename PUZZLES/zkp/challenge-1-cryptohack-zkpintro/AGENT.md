@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-224-cryptohack-zkpintro
+puzzle: challenge-1-cryptohack-zkpintro
 category: zkp
 url: https://cryptohack.org/challenges/zkpintro/
 status: solved

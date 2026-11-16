@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-161-cryptohack-authenticated-handshake
+puzzle: challenge-14-cryptohack-authenticated-handshake
 category: web
 url: https://cryptohack.org/challenges/authenticated-handshake/
 status: solved

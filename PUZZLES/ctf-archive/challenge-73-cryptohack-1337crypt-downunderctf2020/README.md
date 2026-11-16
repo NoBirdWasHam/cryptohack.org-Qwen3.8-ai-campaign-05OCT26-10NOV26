@@ -1,4 +1,4 @@
-# crypt (DownUnderCTF) — CryptoHack archive challenge-13396  ·  `challenge-13396-cryptohack-1337crypt-downunderctf2020`
+# crypt (DownUnderCTF) — CryptoHack archive challenge-13396  ·  `challenge-73-cryptohack-1337crypt-downunderctf2020`
 - **Category:** misc · **Solved:** 2026-11-05 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/1337crypt-downunderctf2020/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

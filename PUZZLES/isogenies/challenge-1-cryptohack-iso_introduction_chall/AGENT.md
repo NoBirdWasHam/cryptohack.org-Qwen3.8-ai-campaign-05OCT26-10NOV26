@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-201-cryptohack-iso_introduction_chall
+puzzle: challenge-1-cryptohack-iso_introduction_chall
 category: isogenies
 url: https://cryptohack.org/challenges/iso_introduction_chall/
 status: solved

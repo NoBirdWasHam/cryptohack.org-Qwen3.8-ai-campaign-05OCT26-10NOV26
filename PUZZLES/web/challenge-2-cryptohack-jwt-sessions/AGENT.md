@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-152-cryptohack-jwt-sessions
+puzzle: challenge-2-cryptohack-jwt-sessions
 category: web
 url: https://cryptohack.org/challenges/jwt-sessions/
 status: solved

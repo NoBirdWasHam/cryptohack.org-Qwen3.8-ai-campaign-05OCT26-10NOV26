@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-321-cryptohack-failproof-sekaictf2022
+puzzle: challenge-40-cryptohack-failproof-sekaictf2022
 category: CTF Archive
 url: https://cryptohack.org/challenges/failproof-sekaictf2022/
 status: solved

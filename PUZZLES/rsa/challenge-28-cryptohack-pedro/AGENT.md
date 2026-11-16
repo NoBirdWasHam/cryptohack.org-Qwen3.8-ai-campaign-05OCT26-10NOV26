@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-109-cryptohack-pedro
+puzzle: challenge-28-cryptohack-pedro
 category: rsa
 url: https://cryptohack.org/challenges/pedro/
 status: solved

@@ -1,4 +1,4 @@
-# # AAR — twist_and_shout-ecsc_2023_nor (CryptoHack archive, ECSC 2023 Norway)  ·  `challenge-13397-cryptohack-twist_and_shout-ecsc_2023_nor`
+# # AAR — twist_and_shout-ecsc_2023_nor (CryptoHack archive, ECSC 2023 Norway)  ·  `challenge-31-cryptohack-twist_and_shout-ecsc_2023_nor`
 - **Category:** misc · **Solved:** 2026-11-02 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/twist_and_shout-ecsc_2023_nor/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

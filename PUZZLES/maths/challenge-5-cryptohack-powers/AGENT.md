@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-89-cryptohack-powers
+puzzle: challenge-5-cryptohack-powers
 category: maths
 url: https://cryptohack.org/challenges/powers/
 status: solved

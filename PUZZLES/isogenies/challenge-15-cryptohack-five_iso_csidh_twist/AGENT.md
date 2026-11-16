@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-213-cryptohack-five_iso_csidh_twist
+puzzle: challenge-15-cryptohack-five_iso_csidh_twist
 category: isogenies
 url: https://cryptohack.org/challenges/five_iso_csidh_twist/
 status: solved

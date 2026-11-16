@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-126-cryptohack-matrix
+puzzle: challenge-12-cryptohack-matrix
 category: diffie-hellman
 url: https://cryptohack.org/challenges/matrix/
 status: solved

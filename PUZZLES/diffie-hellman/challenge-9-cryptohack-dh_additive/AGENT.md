@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-124-cryptohack-dh_additive
+puzzle: challenge-9-cryptohack-dh_additive
 category: diffie-hellman
 url: https://cryptohack.org/challenges/dh_additive/
 status: solved

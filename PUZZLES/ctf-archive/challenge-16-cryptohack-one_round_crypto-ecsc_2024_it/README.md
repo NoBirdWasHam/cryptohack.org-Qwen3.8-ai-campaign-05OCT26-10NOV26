@@ -1,4 +1,4 @@
-# # AAR — one_round_crypto (ECSC 2024 Italy), CryptoHack archive 13390  ·  `challenge-13390-cryptohack-one_round_crypto-ecsc_2024_it`
+# # AAR — one_round_crypto (ECSC 2024 Italy), CryptoHack archive 13390  ·  `challenge-16-cryptohack-one_round_crypto-ecsc_2024_it`
 - **Category:** misc · **Solved:** 2026-11-01 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/one_round_crypto-ecsc_2024_it/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

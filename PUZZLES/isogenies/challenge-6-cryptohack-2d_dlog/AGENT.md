@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-209-cryptohack-2d_dlog
+puzzle: challenge-6-cryptohack-2d_dlog
 category: isogenies
 url: https://cryptohack.org/challenges/2d_dlog/
 status: solved

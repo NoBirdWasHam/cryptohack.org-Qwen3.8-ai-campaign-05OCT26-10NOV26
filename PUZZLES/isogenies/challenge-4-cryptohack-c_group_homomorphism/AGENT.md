@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-204-cryptohack-c_group_homomorphism
+puzzle: challenge-4-cryptohack-c_group_homomorphism
 category: isogenies
 url: https://cryptohack.org/challenges/c_group_homomorphism/
 status: solved

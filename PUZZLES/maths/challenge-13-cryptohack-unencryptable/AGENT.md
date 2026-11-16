@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-95-cryptohack-unencryptable
+puzzle: challenge-13-cryptohack-unencryptable
 category: maths
 url: https://cryptohack.org/challenges/unencryptable/
 status: solved

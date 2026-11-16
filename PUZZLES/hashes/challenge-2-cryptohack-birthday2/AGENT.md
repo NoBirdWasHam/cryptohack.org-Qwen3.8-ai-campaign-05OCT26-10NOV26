@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-136-cryptohack-birthday2
+puzzle: challenge-2-cryptohack-birthday2
 category: hashes
 url: https://cryptohack.org/challenges/birthday2/
 status: solved

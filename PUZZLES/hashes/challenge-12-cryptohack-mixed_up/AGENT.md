@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-146-cryptohack-mixed_up
+puzzle: challenge-12-cryptohack-mixed_up
 category: hashes
 url: https://cryptohack.org/challenges/mixed_up/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-318-cryptohack-a_joke_cipher-hkcert_ctf2021
+puzzle: challenge-57-cryptohack-a_joke_cipher-hkcert_ctf2021
 category: CTF Archive
 url: https://cryptohack.org/challenges/a_joke_cipher-hkcert_ctf2021/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-236-cryptohack-mistersaplinstheprover
+puzzle: challenge-16-cryptohack-mistersaplinstheprover
 category: zkp
 url: https://cryptohack.org/challenges/mistersaplinstheprover/
 status: solved

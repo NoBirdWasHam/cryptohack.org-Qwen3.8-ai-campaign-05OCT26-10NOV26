@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-154-cryptohack-tls-handshake
+puzzle: challenge-10-cryptohack-tls-handshake
 category: web
 url: https://cryptohack.org/challenges/tls-handshake/
 status: solved

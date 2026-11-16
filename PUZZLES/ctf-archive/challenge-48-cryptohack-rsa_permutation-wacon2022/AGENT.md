@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-285-cryptohack-rsa_permutation-wacon2022
+puzzle: challenge-48-cryptohack-rsa_permutation-wacon2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/rsa_permutation-wacon2022/
 status: solved

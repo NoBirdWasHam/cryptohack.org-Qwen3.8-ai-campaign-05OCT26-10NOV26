@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-299-cryptohack-ticket_maestro-cryptohack2024
+puzzle: challenge-20-cryptohack-ticket_maestro-cryptohack2024
 category: ctf-archive
 url: https://cryptohack.org/challenges/ticket_maestro-cryptohack2024/
 status: solved

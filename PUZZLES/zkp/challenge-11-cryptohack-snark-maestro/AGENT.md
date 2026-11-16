@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-240-cryptohack-snark-maestro
+puzzle: challenge-11-cryptohack-snark-maestro
 category: zkp
 url: https://cryptohack.org/challenges/snark-maestro/
 status: solved

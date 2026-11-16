@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-174-cryptohack-gramschmidt
+puzzle: challenge-3-cryptohack-gramschmidt
 category: post-quantum
 url: https://cryptohack.org/challenges/gramschmidt/
 status: solved

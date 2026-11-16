@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-184-cryptohack-backpack
+puzzle: challenge-7-cryptohack-backpack
 category: post-quantum
 url: https://cryptohack.org/challenges/backpack/
 status: solved

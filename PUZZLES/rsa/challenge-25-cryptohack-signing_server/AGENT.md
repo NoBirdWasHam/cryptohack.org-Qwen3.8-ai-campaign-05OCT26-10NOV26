@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-101-cryptohack-signing_server
+puzzle: challenge-25-cryptohack-signing_server
 category: RSA
 url: https://cryptohack.org/challenges/signing_server/
 status: solved

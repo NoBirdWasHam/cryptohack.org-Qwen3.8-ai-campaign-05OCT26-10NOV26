@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-216-cryptohack-sidh_key_exchange
+puzzle: challenge-10-cryptohack-sidh_key_exchange
 category: isogenies
 url: https://cryptohack.org/challenges/sidh_key_exchange/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-268-cryptohack-irish_flan-ecsc_2023_norway20
+puzzle: challenge-24-cryptohack-irish_flan-ecsc_2023_norway20
 category: ctf-archive
 url: https://cryptohack.org/challenges/irish_flan-ecsc_2023_norway20/
 status: solved

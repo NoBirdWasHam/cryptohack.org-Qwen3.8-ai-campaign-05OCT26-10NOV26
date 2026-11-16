@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-207-cryptohack-two_isogenies
+puzzle: challenge-7-cryptohack-two_isogenies
 category: isogenies
 url: https://cryptohack.org/challenges/two_isogenies/
 status: solved

@@ -9,7 +9,7 @@ SKILLS/ · SUPPORT/ · assets/.
 | G1 host/system identity | zero occurrences across 1634 files of: workstation username, machine hostname, account aliases, LAN IPs, GPU hostname, real user-home paths (`C:\Users\<name>`, `/c/Users/<name>`, `/home/<name>`), MACs | **PASS (0 residuals)** |
 | G2 authors' works not re-hosted | zero files named statement.txt / flag.txt / chall*.py / chal.py / challenge.py / source_provided.* / source.sage / output_provided.txt / Dockerfile / server.py / task.txt | **PASS (0)** |
 | G3 secrets | no credential assignments; 7 platform CSRF tokens scraped into page-cache notes -> REDACTED; 1 non-branded Discord invite -> DISCORD-INVITE | **PASS** |
-| G4 flag containment | flags live in FLAGS/flags.jsonl (+ our own AAR prose); LEDGER copy flag-stripped | **PASS** |
+| G4 flag containment | flag VALUES live only in: `FLAGS/` (INDEX.jsonl + flag.txt), the puzzle's own AAR/AGENT prose, and declared worked examples in `SKILLS/*/SKILL.md` (38 values, 7 files — deliberately kept as taught material); logs, SUPPORT files and JSON dumps carry sha256 pointers only. (Wording corrected 2026-11-16: file is `FLAGS/INDEX.jsonl`, and the SKILL worked-example scope is now explicit rather than contradicted.) | **PASS** |
 | G5 honest nulls | 3 solved rows whose flags were ledger-redacted publish as null + note; 85 course rows are flagless by platform design; 229 rows carry values; nothing fabricated | **PASS** |
 | G6 provenance | every row dated + classed (WALKED / SERVICE-GIVEN / PRE-LEDGER-ERA labeled rather than back-classified) | **PASS** |
 
@@ -196,3 +196,29 @@ row order**, so all 316 dirs were renumbered to it uniformly.
 
 Validator after renumber: 316 dirs == 316 rows, **every dir NN == its row position on the
 live category page** (re-parsed), 3 files/dir, FLAGS mirrors exact, all 260 flag shas match.
+
+## Addendum — 2026-11-16 external-audit round: doc-layer fixes and adjudications
+
+Second-opinion audit of the published tree; every finding reconciled against this working
+copy (identical to live `2d6d15d`) before acting. Fixes:
+
+| finding | resolution |
+|---|---|
+| README "Start reading"/appendix paths used legacy ids → 5 dead paths | re-pointed to real dirs (zkp/`challenge-9-…sigma-hamiltonicity2`, ctf-archive/`challenge-12-…hamiltonicity_2…`, `challenge-7-…additional_problems…`, `challenge-9-…fischlins…`, `challenge-37-…authenticator…`) |
+| AGENT frontmatter / README titles carrying legacy `challenge-<old>-…` ids | audit found 7+2; full sweep found **233 + 35** — all rewritten to current dir ids (my 15d sweep only matched `PUZZLES/…`-prefixed paths; disclosed). The 83 lesson twins keep `record: course-twin` + `lesson: course-<slug>` (ledger-era lesson ids, matching the run record) — record ids, not dir paths; no change |
+| `GATES` G4 named `FLAGS/flags.jsonl` | corrected to `FLAGS/INDEX.jsonl` |
+| G4 scope vs SKILL worked examples | ~30–38 real flag values sit deliberately in 7 `SKILLS/*/SKILL.md` as taught worked examples. G4 rewritten to **enumerate** sanctioned locations (FLAGS/ + own AAR/AGENT prose + declared SKILL worked examples; values banned from logs/SUPPORT/JSON dumps) rather than contradict the tree. My exact count: 38 distinct values in 7 files (audit: ~30/7 — substring length cutoffs differ; no conflict in kind) |
+| live flag values inside `SUPPORT/progress_sanitized.json` (reality: **2 distinct flags, 3 occurrences** — comp_isogenies + three_isogenies; the audit caught one) | scrubbed: the notes-field numeric form of the comp_isogenies flag → redaction + sha256 pointer (file is a sanitization artifact; the run ledger itself stays untouched as history). Note: the audit's quoted rendering differs in term order from the stored flag file — the notes-field form was scrubbed where it actually occurs; SKILLS hits of this value are in-scope worked examples per rewritten G4 |
+| VERIFICATION checklist names ≠ current dirs | those are the 2026-11-14 run's historical record — kept, with an explicit history note + `ledger_nn` mapping pointer above the table |
+| "dirs keep the ledger/site id" sentence | **not present** in live `2d6d15d` (removed in 15d); the audit was quoting pre-15d README text. The dead example paths it stood next to were real and are fixed above |
+| cited-but-absent artifacts (237: `statement.txt`, `chal.py`, `payloads_2026-11-05.json`; 304: `challenge.py`; GCM: legacy `challenge-317-…` folder) | disclosed: run-workspace-local at solve time, never published; GCM's surviving probes are in-dir and the README claim now points there. The two AARs' cited contents stand as quoted records |
+| slug `fischlins_transformation-cryp` looks truncated | **site-published slug** — scraped `data-challenge` attribute contains it verbatim; not our truncation |
+
+**Adjudicated — 8 shared `ledger_nn` pairs** (100, 167, 168, 172, 209, 319, 13391, 13396): all
+pairs are *different slugs*. Root cause: the run ledger's NN was the site's global row
+position at the scrape date of first observation, and the site renumbered rows mid-run
+(lessons/reshuffles), so two different challenges recorded at different dates could inherit
+the same NN. Not mapping errors; values kept as history. All 16 affected INDEX rows now
+carry `ledger_nn_shared: true` (13396 additionally has the pre-existing misname note).
+
+Frozen 2026-11-14 audit dir and the run ledger: untouched.

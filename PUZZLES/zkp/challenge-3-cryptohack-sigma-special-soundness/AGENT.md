@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-226-cryptohack-sigma-special-soundness
+puzzle: challenge-3-cryptohack-sigma-special-soundness
 category: zkp
 url: https://cryptohack.org/challenges/sigma-special-soundness/
 status: solved

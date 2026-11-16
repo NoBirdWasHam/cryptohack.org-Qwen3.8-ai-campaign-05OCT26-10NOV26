@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-251-cryptohack-c0ll1d3r-firebird_internal_ct
+puzzle: challenge-38-cryptohack-c0ll1d3r-firebird_internal_ct
 category: CTF Archive
 url: https://cryptohack.org/challenges/c0ll1d3r-firebird_internal_ct/
 status: solved

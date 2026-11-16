@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-96-cryptohack-cofactor
+puzzle: challenge-14-cryptohack-cofactor
 category: maths
 url: https://cryptohack.org/challenges/cofactor/
 status: solved

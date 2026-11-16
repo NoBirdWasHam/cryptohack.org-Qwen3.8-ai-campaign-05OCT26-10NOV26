@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-231-cryptohack-sigma-or-proof
+puzzle: challenge-7-cryptohack-sigma-or-proof
 category: zkp
 url: https://cryptohack.org/challenges/sigma-or-proof/
 status: solved

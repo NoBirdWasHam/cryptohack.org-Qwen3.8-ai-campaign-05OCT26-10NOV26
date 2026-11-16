@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-145-cryptohack-twinkeys
+puzzle: challenge-6-cryptohack-twinkeys
 category: hashes
 url: https://cryptohack.org/challenges/twinkeys/
 status: solved

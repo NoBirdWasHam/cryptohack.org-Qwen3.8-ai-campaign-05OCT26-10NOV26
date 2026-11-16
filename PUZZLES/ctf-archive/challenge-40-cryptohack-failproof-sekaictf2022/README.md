@@ -1,4 +1,4 @@
-# # AAR — FaILProof (SekaiCTF 2022), CryptoHack slug `failproof-sekaictf2022`  ·  `challenge-321-cryptohack-failproof-sekaictf2022`
+# # AAR — FaILProof (SekaiCTF 2022), CryptoHack slug `failproof-sekaictf2022`  ·  `challenge-40-cryptohack-failproof-sekaictf2022`
 - **Category:** misc · **Solved:** 2026-11-02 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/failproof-sekaictf2022/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

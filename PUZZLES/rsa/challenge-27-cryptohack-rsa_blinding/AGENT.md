@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-107-cryptohack-rsa_blinding
+puzzle: challenge-27-cryptohack-rsa_blinding
 category: rsa
 url: https://cryptohack.org/challenges/rsa_blinding/
 status: solved

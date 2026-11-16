@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-217-cryptohack-better_than_linear
+puzzle: challenge-19-cryptohack-better_than_linear
 category: isogenies
 url: https://cryptohack.org/challenges/better_than_linear/
 status: solved

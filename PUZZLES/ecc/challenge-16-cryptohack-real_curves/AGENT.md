@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-123-cryptohack-real_curves
+puzzle: challenge-16-cryptohack-real_curves
 category: ecc
 url: https://cryptohack.org/challenges/real_curves/
 status: solved

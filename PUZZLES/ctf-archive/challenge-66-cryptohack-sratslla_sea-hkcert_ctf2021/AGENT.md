@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-295-cryptohack-sratslla_sea-hkcert_ctf2021
+puzzle: challenge-66-cryptohack-sratslla_sea-hkcert_ctf2021
 category: ctf-archive
 url: https://cryptohack.org/challenges/sratslla_sea-hkcert_ctf2021/
 status: solved

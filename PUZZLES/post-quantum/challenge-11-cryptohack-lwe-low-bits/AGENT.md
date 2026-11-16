@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-172-cryptohack-lwe-low-bits
+puzzle: challenge-11-cryptohack-lwe-low-bits
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-low-bits/
 status: solved

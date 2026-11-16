@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-189-cryptohack-noleaks
+puzzle: challenge-2-cryptohack-noleaks
 category: misc
 url: https://cryptohack.org/challenges/noleaks/
 status: solved

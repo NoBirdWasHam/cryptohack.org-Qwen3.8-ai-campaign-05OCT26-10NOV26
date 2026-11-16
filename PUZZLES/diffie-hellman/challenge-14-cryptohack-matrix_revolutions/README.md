@@ -1,4 +1,4 @@
-# : The Matrix Revolutions  ·  `challenge-130-cryptohack-matrix_revolutions`
+# : The Matrix Revolutions  ·  `challenge-14-cryptohack-matrix_revolutions`
 - **Category:** aes · **Solved:** 2026-10-20 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/matrix_revolutions/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

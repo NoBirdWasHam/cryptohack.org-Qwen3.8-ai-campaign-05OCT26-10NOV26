@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-311-cryptohack-diffecient-sekaictf2022
+puzzle: challenge-52-cryptohack-diffecient-sekaictf2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/diffecient-sekaictf2022/
 status: solved

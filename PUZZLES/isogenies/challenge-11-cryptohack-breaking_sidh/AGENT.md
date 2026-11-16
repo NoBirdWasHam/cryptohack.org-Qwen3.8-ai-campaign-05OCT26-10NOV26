@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-223-cryptohack-breaking_sidh
+puzzle: challenge-11-cryptohack-breaking_sidh
 category: isogenies
 url: https://cryptohack.org/challenges/breaking_sidh/
 status: solved

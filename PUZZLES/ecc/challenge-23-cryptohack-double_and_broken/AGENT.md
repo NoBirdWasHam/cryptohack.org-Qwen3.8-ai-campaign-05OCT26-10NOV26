@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-112-cryptohack-double_and_broken
+puzzle: challenge-23-cryptohack-double_and_broken
 category: ecc
 url: https://cryptohack.org/challenges/double_and_broken/
 status: solved

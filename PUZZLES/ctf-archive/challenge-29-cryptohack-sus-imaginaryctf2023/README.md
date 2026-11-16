@@ -1,4 +1,4 @@
-# # AAR — sus (ImaginaryCTF 2023), CryptoHack archive #13393  ·  `challenge-13393-cryptohack-sus-imaginaryctf2023`
+# # AAR — sus (ImaginaryCTF 2023), CryptoHack archive #13393  ·  `challenge-29-cryptohack-sus-imaginaryctf2023`
 - **Category:** misc · **Solved:** 2026-11-08 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/sus-imaginaryctf2023/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

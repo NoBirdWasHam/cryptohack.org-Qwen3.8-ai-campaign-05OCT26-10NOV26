@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-169-cryptohack-vectors
+puzzle: challenge-1-cryptohack-vectors
 category: post-quantum
 url: https://cryptohack.org/challenges/vectors/
 status: solved

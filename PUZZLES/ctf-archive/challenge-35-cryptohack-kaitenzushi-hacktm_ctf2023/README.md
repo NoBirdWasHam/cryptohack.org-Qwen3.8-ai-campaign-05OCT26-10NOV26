@@ -1,4 +1,4 @@
-# # AAR — kaitenzushi (HackTM CTF), CryptoHack ctf-archive  ·  `challenge-13402-cryptohack-kaitenzushi-hacktm_ctf2023`
+# # AAR — kaitenzushi (HackTM CTF), CryptoHack ctf-archive  ·  `challenge-35-cryptohack-kaitenzushi-hacktm_ctf2023`
 - **Category:** misc · **Solved:** 2026-11-01 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/kaitenzushi-hacktm_ctf2023/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

@@ -1,4 +1,4 @@
-# AAR — authenticator (Firebird Internal CTF) (CryptoHack ctf-archive)  ·  `challenge-13396-cryptohack-authenticator-firebird_intern`
+# AAR — authenticator (Firebird Internal CTF) (CryptoHack ctf-archive)  ·  `challenge-37-cryptohack-authenticator-firebird_intern`
 - **Category:** ctf-archive · **Solved:** 2026-10-28 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/authenticator-firebird-intern/
 - **Flag:** mirrored + checksummed in `FLAGS/INDEX.jsonl` (provenance + sha256)

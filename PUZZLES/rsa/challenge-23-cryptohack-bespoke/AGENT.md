@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-105-cryptohack-bespoke
+puzzle: challenge-23-cryptohack-bespoke
 category: rsa
 url: https://cryptohack.org/challenges/bespoke/
 status: solved

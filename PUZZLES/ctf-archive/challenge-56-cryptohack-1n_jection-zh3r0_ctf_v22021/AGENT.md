@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-287-cryptohack-1n_jection-zh3r0_ctf_v22021
+puzzle: challenge-56-cryptohack-1n_jection-zh3r0_ctf_v22021
 category: ctf-archive
 url: https://cryptohack.org/challenges/1n_jection-zh3r0_ctf_v22021/
 status: solved

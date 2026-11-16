@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-172-cryptohack-lfsr-destroyer
+puzzle: challenge-11-cryptohack-lfsr-destroyer
 category: Misc
 url: https://cryptohack.org/challenges/lfsr-destroyer/
 status: solved

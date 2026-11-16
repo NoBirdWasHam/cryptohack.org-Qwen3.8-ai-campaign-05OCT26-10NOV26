@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-203-cryptohack-a_spot_super
+puzzle: challenge-3-cryptohack-a_spot_super
 category: isogenies
 url: https://cryptohack.org/challenges/a_spot_super/
 status: solved

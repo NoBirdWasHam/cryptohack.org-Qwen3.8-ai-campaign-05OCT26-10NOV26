@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-284-cryptohack-rrssaa-ecsc_2023_norway2023
+puzzle: challenge-27-cryptohack-rrssaa-ecsc_2023_norway2023
 category: ctf-archive
 url: https://cryptohack.org/challenges/rrssaa-ecsc_2023_norway2023/
 status: solved

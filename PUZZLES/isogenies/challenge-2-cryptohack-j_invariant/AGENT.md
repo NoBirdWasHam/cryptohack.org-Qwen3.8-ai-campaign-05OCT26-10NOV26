@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-202-cryptohack-j_invariant
+puzzle: challenge-2-cryptohack-j_invariant
 category: isogenies
 url: https://cryptohack.org/challenges/j_invariant/
 status: solved

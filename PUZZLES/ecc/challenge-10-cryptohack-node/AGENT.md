@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-121-cryptohack-node
+puzzle: challenge-10-cryptohack-node
 category: ecc
 url: https://cryptohack.org/challenges/node/
 status: solved

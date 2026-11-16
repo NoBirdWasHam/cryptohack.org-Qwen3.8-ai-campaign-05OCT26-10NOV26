@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-180-cryptohack-lwe-missing-modulus
+puzzle: challenge-16-cryptohack-lwe-missing-modulus
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-missing-modulus/
 status: solved

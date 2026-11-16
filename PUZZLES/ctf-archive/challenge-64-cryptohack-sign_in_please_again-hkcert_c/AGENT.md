@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-319-cryptohack-sign_in_please_again-hkcert_c
+puzzle: challenge-64-cryptohack-sign_in_please_again-hkcert_c
 category: CTF Archive
 url: https://cryptohack.org/challenges/sign_in_please_again-hkcert_c/
 status: solved

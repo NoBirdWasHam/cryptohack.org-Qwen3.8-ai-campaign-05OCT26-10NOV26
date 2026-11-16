@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-160-cryptohack-rsa-or-hmac
+puzzle: challenge-5-cryptohack-rsa-or-hmac
 category: web
 url: https://cryptohack.org/challenges/rsa-or-hmac/
 status: solved

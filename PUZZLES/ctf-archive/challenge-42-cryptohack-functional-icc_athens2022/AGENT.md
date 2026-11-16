@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-261-cryptohack-functional-icc_athens2022
+puzzle: challenge-42-cryptohack-functional-icc_athens2022
 category: ctf-archive
 url: https://cryptohack.org/challenges/functional-icc_athens2022/
 status: solved

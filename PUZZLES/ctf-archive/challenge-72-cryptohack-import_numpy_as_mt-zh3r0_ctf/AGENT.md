@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-313-cryptohack-import_numpy_as_mt-zh3r0_ctf
+puzzle: challenge-72-cryptohack-import_numpy_as_mt-zh3r0_ctf
 category: CTF Archive
 url: https://cryptohack.org/challenges/import_numpy_as_mt-zh3r0_ctf/
 status: solved

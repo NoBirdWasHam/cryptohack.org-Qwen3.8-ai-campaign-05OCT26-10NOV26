@@ -1,4 +1,4 @@
-# # AAR — Sign In Please, Again (HKCERT CTF 2021, CryptoHack archive #319)  ·  `challenge-319-cryptohack-sign_in_please_again-hkcert_c`
+# # AAR — Sign In Please, Again (HKCERT CTF 2021, CryptoHack archive #319)  ·  `challenge-64-cryptohack-sign_in_please_again-hkcert_c`
 - **Category:** misc · **Solved:** 2026-11-06 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/sign_in_please_again-hkcert_c/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

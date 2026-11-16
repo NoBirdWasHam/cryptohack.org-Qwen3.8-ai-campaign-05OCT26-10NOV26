@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-99-cryptohack-infinite_descent
+puzzle: challenge-18-cryptohack-infinite_descent
 category: RSA
 url: https://cryptohack.org/challenges/infinite_descent/
 status: solved

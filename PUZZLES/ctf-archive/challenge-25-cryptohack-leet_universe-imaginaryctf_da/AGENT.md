@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-273-cryptohack-leet_universe-imaginaryctf_da
+puzzle: challenge-25-cryptohack-leet_universe-imaginaryctf_da
 category: ctf-archive
 url: https://cryptohack.org/challenges/leet_universe-imaginaryctf_da/
 status: solved

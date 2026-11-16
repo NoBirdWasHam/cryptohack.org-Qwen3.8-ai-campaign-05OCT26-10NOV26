@@ -1,4 +1,4 @@
-# <!-- AAR -->  ·  `challenge-167-cryptohack-roulette`
+# <!-- AAR -->  ·  `challenge-6-cryptohack-roulette`
 - **Category:** post-quantum · **Solved:** 2026-10-21 · **Status:** solved
 - **Challenge:** https://cryptohack.org/challenges/roulette/
 - **Flag:** flag file (sha256 verified) (provenance + sha256 in `FLAGS/INDEX.jsonl`)

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-246-cryptohack-additional_problems-csc_belgi
+puzzle: challenge-7-cryptohack-additional_problems-csc_belgi
 category: ctf-archive
 url: https://cryptohack.org/challenges/additional_problems-csc_belgi/
 status: solved

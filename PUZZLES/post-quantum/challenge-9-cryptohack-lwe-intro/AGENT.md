@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-168-cryptohack-lwe-intro
+puzzle: challenge-9-cryptohack-lwe-intro
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-intro/
 status: solved

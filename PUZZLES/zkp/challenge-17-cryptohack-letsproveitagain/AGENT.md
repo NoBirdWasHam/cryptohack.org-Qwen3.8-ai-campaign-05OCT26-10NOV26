@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-238-cryptohack-letsproveitagain
+puzzle: challenge-17-cryptohack-letsproveitagain
 category: zkp
 url: https://cryptohack.org/challenges/letsproveitagain/
 status: solved

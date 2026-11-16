@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-159-cryptohack-decrypting-tls13
+puzzle: challenge-13-cryptohack-decrypting-tls13
 category: web
 url: https://cryptohack.org/challenges/decrypting-tls13/
 status: solved

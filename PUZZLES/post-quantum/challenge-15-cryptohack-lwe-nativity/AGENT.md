@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-179-cryptohack-lwe-nativity
+puzzle: challenge-15-cryptohack-lwe-nativity
 category: post-quantum
 url: https://cryptohack.org/challenges/lwe-nativity/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-307-cryptohack-verilicious-cyber_apocalypse
+puzzle: challenge-6-cryptohack-verilicious-cyber_apocalypse
 category: ctf-archive
 url: https://cryptohack.org/challenges/verilicious-cyber_apocalypse/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-167-cryptohack-roulette
+puzzle: challenge-6-cryptohack-roulette
 category: Misc
 url: https://cryptohack.org/challenges/roulette/
 status: solved

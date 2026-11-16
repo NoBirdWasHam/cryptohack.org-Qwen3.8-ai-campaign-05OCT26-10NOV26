@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-116-cryptohack-exceptional
+puzzle: challenge-8-cryptohack-exceptional
 category: ecc
 url: https://cryptohack.org/challenges/exceptional/
 status: solved

@@ -1,6 +1,6 @@
 ---
 record: agent-aar
-puzzle: challenge-322-cryptohack-rsatogether-ecsc_2024_italy20
+puzzle: challenge-18-cryptohack-rsatogether-ecsc_2024_italy20
 category: ctf-archive
 url: https://cryptohack.org/challenges/rsatogether-ecsc_2024_italy20/
 status: solved

@@ -37,6 +37,10 @@ Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
 
 ## Checklist
 
+Puzzle names are **as of the 2026-11-14 run** (legacy ledger ids — the audit ran against the tree as it
+was then). Dirs were uniformly renumbered 2026-11-15d; `ledger_nn` in `FLAGS/INDEX.jsonl` maps every
+legacy id to the current dir.
+
 | # | puzzle | AAR | method | AGENT | flag | clean | ✓ |
 |---|---|---|---|---|---|---|---|
 | 1 | `challenge-130-cryptohack-matrix_revolutions` | ✓ | 1725 | ✓ | ✓ | ✓ | **✓** |
@@ -296,3 +300,10 @@ Checklist re-run against the live tree after the integrity fixes in `GATES.md`:
   also carry their old ledger id as `ledger_nn` in FLAGS/INDEX.jsonl. Validator re-parsed
   the live category pages: every NN matches its row position; dirs==rows==mirrors;
   260/260 flag shas match. Prior addenda: GATES 2026-11-15 / -15b / -15c / -15d.
+
+## Re-check 2026-11-16 (external-audit round, doc layer)
+- README example paths resolve; current-dir identifiers (AGENT `puzzle:`, README titles) match
+  their dirs everywhere; G4 enumerates flag-value locations incl. SKILL worked examples;
+  `progress_sanitized.json` no longer contains a live flag value; shared-`ledger_nn` rows
+  machine-marked. Mechanical validator re-run green (dirs==rows, NN==site positions,
+  260/260 shas, mirrors). Narrative: GATES 2026-11-16.
